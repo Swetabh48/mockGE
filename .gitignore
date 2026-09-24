@@ -70,3 +70,6 @@ training/data/indian_govt_exam/
 training/data/ssc-open-mcq-bank/
 .huggingface/
 .cache/
+
+.vercel
+.env*
