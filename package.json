@@ -6,7 +6,7 @@
     "dev": "next dev",
     "dev:api": "uvicorn backend.app.main:app --reload --port 8000",
     "dev:all": "echo Start API with npm run dev:api in another terminal, then npm run dev",
-    "build": "prisma generate && next build",
+    "build": "prisma generate && next build --webpack",
     "start": "next start",
     "lint": "eslint",
     "db:push": "prisma db push",

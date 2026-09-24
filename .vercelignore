@@ -1,0 +1,7 @@
+backend
+training
+.agents
+.claude
+*.md
+.env*
+!/.env.example

@@ -16,18 +16,18 @@
   --color-foreground: var(--foreground);
   --color-ink: var(--ink);
   --color-navy: var(--navy);
-  --font-sans: var(--font-plex);
-  --font-display: var(--font-source-serif);
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-display: "Source Serif 4", Georgia, serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-plex), "IBM Plex Sans", system-ui, sans-serif;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
 }
 
 .font-display {
-  font-family: var(--font-source-serif), "Source Serif 4", Georgia, serif;
+  font-family: "Source Serif 4", Georgia, serif;
 }
 
 .exam-shell {
