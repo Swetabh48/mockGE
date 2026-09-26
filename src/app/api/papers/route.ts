@@ -22,6 +22,8 @@ export async function GET(request: Request) {
       difficulty: p.difficulty,
       mode: p.mode,
       focusSection: p.focusSection,
+      focusTopic: p.focusTopic,
+      focusSubtopic: p.focusSubtopic,
       questionCount: p._count.questions,
       attemptCount: p._count.attempts,
       hasDest: Boolean(p.destPassage),

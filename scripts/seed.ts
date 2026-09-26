@@ -6,8 +6,10 @@ import {
   buildTier1Paper,
   buildTier2Paper,
   buildSectionPractice,
+  buildTopicPractice,
   DEST_PASSAGES,
 } from "../src/lib/exam/questionBank";
+import { PRACTICE_SYLLABUS } from "../src/lib/exam/taxonomy";
 
 const connectionString = process.env.DATABASE_URL;
 if (!connectionString) {
@@ -59,18 +61,18 @@ async function seed() {
   }
 
   const subjects = [
-    { key: "reasoning", title: "Reasoning" },
-    { key: "quant", title: "Quantitative Aptitude" },
-    { key: "english", title: "English" },
-    { key: "ga", title: "General Awareness / GK" },
-  ] as const;
+    { key: "reasoning" as const, title: "Reasoning" },
+    { key: "quant" as const, title: "Quantitative Aptitude" },
+    { key: "english" as const, title: "English" },
+    { key: "ga" as const, title: "General Awareness / GK" },
+  ];
 
   for (const s of subjects) {
     for (let setNo = 1; setNo <= 2; setNo++) {
       const questions = buildSectionPractice(s.key, setNo);
       await prisma.paper.create({
         data: {
-          title: `${s.title} — Practice Set ${setNo} (25 Q · 15 min)`,
+          title: `${s.title} — Section Drill ${setNo} (25 Q · 15 min)`,
           tier: "practice",
           mode: "practice",
           focusSection: s.key,
@@ -79,7 +81,30 @@ async function seed() {
           questions: { create: questions },
         },
       });
-      console.log(`Seeded practice ${s.key} set ${setNo}`);
+      console.log(`Seeded section practice ${s.key} set ${setNo}`);
+    }
+  }
+
+  // Topic / subtopic drills (10 Q each) — Practice section
+  for (const subject of PRACTICE_SYLLABUS) {
+    for (const topic of subject.topics) {
+      for (const sub of topic.subtopics) {
+        const questions = buildTopicPractice(subject.key, topic.title, sub.title, 1);
+        await prisma.paper.create({
+          data: {
+            title: `${subject.title} · ${topic.title} · ${sub.title} (10 Q)`,
+            tier: "practice",
+            mode: "topic_practice",
+            focusSection: subject.key,
+            focusTopic: topic.id,
+            focusSubtopic: sub.id,
+            source: "topic_practice",
+            difficulty: "hard",
+            questions: { create: questions },
+          },
+        });
+      }
+      console.log(`Seeded topic drills: ${subject.key}/${topic.id}`);
     }
   }
 

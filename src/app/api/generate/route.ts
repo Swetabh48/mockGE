@@ -74,6 +74,7 @@ export async function POST(request: Request) {
         correctOption: g.correctOption,
         topic: g.topic || prev.topic,
         explanation: g.explanation || prev.explanation,
+        trick: prev.trick,
         source: "generated",
       };
       replaced += 1;

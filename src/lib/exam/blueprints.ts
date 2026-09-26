@@ -208,7 +208,10 @@ export const TIER2_BLUEPRINT: ExamBlueprint = {
   ],
 };
 
-export function practiceBlueprint(section: SectionKey): ExamBlueprint {
+export function practiceBlueprint(
+  section: SectionKey,
+  opts?: { questionCount?: number; minutes?: number; title?: string },
+): ExamBlueprint {
   const labels: Record<string, string> = {
     reasoning: "Reasoning Practice",
     ga: "General Awareness Practice",
@@ -217,11 +220,14 @@ export function practiceBlueprint(section: SectionKey): ExamBlueprint {
     maths: "Mathematics Practice",
     computer: "Computer Practice",
   };
+  const n = opts?.questionCount ?? 25;
+  const minutes = opts?.minutes ?? (n <= 12 ? 10 : 15);
+  const title = opts?.title ?? labels[section] ?? "Section Practice";
   return {
     tier: "practice",
-    title: labels[section] ?? "Section Practice",
-    totalQuestions: 25,
-    maxScore: 50,
+    title,
+    totalQuestions: n,
+    maxScore: n * 2,
     hasDest: false,
     destDurationSeconds: 0,
     destTargetKeystrokes: 0,
@@ -229,8 +235,8 @@ export function practiceBlueprint(section: SectionKey): ExamBlueprint {
     sections: [
       {
         key: section,
-        label: labels[section] ?? section,
-        questionCount: 25,
+        label: title,
+        questionCount: n,
         marksPerQuestion: 2,
         negativeMarks: 0.5,
         timerGroup: "practice",
@@ -239,22 +245,35 @@ export function practiceBlueprint(section: SectionKey): ExamBlueprint {
     timerGroups: [
       {
         id: "practice",
-        label: `${labels[section]} — 15 minutes`,
-        durationSeconds: 15 * 60,
+        label: `${title} — ${minutes} minutes`,
+        durationSeconds: minutes * 60,
         sectionKeys: [section],
         autoClose: true,
       },
     ],
     instructions: [
-      `This is a sectional practice set: 25 questions, 15 minutes (same pace as one Tier-I section).`,
+      n <= 12
+        ? `Topic drill: ${n} questions, ${minutes} minutes. After submit, open Result for detailed solution + exam trick on every question.`
+        : `Sectional practice: ${n} questions, ${minutes} minutes (Tier-I section pace).`,
       "Each correct answer: +2. Each wrong answer: −0.50.",
       "On time expiry the set is submitted automatically.",
+      "Result screen shows Detailed solution and Exam trick for each question.",
     ],
   };
 }
 
-export function getBlueprint(tier: ExamTier | string, focusSection?: SectionKey): ExamBlueprint {
-  if (tier === "practice" && focusSection) return practiceBlueprint(focusSection);
+export function getBlueprint(
+  tier: ExamTier | string,
+  focusSection?: SectionKey,
+  opts?: { questionCount?: number; mode?: string | null; title?: string },
+): ExamBlueprint {
+  if ((tier === "practice" || opts?.mode === "topic_practice" || opts?.mode === "practice") && focusSection) {
+    return practiceBlueprint(focusSection, {
+      questionCount: opts?.questionCount,
+      title: opts?.title,
+      minutes: opts?.mode === "topic_practice" ? 10 : undefined,
+    });
+  }
   if (tier === "tier2") return TIER2_BLUEPRINT;
   return TIER1_BLUEPRINT;
 }

@@ -18,6 +18,7 @@ type ReviewItem = {
   sectionKey: string;
   subject: string;
   topic: string;
+  subtopic?: string | null;
   stemEn: string;
   optionA: string;
   optionB: string;
@@ -25,6 +26,7 @@ type ReviewItem = {
   optionD: string;
   correctOption: string;
   explanation: string | null;
+  trick: string | null;
   selected: string | null;
   timeSpentMs: number;
   changeCount: number;
@@ -262,7 +264,20 @@ export function ReportView(props: Props) {
                     Correct: ({q.correctOption}) {optText(q, q.correctOption)}
                   </p>
                   {q.explanation && (
-                    <p className="mt-1 text-sm text-[#5a6577]">{q.explanation}</p>
+                    <div className="mt-2 border-l-2 border-[#1e3a5f] pl-3">
+                      <div className="text-[11px] uppercase tracking-wide text-[#5a6577]">
+                        Detailed solution
+                      </div>
+                      <p className="text-sm text-[#1a1f2b]">{q.explanation}</p>
+                    </div>
+                  )}
+                  {q.trick && (
+                    <div className="mt-2 border-l-2 border-[#c45c26] pl-3">
+                      <div className="text-[11px] uppercase tracking-wide text-[#c45c26]">
+                        Exam trick
+                      </div>
+                      <p className="text-sm text-[#1a1f2b]">{q.trick}</p>
+                    </div>
                   )}
                 </div>
               );

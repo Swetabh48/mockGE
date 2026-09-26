@@ -3,11 +3,14 @@
  * Generators + curated banks (≥40 items/subject) rotated by paperNo / setNo.
  */
 
+import { trickForTopic } from "./taxonomy";
+
 export type SeedQuestion = {
   qIndex: number;
   sectionKey: string;
   subject: string;
   topic: string;
+  subtopic?: string;
   difficulty: string;
   stemEn: string;
   optionA: string;
@@ -16,6 +19,7 @@ export type SeedQuestion = {
   optionD: string;
   correctOption: string;
   explanation: string;
+  trick?: string;
   marks: number;
   negativeMarks: number;
   source: string;
@@ -23,10 +27,12 @@ export type SeedQuestion = {
 
 type RawQ = {
   topic: string;
+  subtopic?: string;
   stem: string;
   answer: string;
   wrongs: [string, string, string];
   explanation: string;
+  trick?: string;
   difficulty?: string;
 };
 
@@ -84,6 +90,7 @@ function makeQ(
   );
   return {
     ...rest,
+    trick: rest.trick ?? trickForTopic(rest.topic),
     optionA: options[0],
     optionB: options[1],
     optionC: options[2],
@@ -135,11 +142,13 @@ function wrapBank(
       sectionKey,
       subject,
       topic: item.topic,
+      subtopic: item.subtopic,
       difficulty: item.difficulty ?? "hard",
       stemEn: paperTag && i % 7 === 3 ? `${item.stem} [${paperTag}]` : item.stem,
       answer: item.answer,
       wrongs: item.wrongs,
       explanation: item.explanation,
+      trick: item.trick ?? trickForTopic(item.topic),
       marks,
       negativeMarks: negative,
       source,
@@ -1709,6 +1718,50 @@ export function buildSectionPractice(
     default:
       return generateReasoningQuestions(25, 1, marks, neg, setNo, source);
   }
+}
+
+/** Topic drill: 10 hard MCQs tagged with explanation + exam trick. */
+export function buildTopicPractice(
+  sectionKey: "reasoning" | "ga" | "quant" | "english",
+  topicTitle: string,
+  subtopicTitle: string | undefined,
+  setNo: number,
+): SeedQuestion[] {
+  const base = buildSectionPractice(sectionKey, setNo);
+  const subject =
+    sectionKey === "quant"
+      ? "Quantitative Aptitude"
+      : sectionKey === "ga"
+        ? "General Awareness"
+        : sectionKey === "english"
+          ? "English"
+          : "Reasoning";
+
+  // Prefer questions whose topic string overlaps the requested topic; else rotate bank slice.
+  const needle = topicTitle.toLowerCase().split(/[\s&/,]+/).filter((w) => w.length > 3);
+  let picked = base.filter((q) => {
+    const hay = `${q.topic} ${q.stemEn}`.toLowerCase();
+    return needle.some((n) => hay.includes(n));
+  });
+  if (picked.length < 10) {
+    const start = (setNo * 3) % Math.max(1, base.length - 10);
+    picked = base.slice(start, start + 10);
+  } else {
+    picked = picked.slice(0, 10);
+  }
+
+  return picked.map((q, i) => ({
+    ...q,
+    qIndex: i + 1,
+    subject,
+    sectionKey,
+    topic: topicTitle,
+    subtopic: subtopicTitle,
+    explanation: q.explanation,
+    trick: q.trick || trickForTopic(topicTitle),
+    difficulty: "hard",
+    source: "topic_practice",
+  }));
 }
 
 export const DEST_PASSAGES = [

@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { PRACTICE_SYLLABUS, type PracticeSubjectKey } from "@/lib/exam/taxonomy";
 
 type Paper = {
   id: string;
@@ -11,6 +12,8 @@ type Paper = {
   difficulty: string;
   mode?: string;
   focusSection?: string | null;
+  focusTopic?: string | null;
+  focusSubtopic?: string | null;
   questionCount: number;
   attemptCount: number;
   hasDest: boolean;
@@ -34,13 +37,17 @@ type Status = {
   backend?: string;
 };
 
-type Tab = "mocks" | "pyq" | "reasoning" | "quant" | "english" | "gk" | "tier2";
+type Area = "test" | "practice";
+type TestTab = "mocks" | "pyq" | "tier2";
 
 export function Dashboard() {
   const [papers, setPapers] = useState<Paper[]>([]);
   const [attempts, setAttempts] = useState<Attempt[]>([]);
   const [status, setStatus] = useState<Status | null>(null);
-  const [tab, setTab] = useState<Tab>("mocks");
+  const [area, setArea] = useState<Area>("test");
+  const [testTab, setTestTab] = useState<TestTab>("mocks");
+  const [practiceSubject, setPracticeSubject] = useState<PracticeSubjectKey | "section">("section");
+  const [practiceTopic, setPracticeTopic] = useState<string | null>(null);
   const [generating, setGenerating] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
 
@@ -82,46 +89,39 @@ export function Dashboard() {
     }
   }
 
+  const subjectMeta = PRACTICE_SYLLABUS.find((s) => s.key === practiceSubject);
+
   const filtered = useMemo(() => {
-    switch (tab) {
-      case "mocks":
-        return papers.filter((p) => p.tier === "tier1" && (p.mode === "full_mock" || (!p.mode && p.source !== "pyq_style")));
-      case "pyq":
+    if (area === "test") {
+      if (testTab === "mocks") {
+        return papers.filter(
+          (p) => p.tier === "tier1" && (p.mode === "full_mock" || (!p.mode && p.source !== "pyq_style")),
+        );
+      }
+      if (testTab === "pyq") {
         return papers.filter(
           (p) => p.mode === "pyq" || p.source === "pyq_style" || p.title.toLowerCase().includes("pyq"),
         );
-      case "tier2":
-        return papers.filter((p) => p.tier === "tier2");
-      case "reasoning":
-        return papers.filter((p) => p.focusSection === "reasoning" || (p.mode === "practice" && p.title.includes("Reasoning")));
-      case "quant":
-        return papers.filter(
-          (p) =>
-            p.focusSection === "quant" ||
-            (p.mode === "practice" && (p.title.includes("Quantitative") || p.title.includes("Quant"))),
-        );
-      case "english":
-        return papers.filter((p) => p.focusSection === "english" || (p.mode === "practice" && p.title.includes("English")));
-      case "gk":
-        return papers.filter(
-          (p) =>
-            p.focusSection === "ga" ||
-            (p.mode === "practice" && (p.title.includes("Awareness") || p.title.includes("GK"))),
-        );
-      default:
-        return papers;
+      }
+      return papers.filter((p) => p.tier === "tier2");
     }
-  }, [papers, tab]);
 
-  const tabs: { id: Tab; label: string; blurb: string }[] = [
-    { id: "mocks", label: "Full Mocks", blurb: "Tier-I · 100 Q · 4×15 min" },
-    { id: "pyq", label: "PYQ Style", blurb: "Hard previous-year pattern" },
-    { id: "reasoning", label: "Reasoning", blurb: "25 Q · 15 min" },
-    { id: "quant", label: "Quant", blurb: "25 Q · 15 min" },
-    { id: "english", label: "English", blurb: "25 Q · 15 min" },
-    { id: "gk", label: "GK / GA", blurb: "25 Q · 15 min" },
-    { id: "tier2", label: "Tier-II", blurb: "Paper-I + DEST" },
-  ];
+    // Practice
+    if (practiceSubject === "section") {
+      return papers.filter((p) => p.mode === "practice" && !p.focusTopic);
+    }
+    if (!practiceTopic) {
+      return papers.filter(
+        (p) => p.mode === "topic_practice" && p.focusSection === practiceSubject,
+      );
+    }
+    return papers.filter(
+      (p) =>
+        p.mode === "topic_practice" &&
+        p.focusSection === practiceSubject &&
+        p.focusTopic === practiceTopic,
+    );
+  }, [papers, area, testTab, practiceSubject, practiceTopic]);
 
   return (
     <div className="min-h-screen bg-[#eef1f4] text-[#1a1f2b]">
@@ -131,7 +131,8 @@ export function Dashboard() {
             <p className="text-xs uppercase tracking-[0.22em] text-slate-300">SSC CGL 2026 pattern</p>
             <h1 className="font-display mt-2 text-4xl tracking-tight sm:text-5xl">mockGE</h1>
             <p className="mt-3 max-w-xl text-sm text-slate-200">
-              Sectional timers (15 min × 4), hard-level practice, PYQ-style papers and subject drills.
+              Test = full mocks & PYQ. Practice = section drills + topic / subtopic with detailed
+              solutions and exam tricks.
             </p>
           </div>
           <div className="flex flex-col items-end gap-2 text-xs text-slate-200">
@@ -141,45 +142,156 @@ export function Dashboard() {
                 : "Bank empty — run npm run db:seed"}
             </span>
             <span>{status?.ollama?.message ?? "Checking model..."}</span>
-            {status?.backend && <span>API: {status.backend}</span>}
           </div>
         </div>
       </header>
 
       <main className="mx-auto max-w-6xl space-y-8 px-6 py-8">
-        <nav className="flex flex-wrap gap-2 border-b border-[#c5ccd6] pb-3">
-          {tabs.map((t) => (
+        <div className="flex gap-2">
+          {(
+            [
+              { id: "test" as const, label: "Test", blurb: "Mocks · PYQ · Tier-II" },
+              { id: "practice" as const, label: "Practice", blurb: "Topics · tricks · drills" },
+            ] as const
+          ).map((a) => (
             <button
-              key={t.id}
+              key={a.id}
               type="button"
-              onClick={() => setTab(t.id)}
-              className={`px-3 py-2 text-left text-sm ${
-                tab === t.id
-                  ? "border-b-2 border-[#1e3a5f] font-medium text-[#1e3a5f]"
-                  : "text-[#5a6577] hover:text-[#1a1f2b]"
+              onClick={() => {
+                setArea(a.id);
+                setPracticeTopic(null);
+              }}
+              className={`min-w-[9rem] border px-4 py-3 text-left ${
+                area === a.id
+                  ? "border-[#1e3a5f] bg-[#1e3a5f] text-white"
+                  : "border-[#c5ccd6] bg-white text-[#1a1f2b] hover:border-[#1e3a5f]"
               }`}
             >
-              <div>{t.label}</div>
-              <div className="text-[11px] font-normal text-[#8a93a3]">{t.blurb}</div>
+              <div className="text-sm font-medium">{a.label}</div>
+              <div className={`text-[11px] ${area === a.id ? "text-slate-200" : "text-[#8a93a3]"}`}>
+                {a.blurb}
+              </div>
             </button>
           ))}
-        </nav>
+        </div>
+
+        {area === "test" ? (
+          <nav className="flex flex-wrap gap-2 border-b border-[#c5ccd6] pb-3">
+            {(
+              [
+                { id: "mocks" as const, label: "Full Mocks", blurb: "100 Q · 4×15 min" },
+                { id: "pyq" as const, label: "PYQ Style", blurb: "Hard pattern" },
+                { id: "tier2" as const, label: "Tier-II", blurb: "Paper-I + DEST" },
+              ] as const
+            ).map((t) => (
+              <button
+                key={t.id}
+                type="button"
+                onClick={() => setTestTab(t.id)}
+                className={`px-3 py-2 text-left text-sm ${
+                  testTab === t.id
+                    ? "border-b-2 border-[#1e3a5f] font-medium text-[#1e3a5f]"
+                    : "text-[#5a6577] hover:text-[#1a1f2b]"
+                }`}
+              >
+                <div>{t.label}</div>
+                <div className="text-[11px] text-[#8a93a3]">{t.blurb}</div>
+              </button>
+            ))}
+          </nav>
+        ) : (
+          <div className="space-y-4">
+            <nav className="flex flex-wrap gap-2 border-b border-[#c5ccd6] pb-3">
+              <button
+                type="button"
+                onClick={() => {
+                  setPracticeSubject("section");
+                  setPracticeTopic(null);
+                }}
+                className={`px-3 py-2 text-sm ${
+                  practiceSubject === "section"
+                    ? "border-b-2 border-[#1e3a5f] font-medium text-[#1e3a5f]"
+                    : "text-[#5a6577]"
+                }`}
+              >
+                Section drills (25 Q)
+              </button>
+              {PRACTICE_SYLLABUS.map((s) => (
+                <button
+                  key={s.key}
+                  type="button"
+                  onClick={() => {
+                    setPracticeSubject(s.key);
+                    setPracticeTopic(null);
+                  }}
+                  className={`px-3 py-2 text-sm ${
+                    practiceSubject === s.key
+                      ? "border-b-2 border-[#1e3a5f] font-medium text-[#1e3a5f]"
+                      : "text-[#5a6577]"
+                  }`}
+                >
+                  {s.title}
+                </button>
+              ))}
+            </nav>
+
+            {subjectMeta && (
+              <div className="flex flex-wrap gap-2">
+                <button
+                  type="button"
+                  onClick={() => setPracticeTopic(null)}
+                  className={`border px-3 py-1.5 text-xs ${
+                    practiceTopic === null
+                      ? "border-[#1e3a5f] bg-[#1e3a5f] text-white"
+                      : "border-[#c5ccd6] bg-white"
+                  }`}
+                >
+                  All topics
+                </button>
+                {subjectMeta.topics.map((t) => (
+                  <button
+                    key={t.id}
+                    type="button"
+                    onClick={() => setPracticeTopic(t.id)}
+                    className={`border px-3 py-1.5 text-xs ${
+                      practiceTopic === t.id
+                        ? "border-[#c45c26] bg-[#c45c26] text-white"
+                        : "border-[#c5ccd6] bg-white"
+                    }`}
+                  >
+                    {t.title}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
         <section className="flex flex-wrap items-center justify-between gap-3">
           <div>
             <h2 className="font-display text-2xl text-[#1e3a5f]">
-              {tabs.find((t) => t.id === tab)?.label}
+              {area === "test"
+                ? testTab === "mocks"
+                  ? "Full Mocks"
+                  : testTab === "pyq"
+                    ? "PYQ Style"
+                    : "Tier-II"
+                : practiceSubject === "section"
+                  ? "Section drills"
+                  : subjectMeta?.title ?? "Practice"}
             </h2>
             <p className="text-sm text-[#5a6577]">
-              {tab === "mocks" &&
-                "Official Tier-I lock: Reasoning → GA → Quant → English. 15 minutes each. No carry-over."}
-              {tab === "pyq" && "Harder sets modelled on previous-year difficulty and topic mix."}
-              {(tab === "reasoning" || tab === "quant" || tab === "english" || tab === "gk") &&
-                "Sectional drill at exam pace: 25 questions, 15 minutes, −0.50 marking."}
-              {tab === "tier2" && "Paper-I with sectional session timing and DEST practice."}
+              {area === "test" && testTab === "mocks" &&
+                "Official Tier-I lock: Reasoning → GA → Quant → English. 15 minutes each."}
+              {area === "test" && testTab === "pyq" &&
+                "Harder sets modelled on previous-year difficulty and topic mix."}
+              {area === "test" && testTab === "tier2" &&
+                "Paper-I with sectional session timing and DEST practice."}
+              {area === "practice" &&
+                "Each question’s result shows a detailed solution and an exam-hall trick."}
             </p>
           </div>
-          {tab === "mocks" && (
+          {area === "test" && testTab === "mocks" && (
             <button
               type="button"
               disabled={generating}
@@ -195,7 +307,14 @@ export function Dashboard() {
           <p className="border border-[#c5ccd6] bg-white px-4 py-2 text-sm">{message}</p>
         )}
 
-        <PaperTable papers={filtered} emptyHint={emptyHint(tab)} />
+        <PaperTable
+          papers={filtered}
+          emptyHint={
+            area === "practice"
+              ? "No practice papers yet. Run npm run db:seed."
+              : "No papers in this section. Run npm run db:seed."
+          }
+        />
 
         <section>
           <h2 className="font-display mb-3 text-xl text-[#1e3a5f]">Recent attempts</h2>
@@ -241,11 +360,6 @@ export function Dashboard() {
   );
 }
 
-function emptyHint(tab: Tab) {
-  if (tab === "mocks") return "No full mocks. Run npm run db:seed.";
-  return "No papers in this section yet. Run npm run db:seed.";
-}
-
 function PaperTable({ papers, emptyHint }: { papers: Paper[]; emptyHint: string }) {
   if (papers.length === 0) {
     return <p className="text-sm text-[#5a6577]">{emptyHint}</p>;
@@ -258,11 +372,13 @@ function PaperTable({ papers, emptyHint }: { papers: Paper[]; emptyHint: string 
             <div className="font-medium">{p.title}</div>
             <div className="text-xs text-[#5a6577]">
               {p.questionCount} questions · {p.difficulty}
-              {p.tier === "tier1" || p.mode === "full_mock"
-                ? " · sectional 15×4"
+              {p.mode === "topic_practice"
+                ? " · topic drill · solutions + tricks on result"
                 : p.mode === "practice"
-                  ? " · 15 min lock"
-                  : ""}
+                  ? " · 15 min section lock"
+                  : p.tier === "tier1"
+                    ? " · sectional 15×4"
+                    : ""}
             </div>
           </div>
           <Link

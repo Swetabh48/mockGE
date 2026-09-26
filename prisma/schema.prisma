@@ -13,12 +13,14 @@ model Paper {
   tier         String
   source       String     @default("seed")
   difficulty   String     @default("hard")
-  mode         String     @default("full_mock")
-  focusSection String?
-  createdAt    DateTime   @default(now())
-  questions    Question[]
-  attempts     Attempt[]
-  destPassage  String?
+  mode           String     @default("full_mock")
+  focusSection   String?
+  focusTopic     String?
+  focusSubtopic  String?
+  createdAt      DateTime   @default(now())
+  questions      Question[]
+  attempts       Attempt[]
+  destPassage    String?
 }
 
 model Question {
@@ -29,6 +31,7 @@ model Question {
   sectionKey    String
   subject       String
   topic         String
+  subtopic      String?
   difficulty    String   @default("medium")
   stemEn        String
   stemHi        String?
@@ -38,12 +41,14 @@ model Question {
   optionD       String
   correctOption String
   explanation   String?
+  trick         String?
   marks         Float    @default(2)
   negativeMarks Float    @default(0.5)
   source        String   @default("seed")
 
   @@index([paperId, qIndex])
   @@index([paperId, sectionKey])
+  @@index([subject, topic])
 }
 
 model Attempt {
