@@ -66,6 +66,14 @@ export function InstructionsGate({ paperId, paperTitle, blueprint }: Props) {
           <ul className="space-y-1 text-[#3a4556]">
             <li>Total questions: {blueprint.totalQuestions}</li>
             <li>Maximum marks: {blueprint.maxScore}</li>
+            {blueprint.untimed ? (
+              <li>Time limit: none (book-style practice)</li>
+            ) : (
+              <li>
+                Timed sections:{" "}
+                {blueprint.timerGroups.map((g) => `${g.label}`).join("; ")}
+              </li>
+            )}
             {blueprint.hasDest && (
               <li>
                 DEST: {blueprint.destDurationSeconds / 60} minutes, target{" "}

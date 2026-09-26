@@ -37,6 +37,7 @@ type Props = {
   paperTitle: string;
   tier: ExamTier;
   focusSection?: SectionKey;
+  mode?: string | null;
   questions: ExamQuestion[];
   attemptId: string;
 };
@@ -57,14 +58,21 @@ export function ExamCBT({
   paperTitle,
   tier,
   focusSection,
+  mode,
   questions,
   attemptId,
 }: Props) {
   const router = useRouter();
   const blueprint = useMemo(
-    () => getBlueprint(tier, focusSection),
-    [tier, focusSection],
+    () =>
+      getBlueprint(tier, focusSection, {
+        questionCount: questions.length,
+        mode,
+        title: paperTitle,
+      }),
+    [tier, focusSection, mode, questions.length, paperTitle],
   );
+  const untimed = Boolean(blueprint.untimed);
   const [timerGroupIndex, setTimerGroupIndex] = useState(0);
   const [secondsLeft, setSecondsLeft] = useState(
     blueprint.timerGroups[0]?.durationSeconds ?? 3600,
@@ -218,8 +226,11 @@ export function ExamCBT({
   submitPaperRef.current = submitPaper;
   advanceRef.current = advanceSectionOrSubmit;
 
-  // Countdown
+  // Countdown — tests only (practice is untimed / book-style)
   useEffect(() => {
+    if (untimed || (blueprint.timerGroups[timerGroupIndex]?.durationSeconds ?? 0) <= 0) {
+      return;
+    }
     const id = window.setInterval(() => {
       setSecondsLeft((prev) => {
         if (prev <= 1) {
@@ -233,10 +244,11 @@ export function ExamCBT({
       });
     }, 1000);
     return () => window.clearInterval(id);
-  }, [timerGroupIndex]);
+  }, [timerGroupIndex, untimed, blueprint.timerGroups]);
 
-  // Fullscreen
+  // Fullscreen — exam-like for tests; optional for practice
   useEffect(() => {
+    if (untimed) return;
     const el = document.documentElement;
     if (el.requestFullscreen) {
       el.requestFullscreen().catch(() => undefined);
@@ -248,7 +260,7 @@ export function ExamCBT({
     };
     document.addEventListener("fullscreenchange", onExit);
     return () => document.removeEventListener("fullscreenchange", onExit);
-  }, []);
+  }, [untimed]);
 
   // Prevent accidental navigation
   useEffect(() => {
@@ -394,47 +406,59 @@ export function ExamCBT({
         </div>
         <div className="text-center text-sm">
           <div className="text-xs uppercase tracking-wider text-slate-300">
-            {activeGroup.label}
+            {untimed ? "Practice mode" : activeGroup.label}
           </div>
           <div
-            className={`font-mono text-2xl tabular-nums ${secondsLeft <= 60 ? "text-amber-300" : ""}`}
+            className={`font-mono text-2xl tabular-nums ${
+              !untimed && secondsLeft <= 60 ? "text-amber-300" : ""
+            }`}
           >
-            {formatTime(secondsLeft)}
+            {untimed ? "No limit" : formatTime(secondsLeft)}
           </div>
         </div>
         <div className="flex items-center gap-3">
-          <button
-            type="button"
-            className="border border-amber-300/80 bg-amber-500/20 px-3 py-1.5 text-sm text-amber-50 hover:bg-amber-500/30"
-            onClick={endSectionEarly}
-            title="Practice only — real SSC does not allow ending a section early"
-          >
-            Submit Section
-          </button>
-          <button
-            type="button"
-            className="border border-white/40 px-3 py-1.5 text-sm hover:bg-white/10"
-            onClick={() => {
-              if (document.fullscreenElement) {
-                document.exitFullscreen().catch(() => undefined);
-              } else {
-                document.documentElement.requestFullscreen().catch(() => undefined);
-              }
-            }}
-          >
-            Fullscreen
-          </button>
+          {!untimed && (
+            <button
+              type="button"
+              className="border border-amber-300/80 bg-amber-500/20 px-3 py-1.5 text-sm text-amber-50 hover:bg-amber-500/30"
+              onClick={endSectionEarly}
+              title="Practice only — real SSC does not allow ending a section early"
+            >
+              Submit Section
+            </button>
+          )}
+          {!untimed && (
+            <button
+              type="button"
+              className="border border-white/40 px-3 py-1.5 text-sm hover:bg-white/10"
+              onClick={() => {
+                if (document.fullscreenElement) {
+                  document.exitFullscreen().catch(() => undefined);
+                } else {
+                  document.documentElement.requestFullscreen().catch(() => undefined);
+                }
+              }}
+            >
+              Fullscreen
+            </button>
+          )}
           <button
             type="button"
             disabled={submitting}
             className="bg-[#c45c26] px-4 py-1.5 text-sm font-medium text-white hover:bg-[#a84c1f] disabled:opacity-60"
             onClick={() => {
-              if (window.confirm("Submit the entire paper? You cannot change answers after submission.")) {
+              if (
+                window.confirm(
+                  untimed
+                    ? "Finish this practice set and see solutions + tricks?"
+                    : "Submit the entire paper? You cannot change answers after submission.",
+                )
+              ) {
                 void submitPaper();
               }
             }}
           >
-            {submitting ? "Submitting..." : "Submit Paper"}
+            {submitting ? "Submitting..." : untimed ? "Finish & see solutions" : "Submit Paper"}
           </button>
         </div>
       </header>

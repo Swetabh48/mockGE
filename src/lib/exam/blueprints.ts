@@ -38,6 +38,8 @@ export interface ExamBlueprint {
   destDurationSeconds: number;
   destTargetKeystrokes: number;
   destPassAccuracy: number;
+  /** Book-style practice: no countdown, no auto-submit. */
+  untimed?: boolean;
 }
 
 /** SSC CGL 2026 Tier-I: 15 minutes locked per section (official). */
@@ -210,7 +212,7 @@ export const TIER2_BLUEPRINT: ExamBlueprint = {
 
 export function practiceBlueprint(
   section: SectionKey,
-  opts?: { questionCount?: number; minutes?: number; title?: string },
+  opts?: { questionCount?: number; title?: string },
 ): ExamBlueprint {
   const labels: Record<string, string> = {
     reasoning: "Reasoning Practice",
@@ -221,7 +223,6 @@ export function practiceBlueprint(
     computer: "Computer Practice",
   };
   const n = opts?.questionCount ?? 25;
-  const minutes = opts?.minutes ?? (n <= 12 ? 10 : 15);
   const title = opts?.title ?? labels[section] ?? "Section Practice";
   return {
     tier: "practice",
@@ -232,6 +233,7 @@ export function practiceBlueprint(
     destDurationSeconds: 0,
     destTargetKeystrokes: 0,
     destPassAccuracy: 0,
+    untimed: true,
     sections: [
       {
         key: section,
@@ -245,19 +247,17 @@ export function practiceBlueprint(
     timerGroups: [
       {
         id: "practice",
-        label: `${title} — ${minutes} minutes`,
-        durationSeconds: minutes * 60,
+        label: "Practice (no time limit)",
+        durationSeconds: 0,
         sectionKeys: [section],
-        autoClose: true,
+        autoClose: false,
       },
     ],
     instructions: [
-      n <= 12
-        ? `Topic drill: ${n} questions, ${minutes} minutes. After submit, open Result for detailed solution + exam trick on every question.`
-        : `Sectional practice: ${n} questions, ${minutes} minutes (Tier-I section pace).`,
-      "Each correct answer: +2. Each wrong answer: −0.50.",
-      "On time expiry the set is submitted automatically.",
-      "Result screen shows Detailed solution and Exam trick for each question.",
+      "Book-style practice: no timer. Solve at your own pace, like a workbook.",
+      `This set has ${n} questions. You can generate unlimited new sets from the Practice tab.`,
+      "Each correct answer: +2. Each wrong answer: −0.50 (for score feedback only).",
+      "When you finish, click Submit Paper — Result shows Detailed solution + Exam trick for every question.",
     ],
   };
 }
@@ -271,7 +271,6 @@ export function getBlueprint(
     return practiceBlueprint(focusSection, {
       questionCount: opts?.questionCount,
       title: opts?.title,
-      minutes: opts?.mode === "topic_practice" ? 10 : undefined,
     });
   }
   if (tier === "tier2") return TIER2_BLUEPRINT;

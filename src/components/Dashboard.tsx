@@ -89,6 +89,42 @@ export function Dashboard() {
     }
   }
 
+  async function generateUnlimitedPractice() {
+    setGenerating(true);
+    setMessage(null);
+    try {
+      let requestBody: {
+        kind: "section" | "topic";
+        subject: PracticeSubjectKey;
+        topicId?: string;
+      };
+
+      if (practiceSubject === "section") {
+        // Default fresh Quant section drill from the "section drills" tab
+        requestBody = { kind: "section", subject: "quant" };
+      } else if (practiceTopic) {
+        requestBody = { kind: "topic", subject: practiceSubject, topicId: practiceTopic };
+      } else {
+        // Subject selected, all topics — mint another section drill for that subject
+        requestBody = { kind: "section", subject: practiceSubject };
+      }
+
+      const res = await fetch("/api/practice/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(requestBody),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Failed");
+      setMessage(`New practice set ready: ${data.title}`);
+      await load();
+    } catch (e) {
+      setMessage(e instanceof Error ? e.message : "Failed");
+    } finally {
+      setGenerating(false);
+    }
+  }
+
   const subjectMeta = PRACTICE_SYLLABUS.find((s) => s.key === practiceSubject);
 
   const filtered = useMemo(() => {
@@ -288,7 +324,7 @@ export function Dashboard() {
               {area === "test" && testTab === "tier2" &&
                 "Paper-I with sectional session timing and DEST practice."}
               {area === "practice" &&
-                "Each question’s result shows a detailed solution and an exam-hall trick."}
+                "Book-style practice: no timer. Generate unlimited fresh sets anytime."}
             </p>
           </div>
           {area === "test" && testTab === "mocks" && (
@@ -300,6 +336,53 @@ export function Dashboard() {
             >
               {generating ? "Creating..." : "Create new hard mock"}
             </button>
+          )}
+          {area === "practice" && (
+            <div className="flex flex-wrap gap-2">
+              {practiceSubject === "section" &&
+                (["quant", "reasoning", "english", "ga"] as PracticeSubjectKey[]).map((sk) => (
+                  <button
+                    key={sk}
+                    type="button"
+                    disabled={generating}
+                    onClick={() => {
+                      setPracticeSubject(sk);
+                      void (async () => {
+                        setGenerating(true);
+                        setMessage(null);
+                        try {
+                          const res = await fetch("/api/practice/generate", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ kind: "section", subject: sk }),
+                          });
+                          const data = await res.json();
+                          if (!res.ok) throw new Error(data.error || "Failed");
+                          setMessage(`New set: ${data.title}`);
+                          await load();
+                        } catch (e) {
+                          setMessage(e instanceof Error ? e.message : "Failed");
+                        } finally {
+                          setGenerating(false);
+                        }
+                      })();
+                    }}
+                    className="border border-[#c45c26] px-3 py-1.5 text-sm text-[#c45c26] hover:bg-[#c45c26] hover:text-white disabled:opacity-50"
+                  >
+                    + {sk === "ga" ? "GA" : sk[0]!.toUpperCase() + sk.slice(1)} set
+                  </button>
+                ))}
+              {practiceSubject !== "section" && (
+                <button
+                  type="button"
+                  disabled={generating}
+                  onClick={() => void generateUnlimitedPractice()}
+                  className="border border-[#c45c26] px-3 py-1.5 text-sm text-[#c45c26] hover:bg-[#c45c26] hover:text-white disabled:opacity-50"
+                >
+                  {generating ? "Creating..." : "Generate more questions"}
+                </button>
+              )}
+            </div>
           )}
         </section>
 
@@ -373,9 +456,9 @@ function PaperTable({ papers, emptyHint }: { papers: Paper[]; emptyHint: string 
             <div className="text-xs text-[#5a6577]">
               {p.questionCount} questions · {p.difficulty}
               {p.mode === "topic_practice"
-                ? " · topic drill · solutions + tricks on result"
+                ? " · topic drill · no timer · solutions + tricks"
                 : p.mode === "practice"
-                  ? " · 15 min section lock"
+                  ? " · no timer · book-style"
                   : p.tier === "tier1"
                     ? " · sectional 15×4"
                     : ""}
