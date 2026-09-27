@@ -11,9 +11,7 @@
     "lint": "eslint",
     "db:push": "prisma db push",
     "db:seed": "tsx scripts/seed.ts",
-    "train:corpus": "python training/build_corpus.py",
-    "train:lora": "python training/train_lora.py",
-    "train:ollama": "python training/export_to_ollama.py",
+    "import:sscgl": "python scripts/import_sscgl_pdfs.py",
     "postinstall": "prisma generate"
   },
   "dependencies": {

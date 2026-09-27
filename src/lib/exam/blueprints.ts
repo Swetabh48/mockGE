@@ -247,7 +247,7 @@ export function practiceBlueprint(
     timerGroups: [
       {
         id: "practice",
-        label: "Practice (no time limit)",
+        label: "Practice · stopwatch from 00:00",
         durationSeconds: 0,
         sectionKeys: [section],
         autoClose: false,

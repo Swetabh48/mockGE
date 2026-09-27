@@ -33,7 +33,8 @@ type Status = {
   questionBankReady: boolean;
   paperCount: number;
   attemptCount: number;
-  ollama: { connected: boolean; message: string };
+  questionCount?: number;
+  bank?: { ready: boolean; message: string };
   backend?: string;
 };
 
@@ -75,7 +76,6 @@ export function Dashboard() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           tier: "tier1",
-          mode: status?.ollama?.connected ? "ollama_mix" : "full_seed",
         }),
       });
       const data = await res.json();
@@ -179,11 +179,11 @@ export function Dashboard() {
               Formulas &amp; Tricks
             </Link>
             <span>
-              {status?.questionBankReady
-                ? `Bank ready · ${status.paperCount} papers`
-                : "Bank empty — run npm run db:seed"}
+              {status?.bank?.message ??
+                (status?.questionBankReady
+                  ? `Bank ready · ${status.paperCount} papers`
+                  : "Bank empty — run npm run db:seed")}
             </span>
-            <span>{status?.ollama?.message ?? "Checking model..."}</span>
           </div>
         </div>
       </header>
@@ -193,7 +193,7 @@ export function Dashboard() {
           {(
             [
               { id: "test" as const, label: "Test", blurb: "Mocks · PYQ · Tier-II" },
-              { id: "practice" as const, label: "Practice", blurb: "Topics · no timer" },
+              { id: "practice" as const, label: "Practice", blurb: "Topics · stopwatch" },
             ] as const
           ).map((a) => (
             <button

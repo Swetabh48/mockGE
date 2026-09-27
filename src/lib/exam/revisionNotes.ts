@@ -31,6 +31,69 @@ export type TopicRevision = {
 export const REVISION_NOTES: TopicRevision[] = [
   {
     subjectKey: "quant",
+    topicId: "number-system",
+    topicTitle: "Number System & HCF-LCM",
+    patterns: [
+      {
+        pattern: "HCF / LCM of numbers",
+        formula: "HCF × LCM = a × b (for two numbers)\nLCM via prime factors (highest powers)",
+        howToUse: "Factorise quickly; for bells/traffic lights use LCM of intervals.",
+        examTip:
+          "Next together = LCM of intervals from a common start. Don’t add the intervals.",
+        workedExample:
+          "Bells every 12, 18, 24 min from 8:00.\nLCM(12,18,24)=72 → next at 9:12 am.\nTrap: adding 12+18+24.",
+        video: {
+          title: "HCF LCM tricks SSC",
+          url: "https://www.youtube.com/results?search_query=HCF+LCM+tricks+SSC",
+        },
+      },
+      {
+        pattern: "Remainder / divisibility",
+        formula: "a ≡ r (mod m)\nDivisibility rules: 3/9 (digit sum), 11 (alt sum), 4 (last 2 digits)",
+        howToUse: "Reduce large powers with remainder cycles (Euler/pattern of last digits).",
+        examTip: "Last-digit cycles: 2→4→8→6; 3→9→7→1; 7→9→3→1; 9→1.",
+        workedExample:
+          "Last digit of 7^23?\nCycle 7,9,3,1 length 4. 23 mod 4 = 3 → last digit 3.",
+        video: {
+          title: "Remainder theorem SSC",
+          url: "https://www.youtube.com/results?search_query=remainder+theorem+tricks+SSC+CGL",
+        },
+      },
+    ],
+  },
+  {
+    subjectKey: "quant",
+    topicId: "di",
+    topicTitle: "Data Interpretation",
+    patterns: [
+      {
+        pattern: "Table / % comparison",
+        formula: "Value = total × %/100\nDifference = total × |p1−p2|/100",
+        howToUse: "Read the total once; compute only what options need.",
+        examTip: "Skip reconstructing the whole table if a single % difference answers it.",
+        workedExample:
+          "2400 people; A 35%, B 20%. A exceeds B by?\n2400×15/100 = 360. One step.",
+        video: {
+          title: "DI percentage tricks SSC",
+          url: "https://www.youtube.com/results?search_query=DI+percentage+tricks+SSC",
+        },
+      },
+      {
+        pattern: "Mean / grouped data",
+        formula: "Mean ≈ Σ(f × mid)/Σf\nmid = (lower+upper)/2",
+        howToUse: "Write midpoints of each class, multiply by frequency, divide by total f.",
+        examTip: "Mode class = highest frequency class; don’t confuse with mean class.",
+        workedExample:
+          "Classes 25–29 (f=10), 30–34 (f=12)… compute Σfm / Σf.\nWatch for option traps that use mid wrong end-points.",
+        video: {
+          title: "Statistics mean mode SSC",
+          url: "https://www.youtube.com/results?search_query=mean+mode+median+tricks+SSC",
+        },
+      },
+    ],
+  },
+  {
+    subjectKey: "quant",
     topicId: "percentage",
     topicTitle: "Percentage",
     patterns: [
@@ -61,6 +124,18 @@ export const REVISION_NOTES: TopicRevision[] = [
           title: "Successive percentage change",
           url: "https://www.youtube.com/results?search_query=successive+percentage+change+trick+SSC",
           channel: "Search: successive percentage SSC",
+        },
+      },
+      {
+        pattern: "Population / % change reverse",
+        formula: "If after +r% value = V, original = V / (1+r/100)\nAfter −r%: original = V / (1−r/100)",
+        howToUse: "Reverse the % — divide by the remaining factor, don’t subtract % of final.",
+        examTip: "‘Increased to’ vs ‘increased by’ — read carefully.",
+        workedExample:
+          "After 25% increase salary = 25000. Original?\n25000/1.25 = 20000.\nTrap: 25000−25%=18750.",
+        video: {
+          title: "Percentage reverse tricks",
+          url: "https://www.youtube.com/results?search_query=percentage+reverse+trick+SSC",
         },
       },
     ],
@@ -196,6 +271,18 @@ export const REVISION_NOTES: TopicRevision[] = [
           url: "https://www.youtube.com/results?search_query=SSC+average+tricks+Rakesh+Yadav",
         },
       },
+      {
+        pattern: "Mixture / allegation",
+        formula: "Cheaper : Dearer = (dearer − mean) : (mean − cheaper)",
+        howToUse: "Write prices on ends, mean in middle; cross-subtract for ratio.",
+        examTip: "Allegation gives ratio of QUANTITIES, not prices.",
+        workedExample:
+          "Tea @20 and @40 mixed to mean 28.\nRatio = (40−28):(28−20) = 12:8 = 3:2.",
+        video: {
+          title: "Allegation mixture SSC",
+          url: "https://www.youtube.com/results?search_query=allegation+mixture+trick+SSC+CGL",
+        },
+      },
     ],
   },
   {
@@ -214,6 +301,18 @@ export const REVISION_NOTES: TopicRevision[] = [
         video: {
           title: "Time & Work LCM method",
           url: "https://www.youtube.com/results?search_query=SSC+time+and+work+LCM+trick",
+        },
+      },
+      {
+        pattern: "Work & wages (share money)",
+        formula: "Wage share ∝ efficiency ∝ 1/days\nIf A takes a days, B takes b → A:B wages = b:a",
+        howToUse: "Invert days to get efficiency ratio, then split total wages in that ratio.",
+        examTip: "Fewer days ⇒ more wages. Never share wages in the same ratio as days.",
+        workedExample:
+          "A 10 days, B 15 days, together earn ₹3000.\nA:B = 15:10 = 3:2 → A gets ₹1800, B ₹1200.\nTrap option uses 10:15.",
+        video: {
+          title: "Work and wages trick SSC",
+          url: "https://www.youtube.com/results?search_query=work+and+wages+trick+SSC",
         },
       },
       {

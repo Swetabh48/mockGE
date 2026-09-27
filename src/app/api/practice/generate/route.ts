@@ -40,7 +40,8 @@ export async function POST(request: Request) {
         : { mode: "practice" }),
     },
   });
-  const setNo = (existing % 40) + 1;
+  // Wide rotation so consecutive "Generate" clicks don't recycle the same stems
+  const setNo = existing * 17 + Date.now() % 997;
 
   if (kind === "topic") {
     const topic = body.topicId ? findTopic(subjectKey, body.topicId) : subject.topics[0];
@@ -49,7 +50,13 @@ export async function POST(request: Request) {
     }
     const sub =
       topic.subtopics.find((s) => s.id === body.subtopicId) ?? topic.subtopics[0]!;
-    const questions = buildTopicPractice(subjectKey, topic.title, sub.title, setNo);
+    const questions = buildTopicPractice(
+      subjectKey,
+      topic.title,
+      sub.title,
+      setNo,
+      topic.id,
+    );
     const paper = await prisma.paper.create({
       data: {
         title: `${subject.title} · ${topic.title} · ${sub.title} (fresh #${existing + 1})`,

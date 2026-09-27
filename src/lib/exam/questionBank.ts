@@ -4,6 +4,7 @@
  */
 
 import { trickForTopic } from "./taxonomy";
+import { buildTopicLockedPractice } from "./topicGenerators";
 
 export type SeedQuestion = {
   qIndex: number;
@@ -1739,48 +1740,24 @@ export function buildSectionPractice(
   }
 }
 
-/** Topic drill: 10 hard MCQs tagged with explanation + exam trick. */
+/** Topic drill: 10 hard MCQs locked to the selected topic (never mixed). */
 export function buildTopicPractice(
   sectionKey: "reasoning" | "ga" | "quant" | "english",
   topicTitle: string,
   subtopicTitle: string | undefined,
   setNo: number,
+  topicId?: string,
 ): SeedQuestion[] {
-  const base = buildSectionPractice(sectionKey, setNo);
-  const subject =
-    sectionKey === "quant"
-      ? "Quantitative Aptitude"
-      : sectionKey === "ga"
-        ? "General Awareness"
-        : sectionKey === "english"
-          ? "English"
-          : "Reasoning";
-
-  // Prefer questions whose topic string overlaps the requested topic; else rotate bank slice.
-  const needle = topicTitle.toLowerCase().split(/[\s&/,]+/).filter((w) => w.length > 3);
-  let picked = base.filter((q) => {
-    const hay = `${q.topic} ${q.stemEn}`.toLowerCase();
-    return needle.some((n) => hay.includes(n));
-  });
-  if (picked.length < 10) {
-    const start = (setNo * 3) % Math.max(1, base.length - 10);
-    picked = base.slice(start, start + 10);
-  } else {
-    picked = picked.slice(0, 10);
-  }
-
-  return picked.map((q, i) => ({
-    ...q,
-    qIndex: i + 1,
-    subject,
+  const sectionBank = buildSectionPractice(sectionKey, setNo);
+  return buildTopicLockedPractice({
     sectionKey,
-    topic: topicTitle,
-    subtopic: subtopicTitle,
-    explanation: q.explanation,
-    trick: q.trick || trickForTopic(topicTitle),
-    difficulty: "hard",
-    source: "topic_practice",
-  }));
+    topicId: topicId || topicTitle.toLowerCase().replace(/\s+/g, "-"),
+    topicTitle,
+    subtopicTitle,
+    setNo,
+    count: 10,
+    sectionBank,
+  });
 }
 
 export const DEST_PASSAGES = [

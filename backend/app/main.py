@@ -6,9 +6,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .db import init_db
-from .routers import attempts, generate, papers, status, train
-
-ROOT = Path(__file__).resolve().parents[2]
+from .routers import attempts, generate, papers, status
 
 app = FastAPI(title="mockGE API", version="1.0.0")
 app.add_middleware(
@@ -23,7 +21,6 @@ app.include_router(status.router, prefix="/api")
 app.include_router(papers.router, prefix="/api")
 app.include_router(attempts.router, prefix="/api")
 app.include_router(generate.router, prefix="/api")
-app.include_router(train.router, prefix="/api")
 
 
 @app.on_event("startup")
