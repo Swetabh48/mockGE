@@ -53,6 +53,30 @@ function optText(q: ReviewItem, letter: string) {
   return q.optionD;
 }
 
+/** Turn plain URLs in trick text into clickable links. */
+function LinkifiedText({ text }: { text: string }) {
+  const parts = text.split(/(https?:\/\/[^\s]+)/g);
+  return (
+    <>
+      {parts.map((part, i) =>
+        /^https?:\/\//.test(part) ? (
+          <a
+            key={i}
+            href={part}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="break-all font-medium text-[#1e3a5f] underline underline-offset-2"
+          >
+            {part}
+          </a>
+        ) : (
+          <span key={i}>{part}</span>
+        ),
+      )}
+    </>
+  );
+}
+
 export function ReportView(props: Props) {
   const { analysis } = props;
   const sectionData = analysis.sections.map((s) => ({
@@ -274,13 +298,22 @@ export function ReportView(props: Props) {
                     </div>
                   )}
                   {q.trick && (
-                    <div className="mt-2 border-l-2 border-[#c45c26] pl-3">
+                    <div className="mt-2 border-l-2 border-[#c45c26] bg-[#fff8f4] py-2 pl-3 pr-2">
                       <div className="text-[11px] uppercase tracking-wide text-[#c45c26]">
-                        Exam trick
+                        Exam trick (with example)
                       </div>
-                      <p className="whitespace-pre-line text-sm leading-relaxed text-[#1a1f2b]">
-                        {q.trick}
+                      <p className="mt-1 whitespace-pre-line text-sm leading-relaxed text-[#1a1f2b]">
+                        <LinkifiedText text={q.trick} />
                       </p>
+                      {q.trick.includes("https://") && (
+                        <p className="mt-2 text-xs text-[#5a6577]">
+                          Tip: open the YouTube link above, or revise all patterns at{" "}
+                          <a href="/revise" className="font-medium text-[#1e3a5f] underline">
+                            Formulas &amp; Tricks
+                          </a>
+                          .
+                        </p>
+                      )}
                     </div>
                   )}
                 </div>

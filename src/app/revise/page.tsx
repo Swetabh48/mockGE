@@ -26,8 +26,8 @@ export default function RevisePage() {
             </Link>
             <h1 className="font-display mt-2 text-3xl sm:text-4xl">Formulas &amp; Tricks</h1>
             <p className="mt-2 max-w-2xl text-sm text-slate-200">
-              Revise topic-wise formulas and exam shortcuts by question pattern — then practise
-              without a countdown.
+              Every pattern has a real shortcut, a worked numerical example, and a YouTube reference —
+              so you can revise without guessing what the trick means.
             </p>
           </div>
           <Link
@@ -105,7 +105,7 @@ export default function RevisePage() {
                 </div>
                 <ul className="divide-y divide-[#e2e6eb]">
                   {note.patterns.map((p) => (
-                    <li key={p.pattern} className="space-y-3 px-4 py-4">
+                    <li key={p.pattern} className="space-y-4 px-4 py-5">
                       <div>
                         <div className="text-[11px] uppercase tracking-wide text-[#5a6577]">
                           Pattern type
@@ -128,10 +128,34 @@ export default function RevisePage() {
                       </div>
                       <div className="border-l-2 border-[#c45c26] pl-3">
                         <div className="text-[11px] uppercase tracking-wide text-[#c45c26]">
-                          Exam trick
+                          Exam trick (what to do instead of long calc)
                         </div>
                         <p className="text-sm leading-relaxed">{p.examTip}</p>
                       </div>
+                      <div className="rounded border border-[#e2e6eb] bg-[#fbfcfd] px-3 py-3">
+                        <div className="text-[11px] uppercase tracking-wide text-[#5a6577]">
+                          Worked example
+                        </div>
+                        <p className="mt-1 whitespace-pre-line text-sm leading-relaxed text-[#1a1f2b]">
+                          {p.workedExample}
+                        </p>
+                      </div>
+                      {p.video && (
+                        <div>
+                          <div className="text-[11px] uppercase tracking-wide text-[#5a6577]">
+                            Video reference
+                          </div>
+                          <a
+                            href={p.video.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-1 inline-block text-sm font-medium text-[#1e3a5f] underline underline-offset-2 hover:text-[#c45c26]"
+                          >
+                            {p.video.title}
+                            {p.video.channel ? ` · ${p.video.channel}` : ""} →
+                          </a>
+                        </div>
+                      )}
                     </li>
                   ))}
                 </ul>
