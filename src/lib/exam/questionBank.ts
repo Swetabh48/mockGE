@@ -190,7 +190,12 @@ function generateHardQuant(
       stem = `Find the compound interest on Rs. ${P} at ${r}% p.a. for ${t} years (compounded annually).`;
       answer = `Rs. ${ci}`;
       wrongs = [`Rs. ${round2(ci + 80)}`, `Rs. ${round2((P * r * t) / 100)}`, `Rs. ${round2(ci - 50)}`];
-      explanation = `A = P(1+r/100)^t = ${amt}; CI = A−P = ${ci}.`;
+      explanation = [
+        `Step 1: Principal P = ${P}, rate R = ${r}% p.a., time T = ${t} years.`,
+        `Step 2: Amount A = P(1+R/100)^T = ${P}×(1+${r}/100)^${t} = ${amt}.`,
+        `Step 3: Compound interest CI = A − P = ${amt} − ${P} = ${ci}.`,
+        `Step 4: Choose Rs. ${ci}. Reject the SI option (${round2((P * r * t) / 100)}) which uses PRT/100.`,
+      ].join(" ");
     } else if (v === 1) {
       topic = "Successive Discounts";
       const mrp = 2000 + (seed % 6) * 250;
@@ -205,7 +210,12 @@ function generateHardQuant(
         `Rs. ${round2(mrp * (1 - d1 / 100))}`,
         `Rs. ${round2(net + 40)}`,
       ];
-      explanation = `Equivalent discount ≈ ${eq}%; SP = ${net}.`;
+      explanation = [
+        `Step 1: MP = ${mrp}. First discount ${d1}% ⇒ price becomes ${mrp}×(1−${d1}/100).`,
+        `Step 2: Second discount ${d2}% on the reduced price ⇒ multiply by (1−${d2}/100).`,
+        `Step 3: Equivalent single discount = ${d1}+${d2}−(${d1}×${d2})/100 = ${eq}%.`,
+        `Step 4: SP = ${net}. Do not use MP×(1−(${d1}+${d2})/100) — that wrong option adds discounts.`,
+      ].join(" ");
     } else if (v === 2) {
       topic = "Boats and Streams";
       const b = 12 + (seed % 5); // boat in still
@@ -371,7 +381,12 @@ function generateHardQuant(
       stem = `An article of CP Rs. ${cp} is sold at ${gain1}% profit. If the selling price is later reduced by ${loss2}% of that SP (rebate), effective overall profit/loss % on CP is:`;
       answer = `${overall}%`;
       wrongs = [`${gain1 - loss2}%`, `${gain1}%`, `${-loss2}%`];
-      explanation = `Final SP = ${sp}; overall = ${overall}% on CP.`;
+      explanation = [
+        `Step 1: CP = ${cp}. After ${gain1}% profit, SP1 = ${cp}×(1+${gain1}/100).`,
+        `Step 2: Rebate ${loss2}% is on SP1 (not on CP): Final SP = SP1×(1−${loss2}/100) = ${sp}.`,
+        `Step 3: Overall % on original CP = (${sp} − ${cp})/${cp} × 100 = ${overall}%.`,
+        `Step 4: Select ${overall}%. Do not answer ${gain1 − loss2}% (naive subtraction).`,
+      ].join(" ");
     } else {
       topic = "Mensuration (Cylinder/Cone)";
       const r = 7;
@@ -381,7 +396,11 @@ function generateHardQuant(
       stem = `Volume of a cylinder with radius 7 cm and height ${h} cm is (take π = 22/7):`;
       answer = `${vol} cm³`;
       wrongs = [`${round2(2 * 22 * r * h)} cm³`, `${r * r * h} cm³`, `${vol + 154} cm³`];
-      explanation = `V = πr²h = (22/7)×49×${h} = ${vol} cm³.`;
+      explanation = [
+        `Step 1: Cylinder volume V = πr²h.`,
+        `Step 2: r = 7, h = ${h}, π = 22/7 ⇒ V = (22/7)×49×${h}.`,
+        `Step 3: (22/7)×49 = 22×7 = 154, then 154×${h} = ${vol} cm³.`,
+      ].join(" ");
     }
 
     out.push(

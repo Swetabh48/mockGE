@@ -77,6 +77,7 @@ export function ExamCBT({
   const [secondsLeft, setSecondsLeft] = useState(
     blueprint.timerGroups[0]?.durationSeconds ?? 3600,
   );
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [currentId, setCurrentId] = useState(questions[0]?.id ?? "");
   const [answers, setAnswers] = useState<Record<string, AnswerState>>(() => {
     const init: Record<string, AnswerState> = {};
@@ -246,6 +247,16 @@ export function ExamCBT({
     return () => window.clearInterval(id);
   }, [timerGroupIndex, untimed, blueprint.timerGroups]);
 
+  // Practice stopwatch — counts up from 00:00
+  useEffect(() => {
+    if (!untimed) return;
+    setElapsedSeconds(0);
+    const id = window.setInterval(() => {
+      setElapsedSeconds((s) => s + 1);
+    }, 1000);
+    return () => window.clearInterval(id);
+  }, [untimed]);
+
   // Fullscreen — exam-like for tests; optional for practice
   useEffect(() => {
     if (untimed) return;
@@ -406,14 +417,14 @@ export function ExamCBT({
         </div>
         <div className="text-center text-sm">
           <div className="text-xs uppercase tracking-wider text-slate-300">
-            {untimed ? "Practice mode" : activeGroup.label}
+            {untimed ? "Stopwatch" : activeGroup.label}
           </div>
           <div
             className={`font-mono text-2xl tabular-nums ${
               !untimed && secondsLeft <= 60 ? "text-amber-300" : ""
             }`}
           >
-            {untimed ? "No limit" : formatTime(secondsLeft)}
+            {untimed ? formatTime(elapsedSeconds) : formatTime(secondsLeft)}
           </div>
         </div>
         <div className="flex items-center gap-3">

@@ -268,7 +268,9 @@ export function ReportView(props: Props) {
                       <div className="text-[11px] uppercase tracking-wide text-[#5a6577]">
                         Detailed solution
                       </div>
-                      <p className="text-sm text-[#1a1f2b]">{q.explanation}</p>
+                      <p className="whitespace-pre-line text-sm leading-relaxed text-[#1a1f2b]">
+                        {q.explanation}
+                      </p>
                     </div>
                   )}
                   {q.trick && (
@@ -276,7 +278,9 @@ export function ReportView(props: Props) {
                       <div className="text-[11px] uppercase tracking-wide text-[#c45c26]">
                         Exam trick
                       </div>
-                      <p className="text-sm text-[#1a1f2b]">{q.trick}</p>
+                      <p className="whitespace-pre-line text-sm leading-relaxed text-[#1a1f2b]">
+                        {q.trick}
+                      </p>
                     </div>
                   )}
                 </div>

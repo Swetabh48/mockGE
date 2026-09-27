@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/db";
 import { ReportView } from "@/components/report/ReportView";
 import type { EvaluationResult } from "@/lib/exam/scoring";
+import { enrichExplanation, enrichTrick } from "@/lib/exam/enrichSolution";
 
 export default async function ReportPage({
   params,
@@ -38,8 +39,8 @@ export default async function ReportPage({
       optionC: q.optionC,
       optionD: q.optionD,
       correctOption: q.correctOption,
-      explanation: q.explanation,
-      trick: q.trick,
+      explanation: enrichExplanation(q.topic, q.explanation, q.stemEn),
+      trick: enrichTrick(q.topic, q.trick),
       selected: a?.selected ?? null,
       timeSpentMs: a?.timeSpentMs ?? 0,
       changeCount: a?.changeCount ?? 0,

@@ -167,11 +167,17 @@ export function Dashboard() {
             <p className="text-xs uppercase tracking-[0.22em] text-slate-300">SSC CGL 2026 pattern</p>
             <h1 className="font-display mt-2 text-4xl tracking-tight sm:text-5xl">mockGE</h1>
             <p className="mt-3 max-w-xl text-sm text-slate-200">
-              Test = full mocks & PYQ. Practice = section drills + topic / subtopic with detailed
-              solutions and exam tricks.
+              Test = full mocks & PYQ. Practice = untimed drills with solutions. Revise = formulas &
+              tricks by pattern.
             </p>
           </div>
           <div className="flex flex-col items-end gap-2 text-xs text-slate-200">
+            <Link
+              href="/revise"
+              className="border border-white/40 px-3 py-1.5 text-sm text-white hover:bg-white/10"
+            >
+              Formulas &amp; Tricks
+            </Link>
             <span>
               {status?.questionBankReady
                 ? `Bank ready · ${status.paperCount} papers`
@@ -183,11 +189,11 @@ export function Dashboard() {
       </header>
 
       <main className="mx-auto max-w-6xl space-y-8 px-6 py-8">
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           {(
             [
               { id: "test" as const, label: "Test", blurb: "Mocks · PYQ · Tier-II" },
-              { id: "practice" as const, label: "Practice", blurb: "Topics · tricks · drills" },
+              { id: "practice" as const, label: "Practice", blurb: "Topics · no timer" },
             ] as const
           ).map((a) => (
             <button
@@ -209,6 +215,13 @@ export function Dashboard() {
               </div>
             </button>
           ))}
+          <Link
+            href="/revise"
+            className="min-w-[9rem] border border-[#c45c26] bg-white px-4 py-3 text-left text-[#c45c26] hover:bg-[#c45c26] hover:text-white"
+          >
+            <div className="text-sm font-medium">Revise</div>
+            <div className="text-[11px] opacity-80">Formulas · pattern tricks</div>
+          </Link>
         </div>
 
         {area === "test" ? (
