@@ -254,7 +254,7 @@ export function practiceBlueprint(
       },
     ],
     instructions: [
-      "Book-style practice: no timer. Solve at your own pace, like a workbook.",
+      "Book-style practice: stopwatch from 00:00 (no countdown). Solve at your own pace.",
       `This set has ${n} questions. You can generate unlimited new sets from the Practice tab.`,
       "Each correct answer: +2. Each wrong answer: −0.50 (for score feedback only).",
       "When you finish, click Submit Paper — Result shows Detailed solution + Exam trick for every question.",

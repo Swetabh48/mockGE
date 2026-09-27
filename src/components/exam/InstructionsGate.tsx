@@ -67,7 +67,7 @@ export function InstructionsGate({ paperId, paperTitle, blueprint }: Props) {
             <li>Total questions: {blueprint.totalQuestions}</li>
             <li>Maximum marks: {blueprint.maxScore}</li>
             {blueprint.untimed ? (
-              <li>Time limit: none (book-style practice)</li>
+              <li>Stopwatch starts at 00:00 (no countdown / no auto-submit)</li>
             ) : (
               <li>
                 Timed sections:{" "}

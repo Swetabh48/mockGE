@@ -385,7 +385,7 @@ function generateHardQuant(
         `Step 1: CP = ${cp}. After ${gain1}% profit, SP1 = ${cp}×(1+${gain1}/100).`,
         `Step 2: Rebate ${loss2}% is on SP1 (not on CP): Final SP = SP1×(1−${loss2}/100) = ${sp}.`,
         `Step 3: Overall % on original CP = (${sp} − ${cp})/${cp} × 100 = ${overall}%.`,
-        `Step 4: Select ${overall}%. Do not answer ${gain1 − loss2}% (naive subtraction).`,
+        `Step 4: Select ${overall}%. Do not answer ${gain1 - loss2}% (naive subtraction).`,
       ].join(" ");
     } else {
       topic = "Mensuration (Cylinder/Cone)";
