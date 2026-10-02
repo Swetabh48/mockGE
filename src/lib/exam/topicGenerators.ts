@@ -5,7 +5,6 @@
 
 import { trickForTopic } from "./taxonomy";
 import type { SeedQuestion } from "./questionBank";
-import { officialForTopic } from "./officialPyq";
 
 function round2(n: number): number {
   return Math.round((n + Number.EPSILON) * 100) / 100;
@@ -701,35 +700,14 @@ export function buildTopicLockedPractice(args: {
           : "Reasoning";
 
   if (args.sectionKey === "quant") {
+    // Pure generators only — never inject official PDF stems into "Generate"
     const built = buildQuantTopic(args.topicId, args.subtopicTitle, args.setNo, count);
-    const generated = pack(built, "quant", subject, 2, 0.5, "topic_practice");
-    // Mix in official PYQs for this topic when available (up to 3), rest generated — unique stems
-    const official = officialForTopic(args.topicId, args.setNo, 3);
-    if (official.length === 0) return generated;
-    const mixed = [...official, ...generated]
-      .filter((q, idx, arr) => arr.findIndex((x) => x.stemEn === q.stemEn) === idx)
-      .slice(0, count)
-      .map((q, i) => ({ ...q, qIndex: i + 1, topic: args.topicTitle, subtopic: args.subtopicTitle }));
-    // If still short, pad with more generated variants
-    while (mixed.length < count) {
-      const extra = pack(
-        buildQuantTopic(args.topicId, args.subtopicTitle, args.setNo + mixed.length + 50, 1),
-        "quant",
-        subject,
-        2,
-        0.5,
-        "topic_practice",
-      )[0]!;
-      if (!mixed.some((m) => m.stemEn === extra.stemEn)) {
-        mixed.push({
-          ...extra,
-          qIndex: mixed.length + 1,
-          topic: args.topicTitle,
-          subtopic: args.subtopicTitle,
-        });
-      } else break;
-    }
-    return mixed;
+    return pack(built, "quant", subject, 2, 0.5, "topic_practice").map((q, i) => ({
+      ...q,
+      qIndex: i + 1,
+      topic: args.topicTitle,
+      subtopic: args.subtopicTitle,
+    }));
   }
 
   const filtered = filterStrict(args.sectionBank, args.topicTitle, args.setNo, count);

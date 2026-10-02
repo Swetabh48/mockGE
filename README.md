@@ -23,7 +23,7 @@ New practice sets are produced by **`mockge-ssc`**, a custom SSC-CGL question mo
 - **Local development:** the same API can use a local Ollama instance (`mockge-ssc`) when `OLLAMA_BASE_URL` points at `http://127.0.0.1:11434`.
 - **Fallback:** if the model endpoint is unreachable, topic-locked algorithmic generators keep the site usable.
 
-Official PDFs under `sscgl/` are imported into `data/sscgl_official.json` and mixed into matching topics for PYQ-style variety.
+Official PDFs under `sscgl/` are imported into `data/sscgl_official.json` for corpus / optional PYQ browsing. **Generate never copies those PDFs into a practice set** — each click asks `mockge-ssc` to invent new stems and bans fingerprints of questions you already saw on that topic.
 
 ## Setup (local)
 

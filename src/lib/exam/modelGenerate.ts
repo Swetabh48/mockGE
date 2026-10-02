@@ -1,6 +1,6 @@
 /**
- * Live question generation via local Ollama model (mockge-ssc).
- * Used for practice sets so each generate call produces NEW stems.
+ * Live question generation via mockge-ssc (Ollama / Modal).
+ * Every Generate call must invent NEW stems — never reuse PDFs or prior sets.
  */
 
 export type ModelMcq = {
@@ -29,11 +29,38 @@ function ollamaHeaders(): HeadersInit {
   return h;
 }
 
+/** Fingerprint ignores numbers so "A in 10 days" ≈ "A in 12 days" counts as same pattern clone. */
+export function stemFingerprint(stem: string): string {
+  return stem
+    .toLowerCase()
+    .replace(/rs\.?\s*/g, "")
+    .replace(/[\d.,]+/g, "#")
+    .replace(/[^a-z#\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 160);
+}
+
+export function isNovelStem(stem: string, seen: Set<string>): boolean {
+  const fp = stemFingerprint(stem);
+  if (!fp || fp.length < 20) return false;
+  if (seen.has(fp)) return false;
+  // Also reject if any seen fingerprint shares a long common prefix (near-clone)
+  for (const s of seen) {
+    if (s.length > 40 && fp.length > 40) {
+      const a = s.slice(0, 60);
+      const b = fp.slice(0, 60);
+      if (a === b) return false;
+    }
+  }
+  return true;
+}
+
 export async function ollamaAvailable(): Promise<boolean> {
   try {
     const ctrl = new AbortController();
-    // Modal cold start can exceed a few seconds; keep probe short and fail soft
-    const t = setTimeout(() => ctrl.abort(), 8000);
+    // Modal cold start: allow longer probe
+    const t = setTimeout(() => ctrl.abort(), 45000);
     const res = await fetch(`${OLLAMA_BASE}/api/tags`, {
       signal: ctrl.signal,
       headers: ollamaHeaders(),
@@ -76,14 +103,14 @@ function normalizeMcq(raw: Record<string, unknown>, topicTitle: string, sub?: st
   if (!["A", "B", "C", "D"].includes(correctOption)) correctOption = "A";
   if (!stemEn || stemEn.length < 25) return null;
   if (![optionA, optionB, optionC, optionD].every((o) => o.length > 0)) return null;
-  // Reject obvious off-topic if topic keywords conflict badly
-  const hay = `${stemEn} ${topicTitle}`.toLowerCase();
   if (/time\s*&\s*work|work\s*&\s*wages|pipes/i.test(topicTitle + " " + (sub || ""))) {
-    if (/compound interest|simple interest|marked price|successive discount/i.test(stemEn) && !/work|wage|pipe|day|hour|efficien/i.test(stemEn)) {
+    if (
+      /compound interest|simple interest|marked price|successive discount/i.test(stemEn) &&
+      !/work|wage|pipe|day|hour|efficien/i.test(stemEn)
+    ) {
       return null;
     }
   }
-  void hay;
   return {
     stemEn,
     optionA,
@@ -92,7 +119,9 @@ function normalizeMcq(raw: Record<string, unknown>, topicTitle: string, sub?: st
     optionD,
     correctOption,
     explanation: String(raw.explanation || "Solve using the standard method for this pattern.").trim(),
-    trick: String(raw.trick || "Use the topic shortcut from Formulas & Tricks; verify with one line of working.").trim(),
+    trick: String(
+      raw.trick || "Use the topic shortcut from Formulas & Tricks; verify with one line of working.",
+    ).trim(),
     topic: topicTitle,
     subtopic: sub,
   };
@@ -104,24 +133,37 @@ export async function generateTopicQuestionsWithModel(args: {
   subtopicTitle?: string;
   count: number;
   avoidStems?: string[];
+  noveltyNonce?: string;
 }): Promise<ModelMcq[]> {
-  const avoid = (args.avoidStems ?? []).slice(0, 8).map((s) => s.slice(0, 80)).join("\n- ");
-  const prompt = `You are an SSC CGL question author. Create EXACTLY ${args.count} NEW hard MCQs.
+  const avoidList = args.avoidStems ?? [];
+  const avoid = avoidList
+    .slice(-40)
+    .map((s) => s.slice(0, 100))
+    .join("\n- ");
+  const nonce =
+    args.noveltyNonce ||
+    `${Date.now()}-${Math.random().toString(36).slice(2, 10)}-${Math.floor(Math.random() * 1e9)}`;
+
+  const prompt = `You are mockGE's SSC-CGL question setter. Invent EXACTLY ${args.count} brand-new hard MCQs.
+
+Novelty id (must influence numbers & story): ${nonce}
 
 Subject: ${args.subjectTitle}
 Topic: ${args.topicTitle}
 Subtopic: ${args.subtopicTitle || "general"}
 
-Rules:
-- Every question MUST be strictly about ${args.topicTitle}${args.subtopicTitle ? ` / ${args.subtopicTitle}` : ""}. Do NOT mix other topics.
-- Use fresh numbers and wording. Do not copy classic textbook clones.
-- Provide 4 options A-D, exactly one correct.
-- Include step-by-step explanation and a short exam trick with a mini example.
-- Return ONLY JSON:
+HARD RULES:
+1. STRICTLY only ${args.topicTitle}${args.subtopicTitle ? ` / ${args.subtopicTitle}` : ""}. Zero other topics.
+2. Invent NEW scenarios, names, and numbers. Do NOT copy previous-year papers or textbook clones.
+3. Do NOT reuse or lightly paraphrase any stem listed under AVOID below.
+4. Each stem must use a DIFFERENT story pattern (not the same template with swapped digits).
+5. 4 options A–D, exactly one correct.
+6. Include explanation + short exam trick.
+7. JSON ONLY:
 {"questions":[{"stemEn":"","optionA":"","optionB":"","optionC":"","optionD":"","correctOption":"A","explanation":"","trick":""}]}
 
-Avoid repeating these stems:
-- ${avoid || "(none)"}`;
+AVOID (already shown to the student — forbidden):
+- ${avoid || "(none yet)"}`;
 
   const res = await fetch(`${OLLAMA_BASE}/api/generate`, {
     method: "POST",
@@ -131,7 +173,13 @@ Avoid repeating these stems:
       prompt,
       stream: false,
       format: "json",
-      options: { temperature: 0.95, top_p: 0.9, num_predict: 2200 },
+      options: {
+        temperature: 1.15,
+        top_p: 0.95,
+        top_k: 80,
+        num_predict: 2800,
+        seed: Math.floor(Math.random() * 2_147_483_647),
+      },
     }),
   });
   if (!res.ok) throw new Error(`Ollama generate failed: ${res.status}`);
@@ -146,4 +194,37 @@ Avoid repeating these stems:
     if (q) out.push(q);
   }
   return out;
+}
+
+/** Keep calling the model until we have `need` novel questions or attempts exhausted. */
+export async function generateUniqueTopicSet(args: {
+  subjectTitle: string;
+  topicTitle: string;
+  subtopicTitle?: string;
+  need: number;
+  bannedFingerprints: Set<string>;
+  bannedStems: string[];
+}): Promise<ModelMcq[]> {
+  const collected: ModelMcq[] = [];
+  const seen = new Set(args.bannedFingerprints);
+  const avoid = [...args.bannedStems];
+
+  for (let attempt = 0; attempt < 6 && collected.length < args.need; attempt++) {
+    const batch = await generateTopicQuestionsWithModel({
+      subjectTitle: args.subjectTitle,
+      topicTitle: args.topicTitle,
+      subtopicTitle: args.subtopicTitle,
+      count: Math.min(8, args.need - collected.length + 2),
+      avoidStems: avoid,
+      noveltyNonce: `set-${Date.now()}-try-${attempt}-${Math.random().toString(36).slice(2)}`,
+    });
+    for (const q of batch) {
+      if (!isNovelStem(q.stemEn, seen)) continue;
+      seen.add(stemFingerprint(q.stemEn));
+      avoid.push(q.stemEn);
+      collected.push(q);
+      if (collected.length >= args.need) break;
+    }
+  }
+  return collected;
 }

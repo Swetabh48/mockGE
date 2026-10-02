@@ -11,16 +11,19 @@ import {
   type PracticeSubjectKey,
 } from "@/lib/exam/taxonomy";
 import {
-  generateTopicQuestionsWithModel,
+  generateUniqueTopicSet,
+  isNovelStem,
   ollamaAvailable,
+  stemFingerprint,
 } from "@/lib/exam/modelGenerate";
 import type { SeedQuestion } from "@/lib/exam/questionBank";
 
 export const maxDuration = 300;
 
 /**
- * Unlimited practice: prefer live model generation (mockge-ssc via Ollama),
- * fall back to topic-locked algorithmic bank when model is offline.
+ * Unlimited practice: MODEL invents new stems every click.
+ * Official PDFs are NEVER injected into Generate.
+ * Prior stems for this topic are banned (fingerprint-level).
  */
 export async function POST(request: Request) {
   const body = (await request.json().catch(() => ({}))) as {
@@ -47,7 +50,10 @@ export async function POST(request: Request) {
         : { mode: "practice" }),
     },
   });
-  const setNo = existing * 97 + (Date.now() % 10007) + Math.floor(Math.random() * 500);
+  const setNo =
+    existing * 9973 +
+    (Date.now() % 1_000_003) +
+    Math.floor(Math.random() * 100_000);
 
   if (kind === "topic") {
     const topic = body.topicId ? findTopic(subjectKey, body.topicId) : subject.topics[0];
@@ -57,42 +63,32 @@ export async function POST(request: Request) {
     const sub =
       topic.subtopics.find((s) => s.id === body.subtopicId) ?? topic.subtopics[0]!;
 
-    const recent = await prisma.question.findMany({
-      where: {
-        paper: { focusTopic: topic.id, tier: "practice" },
-      },
-      orderBy: { qIndex: "asc" },
-      take: 40,
+    // Ban everything this student has already seen on this topic (up to 500)
+    const prior = await prisma.question.findMany({
+      where: { paper: { focusTopic: topic.id, tier: "practice" } },
+      orderBy: { id: "desc" },
+      take: 500,
       select: { stemEn: true },
     });
-    const avoidStems = recent.map((q) => q.stemEn);
+    const bannedStems = prior.map((q) => q.stemEn);
+    const bannedFingerprints = new Set(bannedStems.map(stemFingerprint));
 
+    const need = 10;
     let questions: SeedQuestion[] = [];
     let source = "algorithmic";
 
     const modelUp = await ollamaAvailable();
     if (modelUp) {
       try {
-        // Generate in two batches for reliability
-        const need = 10;
-        const batch1 = await generateTopicQuestionsWithModel({
+        const invented = await generateUniqueTopicSet({
           subjectTitle: subject.title,
           topicTitle: topic.title,
           subtopicTitle: sub.title,
-          count: 6,
-          avoidStems,
+          need,
+          bannedFingerprints,
+          bannedStems,
         });
-        const batch2 = await generateTopicQuestionsWithModel({
-          subjectTitle: subject.title,
-          topicTitle: topic.title,
-          subtopicTitle: sub.title,
-          count: 6,
-          avoidStems: [...avoidStems, ...batch1.map((q) => q.stemEn)],
-        });
-        const merged = [...batch1, ...batch2].filter(
-          (q, i, arr) => arr.findIndex((x) => x.stemEn === q.stemEn) === i,
-        );
-        questions = merged.slice(0, need).map((q, i) => ({
+        questions = invented.map((q, i) => ({
           qIndex: i + 1,
           sectionKey: subjectKey,
           subject: subject.title,
@@ -111,68 +107,42 @@ export async function POST(request: Request) {
           negativeMarks: 0.5,
           source: "model",
         }));
-        if (questions.length >= 6) {
-          source = "model";
-        } else {
-          // pad with algorithmic unique variants
-          const pad = buildTopicPractice(
-            subjectKey,
-            topic.title,
-            sub.title,
-            setNo + 333,
-            topic.id,
-          );
-          for (const p of pad) {
-            if (questions.length >= need) break;
-            if (!questions.some((q) => q.stemEn === p.stemEn)) {
-              questions.push({ ...p, qIndex: questions.length + 1, source: "model+algo" });
-            }
-          }
-          source = questions.some((q) => q.source === "model") ? "model+algo" : "algorithmic";
-        }
+        source = questions.length >= need ? "model" : "model+partial";
       } catch {
-        questions = buildTopicPractice(
+        questions = [];
+        source = "algorithmic";
+      }
+    }
+
+    // Emergency fill: algorithmic ONLY with fingerprints not yet used (never PDFs)
+    if (questions.length < need) {
+      const seen = new Set([
+        ...bannedFingerprints,
+        ...questions.map((q) => stemFingerprint(q.stemEn)),
+      ]);
+      for (let round = 0; round < 40 && questions.length < need; round++) {
+        const batch = buildTopicPractice(
           subjectKey,
           topic.title,
           sub.title,
-          setNo,
+          setNo + round * 7919 + Math.floor(Math.random() * 5000),
           topic.id,
         );
-        source = "algorithmic";
+        for (const p of batch) {
+          if (!isNovelStem(p.stemEn, seen)) continue;
+          seen.add(stemFingerprint(p.stemEn));
+          questions.push({
+            ...p,
+            qIndex: questions.length + 1,
+            topic: topic.title,
+            subtopic: sub.title,
+            source: questions.some((q) => q.source === "model") ? "model+algo" : "algorithmic",
+          });
+          if (questions.length >= need) break;
+        }
       }
-    } else {
-      questions = buildTopicPractice(
-        subjectKey,
-        topic.title,
-        sub.title,
-        setNo,
-        topic.id,
-      );
-      source = "algorithmic";
-    }
-
-    // Final uniqueness: drop near-duplicate stems within the set
-    const uniq: SeedQuestion[] = [];
-    for (const q of questions) {
-      const key = q.stemEn.replace(/\d+/g, "#").slice(0, 100);
-      if (uniq.some((u) => u.stemEn.replace(/\d+/g, "#").slice(0, 100) === key)) continue;
-      uniq.push({ ...q, qIndex: uniq.length + 1 });
-    }
-    while (uniq.length < 10) {
-      const more = buildTopicPractice(
-        subjectKey,
-        topic.title,
-        sub.title,
-        setNo + uniq.length * 91 + Date.now() % 50,
-        topic.id,
-      );
-      for (const m of more) {
-        const key = m.stemEn.replace(/\d+/g, "#").slice(0, 100);
-        if (uniq.some((u) => u.stemEn.replace(/\d+/g, "#").slice(0, 100) === key)) continue;
-        uniq.push({ ...m, qIndex: uniq.length + 1 });
-        if (uniq.length >= 10) break;
-      }
-      if (more.length === 0) break;
+      if (!source.startsWith("model")) source = "algorithmic";
+      else if (questions.some((q) => q.source !== "model")) source = "model+algo";
     }
 
     const paper = await prisma.paper.create({
@@ -185,15 +155,20 @@ export async function POST(request: Request) {
         focusSubtopic: sub.id,
         source,
         difficulty: "hard",
-        questions: { create: uniq.slice(0, 10) },
+        questions: {
+          create: questions.slice(0, need).map((q, i) => ({ ...q, qIndex: i + 1 })),
+        },
       },
     });
+
     return NextResponse.json({
       paperId: paper.id,
-      questionCount: Math.min(10, uniq.length),
+      questionCount: Math.min(need, questions.length),
       title: paper.title,
       source,
       model: source.startsWith("model"),
+      unique: true,
+      bannedPrior: bannedStems.length,
     });
   }
 
