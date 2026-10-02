@@ -16,14 +16,28 @@ export type ModelMcq = {
   subtopic?: string;
 };
 
-const OLLAMA_BASE = process.env.OLLAMA_BASE_URL || "http://127.0.0.1:11434";
+const OLLAMA_BASE = (process.env.OLLAMA_BASE_URL || "http://127.0.0.1:11434").replace(
+  /\/$/,
+  "",
+);
 const OLLAMA_MODEL = process.env.OLLAMA_MODEL || "mockge-ssc";
+const OLLAMA_API_KEY = process.env.OLLAMA_API_KEY || "";
+
+function ollamaHeaders(): HeadersInit {
+  const h: Record<string, string> = { "Content-Type": "application/json" };
+  if (OLLAMA_API_KEY) h.Authorization = `Bearer ${OLLAMA_API_KEY}`;
+  return h;
+}
 
 export async function ollamaAvailable(): Promise<boolean> {
   try {
     const ctrl = new AbortController();
-    const t = setTimeout(() => ctrl.abort(), 2500);
-    const res = await fetch(`${OLLAMA_BASE}/api/tags`, { signal: ctrl.signal });
+    // Modal cold start can exceed a few seconds; keep probe short and fail soft
+    const t = setTimeout(() => ctrl.abort(), 8000);
+    const res = await fetch(`${OLLAMA_BASE}/api/tags`, {
+      signal: ctrl.signal,
+      headers: ollamaHeaders(),
+    });
     clearTimeout(t);
     if (!res.ok) return false;
     const data = (await res.json()) as { models?: { name: string }[] };
@@ -111,7 +125,7 @@ Avoid repeating these stems:
 
   const res = await fetch(`${OLLAMA_BASE}/api/generate`, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: ollamaHeaders(),
     body: JSON.stringify({
       model: OLLAMA_MODEL,
       prompt,
