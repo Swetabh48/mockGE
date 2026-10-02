@@ -2,6 +2,9 @@
   "name": "mockge",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "next dev",
     "dev:api": "uvicorn backend.app.main:app --reload --port 8000",
