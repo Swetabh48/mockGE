@@ -1,0 +1,21 @@
+Free resources collected for mockGE question bank / model corpus
+================================================================
+
+From Reddit r/SSCCGL beginner threads (1hqe9j3 and related):
+- Most recommended prep is FREE YouTube (Rani Ma'am English, Parmar GA,
+  Bhutesh/Abhinay Maths, Vikramjeet Reasoning). Those are not downloadable
+  PDFs for training weights — they are video courses.
+- Paid books (Kiran, Pinnacle, Neetu Vol-1, Black Book) were NOT downloaded.
+
+Downloaded (free / official / open):
+1. SSC official CGL syllabus PDF — ssc.gov.in
+2. SSC portal saved Tier-1 paper (2025-09-26 Shift-1) — sscportal.in
+3. User-provided official papers in /sscgl
+4. Parsed MCQs → data/sscgl_official.json + data/model_corpus.jsonl
+
+Open GitHub bank itsmahibabrar/ssc-open-mcq-bank was inspected; content is
+largely non-English board MCQs with encoding issues — not used in corpus.
+
+Live generation:
+- Local Ollama model `mockge-ssc` is called when OLLAMA_BASE_URL is reachable.
+- On Vercel (no Ollama), algorithmic topic-locked generators are the fallback.

@@ -12,6 +12,7 @@
     "db:push": "prisma db push",
     "db:seed": "tsx scripts/seed.ts",
     "import:sscgl": "python scripts/import_sscgl_pdfs.py",
+    "corpus:build": "python scripts/build_model_corpus.py",
     "postinstall": "prisma generate"
   },
   "dependencies": {

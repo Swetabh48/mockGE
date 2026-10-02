@@ -95,73 +95,188 @@ function pack(
 function quantTimeWork(setNo: number, sub: string, count: number): Built[] {
   const out: Built[] = [];
   for (let i = 0; i < count; i++) {
-    const seed = setNo * 97 + i * 31 + 11;
+    const seed = setNo * 97 + i * 31 + 11 + (setNo % 19) * 13;
     const wages = /wage/i.test(sub);
-    if (wages || seed % 3 === 0) {
-      const a = 10 + (seed % 8);
-      const b = 12 + (seed % 7);
-      const days = 8 + (seed % 5);
-      const wage = 2400 + (seed % 6) * 200;
-      // work ratio inverse of days; wage share
-      const aShare = Math.round((wage * b) / (a + b));
-      // Actually: rate ∝ 1/days; A:B = b:a
+    const pipes = /pipe/i.test(sub);
+    // Many pattern slots so consecutive sets don't clone the same stem shape
+    const pattern = wages ? seed % 7 : pipes ? 10 + (seed % 3) : seed % 10;
+
+    if (pattern === 0) {
+      const a = 8 + (seed % 15);
+      const b = 9 + ((seed * 3) % 17);
+      const wage = 1800 + (seed % 25) * 120;
       const shareA = Math.round((wage * b) / (a + b));
-      void aShare;
       out.push({
         topic: "Time & Work",
         subtopic: "Work & wages",
-        stem: `A can finish a work in ${a} days and B in ${b} days. They work together and earn Rs. ${wage}. A’s share of wages is:`,
+        stem: `A finishes a job in ${a} days and B in ${b} days. Together they earn Rs. ${wage}. A’s wage share is:`,
         answer: `Rs. ${shareA}`,
         wrongs: [
           `Rs. ${Math.round((wage * a) / (a + b))}`,
           `Rs. ${Math.round(wage / 2)}`,
-          `Rs. ${shareA + 100}`,
+          `Rs. ${shareA + 150}`,
         ],
-        explanation: [
-          `Step 1: Efficiency ratio A:B = (1/${a}):(1/${b}) = ${b}:${a}.`,
-          `Step 2: Wages are shared in efficiency ratio ${b}:${a}.`,
-          `Step 3: A’s share = ${wage} × ${b}/(${a}+${b}) = Rs. ${shareA}.`,
-        ].join(" "),
+        explanation: `Efficiency A:B = ${b}:${a}. A gets ${wage}×${b}/(${a}+${b}) = Rs. ${shareA}.`,
         trick:
-          "SHORTCUT: Wages ∝ efficiency ∝ 1/days. If A takes a days and B takes b, A:B wages = b:a.\n\nWorked example: A 10d, B 15d, wage 3000 → A:B = 15:10 = 3:2 → A gets 1800.\n\nWatch: https://www.youtube.com/results?search_query=work+and+wages+trick+SSC",
+          "SHORTCUT: Wages ∝ 1/days → A:B = b:a.\n\nWatch: https://www.youtube.com/results?search_query=work+and+wages+trick+SSC",
       });
-    } else if (/pipe/i.test(sub) || seed % 3 === 1) {
-      const a = 12 + (seed % 6);
-      const b = 15 + (seed % 5);
-      const c = 20 + (seed % 4);
+    } else if (pattern === 1) {
+      const a = 12 + (seed % 10);
+      const b = 15 + (seed % 9);
+      const c = 18 + (seed % 8);
+      const wage = 3600 + (seed % 20) * 90;
+      const inv = 1 / a + 1 / b + 1 / c;
+      const shareA = Math.round(wage * (1 / a) / inv);
+      out.push({
+        topic: "Time & Work",
+        subtopic: "Work & wages",
+        stem: `A, B, C can finish a work in ${a}, ${b}, ${c} days. They work together and get Rs. ${wage}. A’s share?`,
+        answer: `Rs. ${shareA}`,
+        wrongs: [
+          `Rs. ${Math.round(wage / 3)}`,
+          `Rs. ${Math.round(wage * (1 / b) / inv)}`,
+          `Rs. ${shareA + 120}`,
+        ],
+        explanation: `Shares ∝ 1/${a} : 1/${b} : 1/${c}. A = ${shareA}.`,
+        trick: "SHORTCUT: Three-person wages ∝ reciprocals of days. Normalize by sum of rates.",
+      });
+    } else if (pattern === 2) {
+      const a = 10 + (seed % 8);
+      const b = 15 + (seed % 7);
+      const daysAAlone = 2 + (seed % 4);
+      const wage = 2400 + (seed % 18) * 100;
+      // A works daysAAlone alone then both finish; wage by work done
+      const workAAlone = daysAAlone / a;
+      const rem = 1 - workAAlone;
+      const togetherRate = 1 / a + 1 / b;
+      const daysTogether = rem / togetherRate;
+      const workA = workAAlone + daysTogether / a;
+      const shareA = Math.round(wage * workA);
+      out.push({
+        topic: "Time & Work",
+        subtopic: "Work & wages",
+        stem: `A can do a work in ${a} days, B in ${b} days. A works alone for ${daysAAlone} days, then A and B finish together. Total wages Rs. ${wage} are paid by work done. A’s share?`,
+        answer: `Rs. ${shareA}`,
+        wrongs: [
+          `Rs. ${wage - shareA}`,
+          `Rs. ${Math.round(wage / 2)}`,
+          `Rs. ${Math.round(wage * b / (a + b))}`,
+        ],
+        explanation: `A alone does ${round2(workAAlone)}; remaining finished in ${round2(daysTogether)} days together. A’s total work fraction ≈ ${round2(workA)} ⇒ Rs. ${shareA}.`,
+        trick: "SHORTCUT: Pay by work fraction, not by calendar days present.",
+      });
+    } else if (pattern === 3) {
+      const a = 16 + (seed % 9);
+      const b = 24 + (seed % 8);
+      const daily = 400 + (seed % 12) * 50;
+      // A is twice as efficient as stated alternate: daily wage proportional to work
+      const wageA = Math.round((daily * b) / (a + b));
+      out.push({
+        topic: "Time & Work",
+        subtopic: "Work & wages",
+        stem: `A and B working together earn Rs. ${daily} per day. A alone finishes the work in ${a} days, B alone in ${b} days. A’s daily wage is:`,
+        answer: `Rs. ${wageA}`,
+        wrongs: [
+          `Rs. ${Math.round((daily * a) / (a + b))}`,
+          `Rs. ${Math.round(daily / 2)}`,
+          `Rs. ${wageA + 40}`,
+        ],
+        explanation: `Daily wage split in efficiency ratio ${b}:${a}. A gets Rs. ${wageA}/day.`,
+        trick: "SHORTCUT: Same ratio as wage-share problems — invert days.",
+      });
+    } else if (pattern === 4) {
+      const a = 9 + (seed % 11);
+      const b = 12 + (seed % 10);
+      const totalDays = 6 + (seed % 5);
+      const wage = 3000 + (seed % 15) * 80;
+      // Both work totalDays; wages by efficiency
+      const shareA = Math.round((wage * b) / (a + b));
+      out.push({
+        topic: "Time & Work",
+        subtopic: "Work & wages",
+        stem: `A (${a} days) and B (${b} days) work together for ${totalDays} days and finish part of a project for Rs. ${wage} payment. How much should A receive?`,
+        answer: `Rs. ${shareA}`,
+        wrongs: [
+          `Rs. ${Math.round((wage * a) / (a + b))}`,
+          `Rs. ${Math.round(wage * totalDays / (a + b))}`,
+          `Rs. ${shareA - 100}`,
+        ],
+        explanation: `Same time worked ⇒ share by efficiency ${b}:${a}. A = Rs. ${shareA}.`,
+        trick: "SHORTCUT: Equal days worked ⇒ wages ∝ efficiency only.",
+      });
+    } else if (pattern === 5) {
+      const men = 8 + (seed % 6);
+      const days = 12 + (seed % 8);
+      const hours = 6 + (seed % 4);
+      const wagePer = 150 + (seed % 10) * 25;
+      const total = men * days * hours * wagePer;
+      out.push({
+        topic: "Time & Work",
+        subtopic: "Work & wages",
+        stem: `${men} workers work ${hours} hours/day for ${days} days at Rs. ${wagePer}/hour each. Total wages paid?`,
+        answer: `Rs. ${total}`,
+        wrongs: [
+          `Rs. ${men * days * wagePer}`,
+          `Rs. ${total + wagePer * men}`,
+          `Rs. ${Math.round(total / 2)}`,
+        ],
+        explanation: `Total = workers × days × hours × rate = ${total}.`,
+        trick: "SHORTCUT: Multiply all four factors; don’t drop hours.",
+      });
+    } else if (pattern === 6) {
+      const a = 20 + (seed % 10);
+      const b = 30 + (seed % 9);
+      const wage = 4500 + (seed % 14) * 100;
+      // B is paid 50% more than fair share trap
+      const fairA = Math.round((wage * b) / (a + b));
+      out.push({
+        topic: "Time & Work",
+        subtopic: "Work & wages",
+        stem: `A can finish in ${a} days, B in ${b} days. They complete a job for Rs. ${wage}. If wages are divided in the ratio of work done, A receives:`,
+        answer: `Rs. ${fairA}`,
+        wrongs: [
+          `Rs. ${Math.round((wage * a) / (a + b))}`,
+          `Rs. ${Math.round(wage * 2 / 3)}`,
+          `Rs. ${fairA + 250}`,
+        ],
+        explanation: `Work ratio A:B = ${b}:${a}. A = Rs. ${fairA}.`,
+        trick: "SHORTCUT: Never split 1:1 when days differ.",
+      });
+    } else if (pattern >= 10) {
+      const a = 10 + (seed % 12);
+      const b = 12 + (seed % 11);
+      const c = 15 + (seed % 10);
       const rate = 1 / a + 1 / b - 1 / c;
       const days = round2(1 / rate);
       out.push({
         topic: "Time & Work",
         subtopic: "Pipes & cisterns",
-        stem: `Pipes A and B fill a tank in ${a} and ${b} hours; C empties it in ${c} hours. All three opened together — time to fill?`,
+        stem: `Pipes A, B fill in ${a} and ${b} hours; C empties in ${c} hours. All open — time to fill?`,
         answer: `${days} h`,
-        wrongs: [`${round2(days + 1)} h`, `${a} h`, `${round2(1 / (1 / a + 1 / b))} h`],
-        explanation: `Net rate = 1/${a}+1/${b}−1/${c}; time = ${days} h. Use LCM of ${a},${b},${c} as capacity for integer work.`,
-        trick:
-          "SHORTCUT: LCM of times = tank capacity. Fillers +, outlet −. Time = capacity / net.\n\nWatch: https://www.youtube.com/results?search_query=pipes+cisterns+trick+SSC+CGL",
+        wrongs: [`${round2(days + 0.5)} h`, `${a} h`, `${round2(1 / (1 / a + 1 / b))} h`],
+        explanation: `Net = 1/${a}+1/${b}−1/${c}; time = ${days} h.`,
+        trick: "SHORTCUT: LCM capacity; fillers +; outlet −.",
       });
     } else {
-      const a = 10 + (seed % 5);
-      const b = 15 + (seed % 6);
-      const together = 4 + (seed % 3);
+      const a = 8 + (seed % 14);
+      const b = 12 + (seed % 13);
+      const together = 3 + (seed % 5);
       const workDone = together * (1 / a + 1 / b);
-      const rem = 1 - workDone;
+      const rem = Math.max(0, 1 - workDone);
       const more = rem > 0 ? round2(rem * a) : 0;
       const totalDays = round2(together + more);
       out.push({
         topic: "Time & Work",
         subtopic: "Work & wages",
-        stem: `A finishes a work in ${a} days, B in ${b} days. They work together for ${together} days; then A alone finishes. Total days?`,
+        stem: `A (${a} days) and B (${b} days) work ${together} days together; then A alone finishes. Total days taken?`,
         answer: `${totalDays} days`,
         wrongs: [
           `${round2((a * b) / (a + b))} days`,
           `${together + a} days`,
           `${round2(totalDays + 1)} days`,
         ],
-        explanation: `Together ${together} days do ${round2(workDone)} work; A needs ${more} more days; total ${totalDays}.`,
-        trick:
-          "SHORTCUT: Take LCM(a,b) as total work. Subtract work done together, then finish with A’s rate.\n\nWatch: https://www.youtube.com/results?search_query=SSC+time+and+work+LCM+trick",
+        explanation: `Together work ${round2(workDone)}; A needs ${more} more days; total ${totalDays}.`,
+        trick: "SHORTCUT: LCM total work; subtract joint work; finish with A.",
       });
     }
   }

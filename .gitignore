@@ -24,6 +24,8 @@
 .DS_Store
 *.pem
 sscgl_extract_tmp.txt
+data/ssc-open-mcq-bank/
+data/free_resources/reddit_thread.json
 
 # debug
 npm-debug.log*
@@ -51,5 +53,3 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
-
-.vercel
