@@ -58,13 +58,20 @@ function toSeed(
   };
 }
 
-async function loadBanned(focusTopic?: string | null) {
+async function loadBanned(opts?: {
+  focusTopic?: string | null;
+  focusSection?: string | null;
+}) {
   const prior = await prisma.question.findMany({
-    where: focusTopic
-      ? { paper: { focusTopic, tier: "practice" } }
-      : { paper: { tier: "practice" } },
+    where: {
+      paper: {
+        tier: "practice",
+        ...(opts?.focusTopic ? { focusTopic: opts.focusTopic } : {}),
+        ...(opts?.focusSection ? { focusSection: opts.focusSection } : {}),
+      },
+    },
     orderBy: { id: "desc" },
-    take: 500,
+    take: 200,
     select: { stemEn: true },
   });
   const bannedStems = prior.map((q) => q.stemEn);
@@ -72,6 +79,52 @@ async function loadBanned(focusTopic?: string | null) {
     bannedStems,
     bannedFingerprints: new Set(bannedStems.map(stemFingerprint)),
   };
+}
+
+/** Last-resort pad: never ship a 0-Q paper. Prefer novel, then accept collisions. */
+function forceFill(
+  questions: SeedQuestion[],
+  need: number,
+  batches: SeedQuestion[][],
+  sourceTag: string,
+): SeedQuestion[] {
+  const out = [...questions];
+  const seen = new Set(out.map((q) => stemFingerprint(q.stemEn)));
+
+  for (const batch of batches) {
+    for (const p of batch) {
+      if (out.length >= need) return out;
+      if (!isNovelStem(p.stemEn, seen)) continue;
+      seen.add(stemFingerprint(p.stemEn));
+      out.push({ ...p, qIndex: out.length + 1, source: sourceTag });
+    }
+  }
+
+  // Still short → accept any unused stems (even near-clones) so Start works
+  for (const batch of batches) {
+    for (const p of batch) {
+      if (out.length >= need) return out;
+      const fp = stemFingerprint(p.stemEn);
+      if (seen.has(fp)) continue;
+      seen.add(fp);
+      out.push({ ...p, qIndex: out.length + 1, source: sourceTag });
+    }
+  }
+
+  // Absolute last resort: mutate setNo-like digits into stem suffix so fingerprints differ
+  let n = 0;
+  while (out.length < need && batches[0]?.length) {
+    const base = batches[0][n % batches[0].length]!;
+    n += 1;
+    const stemEn = `${base.stemEn} (variant ${Date.now().toString(36)}-${n})`;
+    out.push({
+      ...base,
+      stemEn,
+      qIndex: out.length + 1,
+      source: sourceTag,
+    });
+  }
+  return out;
 }
 
 /**
@@ -125,7 +178,10 @@ async function handleGenerate(request: Request) {
     }
     const sub =
       topic.subtopics.find((s) => s.id === body.subtopicId) ?? topic.subtopics[0]!;
-    const { bannedStems, bannedFingerprints } = await loadBanned(topic.id);
+    const { bannedStems, bannedFingerprints } = await loadBanned({
+      focusTopic: topic.id,
+      focusSection: subjectKey,
+    });
     const need = 10;
     let questions: SeedQuestion[] = [];
     let source = "algorithmic";
@@ -153,33 +209,39 @@ async function handleGenerate(request: Request) {
     }
 
     if (questions.length < need) {
-      const seen = new Set([
-        ...bannedFingerprints,
-        ...questions.map((q) => stemFingerprint(q.stemEn)),
-      ]);
-      for (let round = 0; round < 40 && questions.length < need; round++) {
-        const batch = buildTopicPractice(
-          subjectKey,
-          topic.title,
-          sub.title,
-          setNo + round * 7919 + Math.floor(Math.random() * 5000),
-          topic.id,
-        );
-        for (const p of batch) {
-          if (!isNovelStem(p.stemEn, seen)) continue;
-          seen.add(stemFingerprint(p.stemEn));
-          questions.push({
+      const batches: SeedQuestion[][] = [];
+      for (let round = 0; round < 12; round++) {
+        batches.push(
+          buildTopicPractice(
+            subjectKey,
+            topic.title,
+            sub.title,
+            setNo + round * 7919 + Math.floor(Math.random() * 5000),
+            topic.id,
+          ).map((p) => ({
             ...p,
-            qIndex: questions.length + 1,
             topic: topic.title,
             subtopic: sub.title,
-            source: modelTried ? "model+algo" : "algorithmic",
-          });
-          if (questions.length >= need) break;
-        }
+          })),
+        );
       }
+      questions = forceFill(
+        questions,
+        need,
+        batches,
+        modelTried ? "model+algo" : "algorithmic",
+      );
       if (modelTried && questions.some((q) => q.source === "model")) source = "model+algo";
       else if (!modelTried) source = "algorithmic";
+      else if (questions.length > 0 && !questions.every((q) => q.source === "model"))
+        source = "model+algo";
+    }
+
+    if (questions.length === 0) {
+      return NextResponse.json(
+        { error: "Could not invent questions — retry in a moment" },
+        { status: 503 },
+      );
     }
 
     const paper = await prisma.paper.create({
@@ -214,7 +276,9 @@ async function handleGenerate(request: Request) {
   // Keep model calls short: Vercel kills long runs and returns plain text
   // ("An error occurred...") which the UI cannot parse as JSON.
   const need = 25;
-  const { bannedStems, bannedFingerprints } = await loadBanned(null);
+  const { bannedStems, bannedFingerprints } = await loadBanned({
+    focusSection: subjectKey,
+  });
   let questions: SeedQuestion[] = [];
   let source = "algorithmic";
   let modelTried = false;
@@ -258,49 +322,39 @@ async function handleGenerate(request: Request) {
           if (questions.length >= need) break;
         }
       }
-      source =
-        questions.length >= 8
-          ? questions.length >= need
-            ? "model"
-            : "model+partial"
-          : "model+partial";
+      if (questions.length > 0) {
+        source = questions.length >= need ? "model" : "model+partial";
+      }
     } catch {
       // fall through to algorithmic pad — still return JSON
     }
   }
 
   if (questions.length < need) {
-    const seen = new Set([
-      ...bannedFingerprints,
-      ...questions.map((q) => stemFingerprint(q.stemEn)),
-    ]);
-    const pad = buildSectionPractice(subjectKey, setNo);
-    for (const p of pad) {
-      if (!isNovelStem(p.stemEn, seen)) continue;
-      seen.add(stemFingerprint(p.stemEn));
-      questions.push({
-        ...p,
-        qIndex: questions.length + 1,
-        source: modelTried ? "model+algo" : "algorithmic",
-      });
-      if (questions.length >= need) break;
+    const batches: SeedQuestion[][] = [];
+    for (let r = 0; r < 10; r++) {
+      batches.push(buildSectionPractice(subjectKey, setNo + r * 1301));
     }
-    // more rounds if needed
-    for (let r = 1; r < 8 && questions.length < need; r++) {
-      const more = buildSectionPractice(subjectKey, setNo + r * 1301);
-      for (const p of more) {
-        if (!isNovelStem(p.stemEn, seen)) continue;
-        seen.add(stemFingerprint(p.stemEn));
-        questions.push({
-          ...p,
-          qIndex: questions.length + 1,
-          source: modelTried ? "model+algo" : "algorithmic",
-        });
-        if (questions.length >= need) break;
-      }
-    }
+    questions = forceFill(
+      questions,
+      need,
+      batches,
+      modelTried && questions.some((q) => q.source === "model")
+        ? "model+algo"
+        : modelTried
+          ? "model+algo"
+          : "algorithmic",
+    );
     if (modelTried && questions.some((q) => q.source === "model")) source = "model+algo";
     else if (!modelTried) source = "algorithmic";
+    else source = questions.some((q) => q.source === "model") ? "model+algo" : "algorithmic";
+  }
+
+  if (questions.length === 0) {
+    return NextResponse.json(
+      { error: "Could not invent questions — retry in a moment" },
+      { status: 503 },
+    );
   }
 
   const paper = await prisma.paper.create({
