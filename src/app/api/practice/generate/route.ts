@@ -79,6 +79,15 @@ async function loadBanned(focusTopic?: string | null) {
  * PDFs are never copied into sets. Prior stems are fingerprint-banned.
  */
 export async function POST(request: Request) {
+  try {
+    return await handleGenerate(request);
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : "Generate failed";
+    return NextResponse.json({ error: msg }, { status: 500 });
+  }
+}
+
+async function handleGenerate(request: Request) {
   const body = (await request.json().catch(() => ({}))) as {
     kind?: "section" | "topic";
     subject?: PracticeSubjectKey;
@@ -132,6 +141,7 @@ export async function POST(request: Request) {
           need,
           bannedFingerprints,
           bannedStems,
+          maxAttempts: 3,
         });
         questions = invented.map((q, i) =>
           toSeed(q, i, subjectKey, subject.title, topic.title, sub.title),
@@ -201,23 +211,26 @@ export async function POST(request: Request) {
   }
 
   // ---------- SECTION DRILL (also uses model) ----------
+  // Keep model calls short: Vercel kills long runs and returns plain text
+  // ("An error occurred...") which the UI cannot parse as JSON.
   const need = 25;
   const { bannedStems, bannedFingerprints } = await loadBanned(null);
   let questions: SeedQuestion[] = [];
   let source = "algorithmic";
   let modelTried = false;
+  const deadline = Date.now() + 100_000; // leave headroom under maxDuration
 
   if (modelUp) {
     modelTried = true;
     try {
-      // Spread across a few topics so a GA/quant section isn't one pattern
-      const topics = subject.topics.slice(0, 5);
-      const per = Math.ceil(need / Math.max(1, topics.length));
+      // 2 topics × 1 attempt keeps Unlimited drills under ~1–2 min
+      const topics = subject.topics.slice(0, 2);
+      const per = Math.ceil(Math.min(12, need) / Math.max(1, topics.length));
       const seen = new Set(bannedFingerprints);
       const avoid = [...bannedStems];
 
       for (const t of topics) {
-        if (questions.length >= need) break;
+        if (questions.length >= need || Date.now() > deadline) break;
         const sub = t.subtopics[0];
         const invented = await generateUniqueTopicSet({
           subjectTitle: subject.title,
@@ -226,6 +239,7 @@ export async function POST(request: Request) {
           need: per,
           bannedFingerprints: seen,
           bannedStems: avoid,
+          maxAttempts: 1,
         });
         for (const q of invented) {
           if (!isNovelStem(q.stemEn, seen)) continue;
@@ -244,9 +258,14 @@ export async function POST(request: Request) {
           if (questions.length >= need) break;
         }
       }
-      source = questions.length >= Math.min(15, need) ? "model" : "model+partial";
+      source =
+        questions.length >= 8
+          ? questions.length >= need
+            ? "model"
+            : "model+partial"
+          : "model+partial";
     } catch {
-      questions = [];
+      // fall through to algorithmic pad — still return JSON
     }
   }
 

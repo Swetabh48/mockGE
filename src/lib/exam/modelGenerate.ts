@@ -165,23 +165,31 @@ HARD RULES:
 AVOID (already shown to the student — forbidden):
 - ${avoid || "(none yet)"}`;
 
-  const res = await fetch(`${OLLAMA_BASE}/api/generate`, {
-    method: "POST",
-    headers: ollamaHeaders(),
-    body: JSON.stringify({
-      model: OLLAMA_MODEL,
-      prompt,
-      stream: false,
-      format: "json",
-      options: {
-        temperature: 1.15,
-        top_p: 0.95,
-        top_k: 80,
-        num_predict: 2800,
-        seed: Math.floor(Math.random() * 2_147_483_647),
-      },
-    }),
-  });
+  const ctrl = new AbortController();
+  const kill = setTimeout(() => ctrl.abort(), 55_000);
+  let res: Response;
+  try {
+    res = await fetch(`${OLLAMA_BASE}/api/generate`, {
+      method: "POST",
+      headers: ollamaHeaders(),
+      signal: ctrl.signal,
+      body: JSON.stringify({
+        model: OLLAMA_MODEL,
+        prompt,
+        stream: false,
+        format: "json",
+        options: {
+          temperature: 1.15,
+          top_p: 0.95,
+          top_k: 80,
+          num_predict: 2200,
+          seed: Math.floor(Math.random() * 2_147_483_647),
+        },
+      }),
+    });
+  } finally {
+    clearTimeout(kill);
+  }
   if (!res.ok) throw new Error(`Ollama generate failed: ${res.status}`);
   const data = (await res.json()) as { response?: string };
   const parsed = extractJson(data.response || "{}") as {
@@ -204,12 +212,15 @@ export async function generateUniqueTopicSet(args: {
   need: number;
   bannedFingerprints: Set<string>;
   bannedStems: string[];
+  /** Cap model rounds (default 4). Use 1–2 for section drills to stay under Vercel timeouts. */
+  maxAttempts?: number;
 }): Promise<ModelMcq[]> {
   const collected: ModelMcq[] = [];
   const seen = new Set(args.bannedFingerprints);
   const avoid = [...args.bannedStems];
+  const maxAttempts = args.maxAttempts ?? 4;
 
-  for (let attempt = 0; attempt < 6 && collected.length < args.need; attempt++) {
+  for (let attempt = 0; attempt < maxAttempts && collected.length < args.need; attempt++) {
     const batch = await generateTopicQuestionsWithModel({
       subjectTitle: args.subjectTitle,
       topicTitle: args.topicTitle,

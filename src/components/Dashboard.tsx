@@ -38,6 +38,21 @@ type Status = {
   backend?: string;
 };
 
+async function readApiJson(res: Response): Promise<Record<string, unknown>> {
+  const text = await res.text();
+  try {
+    return JSON.parse(text) as Record<string, unknown>;
+  } catch {
+    const snippet = text.replace(/\s+/g, " ").trim().slice(0, 160);
+    if (/an error occurred/i.test(snippet) || res.status === 504 || res.status === 502) {
+      throw new Error(
+        "Generate timed out on the server. Wait a few seconds and try again (cloud model was still inventing).",
+      );
+    }
+    throw new Error(snippet || `Server returned non-JSON (${res.status})`);
+  }
+}
+
 type Area = "test" | "practice";
 type TestTab = "mocks" | "pyq" | "tier2";
 
@@ -78,8 +93,8 @@ export function Dashboard() {
           tier: "tier1",
         }),
       });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Failed");
+      const data = await readApiJson(res);
+      if (!res.ok) throw new Error(String(data.error || "Failed"));
       setMessage(`Hard mock created (${data.questionCount} questions).`);
       await load();
     } catch (e) {
@@ -377,8 +392,8 @@ export function Dashboard() {
                             headers: { "Content-Type": "application/json" },
                             body: JSON.stringify({ kind: "section", subject: sk }),
                           });
-                          const data = await res.json();
-                          if (!res.ok) throw new Error(data.error || "Failed");
+                          const data = await readApiJson(res);
+                          if (!res.ok) throw new Error(String(data.error || "Failed"));
                           setMessage(`New set: ${data.title}`);
                           await load();
                         } catch (e) {
