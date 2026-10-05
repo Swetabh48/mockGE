@@ -91,7 +91,9 @@ export function Dashboard() {
 
   async function generateUnlimitedPractice() {
     setGenerating(true);
-    setMessage(null);
+    setMessage(
+      "Inventing a fresh set with the cloud model… usually 1–3 minutes (not stuck). Keep this tab open.",
+    );
     try {
       let requestBody: {
         kind: "section" | "topic";
