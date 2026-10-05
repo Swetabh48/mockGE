@@ -117,11 +117,11 @@ export function Dashboard() {
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Failed");
       setMessage(
-        `New practice set ready: ${data.title}${
-          data.model
-            ? ` · model invented ${data.questionCount} new Q (banned ${data.bannedPrior ?? 0} prior)`
-            : " · model offline — algorithmic novelty fill (start Modal/Ollama for full model sets)"
-        }`,
+        data.model
+          ? `New practice set ready: ${data.title} · model invented ${data.questionCount} new Q (banned ${data.bannedPrior ?? 0} prior)`
+          : data.modelOnline === false
+            ? `New practice set ready: ${data.title} · cloud model unreachable right now — used algorithmic fill. Retry in a minute (Modal cold start).`
+            : `New practice set ready: ${data.title} · model ran but uniqueness fill used some algorithmic Q`,
       );
       await load();
     } catch (e) {
