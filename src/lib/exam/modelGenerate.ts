@@ -45,22 +45,13 @@ export function isNovelStem(stem: string, seen: Set<string>): boolean {
   const fp = stemFingerprint(stem);
   if (!fp || fp.length < 20) return false;
   if (seen.has(fp)) return false;
-  // Also reject if any seen fingerprint shares a long common prefix (near-clone)
-  for (const s of seen) {
-    if (s.length > 40 && fp.length > 40) {
-      const a = s.slice(0, 60);
-      const b = fp.slice(0, 60);
-      if (a === b) return false;
-    }
-  }
   return true;
 }
 
 export async function ollamaAvailable(): Promise<boolean> {
   try {
     const ctrl = new AbortController();
-    // Modal cold start: allow longer probe
-    const t = setTimeout(() => ctrl.abort(), 45000);
+    const t = setTimeout(() => ctrl.abort(), 45_000);
     const res = await fetch(`${OLLAMA_BASE}/api/tags`, {
       signal: ctrl.signal,
       headers: ollamaHeaders(),
@@ -137,16 +128,16 @@ export async function generateTopicQuestionsWithModel(args: {
 }): Promise<ModelMcq[]> {
   const avoidList = args.avoidStems ?? [];
   const avoid = avoidList
-    .slice(-40)
-    .map((s) => s.slice(0, 100))
+    .slice(-30)
+    .map((s) => s.slice(0, 90))
     .join("\n- ");
   const nonce =
     args.noveltyNonce ||
     `${Date.now()}-${Math.random().toString(36).slice(2, 10)}-${Math.floor(Math.random() * 1e9)}`;
 
-  const prompt = `You are mockGE's SSC-CGL question setter. Invent EXACTLY ${args.count} brand-new hard MCQs.
+  const prompt = `You are mockGE's trained SSC-CGL question setter (mockge-ssc). Invent EXACTLY ${args.count} brand-new hard MCQs.
 
-Novelty id (must influence numbers & story): ${nonce}
+Novelty id (must change names, facts, and numbers): ${nonce}
 
 Subject: ${args.subjectTitle}
 Topic: ${args.topicTitle}
@@ -154,19 +145,19 @@ Subtopic: ${args.subtopicTitle || "general"}
 
 HARD RULES:
 1. STRICTLY only ${args.topicTitle}${args.subtopicTitle ? ` / ${args.subtopicTitle}` : ""}. Zero other topics.
-2. Invent NEW scenarios, names, and numbers. Do NOT copy previous-year papers or textbook clones.
-3. Do NOT reuse or lightly paraphrase any stem listed under AVOID below.
-4. Each stem must use a DIFFERENT story pattern (not the same template with swapped digits).
+2. INVENT new questions from your trained exam knowledge. Do NOT copy previous-year papers, PDFs, or textbook clones.
+3. Do NOT reuse or lightly paraphrase any stem under AVOID.
+4. Each stem must use a DIFFERENT story / fact angle (not the same template with swapped digits).
 5. 4 options A–D, exactly one correct.
 6. Include explanation + short exam trick.
 7. JSON ONLY:
 {"questions":[{"stemEn":"","optionA":"","optionB":"","optionC":"","optionD":"","correctOption":"A","explanation":"","trick":""}]}
 
-AVOID (already shown to the student — forbidden):
+AVOID (already shown — forbidden):
 - ${avoid || "(none yet)"}`;
 
   const ctrl = new AbortController();
-  const kill = setTimeout(() => ctrl.abort(), 55_000);
+  const kill = setTimeout(() => ctrl.abort(), 70_000);
   let res: Response;
   try {
     res = await fetch(`${OLLAMA_BASE}/api/generate`, {
@@ -179,10 +170,10 @@ AVOID (already shown to the student — forbidden):
         stream: false,
         format: "json",
         options: {
-          temperature: 1.15,
+          temperature: 1.2,
           top_p: 0.95,
           top_k: 80,
-          num_predict: 2200,
+          num_predict: 2400,
           seed: Math.floor(Math.random() * 2_147_483_647),
         },
       }),
@@ -204,7 +195,7 @@ AVOID (already shown to the student — forbidden):
   return out;
 }
 
-/** Keep calling the model until we have `need` novel questions or attempts exhausted. */
+/** Keep calling the model until we have `need` novel questions or attempts/deadline exhausted. */
 export async function generateUniqueTopicSet(args: {
   subjectTitle: string;
   topicTitle: string;
@@ -212,20 +203,22 @@ export async function generateUniqueTopicSet(args: {
   need: number;
   bannedFingerprints: Set<string>;
   bannedStems: string[];
-  /** Cap model rounds (default 4). Use 1–2 for section drills to stay under Vercel timeouts. */
   maxAttempts?: number;
+  deadlineMs?: number;
 }): Promise<ModelMcq[]> {
   const collected: ModelMcq[] = [];
   const seen = new Set(args.bannedFingerprints);
   const avoid = [...args.bannedStems];
-  const maxAttempts = args.maxAttempts ?? 4;
+  const maxAttempts = args.maxAttempts ?? 8;
+  const deadline = args.deadlineMs ?? Date.now() + 240_000;
 
   for (let attempt = 0; attempt < maxAttempts && collected.length < args.need; attempt++) {
+    if (Date.now() > deadline) break;
     const batch = await generateTopicQuestionsWithModel({
       subjectTitle: args.subjectTitle,
       topicTitle: args.topicTitle,
       subtopicTitle: args.subtopicTitle,
-      count: Math.min(8, args.need - collected.length + 2),
+      count: Math.min(5, args.need - collected.length + 1),
       avoidStems: avoid,
       noveltyNonce: `set-${Date.now()}-try-${attempt}-${Math.random().toString(36).slice(2)}`,
     });
@@ -234,6 +227,50 @@ export async function generateUniqueTopicSet(args: {
       seen.add(stemFingerprint(q.stemEn));
       avoid.push(q.stemEn);
       collected.push(q);
+      if (collected.length >= args.need) break;
+    }
+  }
+  return collected;
+}
+
+/**
+ * Invent a full section set by round-robining topics through the model only.
+ * Never touches PDF banks or static question banks.
+ */
+export async function inventSectionWithModel(args: {
+  subjectTitle: string;
+  topics: { title: string; subtopic?: string }[];
+  need: number;
+  bannedFingerprints: Set<string>;
+  bannedStems: string[];
+  deadlineMs?: number;
+}): Promise<ModelMcq[]> {
+  const collected: ModelMcq[] = [];
+  const seen = new Set(args.bannedFingerprints);
+  const avoid = [...args.bannedStems];
+  const topics = args.topics.length ? args.topics : [{ title: args.subjectTitle }];
+  const deadline = args.deadlineMs ?? Date.now() + 240_000;
+  let topicIdx = 0;
+  let rounds = 0;
+  const maxRounds = Math.max(topics.length * 4, 12);
+
+  while (collected.length < args.need && rounds < maxRounds && Date.now() < deadline) {
+    const t = topics[topicIdx % topics.length]!;
+    topicIdx += 1;
+    rounds += 1;
+    const batch = await generateTopicQuestionsWithModel({
+      subjectTitle: args.subjectTitle,
+      topicTitle: t.title,
+      subtopicTitle: t.subtopic,
+      count: Math.min(5, args.need - collected.length),
+      avoidStems: avoid,
+      noveltyNonce: `sec-${Date.now()}-r${rounds}-${Math.random().toString(36).slice(2)}`,
+    });
+    for (const q of batch) {
+      if (!isNovelStem(q.stemEn, seen)) continue;
+      seen.add(stemFingerprint(q.stemEn));
+      avoid.push(q.stemEn);
+      collected.push({ ...q, topic: t.title, subtopic: t.subtopic });
       if (collected.length >= args.need) break;
     }
   }

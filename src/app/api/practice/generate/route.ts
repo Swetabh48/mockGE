@@ -1,10 +1,6 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import {
-  buildSectionPractice,
-  buildTopicPractice,
-} from "@/lib/exam/questionBank";
-import {
   PRACTICE_SYLLABUS,
   findSubject,
   findTopic,
@@ -12,7 +8,7 @@ import {
 } from "@/lib/exam/taxonomy";
 import {
   generateUniqueTopicSet,
-  isNovelStem,
+  inventSectionWithModel,
   ollamaAvailable,
   stemFingerprint,
 } from "@/lib/exam/modelGenerate";
@@ -30,6 +26,8 @@ function toSeed(
     correctOption: string;
     explanation: string;
     trick: string;
+    topic?: string;
+    subtopic?: string;
   },
   i: number,
   sectionKey: string,
@@ -41,8 +39,8 @@ function toSeed(
     qIndex: i + 1,
     sectionKey,
     subject,
-    topic,
-    subtopic,
+    topic: q.topic || topic,
+    subtopic: q.subtopic || subtopic,
     difficulty: "hard",
     stemEn: q.stemEn,
     optionA: q.optionA,
@@ -71,7 +69,7 @@ async function loadBanned(opts?: {
       },
     },
     orderBy: { id: "desc" },
-    take: 200,
+    take: 120,
     select: { stemEn: true },
   });
   const bannedStems = prior.map((q) => q.stemEn);
@@ -81,55 +79,9 @@ async function loadBanned(opts?: {
   };
 }
 
-/** Last-resort pad: never ship a 0-Q paper. Prefer novel, then accept collisions. */
-function forceFill(
-  questions: SeedQuestion[],
-  need: number,
-  batches: SeedQuestion[][],
-  sourceTag: string,
-): SeedQuestion[] {
-  const out = [...questions];
-  const seen = new Set(out.map((q) => stemFingerprint(q.stemEn)));
-
-  for (const batch of batches) {
-    for (const p of batch) {
-      if (out.length >= need) return out;
-      if (!isNovelStem(p.stemEn, seen)) continue;
-      seen.add(stemFingerprint(p.stemEn));
-      out.push({ ...p, qIndex: out.length + 1, source: sourceTag });
-    }
-  }
-
-  // Still short → accept any unused stems (even near-clones) so Start works
-  for (const batch of batches) {
-    for (const p of batch) {
-      if (out.length >= need) return out;
-      const fp = stemFingerprint(p.stemEn);
-      if (seen.has(fp)) continue;
-      seen.add(fp);
-      out.push({ ...p, qIndex: out.length + 1, source: sourceTag });
-    }
-  }
-
-  // Absolute last resort: mutate setNo-like digits into stem suffix so fingerprints differ
-  let n = 0;
-  while (out.length < need && batches[0]?.length) {
-    const base = batches[0][n % batches[0].length]!;
-    n += 1;
-    const stemEn = `${base.stemEn} (variant ${Date.now().toString(36)}-${n})`;
-    out.push({
-      ...base,
-      stemEn,
-      qIndex: out.length + 1,
-      source: sourceTag,
-    });
-  }
-  return out;
-}
-
 /**
- * Practice Generate always prefers the cloud/local model.
- * PDFs are never copied into sets. Prior stems are fingerprint-banned.
+ * Practice Generate = model invent only (mockge-ssc on Modal).
+ * Never pads with static banks / PDF-like stems. If the model cannot invent, fail clearly.
  */
 export async function POST(request: Request) {
   try {
@@ -165,10 +117,19 @@ async function handleGenerate(request: Request) {
         : { mode: "practice" }),
     },
   });
-  const setNo =
-    existing * 9973 + (Date.now() % 1_000_003) + Math.floor(Math.random() * 100_000);
 
   const modelUp = await ollamaAvailable();
+  if (!modelUp) {
+    return NextResponse.json(
+      {
+        error:
+          "Cloud model (mockge-ssc) is offline. Start Modal / wait for cold start, then Generate again. We will not fill from PDF banks.",
+        modelOnline: false,
+        model: false,
+      },
+      { status: 503 },
+    );
+  }
 
   // ---------- TOPIC DRILL ----------
   if (kind === "topic") {
@@ -183,70 +144,50 @@ async function handleGenerate(request: Request) {
       focusSection: subjectKey,
     });
     const need = 10;
-    let questions: SeedQuestion[] = [];
-    let source = "algorithmic";
-    let modelTried = false;
 
-    if (modelUp) {
-      modelTried = true;
-      try {
-        const invented = await generateUniqueTopicSet({
-          subjectTitle: subject.title,
-          topicTitle: topic.title,
-          subtopicTitle: sub.title,
-          need,
-          bannedFingerprints,
-          bannedStems,
-          maxAttempts: 3,
-        });
-        questions = invented.map((q, i) =>
-          toSeed(q, i, subjectKey, subject.title, topic.title, sub.title),
-        );
-        source = questions.length >= need ? "model" : "model+partial";
-      } catch {
-        questions = [];
-      }
-    }
-
-    if (questions.length < need) {
-      const batches: SeedQuestion[][] = [];
-      for (let round = 0; round < 12; round++) {
-        batches.push(
-          buildTopicPractice(
-            subjectKey,
-            topic.title,
-            sub.title,
-            setNo + round * 7919 + Math.floor(Math.random() * 5000),
-            topic.id,
-          ).map((p) => ({
-            ...p,
-            topic: topic.title,
-            subtopic: sub.title,
-          })),
-        );
-      }
-      questions = forceFill(
-        questions,
+    let invented;
+    try {
+      invented = await generateUniqueTopicSet({
+        subjectTitle: subject.title,
+        topicTitle: topic.title,
+        subtopicTitle: sub.title,
         need,
-        batches,
-        modelTried ? "model+algo" : "algorithmic",
-      );
-      if (modelTried && questions.some((q) => q.source === "model")) source = "model+algo";
-      else if (!modelTried) source = "algorithmic";
-      else if (questions.length > 0 && !questions.every((q) => q.source === "model"))
-        source = "model+algo";
-    }
-
-    if (questions.length === 0) {
+        bannedFingerprints,
+        bannedStems,
+        maxAttempts: 8,
+        deadlineMs: Date.now() + 240_000,
+      });
+    } catch (e) {
       return NextResponse.json(
-        { error: "Could not invent questions — retry in a moment" },
+        {
+          error: e instanceof Error ? e.message : "Model invent failed",
+          modelOnline: true,
+          model: false,
+        },
         { status: 503 },
       );
     }
 
+    if (invented.length < Math.min(6, need)) {
+      return NextResponse.json(
+        {
+          error: `Model only invented ${invented.length}/${need} new questions. Retry — do not use bank fill.`,
+          modelOnline: true,
+          model: false,
+          invented: invented.length,
+        },
+        { status: 503 },
+      );
+    }
+
+    const questions = invented.map((q, i) =>
+      toSeed(q, i, subjectKey, subject.title, topic.title, sub.title),
+    );
+    const source = questions.length >= need ? "model" : "model";
+
     const paper = await prisma.paper.create({
       data: {
-        title: `${subject.title} · ${topic.title} · ${sub.title} (fresh #${existing + 1})`,
+        title: `${subject.title} · ${topic.title} · ${sub.title} (model #${existing + 1})`,
         tier: "practice",
         mode: "topic_practice",
         focusSection: subjectKey,
@@ -265,119 +206,82 @@ async function handleGenerate(request: Request) {
       questionCount: Math.min(need, questions.length),
       title: paper.title,
       source,
-      model: source.startsWith("model"),
-      modelOnline: modelUp,
+      model: true,
+      modelOnline: true,
       unique: true,
       bannedPrior: bannedStems.length,
     });
   }
 
-  // ---------- SECTION DRILL (also uses model) ----------
-  // Keep model calls short: Vercel kills long runs and returns plain text
-  // ("An error occurred...") which the UI cannot parse as JSON.
-  const need = 25;
+  // ---------- SECTION DRILL (model invent only) ----------
+  const need = 20; // slightly under 25 so invent finishes under Vercel limit
   const { bannedStems, bannedFingerprints } = await loadBanned({
     focusSection: subjectKey,
   });
-  let questions: SeedQuestion[] = [];
-  let source = "algorithmic";
-  let modelTried = false;
-  const deadline = Date.now() + 100_000; // leave headroom under maxDuration
 
-  if (modelUp) {
-    modelTried = true;
-    try {
-      // 2 topics × 1 attempt keeps Unlimited drills under ~1–2 min
-      const topics = subject.topics.slice(0, 2);
-      const per = Math.ceil(Math.min(12, need) / Math.max(1, topics.length));
-      const seen = new Set(bannedFingerprints);
-      const avoid = [...bannedStems];
+  const topicSpecs = subject.topics.map((t) => ({
+    title: t.title,
+    subtopic: t.subtopics[0]?.title,
+  }));
 
-      for (const t of topics) {
-        if (questions.length >= need || Date.now() > deadline) break;
-        const sub = t.subtopics[0];
-        const invented = await generateUniqueTopicSet({
-          subjectTitle: subject.title,
-          topicTitle: t.title,
-          subtopicTitle: sub?.title,
-          need: per,
-          bannedFingerprints: seen,
-          bannedStems: avoid,
-          maxAttempts: 1,
-        });
-        for (const q of invented) {
-          if (!isNovelStem(q.stemEn, seen)) continue;
-          seen.add(stemFingerprint(q.stemEn));
-          avoid.push(q.stemEn);
-          questions.push(
-            toSeed(
-              q,
-              questions.length,
-              subjectKey,
-              subject.title,
-              t.title,
-              sub?.title,
-            ),
-          );
-          if (questions.length >= need) break;
-        }
-      }
-      if (questions.length > 0) {
-        source = questions.length >= need ? "model" : "model+partial";
-      }
-    } catch {
-      // fall through to algorithmic pad — still return JSON
-    }
-  }
-
-  if (questions.length < need) {
-    const batches: SeedQuestion[][] = [];
-    for (let r = 0; r < 10; r++) {
-      batches.push(buildSectionPractice(subjectKey, setNo + r * 1301));
-    }
-    questions = forceFill(
-      questions,
+  let invented;
+  try {
+    invented = await inventSectionWithModel({
+      subjectTitle: subject.title,
+      topics: topicSpecs,
       need,
-      batches,
-      modelTried && questions.some((q) => q.source === "model")
-        ? "model+algo"
-        : modelTried
-          ? "model+algo"
-          : "algorithmic",
-    );
-    if (modelTried && questions.some((q) => q.source === "model")) source = "model+algo";
-    else if (!modelTried) source = "algorithmic";
-    else source = questions.some((q) => q.source === "model") ? "model+algo" : "algorithmic";
-  }
-
-  if (questions.length === 0) {
+      bannedFingerprints,
+      bannedStems,
+      deadlineMs: Date.now() + 250_000,
+    });
+  } catch (e) {
     return NextResponse.json(
-      { error: "Could not invent questions — retry in a moment" },
+      {
+        error: e instanceof Error ? e.message : "Model invent failed",
+        modelOnline: true,
+        model: false,
+      },
       { status: 503 },
     );
   }
 
+  if (invented.length < 10) {
+    return NextResponse.json(
+      {
+        error: `Model only invented ${invented.length}/${need} new questions. Retry Generate — bank/PDF fill is disabled.`,
+        modelOnline: true,
+        model: false,
+        invented: invented.length,
+      },
+      { status: 503 },
+    );
+  }
+
+  const questions = invented.map((q, i) =>
+    toSeed(q, i, subjectKey, subject.title, q.topic, q.subtopic),
+  );
+
   const paper = await prisma.paper.create({
     data: {
-      title: `${subject.title} — Unlimited drill #${existing + 1} (${Math.min(need, questions.length)} Q)`,
+      title: `${subject.title} — Model invent #${existing + 1} (${questions.length} Q)`,
       tier: "practice",
       mode: "practice",
       focusSection: subjectKey,
-      source,
+      source: "model",
       difficulty: "hard",
       questions: {
-        create: questions.slice(0, need).map((q, i) => ({ ...q, qIndex: i + 1 })),
+        create: questions.map((q, i) => ({ ...q, qIndex: i + 1 })),
       },
     },
   });
 
   return NextResponse.json({
     paperId: paper.id,
-    questionCount: Math.min(need, questions.length),
+    questionCount: questions.length,
     title: paper.title,
-    source,
-    model: source.startsWith("model"),
-    modelOnline: modelUp,
+    source: "model",
+    model: true,
+    modelOnline: true,
     unique: true,
     bannedPrior: bannedStems.length,
     syllabusTopics: PRACTICE_SYLLABUS.find((s) => s.key === subjectKey)?.topics.length,

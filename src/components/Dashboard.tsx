@@ -107,7 +107,7 @@ export function Dashboard() {
   async function generateUnlimitedPractice() {
     setGenerating(true);
     setMessage(
-      "Inventing a fresh set with the cloud model… usually 1–3 minutes (not stuck). Keep this tab open.",
+      "mockge-ssc inventing brand-new questions (not from PDFs)… 2–4 minutes. Keep this tab open.",
     );
     try {
       let requestBody: {
@@ -134,11 +134,7 @@ export function Dashboard() {
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Failed");
       setMessage(
-        data.model
-          ? `New practice set ready: ${data.title} · model invented ${data.questionCount} new Q (banned ${data.bannedPrior ?? 0} prior)`
-          : data.modelOnline === false
-            ? `New practice set ready: ${data.title} · cloud model unreachable right now — used algorithmic fill. Retry in a minute (Modal cold start).`
-            : `New practice set ready: ${data.title} · model ran but uniqueness fill used some algorithmic Q`,
+        `New practice set ready: ${data.title} · mockge-ssc invented ${data.questionCount} new Q (banned ${data.bannedPrior ?? 0} prior repeats)`,
       );
       await load();
     } catch (e) {
@@ -385,7 +381,9 @@ export function Dashboard() {
                       setPracticeSubject(sk);
                       void (async () => {
                         setGenerating(true);
-                        setMessage(null);
+                        setMessage(
+                          "mockge-ssc inventing brand-new questions (not from PDFs)… 2–4 minutes. Keep this tab open.",
+                        );
                         try {
                           const res = await fetch("/api/practice/generate", {
                             method: "POST",
@@ -394,7 +392,9 @@ export function Dashboard() {
                           });
                           const data = await readApiJson(res);
                           if (!res.ok) throw new Error(String(data.error || "Failed"));
-                          setMessage(`New set: ${data.title}`);
+                          setMessage(
+                            `New set: ${data.title} · model invented ${data.questionCount} Q`,
+                          );
                           await load();
                         } catch (e) {
                           setMessage(e instanceof Error ? e.message : "Failed");
