@@ -60,7 +60,7 @@ let modelWarmed = false;
 export async function ollamaAvailable(): Promise<boolean> {
   try {
     const ctrl = new AbortController();
-    const t = setTimeout(() => ctrl.abort(), 20_000);
+    const t = setTimeout(() => ctrl.abort(), 60_000);
     const res = await fetch(`${OLLAMA_BASE}/api/tags`, {
       signal: ctrl.signal,
       headers: ollamaHeaders(),
@@ -167,7 +167,10 @@ HARD RULES:
 AVOID:
 - ${avoid || "(none yet)"}`;
 
-  const waitMs = modelWarmed ? 90_000 : 140_000;
+  // Vercel route maxDuration is 300s. Allow one Modal /api/generate to run almost
+  // that long (CPU + cold load). We abort ourselves so the function can still
+  // return JSON instead of Vercel killing the whole request.
+  const waitMs = modelWarmed ? 180_000 : 240_000;
   const ctrl = new AbortController();
   const kill = setTimeout(() => ctrl.abort(), waitMs);
   try {
@@ -225,7 +228,7 @@ export async function generateUniqueTopicSet(args: {
   const seen = new Set(args.bannedFingerprints);
   const avoid = [...args.bannedStems];
   const maxAttempts = args.maxAttempts ?? 6;
-  const deadline = args.deadlineMs ?? Date.now() + 200_000;
+  const deadline = args.deadlineMs ?? Date.now() + 280_000;
 
   for (let attempt = 0; attempt < maxAttempts && collected.length < args.need; attempt++) {
     if (Date.now() > deadline) break;
@@ -264,7 +267,7 @@ export async function inventSectionWithModel(args: {
   const seen = new Set(args.bannedFingerprints);
   const avoid = [...args.bannedStems];
   const topics = args.topics.length ? args.topics : [{ title: args.subjectTitle }];
-  const deadline = args.deadlineMs ?? Date.now() + 200_000;
+  const deadline = args.deadlineMs ?? Date.now() + 280_000;
   let topicIdx = 0;
   let rounds = 0;
   const maxRounds = Math.min(8, Math.max(topics.length * 2, 6));

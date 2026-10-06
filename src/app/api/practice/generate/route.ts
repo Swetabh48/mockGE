@@ -167,7 +167,7 @@ async function handleGenerate(request: Request) {
         bannedFingerprints,
         bannedStems,
         maxAttempts: 5,
-        deadlineMs: Date.now() + 200_000,
+        deadlineMs: Date.now() + 280_000,
       });
     } catch (e) {
       const aborted = e instanceof Error && /abort/i.test(e.name + e.message);
@@ -252,7 +252,7 @@ async function handleGenerate(request: Request) {
       need,
       bannedFingerprints,
       bannedStems,
-      deadlineMs: Date.now() + 200_000,
+      deadlineMs: Date.now() + 280_000,
     });
   } catch (e) {
     const aborted = e instanceof Error && /abort/i.test(e.name + e.message);
