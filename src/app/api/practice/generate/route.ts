@@ -87,8 +87,20 @@ export async function POST(request: Request) {
   try {
     return await handleGenerate(request);
   } catch (e) {
-    const msg = e instanceof Error ? e.message : "Generate failed";
-    return NextResponse.json({ error: msg }, { status: 500 });
+    const aborted =
+      !!e &&
+      typeof e === "object" &&
+      /abort/i.test(`${(e as Error).name} ${(e as Error).message}`);
+    return NextResponse.json(
+      {
+        error: aborted
+          ? "Cloud model request was aborted (cold start). Click Generate again."
+          : e instanceof Error
+            ? e.message
+            : "Generate failed",
+      },
+      { status: aborted ? 503 : 500 },
+    );
   }
 }
 
@@ -123,7 +135,7 @@ async function handleGenerate(request: Request) {
     return NextResponse.json(
       {
         error:
-          "Cloud model (mockge-ssc) is offline. Start Modal / wait for cold start, then Generate again. We will not fill from PDF banks.",
+          "Cloud model (mockge-ssc) did not respond. Wait 20 seconds for Modal to wake, then Generate again.",
         modelOnline: false,
         model: false,
       },
@@ -143,7 +155,7 @@ async function handleGenerate(request: Request) {
       focusTopic: topic.id,
       focusSection: subjectKey,
     });
-    const need = 10;
+    const need = 6;
 
     let invented;
     try {
@@ -154,13 +166,18 @@ async function handleGenerate(request: Request) {
         need,
         bannedFingerprints,
         bannedStems,
-        maxAttempts: 8,
-        deadlineMs: Date.now() + 240_000,
+        maxAttempts: 5,
+        deadlineMs: Date.now() + 200_000,
       });
     } catch (e) {
+      const aborted = e instanceof Error && /abort/i.test(e.name + e.message);
       return NextResponse.json(
         {
-          error: e instanceof Error ? e.message : "Model invent failed",
+          error: aborted
+            ? "Cloud model was still waking (request aborted). Click Generate again — the second try is usually fast."
+            : e instanceof Error
+              ? e.message
+              : "Model invent failed",
           modelOnline: true,
           model: false,
         },
@@ -168,10 +185,13 @@ async function handleGenerate(request: Request) {
       );
     }
 
-    if (invented.length < Math.min(6, need)) {
+    if (invented.length < 3) {
       return NextResponse.json(
         {
-          error: `Model only invented ${invented.length}/${need} new questions. Retry — do not use bank fill.`,
+          error:
+            invented.length === 0
+              ? "Cloud model timed out inventing questions. Wait a few seconds and click Generate again (cold start)."
+              : `Model only invented ${invented.length} new questions. Retry Generate.`,
           modelOnline: true,
           model: false,
           invented: invented.length,
@@ -214,7 +234,7 @@ async function handleGenerate(request: Request) {
   }
 
   // ---------- SECTION DRILL (model invent only) ----------
-  const need = 20; // slightly under 25 so invent finishes under Vercel limit
+  const need = 8;
   const { bannedStems, bannedFingerprints } = await loadBanned({
     focusSection: subjectKey,
   });
@@ -232,12 +252,17 @@ async function handleGenerate(request: Request) {
       need,
       bannedFingerprints,
       bannedStems,
-      deadlineMs: Date.now() + 250_000,
+      deadlineMs: Date.now() + 200_000,
     });
   } catch (e) {
+    const aborted = e instanceof Error && /abort/i.test(e.name + e.message);
     return NextResponse.json(
       {
-        error: e instanceof Error ? e.message : "Model invent failed",
+        error: aborted
+          ? "Cloud model was still waking (request aborted). Click Generate again — the second try is usually fast."
+          : e instanceof Error
+            ? e.message
+            : "Model invent failed",
         modelOnline: true,
         model: false,
       },
@@ -245,10 +270,13 @@ async function handleGenerate(request: Request) {
     );
   }
 
-  if (invented.length < 10) {
+  if (invented.length < 3) {
     return NextResponse.json(
       {
-        error: `Model only invented ${invented.length}/${need} new questions. Retry Generate — bank/PDF fill is disabled.`,
+        error:
+          invented.length === 0
+            ? "Cloud model timed out inventing questions. Wait a few seconds and click Generate again (cold start)."
+            : `Model only invented ${invented.length} new questions. Retry Generate.`,
         modelOnline: true,
         model: false,
         invented: invented.length,

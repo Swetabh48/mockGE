@@ -48,10 +48,19 @@ export function isNovelStem(stem: string, seen: Set<string>): boolean {
   return true;
 }
 
+function isAbortError(e: unknown): boolean {
+  if (!e || typeof e !== "object") return false;
+  const name = "name" in e ? String((e as { name?: string }).name) : "";
+  const msg = "message" in e ? String((e as { message?: string }).message) : "";
+  return name === "AbortError" || /aborted|abort/i.test(msg);
+}
+
+let modelWarmed = false;
+
 export async function ollamaAvailable(): Promise<boolean> {
   try {
     const ctrl = new AbortController();
-    const t = setTimeout(() => ctrl.abort(), 45_000);
+    const t = setTimeout(() => ctrl.abort(), 20_000);
     const res = await fetch(`${OLLAMA_BASE}/api/tags`, {
       signal: ctrl.signal,
       headers: ollamaHeaders(),
@@ -63,7 +72,8 @@ export async function ollamaAvailable(): Promise<boolean> {
       (m) => m.name === OLLAMA_MODEL || m.name.startsWith(`${OLLAMA_MODEL}:`),
     );
   } catch {
-    return false;
+    // Cold start / probe abort — still try generate; don't 503 as "offline"
+    return true;
   }
 }
 
@@ -135,7 +145,8 @@ export async function generateTopicQuestionsWithModel(args: {
     args.noveltyNonce ||
     `${Date.now()}-${Math.random().toString(36).slice(2, 10)}-${Math.floor(Math.random() * 1e9)}`;
 
-  const prompt = `You are mockGE's trained SSC-CGL question setter (mockge-ssc). Invent EXACTLY ${args.count} brand-new hard MCQs.
+  const count = Math.max(1, Math.min(3, args.count));
+  const prompt = `You are mockGE's trained SSC-CGL question setter (mockge-ssc). Invent EXACTLY ${count} brand-new hard MCQs.
 
 Novelty id (must change names, facts, and numbers): ${nonce}
 
@@ -144,24 +155,23 @@ Topic: ${args.topicTitle}
 Subtopic: ${args.subtopicTitle || "general"}
 
 HARD RULES:
-1. STRICTLY only ${args.topicTitle}${args.subtopicTitle ? ` / ${args.subtopicTitle}` : ""}. Zero other topics.
-2. INVENT new questions from your trained exam knowledge. Do NOT copy previous-year papers, PDFs, or textbook clones.
-3. Do NOT reuse or lightly paraphrase any stem under AVOID.
-4. Each stem must use a DIFFERENT story / fact angle (not the same template with swapped digits).
-5. 4 options A–D, exactly one correct.
-6. explanation MUST be revision NOTES for THIS question (8–14 lines): what is asked, why the correct option is right, 3 related facts the candidate should remember (nearby articles/years/people), and why each wrong option is a trap. Never a one-liner.
-7. trick MUST be unique to THIS stem (a 10-second hall memory). Forbidden to reuse a generic line like "Article clusters FR 12–35" or "timeline anchors 1857, 1885" on every question.
-8. JSON ONLY:
+1. STRICTLY only ${args.topicTitle}${args.subtopicTitle ? ` / ${args.subtopicTitle}` : ""}.
+2. Invent NEW questions from trained exam knowledge. Do NOT copy PYQs or PDFs.
+3. Do NOT reuse stems under AVOID.
+4. 4 options A–D, exactly one correct.
+5. explanation: 2–4 sentences on why the correct option is right (specific to this stem).
+6. trick: one unique 10-second memory for THIS stem only.
+7. JSON ONLY:
 {"questions":[{"stemEn":"","optionA":"","optionB":"","optionC":"","optionD":"","correctOption":"A","explanation":"","trick":""}]}
 
-AVOID (already shown — forbidden):
+AVOID:
 - ${avoid || "(none yet)"}`;
 
+  const waitMs = modelWarmed ? 90_000 : 140_000;
   const ctrl = new AbortController();
-  const kill = setTimeout(() => ctrl.abort(), 70_000);
-  let res: Response;
+  const kill = setTimeout(() => ctrl.abort(), waitMs);
   try {
-    res = await fetch(`${OLLAMA_BASE}/api/generate`, {
+    const res = await fetch(`${OLLAMA_BASE}/api/generate`, {
       method: "POST",
       headers: ollamaHeaders(),
       signal: ctrl.signal,
@@ -171,29 +181,33 @@ AVOID (already shown — forbidden):
         stream: false,
         format: "json",
         options: {
-          temperature: 1.2,
+          temperature: 1.15,
           top_p: 0.95,
           top_k: 80,
-          num_predict: 2400,
+          num_predict: 1100,
           seed: Math.floor(Math.random() * 2_147_483_647),
         },
       }),
     });
+    if (!res.ok) return [];
+    modelWarmed = true;
+    const data = (await res.json()) as { response?: string };
+    const parsed = extractJson(data.response || "{}") as {
+      questions?: Record<string, unknown>[];
+    };
+    const list = Array.isArray(parsed.questions) ? parsed.questions : [];
+    const out: ModelMcq[] = [];
+    for (const raw of list) {
+      const q = normalizeMcq(raw, args.topicTitle, args.subtopicTitle);
+      if (q) out.push(q);
+    }
+    return out;
+  } catch (e) {
+    if (isAbortError(e)) return [];
+    return [];
   } finally {
     clearTimeout(kill);
   }
-  if (!res.ok) throw new Error(`Ollama generate failed: ${res.status}`);
-  const data = (await res.json()) as { response?: string };
-  const parsed = extractJson(data.response || "{}") as {
-    questions?: Record<string, unknown>[];
-  };
-  const list = Array.isArray(parsed.questions) ? parsed.questions : [];
-  const out: ModelMcq[] = [];
-  for (const raw of list) {
-    const q = normalizeMcq(raw, args.topicTitle, args.subtopicTitle);
-    if (q) out.push(q);
-  }
-  return out;
 }
 
 /** Keep calling the model until we have `need` novel questions or attempts/deadline exhausted. */
@@ -210,8 +224,8 @@ export async function generateUniqueTopicSet(args: {
   const collected: ModelMcq[] = [];
   const seen = new Set(args.bannedFingerprints);
   const avoid = [...args.bannedStems];
-  const maxAttempts = args.maxAttempts ?? 8;
-  const deadline = args.deadlineMs ?? Date.now() + 240_000;
+  const maxAttempts = args.maxAttempts ?? 6;
+  const deadline = args.deadlineMs ?? Date.now() + 200_000;
 
   for (let attempt = 0; attempt < maxAttempts && collected.length < args.need; attempt++) {
     if (Date.now() > deadline) break;
@@ -219,7 +233,7 @@ export async function generateUniqueTopicSet(args: {
       subjectTitle: args.subjectTitle,
       topicTitle: args.topicTitle,
       subtopicTitle: args.subtopicTitle,
-      count: Math.min(5, args.need - collected.length + 1),
+      count: Math.min(3, args.need - collected.length),
       avoidStems: avoid,
       noveltyNonce: `set-${Date.now()}-try-${attempt}-${Math.random().toString(36).slice(2)}`,
     });
@@ -250,10 +264,10 @@ export async function inventSectionWithModel(args: {
   const seen = new Set(args.bannedFingerprints);
   const avoid = [...args.bannedStems];
   const topics = args.topics.length ? args.topics : [{ title: args.subjectTitle }];
-  const deadline = args.deadlineMs ?? Date.now() + 240_000;
+  const deadline = args.deadlineMs ?? Date.now() + 200_000;
   let topicIdx = 0;
   let rounds = 0;
-  const maxRounds = Math.max(topics.length * 4, 12);
+  const maxRounds = Math.min(8, Math.max(topics.length * 2, 6));
 
   while (collected.length < args.need && rounds < maxRounds && Date.now() < deadline) {
     const t = topics[topicIdx % topics.length]!;
@@ -263,7 +277,7 @@ export async function inventSectionWithModel(args: {
       subjectTitle: args.subjectTitle,
       topicTitle: t.title,
       subtopicTitle: t.subtopic,
-      count: Math.min(5, args.need - collected.length),
+      count: Math.min(3, args.need - collected.length),
       avoidStems: avoid,
       noveltyNonce: `sec-${Date.now()}-r${rounds}-${Math.random().toString(36).slice(2)}`,
     });

@@ -38,6 +38,14 @@ type Status = {
   backend?: string;
 };
 
+function failMessage(e: unknown): string {
+  const msg = e instanceof Error ? e.message : "Failed";
+  if (/abort/i.test(msg)) {
+    return "Request aborted while the cloud model was waking. Click Generate again — second try is usually fast.";
+  }
+  return msg;
+}
+
 async function readApiJson(res: Response): Promise<Record<string, unknown>> {
   const text = await res.text();
   try {
@@ -98,7 +106,7 @@ export function Dashboard() {
       setMessage(`Hard mock created (${data.questionCount} questions).`);
       await load();
     } catch (e) {
-      setMessage(e instanceof Error ? e.message : "Failed");
+      setMessage(failMessage(e));
     } finally {
       setGenerating(false);
     }
@@ -107,7 +115,7 @@ export function Dashboard() {
   async function generateUnlimitedPractice() {
     setGenerating(true);
     setMessage(
-      "mockge-ssc inventing brand-new questions (not from PDFs)… 2–4 minutes. Keep this tab open.",
+      "mockge-ssc inventing new questions… first click after idle can take ~2 minutes. Keep this tab open.",
     );
     try {
       let requestBody: {
@@ -138,7 +146,7 @@ export function Dashboard() {
       );
       await load();
     } catch (e) {
-      setMessage(e instanceof Error ? e.message : "Failed");
+      setMessage(failMessage(e));
     } finally {
       setGenerating(false);
     }
@@ -382,7 +390,7 @@ export function Dashboard() {
                       void (async () => {
                         setGenerating(true);
                         setMessage(
-                          "mockge-ssc inventing brand-new questions (not from PDFs)… 2–4 minutes. Keep this tab open.",
+                          "mockge-ssc inventing new questions… first click after idle can take ~2 minutes. Keep this tab open.",
                         );
                         try {
                           const res = await fetch("/api/practice/generate", {
@@ -397,7 +405,7 @@ export function Dashboard() {
                           );
                           await load();
                         } catch (e) {
-                          setMessage(e instanceof Error ? e.message : "Failed");
+                          setMessage(failMessage(e));
                         } finally {
                           setGenerating(false);
                         }
