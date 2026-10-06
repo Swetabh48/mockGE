@@ -142,7 +142,7 @@ export function Dashboard() {
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Failed");
       setMessage(
-        `New practice set ready: ${data.title} · mockge-ssc invented ${data.questionCount} new Q (banned ${data.bannedPrior ?? 0} prior repeats)`,
+        `Ready: ${data.title}. Open it from the list below.`,
       );
       await load();
     } catch (e) {
@@ -400,9 +400,7 @@ export function Dashboard() {
                           });
                           const data = await readApiJson(res);
                           if (!res.ok) throw new Error(String(data.error || "Failed"));
-                          setMessage(
-                            `New set: ${data.title} · model invented ${data.questionCount} Q`,
-                          );
+                          setMessage(`Ready: ${data.title}. Open it from the list below.`);
                           await load();
                         } catch (e) {
                           setMessage(failMessage(e));

@@ -155,7 +155,7 @@ async function handleGenerate(request: Request) {
       focusTopic: topic.id,
       focusSection: subjectKey,
     });
-    const need = 6;
+    const need = 10;
 
     let invented;
     try {
@@ -166,7 +166,7 @@ async function handleGenerate(request: Request) {
         need,
         bannedFingerprints,
         bannedStems,
-        maxAttempts: 5,
+        maxAttempts: 8,
         deadlineMs: Date.now() + 280_000,
       });
     } catch (e) {
@@ -185,7 +185,7 @@ async function handleGenerate(request: Request) {
       );
     }
 
-    if (invented.length < 3) {
+    if (invented.length < 8) {
       return NextResponse.json(
         {
           error:
@@ -207,7 +207,7 @@ async function handleGenerate(request: Request) {
 
     const paper = await prisma.paper.create({
       data: {
-        title: `${subject.title} · ${topic.title} · ${sub.title} (model #${existing + 1})`,
+        title: `${subject.title} · ${topic.title} · ${sub.title} (${questions.length} new Q)`,
         tier: "practice",
         mode: "topic_practice",
         focusSection: subjectKey,
@@ -234,7 +234,7 @@ async function handleGenerate(request: Request) {
   }
 
   // ---------- SECTION DRILL (model invent only) ----------
-  const need = 8;
+  const need = 15;
   const { bannedStems, bannedFingerprints } = await loadBanned({
     focusSection: subjectKey,
   });
@@ -270,7 +270,7 @@ async function handleGenerate(request: Request) {
     );
   }
 
-  if (invented.length < 3) {
+  if (invented.length < 10) {
     return NextResponse.json(
       {
         error:
@@ -291,7 +291,7 @@ async function handleGenerate(request: Request) {
 
   const paper = await prisma.paper.create({
     data: {
-      title: `${subject.title} — Model invent #${existing + 1} (${questions.length} Q)`,
+      title: `${subject.title} — ${questions.length} new questions`,
       tier: "practice",
       mode: "practice",
       focusSection: subjectKey,

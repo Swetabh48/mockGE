@@ -270,7 +270,7 @@ export async function inventSectionWithModel(args: {
   const deadline = args.deadlineMs ?? Date.now() + 280_000;
   let topicIdx = 0;
   let rounds = 0;
-  const maxRounds = Math.min(8, Math.max(topics.length * 2, 6));
+  const maxRounds = 12;
 
   while (collected.length < args.need && rounds < maxRounds && Date.now() < deadline) {
     const t = topics[topicIdx % topics.length]!;
