@@ -2,7 +2,10 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/db";
 import { ReportView } from "@/components/report/ReportView";
 import type { EvaluationResult } from "@/lib/exam/scoring";
-import { enrichExplanation, enrichTrick } from "@/lib/exam/enrichSolution";
+import {
+  enrichExplanationFromQuestion,
+  enrichTrickFromQuestion,
+} from "@/lib/exam/enrichSolution";
 
 export default async function ReportPage({
   params,
@@ -39,8 +42,34 @@ export default async function ReportPage({
       optionC: q.optionC,
       optionD: q.optionD,
       correctOption: q.correctOption,
-      explanation: enrichExplanation(q.topic, q.explanation, q.stemEn),
-      trick: enrichTrick(q.topic, q.trick),
+      explanation: enrichExplanationFromQuestion({
+        topic: q.topic,
+        subtopic: q.subtopic,
+        subject: q.subject,
+        sectionKey: q.sectionKey,
+        stem: q.stemEn,
+        optionA: q.optionA,
+        optionB: q.optionB,
+        optionC: q.optionC,
+        optionD: q.optionD,
+        correctOption: q.correctOption,
+        explanation: q.explanation,
+        trick: q.trick,
+      }),
+      trick: enrichTrickFromQuestion({
+        topic: q.topic,
+        subtopic: q.subtopic,
+        subject: q.subject,
+        sectionKey: q.sectionKey,
+        stem: q.stemEn,
+        optionA: q.optionA,
+        optionB: q.optionB,
+        optionC: q.optionC,
+        optionD: q.optionD,
+        correctOption: q.correctOption,
+        explanation: q.explanation,
+        trick: q.trick,
+      }),
       selected: a?.selected ?? null,
       timeSpentMs: a?.timeSpentMs ?? 0,
       changeCount: a?.changeCount ?? 0,

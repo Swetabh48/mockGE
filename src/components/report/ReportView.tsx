@@ -290,7 +290,7 @@ export function ReportView(props: Props) {
                   {q.explanation && (
                     <div className="mt-2 border-l-2 border-[#1e3a5f] pl-3">
                       <div className="text-[11px] uppercase tracking-wide text-[#5a6577]">
-                        Detailed solution
+                        Notes & solution (this question)
                       </div>
                       <p className="whitespace-pre-line text-sm leading-relaxed text-[#1a1f2b]">
                         {q.explanation}
@@ -300,7 +300,7 @@ export function ReportView(props: Props) {
                   {q.trick && (
                     <div className="mt-2 border-l-2 border-[#c45c26] bg-[#fff8f4] py-2 pl-3 pr-2">
                       <div className="text-[11px] uppercase tracking-wide text-[#c45c26]">
-                        Exam trick (with example)
+                        Exam trick (this question only)
                       </div>
                       <p className="mt-1 whitespace-pre-line text-sm leading-relaxed text-[#1a1f2b]">
                         <LinkifiedText text={q.trick} />

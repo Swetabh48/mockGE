@@ -149,8 +149,9 @@ HARD RULES:
 3. Do NOT reuse or lightly paraphrase any stem under AVOID.
 4. Each stem must use a DIFFERENT story / fact angle (not the same template with swapped digits).
 5. 4 options A–D, exactly one correct.
-6. Include explanation + short exam trick.
-7. JSON ONLY:
+6. explanation MUST be revision NOTES for THIS question (8–14 lines): what is asked, why the correct option is right, 3 related facts the candidate should remember (nearby articles/years/people), and why each wrong option is a trap. Never a one-liner.
+7. trick MUST be unique to THIS stem (a 10-second hall memory). Forbidden to reuse a generic line like "Article clusters FR 12–35" or "timeline anchors 1857, 1885" on every question.
+8. JSON ONLY:
 {"questions":[{"stemEn":"","optionA":"","optionB":"","optionC":"","optionD":"","correctOption":"A","explanation":"","trick":""}]}
 
 AVOID (already shown — forbidden):
