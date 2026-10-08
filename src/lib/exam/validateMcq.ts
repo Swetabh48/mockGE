@@ -322,3 +322,74 @@ export function verifiedSolutionNotes(args: {
     correctOption: fixed.correctOption,
   };
 }
+
+/**
+ * Prefer SymPy (Modal / local Python), then TS solvers.
+ * Returns null only when math proves the item is unsafe.
+ */
+export async function validateAndRepairMcqAsync(q: McqLike): Promise<McqLike | null> {
+  const { applyPythonVerify, verifyMcqWithPython } = await import("./pythonMathVerify");
+  const cleaned: McqLike = { ...q, stemEn: cleanEnglish(q.stemEn) };
+  if (cleaned.stemEn.length < 25) return null;
+
+  const py = await verifyMcqWithPython(cleaned);
+  if (py) {
+    if (py.ok) {
+      const applied = applyPythonVerify(cleaned, py);
+      if (applied) return applied;
+    } else if (py.reason === "solved_value_not_in_options") {
+      return null;
+    }
+  }
+
+  return validateAndRepairMcq(cleaned);
+}
+
+export async function verifiedSolutionNotesAsync(args: {
+  stem: string;
+  topic: string;
+  optionA: string;
+  optionB: string;
+  optionC: string;
+  optionD: string;
+  correctOption: string;
+  explanation?: string | null;
+}): Promise<{
+  explanation: string;
+  trick: string;
+  topic: string;
+  subtopic?: string;
+  correctOption: string;
+  engine?: string;
+} | null> {
+  const q: McqLike = {
+    stemEn: args.stem,
+    optionA: args.optionA,
+    optionB: args.optionB,
+    optionC: args.optionC,
+    optionD: args.optionD,
+    correctOption: args.correctOption,
+    explanation: args.explanation || "",
+    trick: "",
+    topic: args.topic,
+  };
+  const fixed = await validateAndRepairMcqAsync(q);
+  if (!fixed) return null;
+
+  const { verifyMcqWithPython } = await import("./pythonMathVerify");
+  const py = await verifyMcqWithPython(fixed);
+  if (py?.ok && py.explanation && py.correctOption) {
+    return {
+      explanation: py.explanation,
+      trick: py.trick || fixed.trick,
+      topic: py.topic || fixed.topic,
+      subtopic: py.subtopic || fixed.subtopic,
+      correctOption: py.correctOption,
+      engine: "sympy",
+    };
+  }
+
+  const sync = verifiedSolutionNotes(args);
+  if (!sync) return null;
+  return { ...sync, engine: "ts" };
+}

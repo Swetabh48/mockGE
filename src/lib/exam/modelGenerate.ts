@@ -3,7 +3,7 @@
  * Every Generate call must invent NEW stems — never reuse PDFs or prior sets.
  */
 
-import { validateAndRepairMcq } from "./validateMcq";
+import { validateAndRepairMcqAsync } from "./validateMcq";
 
 export type ModelMcq = {
   stemEn: string;
@@ -93,7 +93,11 @@ function extractJson(text: string): unknown {
   }
 }
 
-function normalizeMcq(raw: Record<string, unknown>, topicTitle: string, sub?: string): ModelMcq | null {
+async function normalizeMcq(
+  raw: Record<string, unknown>,
+  topicTitle: string,
+  sub?: string,
+): Promise<ModelMcq | null> {
   const stemEn = String(raw.stemEn || raw.stem || raw.question || "").trim();
   const optionA = String(raw.optionA || raw.A || "").trim();
   const optionB = String(raw.optionB || raw.B || "").trim();
@@ -135,8 +139,8 @@ function normalizeMcq(raw: Record<string, unknown>, topicTitle: string, sub?: st
     subtopic: sub,
   };
 
-  // Math verify / repair (boats, SI, CI…) — drops items whose answer is wrong
-  return validateAndRepairMcq(draft);
+  // SymPy (Python) first, then TS solvers — drops items whose answer is wrong
+  return validateAndRepairMcqAsync(draft);
 }
 
 export async function generateTopicQuestionsWithModel(args: {
@@ -214,7 +218,7 @@ AVOID:
     const list = Array.isArray(parsed.questions) ? parsed.questions : [];
     const out: ModelMcq[] = [];
     for (const raw of list) {
-      const q = normalizeMcq(raw, args.topicTitle, args.subtopicTitle);
+      const q = await normalizeMcq(raw, args.topicTitle, args.subtopicTitle);
       if (q) out.push(q);
     }
     return out;
