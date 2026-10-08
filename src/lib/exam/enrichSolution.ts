@@ -2,6 +2,7 @@ import { trickForTopic } from "./taxonomy";
 import {
   bestPatternForTopic,
 } from "./revisionNotes";
+import { inferTopicFromStem, verifiedSolutionNotes } from "./validateMcq";
 
 export type SolutionContext = {
   topic: string;
@@ -569,21 +570,27 @@ function buildEnglishNotes(ctx: SolutionContext): string {
 }
 
 function buildGenericNotes(ctx: SolutionContext): string {
+  const inferred = inferTopicFromStem(ctx.stem, ctx.topic);
   const raw = (ctx.explanation || "").trim();
+  // Drop model gibberish that contradicts verified patterns
+  const looksBroken =
+    /48\/3\.2|speed upstream would be\s*\(|\(48\/|naive shortcut \(adding %/i.test(raw) ||
+    (raw.length > 40 && /hcf|lcm|divisib/i.test(ctx.topic) && /boat|stream|upstream/i.test(ctx.stem));
+
   const quant = quantSteps(ctx);
   if (quant) return quant;
-  if (raw.length >= 120 && raw.includes("\n")) return raw;
+  if (!looksBroken && raw.length >= 120 && raw.includes("\n")) return raw;
 
   return [
-    `Solution · ${ctx.topic}${ctx.subtopic ? ` / ${ctx.subtopic}` : ""}`,
+    `Solution · ${inferred.topic}${inferred.subtopic ? ` / ${inferred.subtopic}` : ""}`,
     "",
-    "1. Read what is asked",
+    "1. What is asked",
     ctx.stem,
     "",
     "2. Method",
-    raw
+    !looksBroken && raw
       ? expandOneLiner(raw, ctx)
-      : `Apply the standard ${ctx.topic} method. Substitute the given numbers/facts; cancel early; match options.`,
+      : `Apply the standard method for ${inferred.topic}. Use the correct formula for THIS stem; ignore unused numbers.`,
     "",
     `3. Correct option: (${ctx.correctOption}) ${correctText(ctx)}`,
     "",
@@ -591,11 +598,35 @@ function buildGenericNotes(ctx: SolutionContext): string {
     otherOptions(ctx)
       .map((o) => `(${o.letter}) ${o.text}`)
       .join("\n"),
-    "Drop options that come from a naive shortcut (adding % instead of successive %, SI instead of CI, wrong unit, neighbour fact).",
+    "Reject options that come from the opposite formula (e.g. downstream when upstream is asked).",
   ].join("\n");
 }
 
 export function enrichExplanationFromQuestion(ctx: SolutionContext): string {
+  const verified = verifiedSolutionNotes({
+    stem: ctx.stem,
+    topic: ctx.topic,
+    optionA: ctx.optionA,
+    optionB: ctx.optionB,
+    optionC: ctx.optionC,
+    optionD: ctx.optionD,
+    correctOption: ctx.correctOption,
+    explanation: ctx.explanation,
+  });
+  if (verified) {
+    const traps = otherOptions({ ...ctx, correctOption: verified.correctOption })
+      .map((o) => `(${o.letter}) ${o.text}`)
+      .join("\n");
+    return [
+      verified.explanation,
+      "",
+      `Correct option: (${verified.correctOption}) ${opt(ctx, verified.correctOption)}`,
+      "",
+      "Other options (traps):",
+      traps,
+    ].join("\n");
+  }
+
   if (isGaLike(ctx)) return buildGaNotes(ctx);
   if (isReasoningLike(ctx) && !isQuantLike(ctx)) return buildReasoningNotes(ctx);
   if (/english|error|idiom|synonym|antonym|cloze|vocab|grammar/i.test(
@@ -704,8 +735,25 @@ function uniqueReasoningTrick(ctx: SolutionContext): string {
 }
 
 export function enrichTrickFromQuestion(ctx: SolutionContext): string {
+  const verified = verifiedSolutionNotes({
+    stem: ctx.stem,
+    topic: ctx.topic,
+    optionA: ctx.optionA,
+    optionB: ctx.optionB,
+    optionC: ctx.optionC,
+    optionD: ctx.optionD,
+    correctOption: ctx.correctOption,
+    explanation: ctx.explanation,
+  });
+  if (verified?.trick) return verified.trick;
+
   if (isGaLike(ctx)) return uniqueGaTrick(ctx);
-  if (isQuantLike(ctx)) return uniqueQuantTrick(ctx);
+  if (isQuantLike(ctx) || /boat|stream|upstream|downstream/i.test(ctx.stem)) {
+    return uniqueQuantTrick({
+      ...ctx,
+      topic: inferTopicFromStem(ctx.stem, ctx.topic).topic,
+    });
+  }
   if (isReasoningLike(ctx)) return uniqueReasoningTrick(ctx);
   if (/english|error|idiom|synonym|cloze|vocab/i.test(`${ctx.subject} ${ctx.topic}`)) {
     return [

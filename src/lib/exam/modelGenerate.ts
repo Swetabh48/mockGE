@@ -3,6 +3,8 @@
  * Every Generate call must invent NEW stems — never reuse PDFs or prior sets.
  */
 
+import { validateAndRepairMcq } from "./validateMcq";
+
 export type ModelMcq = {
   stemEn: string;
   optionA: string;
@@ -112,20 +114,29 @@ function normalizeMcq(raw: Record<string, unknown>, topicTitle: string, sub?: st
       return null;
     }
   }
-  return {
+  // Reject topic leakage: asked for number system but model wrote a boat Q, etc.
+  if (/hcf|lcm|number system|divisib/i.test(topicTitle) && /boat|stream|upstream|downstream/i.test(stemEn)) {
+    return null;
+  }
+  if (/boat|stream|speed|distance|train/i.test(topicTitle) && /hcf|lcm|divisib/i.test(stemEn)) {
+    return null;
+  }
+
+  const draft: ModelMcq = {
     stemEn,
     optionA,
     optionB,
     optionC,
     optionD,
     correctOption,
-    explanation: String(raw.explanation || "Solve using the standard method for this pattern.").trim(),
-    trick: String(
-      raw.trick || "Use the topic shortcut from Formulas & Tricks; verify with one line of working.",
-    ).trim(),
+    explanation: String(raw.explanation || "").trim(),
+    trick: String(raw.trick || "").trim(),
     topic: topicTitle,
     subtopic: sub,
   };
+
+  // Math verify / repair (boats, SI, CI…) — drops items whose answer is wrong
+  return validateAndRepairMcq(draft);
 }
 
 export async function generateTopicQuestionsWithModel(args: {
@@ -146,22 +157,24 @@ export async function generateTopicQuestionsWithModel(args: {
     `${Date.now()}-${Math.random().toString(36).slice(2, 10)}-${Math.floor(Math.random() * 1e9)}`;
 
   const count = Math.max(1, Math.min(3, args.count));
-  const prompt = `You are mockGE's trained SSC-CGL question setter (mockge-ssc). Invent EXACTLY ${count} brand-new hard MCQs.
+  const prompt = `You are mockGE's SSC-CGL question setter. Invent EXACTLY ${count} NEW hard MCQs.
 
-Novelty id (must change names, facts, and numbers): ${nonce}
-
+Novelty id: ${nonce}
 Subject: ${args.subjectTitle}
 Topic: ${args.topicTitle}
 Subtopic: ${args.subtopicTitle || "general"}
 
-HARD RULES:
-1. STRICTLY only ${args.topicTitle}${args.subtopicTitle ? ` / ${args.subtopicTitle}` : ""}.
-2. Invent NEW questions from trained exam knowledge. Do NOT copy PYQs or PDFs.
-3. Do NOT reuse stems under AVOID.
-4. 4 options A–D, exactly one correct.
-5. explanation: 2–4 sentences on why the correct option is right (specific to this stem).
-6. trick: one unique 10-second memory for THIS stem only.
-7. JSON ONLY:
+QUALITY RULES (mandatory):
+1. ONLY ${args.topicTitle}${args.subtopicTitle ? ` / ${args.subtopicTitle}` : ""}. No other topic.
+2. Clear exam English — short, grammatical, SSC style. No broken sentences.
+3. Invent NEW numbers/stories. Do NOT copy PYQs/PDFs. Do NOT reuse AVOID stems.
+4. SOLVE the question yourself BEFORE setting correctOption. The keyed answer MUST be mathematically/factually correct.
+5. For boats: upstream = still−stream, downstream = still+stream. Never invent nonsense like dividing distance by still-water speed to get upstream speed.
+6. Put the correct value in ONE of the four options and set correctOption to that letter (A/B/C/D).
+7. Distractors: common mistakes (e.g. still+stream when upstream asked, SI when CI asked).
+8. explanation: 3–5 clear steps with the real formula and arithmetic for THIS stem.
+9. trick: one short memory line unique to THIS stem.
+10. JSON ONLY:
 {"questions":[{"stemEn":"","optionA":"","optionB":"","optionC":"","optionD":"","correctOption":"A","explanation":"","trick":""}]}
 
 AVOID:
@@ -184,10 +197,10 @@ AVOID:
         stream: false,
         format: "json",
         options: {
-          temperature: 1.15,
-          top_p: 0.95,
-          top_k: 80,
-          num_predict: 1100,
+          temperature: 0.7,
+          top_p: 0.9,
+          top_k: 40,
+          num_predict: 1400,
           seed: Math.floor(Math.random() * 2_147_483_647),
         },
       }),
