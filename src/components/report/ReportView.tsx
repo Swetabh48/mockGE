@@ -27,6 +27,8 @@ type ReviewItem = {
   correctOption: string;
   explanation: string | null;
   trick: string | null;
+  solutionDetail?: string | null;
+  solutionCitations?: string[] | null;
   selected: string | null;
   timeSpentMs: number;
   changeCount: number;
@@ -296,6 +298,21 @@ export function ReportView(props: Props) {
                         {q.explanation}
                       </p>
                     </div>
+                  )}
+                  {q.solutionDetail && (
+                    <details className="mt-2 border border-[#c5ccd6] bg-[#f7f8fa] p-3 open:bg-white">
+                      <summary className="cursor-pointer text-sm font-medium text-[#1e3a5f]">
+                        Textbook solution (detailed)
+                      </summary>
+                      <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-[#1a1f2b]">
+                        {q.solutionDetail}
+                      </p>
+                      {q.solutionCitations && q.solutionCitations.length > 0 && (
+                        <p className="mt-2 text-xs text-[#5a6577]">
+                          Citations: {q.solutionCitations.join(" · ")}
+                        </p>
+                      )}
+                    </details>
                   )}
                   {q.trick && (
                     <div className="mt-2 border-l-2 border-[#c45c26] bg-[#fff8f4] py-2 pl-3 pr-2">

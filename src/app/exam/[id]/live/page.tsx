@@ -46,6 +46,8 @@ export default async function ExamLivePage({
       tier={paper.tier as ExamTier}
       focusSection={(paper.focusSection as SectionKey) || undefined}
       mode={paper.mode}
+      exam={paper.exam}
+      iesPaper={paper.iesPaper}
       questions={questions}
       attemptId={attempt.id}
     />

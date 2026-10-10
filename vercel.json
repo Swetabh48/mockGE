@@ -2,6 +2,9 @@
   "functions": {
     "src/app/api/practice/generate/route.ts": {
       "maxDuration": 300
+    },
+    "src/app/api/ies/generate/route.ts": {
+      "maxDuration": 300
     }
   }
 }

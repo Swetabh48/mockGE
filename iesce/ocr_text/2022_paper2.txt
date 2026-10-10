@@ -1,0 +1,1934 @@
+
+--- page 1 ---
+ENGINEERING SERVICES (P)
+DONOTOPENTHISTESTBOOKLE
+T.B.C.:PKL-D-CVL
+TESTBC
+Serial No.
+0052513
+Pap
+(CIVILENG
+TimeAllowed:ThreeHours
+INSTRU
+IMMEDIATELYAFTERTHECOMMENCE
+CHECKTHATTHISTESTBOOKLETDO
+MISSING PAGES OR ITEMS,ETC.IFS
+BOOKLET.
+
+2. PLEASE NOTE THAT IT IS THE CA
+ANDFILLINTHEROLLNUMBERAND
+CAREFULLYANDWITHOUTANYOMISS
+PLACESINTHEOMR ANSWER SH
+RENDERTHEANSWERSHEETLIABLE
+
+3. You have to enter your Roll Number on
+Booklet in the Box provided alongside.D
+write anything else on the TestBooklet.
+This Test Booklet contains 150 items (questi
+Youwillselect theresponsewhichyouwant
+there is more than one correct response,mar
+case,choose ONLY ONE response for each
+
+5. YouhavetomarkyourresponsesONLYon
+the Answer Sheet.
+
+6. Allitems carryequalmarks.
+
+7. Beforeyouproceed tomarkin theAnswerSh
+youhave tofill in someparticulars in theAr
+Admission Certificate.
+
+8. Afteryouhavecompletedfillinginallyourre
+concluded,you shouldhandover totheInvigi
+awaywith-you theTestBooklet.
+
+9. Sheetsforrough workare appendedin the
+
+10. Penalty forwrong Answers:
+THEREWILLBEPENALTYFORWRONG
+i
+There are four alternatives for the an
+awronganswerhasbeengivenbyth
+to thatquestionwill be deductedasp
+(i
+Ifacandidate givesmore than one an
+of thegiven answershappens tobe co
+question.
+(ii)
+Ifaquestionis left blanki.e.no answ
+for that question.
+DONOTOPENTHISTESTBOOKLE
+
+(P) EXAM-2022
+LETUNTILYOUARETOLDTODOSO
+TestBooklet Series
+BOOKLET
+A
+aperII
+NGINEERING)
+Maximum Marks:300
+RUCTIONS
+CEMENTOFTHEEXAMINATION,YOUSHOULD
+DOESNOTHAVEANYUNPRINTEDORTORNOR
+SO,GETITREPLACEDBYACOMPLETETEST
+CANDIDATE'SRESPONSIBILITYTOENCODE
+NDTESTBOOKLETSERIESCODEA,B,CORD
+ISSIONORDISCREPANCYATTHEAPPROPRIATE
+SHEET.ANYOMISSION/DISCREPANCYWILL
+EFORREJECTION.
+ntheTest
+DONOT
+estions).Each item comprises four responses (answers).
+ant to mark on theAnswerSheet.In case,youfeel that
+mark theresponse whichyou consider thebest.In any
+chitem.
+on the separateAnswer Sheetprovided.See directionsin
+Sheet the response tovarious itemsin the Test Booklet,
+AnswerSheetasperinstructionssenttoyouwithyour
+responses on theAnswerSheet and theexamination has
+igilatoronlytheAnswerSheet.Youarepermittedtotake
+eTestBookletattheend.
+GANSWERSMARKEDBYACANDIDATE.
+answertoeveryquestion.Foreachquestionforwhich
+the candidate,one-third (0-33)of the marks assigned
+penalty.
+answer,it will be treated aswrong answer even if one
+correctandtherewillbe samepenaltyasaboveto that
+swerisgivenby thecandidate,therewill benopenalty
+XLETUNTILYOUARETOLDTODOSO
+
+--- page 2 ---
+1.Whichoneof thefollowingstatements
+isNOTcorrectregarding therelationships between bendingmoment,shear
+forceand appliedload?
+（a)Therateof change of shear force
+along a beam isequal to the
+distributed load
+(B) The rate of change of bending
+momentalongabeamisequal to
+the shear force
+Therate of change ofbending
+momentalongabeam isequal to
+thedistributedload
+(D) The shear force and bending
+moment atfreeendis alwayszero
+2.What is the supportreaction Vgfrom
+the following figure?
+10kN
+10kN
+10kN
+H
+2-0m↓2-0m↓2.0m↓2.0m
+VA
+VG
+(A) 15kN（upward)
+(B) 20kN(upward)
+(C) 15kN(downward)
+(D) 20 kN (downward)
+3.Consider the following assumptions
+forpurebending theory:
+1.Thematerial is heterogeneous and
+isotropic.
+2.The stress is purely longitudinal
+andlocaleffectsnearconcentrated
+loadswill beneglected.
+PKL-D-CVL-A
+2
+
+3.The radius of curvature is large
+comparedwiththedimensionsof
+the cross-section.
+Which of the abovestatements are
+correct?
+(A) 1and2only
+(b）2and3only
+1and3only
+（d）1,2and3
+4.Fora fixed-connected collar type of
+support connection in coplanar structures,thenumberofunknown(s)is/are
+（a)three and the reactions are two
+forcesandamomentcomponent
+oneand thereactionisamoment
+component
+(C) two andthe reactions aretwo
+forces （one horizontal and one
+vertical)
+(D) two and the reactions are a force
+andamoment
+5.For a rectangular beam of 4m long
+with100mmwideand200mmdeep,
+itcarriesashearforceof100kN.What
+is the maximum shear stress（max)due
+tothebendingofrectangular section？
+(A) 2.5N/mm²
+(B) 5N/mm²
+（c)7.5N/mm²
+(D) 10 N/mm²
+
+--- page 3 ---
+6.Whatisthemaximum
+deflection
+(max)for a cantilever beam of span l
+subjected toapointloadactingata
+distanceafrom thefixedendasshown
+in figure?(TakeYoung's modulus as E
+andmomentofinertiaofbeamsection
+as I)
+Pa2
+(3l-a)
+(A) ymax
+6EI
+Pa2
+(3l-a)
+(B) ymax
+3EI
+3Pa2
+(C) ymax
+(3l-a)
+2EI
+Pa²
+(D) ymax
+(31-a)
+2EI
+7.Whatisthe
+maximum
+tension
+(approximately)in thecable as shown
+infigure,if itcarriesa uniform
+horizontally
+distributed
+load
+intensity120kN/m?
+30m
+C
+50m
+120kN/m
+m
+L
+300m
+W
+(A) 48.5kN
+(B) 48.5MN
+(C) 485kN
+(D) 4850N
+3
+
+8.Consider the following statements:
+1.For a given load,the deflection of
+anindeterminatestructureis
+smaller thanthatofdeterminate
+structure.
+2.For a given load, the maximum
+stress of an indeterminate structureishigher than thatofdeterminate structure.
+3.For a given load,the maximum
+stress of an indeterminate structureis smaller than thatof determinate structure.
+Whichof theabovestatementsis/are
+correct?
+（a)1and2only
+(B) 2only
+（c)1 and 3only
+(D) 3only
+9.What isthe degreeof kinematic
+indeterminacyofthetrussasshownin
+figure?
+(A) .10
+(B) 11
+(C) .12
+(D) 13
+
+3. A-PKL-D-CVL
+
+--- page 4 ---
+10.Whichoneofthefollowingstatements
+is NOT correct?
+（a)The influence lines are constructed
+for
+establishing
+the
+maximum design forces atcritical
+sections produced by moving
+loads
+(B) As a moving load passes over a
+structure,the internal forces at
+eachpointin thestructuredonot
+vary
+()To ensure the safety ofa structure,
+thecapacityofsectionshouldbe
+greater than orequal toall the
+combinationofloads
+（d)The maximum deflection occurs
+at thecentreofa simplysupported
+beam,when a concentrated load
+applied atthemid-span
+11.Twoloadsof 40kNand60kNare
+movingtowardssupportBasshownin
+figure.What is the maximum negative
+shear force atB?
+60kN
+40kN
+6m
+16m
+(A) -77.5kN
+(B) -7.75kN
+(C) -37.5kN
+(D) -3.75kN
+PKL-D-CVL-A
+
+12.Consider thefollowing statements
+related totheusesofcomputer
+programs in the structural analysis:
+1.To analyzea trusswithrigid joints
+wouldbealengthycomputation
+bytheclassical
+1methodsof
+analysis.
+2.The rigid joints (in truss analysis)
+are assumed tobepinnedjointsby
+thedesignerstosimplifythe
+problem.
+3.The computer programs enable to
+consider the real situation （rigid
+joints)and alsogive theaccurate
+results in a quick time.
+Whichof the above statements are
+correct?
+(A) 1 and 2only
+(B) 2and3only
+(C) 1 and3only
+（d)1,2and3
+13.If theload is transmitted by bolts or
+rivets through somebutnotall the
+cross-sectional
+elements
+ofthe
+member,the effective area Ais
+computed by usingnet areaAand the
+reduction coefficientUas
+(A) Ae=UAn
+(B) Ae=An/U
+(C) Ae=0.87UAn
+(D) Ae=0-66UAn
+
+--- page 5 ---
+14.If the net end moments of a compression member are zero then such
+member is called
+(A) beam column
+(B) axiallyloaded column
+(C) atruss
+(D) a girder
+15.Consider the following factors that
+affectthebehaviorofacolumn under a
+compression load:
+1.The stress-strainpropertiesremain
+constant throughout the section.
+2.The columnmaynotbeperfectly
+straight astheload is appliedtoit.
+3.End conditions may vary from
+case to case.
+Whichof the abovestatementsare
+beingignoredin theEuler approach？
+(A) 1 and2only
+(B) 1 and3only
+（c)2and3only
+(D) 1,2and3
+16.Whatistheeffectivelengthofa steel
+prismaticcompressionmemberfor
+which,the translation androtation are
+restricted atboth the ends？
+(A) 0.80L
+(B) 1.00L
+(C) 1.20L
+(D) 0.65L
+
+17.By considering the net area as An
+ultimate stress as fu and the partial
+safety factor as Ym the IS code
+formula for preliminarydesignofa
+tensionmember for design strength
+due to rupture （Tan)of the critical
+section is
+aAnfu
+(A) Tan=
+2ml
+Anfu
+(B) Tan=
+aYml
+(C) Tan=mlAnfu
+a
+aAnfu
+(D) Tan=
+u
+1
+18.Consider thefollowing statements
+e
+regarding the classification ofbeams:
+1.Floorbeamsareoftenreferred to
+as girders.
+2.Joist is a beam supporting floor
+construction but not a major
+beam.
+3.Rafter is a roof beam,usually
+supportedbyrooftruss.
+or
+Whichof theabovestatementsare
+re
+correct?
+(A) 1and2only
+(B) 1and3only
+(C) 2and3only
+(D) 1,2and3
+
+5. A-PKL-D-CVL
+
+--- page 6 ---
+19.A simply supported steel beam of 8m
+longandsubjectedtoa uniformly
+distributedloadof10kN/m.Whatis
+themaximum bending stress(f)of the
+memberatadistanceof50mmfrom
+the neutral axis?
+（TakeI=10x10mm)
+（a)400N/mm²
+(B) 4000 N/mm²
+(C) 800N/mm²
+(D) 8000N/mm²
+20.Arrange the following steps involved
+in the design ofbeam-columns ina
+correct sequence:
+1.Determine the factoredloadsand
+moments acting on the beamcolumn using a first-order elastic
+analysis.
+2.Choose an initial section and
+calculate the necessary section
+properties.
+3.Classify the cross section as per
+the IS code.
+4.Find out the bending strength of
+the cross section aboutthemajor
+andminor axisofthemember.
+Select the correct answer using the
+codegivenbelow:
+（a)2,3,1,4
+(B) 3,1,2,4
+（c)1,2,3,4
+（d)4,3,2,1
+21.What isthe approximatevalueof the
+tensilestrengthgovernedbyyielding
+ofthecrosssectionofaroof trussdiagonal100×75×6mm（f=250MPa)
+connectedtothegussetplateby4-mm
+welds as shown infigure？（Take
+partial safetyfactor as 1·10)
+PKL-D-CVL-A
+b
+
+4-mmweld,140mm long
+
+100. A=1010mm²
+
+75. Weld310mmlong
+(A) 230kN
+(B) 23kN
+(C) 320kN
+(d）32kN
+22.A tension member is made up of a
+singleangle200mm×150mm×15mm
+with a gross area of 30 cm².Two rows
+of18mmdiameter bolts（takehole
+diameter=20mm)areused（as shown
+in figure
+(A) and
+(B) ).What is the net
+area?
+(A) 
+(B) （a)2460mm²
+(B) 2500mm²
+2400mm²
+(C) （d)2560mm²
+
+--- page 7 ---
+23.In aplategirdersubjected to abending
+momentof 200kNm,thewidthand
+thicknessofflange are 200mm and
+10mm respectively..Whatisthe
+economicaldepthofthegirderby
+assumingthemomentisresistedbythe
+flange only？（Take f=250 MPa)
+(A) 800mm
+(B) 400mm
+（c)500mm
+（d)700mm
+24.Whichoneofthefollowingstatements
+isNOTcorrectregardinggrosssection
+yielding?
+(A) Generally,a tension
+member
+withoutboltholescanresistloads
+uptotheultimateloadwithout
+failure
+(B) A tension memberwhen subjected
+toanultimateloadwilldeform
+considerablyin the longitudinal
+direction
+(C) Astructure
+becomes
+more
+serviceable
+underthe
+large
+deformation
+（d)TheIS code limits design strength
+by substituting a partial safety
+factorof1·10forfailureintension
+Directions for the following five （05)
+items:
+Readthefollowinginformation andanswer
+thefiveitems thatfollow:
+Asinglyreinforcedconcretebeamwithan
+effectivespanof4mhasarectangularcross
+sectionwithawidthof300mmandan
+overalldepthof550mm.Thebeamis
+reinforcedwithsteelofFe-415gradeofarea
+250mm²ataneffectivedepthof500mm.
+Theself-weightwithdeadloadofthebeam
+is 4kN/m.ConsiderM-15gradeconcrete
+and cbc=5MPa;st=230MPa.
+
+25.What is the bending moment due to
+dead load?
+(A) 8000Nm
+(B) 80kNm
+（c)32kNm
+（d）3200Nm
+26.What is themodularratio？
+(A) 28/3
+(B) 40/3
+()56/3
+(D) 86/3
+27.What is the depth of critical neutral
+axis?
+134.33mm
+(A) 
+(B) 124.33mm
+(C) 154.33mm
+（d)144.33mm
+28.What is the moment ofresistance of
+thesectionif theactualdepthof
+neutralaxisis100mm?
+(A) 36.83kNm
+(B) 26.83kNm
+(C) 16.83kNm
+(D) 46.83kNm
+A-PKL-D-CVL
+
+--- page 8 ---
+29.What is thepermissible live load on
+the beam?
+（a)13.43kN/m
+(B) 9.43kN/m
+（c)8.43kN/m
+（d)6.43kN/m
+30.A sectionis said tobeunder-reinforced
+when
+(A) the depth of actual neutral axis is
+greater than thedepthofcritical
+neutral axis
+(B) the depth of actualneutral axis is
+less than the depthof critical
+neutral axis
+（c）the depth of actual neutral axis is
+equaltothedepthofcritical
+neutral axis
+（d)it is notrelated to thedepth of
+neutral axis
+31.Considerthe following statements
+regarding the slabs:
+1.When thelonger span to shorter
+spanratioisgreaterthanorequal
+totwo,itisatwo-wayslab.
+2.In one-way slab,theload transfer
+ischieflybybending inthe
+shorter direction.
+3.In
+two-way
+slabs,theload
+transferred by bending in both
+orthogonaldirections.
+PKL-D-CVL-A
+
+8. Whichoftheabovestatementsis/are
+correct?
+(A) 1 and2only
+(B) 3only
+(C) 2and3only
+(D) 1and3only
+32.Whichoneof thefollowingstatements
+is NOTcorrectinreinforced concrete
+design?
+（a)In the cracked section,concrete
+below theneutral axisisneglected
+in calculations
+b
+When section is subjected to
+externalloading,resistingmoment
+is developedduetocompression
+inconcreteand tensioninsteel
+（c)In the cracked section,the steel
+area below the neutral axis is
+convertedintoequivalentconcrete
+area
+（d）The neutral axis depth does not
+dependonthemodularratio
+33.A concrete beam ispost-tensioned by
+acable carrying aninitial stressof
+1000N/mm².The slipat the jacking
+endwasobservedtobe5mm.The
+modulusofelasticityofsteelis
+210kN/mm2.Whatis thepercentage
+lossofstressduetoanchorageslipif
+thelengthofthebeamis30m？
+(A) 3.5%
+(B) 35%
+(C) 0.35%
+(D) 30.5%
+
+--- page 9 ---
+34.TheIndian Standard(IS) codeused for
+design ofprestressed concreteis
+(A) IS4326:2013
+(B) IS3920:2012
+(C) IS6512:2013
+(D) IS1343:2012
+35.Which one of the following statements isNOT correctrelated to the
+earthquake resistant design?
+(A) Overall depth ofa beam should
+not be greater than one-fourth of
+theclear span
+(B) The percentage tensile reinforcement shouldnotexceed2.5
+（)The reinforcement resisting positivemomentsatajointfacemust
+beless than half the negative
+momentreinforcement
+（d）Thewidthtodepthratioshouldbe
+more than0.30toavoidlateral
+instability
+36.Consider thefollowing statements
+related toisolation conceptsinearthquake resistant design:
+1.Developmentof shock-isolation
+conceptsare generallyapplied to
+earthquake resistant structures.
+2.The shock-isolation concept is
+aradical departure from current
+seismic design practice.
+3.Thesuccessfulimplementation
+of shock-isolation concept will
+ensure the simplification in the
+design of tallreinforced concrete
+structures
+
+Whichof the above statements are
+correct?
+(A) 1 and2only
+(B) 2and3only
+(c）1and3only
+(D) 1,2 and3
+37.Dozer primarilyis
+(A) a pushing unit
+(B) a lifting unit
+（c)a digging unit
+(D) a pulling unit
+38.The process of breaking a major
+projectinto itsmajor and sub systems
+anddiscrete activities which canbe
+identified easilyis called
+(A) Line of balance technique
+b
+Workbreak system
+C
+Milestone chart technique
+P
+PERT technique
+39.Whichoneof thefollowingstatements
+isNOTcorrectinrespectofstagesof
+construction?
+Conceptual stage isbefore study
+(A) and evaluation
+Construction
+stage
+is
+after
+(B) tendering stage
+（c)Design stage is after tendering
+stage
+(D) Study and evaluation stage is
+before design stage
+A-PKL-D-CVL
+
+--- page 10 ---
+40.In a construction project, generally
+50%oftotalprojectcostisattributed
+to
+(A) Equipmentcostonly
+(B) Material cost only
+Manpower cost only
+(D) Materialplus equipment cost
+41.Consider the following statements
+regarding the advantages ofplanning
+tothecontractor:
+1.Theprogramprovides a standard,
+bywhich actual work can be
+measured.
+2.The program providesa preconceivedplanfor thewholejob
+aswell asforvariousstagesofthe
+work.
+Whichof theabovestatementsis/are
+correct?
+(A) 1only
+(B) 2only
+（c)Both 1and2
+（d）Neither 1nor2
+42.Arrange the stages ofconstruction of
+highway projects in correct sequence:
+1.Cleaning site ofwork or construction
+2.Construction of drainage work
+such as culvertetc.
+3.Earth work
+4.Construction of road andits
+shoulders
+PKL-D-CVL-A
+
+10. Select the correct answer using the
+codegiven below:
+（a)1,2,3,4
+(B) 1,3,2,4
+（c)2,1,4,3
+（d)3,4,1,2
+43.Return onInvestmentmethod is useful
+for
+(A) Economic analysis ofproject
+b
+Ecologicalanalysisofproject
+?
+Financial analysis ofproject
+(D) Commercial analysisofproject
+44.Tomeasure theperformanceofproject
+againstestablished targetandidentify
+deviationfrom the targetarepartof
+which one of thefollowingmanagementfunctions?
+(A) Planning
+(B) Directing
+(C) Coordinating
+(D) Controlling
+45.In bar chart,the length of bar shows
+(A) materials required for large scale
+projects
+(B) time required to complete that
+activity
+interdependencies ofproject
+（d)critical activitiesof theproject
+0
+
+--- page 11 ---
+46.Which one of the following is the
+amountof timebywhichthestartofan
+activity may be delayed without
+delaying the start ofa following
+activity?
+(A) Total float
+(B) Interference float
+?
+Independentfloat
+(D) Free float
+47.Whichofthefollowing
+is/are
+consumed time andresources?
+(A) Event only
+(B) Activity(other than dummy) only
+(C) Dummy activity only
+（d)Both event and activity （other
+than dummy)
+48.Construction quality can NOT be
+directly affected by
+(A) whether a clear set of designs and
+drawings is available
+(B) whether a clear,well-laid-out and
+unambiguoussetofspecifications
+is available
+whethera clearlydefined time
+(C) durationofproject
+(D) whether there has been usage of
+proper materials,workers and
+equipments during the constructionprocesses
+
+49.Marble isan exampleof
+(A) MetamorphicRock
+(B) Sedimentary Rock
+?
+Igneous Rock
+(D) Argillaceous Rock
+50.Which one of thefollowing is caused
+bythe crushing of fibres running
+transverselyduring thegrowthofthe
+tree?
+(A) Shake
+(B) Knot
+(C) Upset
+(D) Rind gall
+51.Whichoneofthefollowingstatements
+er
+isNOTcorrectforAluminium？
+(A) It is less ductile than copper
+e
+(B) It isharder than tin
+d
+（c）It can be soldered
+(D) It can bewelded
+P
+ns
+52.Whichoneof the followinglimesis
+the quick-lime coming out of kilns？
+ne
+(A) Lump lime
+(B) Fat lime
+of
+pu
+（)Hydraulic lime
+C-
+(D) Hydrated lime
+A-PKL-D-CVL
+11
+
+--- page 12 ---
+53.Which oneof the followingis
+generallyrecommendedforsmall jobs
+only?
+(A) Volume batching
+(B) Weigh batching
+(C) Machine mixing
+(D) Non-tilting mixer
+54.Consider the following statements
+regarding the transit mixer:
+1.Their function is mainly to keep
+themix in an agitated condition.
+2.These mixers in addition to the
+outer spirals have four inner
+spirals.
+3.Anumber of specialnozzles
+providedonthelower sideof
+innermixing spirals,precisely and
+uniformlyspraywateronthemix
+under pressure along the entire
+length of thedrum.
+Which of the above statements are
+correct?
+（a)1and2only
+(B) 2and3only
+()1and3only
+（d）1,2and3
+55.In the acceptance criteria for concrete
+in accordance with IS 456:2000,the
+variation in strengthof individual
+specimen should notbe more than
+(A) ±30%of the average
+(B) ±25%of the average
+(C) ±15%of theaverage
+(D) ±20% of the average
+PKL-D-CVL-A
+12
+
+56.Which one of the following is NOT
+required forconcretemixdesign？
+(A) Maximum free water-cement ratio
+byweight
+(B) degreeofworkabilityofconcrete
+(C) Initialsettingtimeofcement
+(D) Maximum/minimum cement content
+57.Whichoneofthefollowingstatements
+isNOT correct in respect of wet
+process ofmanufacturing of cement?
+(A) It requires longer kilns
+(B) It produces more homogenous
+mix
+(C) It is lessresponsive toavariable
+clinker demand
+(D) It is high costof excavating and
+grindingrawmaterials
+58.Thecompactionfactor testofcement
+concreteisperformed todetermineits
+(A) porosity
+(B) percentage voids
+(C) strength
+(D) workability
+59.Whichoneofthefollowingisobtained
+by burning kankar or clayey limestones?
+(A) Hydraulic lime
+(B) Quick lime
+（c)Fat lime
+(D) White lime
+
+--- page 13 ---
+60.Slaked fatlime is used to prepare
+mortarfor
+(A) plastering
+(B) masonry construction
+(C) pointing
+reinforcedbrickwork
+(D) 61.ThevalueofPoisson’sratio forBrass
+material is
+(A) 0.14
+(B) 0-24
+0.34
+(C) 
+(D) 0.44
+62.Aholeistobepunched through a steel
+plateof8mm thickness.Whatisthe
+leastdiameterofholewhichcanbe
+punched,if the steel punch can be
+worked to a compressive stressof
+800N/mm²andtheultimate shear
+strengthis300N/mm²？
+(A) 1.2mm
+(B) 12mm
+(C) 21mm
+（d)2.1mm
+63.Consider the following statements
+regarding the strain displacement:
+1.Thestrain
+depends
+the
+displacementofpointswithin the
+body.
+2.The strain at points within the
+bodydoes notdependonthe
+relativedisplacements ofvarious
+pointswithin thebody.
+
+Which of theabovestatementsis/are
+correct?
+(A) Both 1 and 2
+(B) 1 only
+(C) 2only
+（d)Neither1nor2
+64.A flatbar 10mm thickand100mm
+wideissubjected toapullof100kN.
+One sideof the bar is polished and
+linesareruledonittoformasquareof
+50mmside,onediagonalofthesquare
+beingalong themiddlelineof the
+polished side.What is the change in
+thesides？（TakeE=200kN/mm²and
+Poisson’s ratio is 0.30)
+(A) 0.0875mm(increases)
+(B) 0.00875mm(decreases)
+(C
+0-00875mm (increases)
+(D) 0.0875mm(decreases)
+65.Ina tensile test carried out in the
+laboratoryona steelspecimenfor
+5minutes.The strain value noted at
+thattimewas0.30.Whatistheaverage
+strainrate of thatsteel specimen?
+(A) 0.01/second
+(B) 0-001/minute
+(C) 0-001/second
+(D) 0-01/minute
+66.Maximum principal strain theory of
+elasticfailureis alsoknown as
+(A) Guest's Theory
+(B) Rankine's Theory
+(C) Haigh's Theory
+(D) Saint Venant's Theory
+
+13. A-PKL-D-CVL
+
+--- page 14 ---
+67.Which oneof the following is the
+limitationofthemaximumstrain
+energy theory?
+(A) The theory does not apply to the
+ductile materials
+(B) Itcan onlybeapplicable for the
+materials under the hydrostatic
+pressure
+()It cannotbe applied formaterials
+under thehydrostaticpressure
+(P）
+The theorydoesnotgive accurate
+results in case oftorsion test.
+68.Whatarethevaluesofmaximumshear
+stress(max)and the angle of twist（0)
+respectivelyforan equilateraltriangle
+withsideaand twistingmomentM,?
+(Take themodulus ofrigidity is G)
+20Mt
+46M
+(A) and
+a
+3
+aAG
+20Mt
+26M,
+(B) and
+Q?
+aAG
+46Mt
+20Mt
+(C) and
+aAG
+20Mt
+46Mt
+(D) and
+4
+a3G
+D
+69.A cantileverbeamoflength Lis loaded
+byatransverseloadvaryinglinearly
+fromwoatfixedendandzeroatfree
+end.WhatistheshearatL/2ofthe
+beam?
+(A) woL/4
+(B) woL2/8
+(C) woL2/4
+(D) woL/8
+PKL-D-CVL-A
+14
+
+70.Two of theprincipal stresses at apoint
+are130MPaand90MPa.Whatis the
+saferange of the thirdprincipal stress
+at thepoint byusingmaximum shear
+stress theory？(Take the failure stress
+in tension as fy=210N/mm²)
+（a)-80MPa≤o≤300MPa
+(B) -155MPa≤o≤210MPa
+(C) -112MPa≤o≤222MPa
+（d)-210MPa≤o≤210MPa
+71.Aclose-coiledhelical
+spring
+is
+subjected toanaxialpullofW.The
+springismadeoutofdmm diameter
+rod,andhasn complete coils,each of
+radiusR andmodulus ofrigidity asN
+then thedeflectionunder thepull is
+(A) 8= 16WR²n
+Nd4
+32WR3n
+(B) 8=
+Nd4
+64WR3n
+(C) 8=
+Nd4
+64WR?n
+(D) 8=
+Nd3
+72.A steel wire of cross-sectional area
+100mm²andlength100misused to
+liftaweightof2.5kNatitslowest
+end.Whatisthetotalelongationofthe
+wireif themassdensityofthewireis
+8kg/m3？（TakeE=200 GPaand
+accelerationduetogravityis10m/s)
+(A) 14.5mm
+(B) 29mm
+（c)7.5mm
+（d)36.5mm
+
+--- page 15 ---
+73.For non-homogeneous clays,the
+coefficientofpermeabilityin（mm/s)
+shouldberangesbetween
+(A) 10-1to10-2
+(B) 10-2to10-3
+(C) 10-3to10-4
+(D) 10-4to 10-6
+74.Large parts of northern India lying
+northofVindhya-Satpura range in the
+Indo-GangeticandBrahmaputra flood
+plains arecoveredby
+(A) the colluvial soils
+(B) the aeolian soils
+()the alluvial soils
+(D) the talus soils
+75.Themaximum test load on a working
+pileshouldnotexceed
+(A) 250kN
+(B) 180kN
+(C) twoanda half times the design
+load
+(D) oneandahalf times thedesign
+load
+76.Whichoneof thefollowingdoesNOT
+affectthepermeabilityofsoils？
+(A) Voidratio
+(B) Soil strength
+(C) Grain size
+(D) Temperature
+
+77.Consistency is a term used to indicate
+(A) the quantitative analysis of soils
+(B) the degree of firmness of cohesive
+soils
+(C) the fineness ofnon-cohesive soils
+(D) the fineness ofclay soils
+78.Theprimaryfunctionofgeogridsis
+(A) connecting twolayers
+(B) separators
+(C) reinforcement
+(D) protection from corrosion
+79.Which of the following is/are the
+laboratorymethodsof determination
+ofcoefficientsofpermeabilityof
+soils?
+1.Constant
+head
+permeability
+method
+2.Fallingheadpermeabilitymethod
+Select the correct answer using the
+codegiven below:
+(A) 1only
+(B) 2only
+(C) Both1and2
+（d）Neither 1nor2
+80.Whichoneof thefollowingcharacteristicsisNOTmeasuredbygeophysical
+methodofsoilexploration?
+(A) Magnetism
+(B) Density
+(C) Electrical resistivity
+(D) Plasticity
+
+15. A-PKL-D-CVL
+
+--- page 16 ---
+81.Which one of the following isa
+methodofwetmechanicalanalysisof
+a fine-grainedmaterial?
+(A) Partial sedimentation
+(B) Sedimentation into dirtywater
+(C) Observation ofpartial sedimented
+soil
+(D) Elutriation
+82.AccordingtoHighwayResearchBoard
+(HRB)classification system,which
+oneofthefollowingisNOTrelevant
+fordependencyofgroupindexofsoil？
+(A) The amount of material passing
+the75-micronIS sieve
+(B) The liquid limit
+（)The plastic limit
+（d)The shrinkage limit
+83.An oven-dried soil having a mass of
+200gisplacedinapycnometerwhich
+isthencompletelyfilledwithwater.
+Thetotalmassofthepycnometerwith
+water and soilinside is 1605g.The
+pycnometer filledwithwater alone has
+a massof1480g.Whatis the specific
+gravity of the soil?
+(A) 2.21
+(B) 2.41
+(C) 2.67
+（d）3.32
+PKL-D-CVL-A
+16
+
+84.A soil sample has a porosityof
+40percent.Thespecific gravityof
+solidsis2.70.What isvoidsratio？
+(A) 0.467
+(B) 0.567
+(C) 0.667
+(D) 0.743
+85.Which oneof thefollowingisused for
+determining different strata inthe
+earth's crust?
+(A) Mine survey
+(B) ）Topographic survey
+Archaeological survey
+(D) Geological survey
+86.Consider the followingstatements
+relatedto setout thecurve using two
+theodolitemethod:
+To setoutthe curve,
+1.setupa theodoliteover T and
+another overT2
+2.setthevernierofeachofthe
+instruments to zero.
+3.direct the instrument at T to the
+rangingrodatthepointof
+intersection B and bisectit.
+Whichof the above statements are
+correct?
+（a)1 and 2only
+(B) 1 and3only
+（c)2and3only
+（d)1,2and3
+6
+
+--- page 17 ---
+87.In setting out location of piers,the
+centralpointsofthepiersarelocated
+byintersection ofsights,simultaneous
+sightsbeing taken from
+(A) the ends of a base
+(B) thetopof thepier
+?
+thebackof thepier
+（d)the frontof thepier
+88.Which one of the following tapes is
+generallyusedforworkof thehighest
+precision?
+(A) Linen tape
+Metric woven metallic tape
+(B) Metric steel tape
+(D) Invar tape
+89.Avertical circlewhich is at right angles
+tothemeridianis alsoknown as
+(A) an altitude
+(B) a co-altitude
+（）a prime vertical
+(D) an azimuth
+90.Whichone of thefollowing isa staff
+readingtakenona point whose
+elevationistobedetermined？
+(A) Fore sight
+(B) Back sight
+?
+Intermediate sight
+(D) Lineof sight
+1
+
+91.Which oneof the followingis the
+sourceoferrorincurvecomputations
+and layout?
+（a)Ability to seton theplatesof
+the theodolite,therequired subdivisionofaminuteforthe
+deflection angles.
+Use of less than full tape-lengths
+on arc-definition curves.
+(C) Carryingoutcomputedelevations
+tomore than 10mm.
+(D) Good intersections between tape
+line and siteline on flatcurves.
+92.Photographic surveying is suitable for
+(A) small-scale mapping of open hilly
+ormountainous countries
+b
+flatorwoodedcountry
+roads
+(C) 
+(D) transmission lines
+93.What is the difference of longitude
+betweentwoplacesCandDfromthe
+followinglongitudes?
+1.LongitudeofC=46°W
+2.Longitudeof D=64°W
+(A) 18
+(B) 36°
+(C) 110
+（d）220°
+A-PKL-D-CVL
+17
+
+--- page 18 ---
+94.If the focal length of lens （f),flying
+height(H) and heightofground above
+mean sealevel(h)areknown,then the
+scale atheight‘h’（Sh）is equal to
+(A) f/(H-h)
+(B) (H-h)/f
+(C) (h-H)/2f
+(D) 2f/(h-H)
+95.The terrestrial photogrammetry can be
+dividedintohowmanybranches?
+(A) Four
+(B) .Three
+(C) Two
+(D) Five
+96.Whichoneof thefollowingis an aerial
+photograph takenwith thecamera axis
+directedintentionallybetweenthe
+horizontal and thevertical?
+(A) Tiltedphotograph
+b
+Obliquephotograph
+?
+)Slantingphotograph
+(D) Verticalphotograph
+97.A plateload test is carriedout on
+submergedsoilusinga300mmradius
+rigidplate.A loadof5Tonsresultedin
+a deflectionof1.20mm.What isthe
+elasticmodulusofthe soil by
+considering the Poisson’s ratio as
+0-50?
+PKL-D-CVL-A
+18
+(A) 5216kPa
+(B) 521·6GPa
+（c)52.16MPa
+(d）52160Pa
+98.In case of horizontal curves inpavement,thepurposeofsuper-elevationor
+bankingofcurves is to
+(A) counteract
+the
+centripetal
+accelerationproduced asavehicle
+roundsa curve
+(B) provideproper cross-drainage
+(C) prevent
+tvehiclefromsliding
+inwards
+(D) make road look good
+99.Whichof thefollowingarethedesign
+elementsinhighway embankments?
+1.height
+2.fill material
+3.settlement
+Select the correct answer using the
+codegivenbelow:
+（a)1,2and3
+(B) 1 and3only
+(C) 2and3only
+(D) 1and2only
+
+--- page 19 ---
+100.Consider the following statements
+relatedtoconstruction ofbituminous
+pavements:
+1.It is not possible to construct
+relatively thin bituminous pavement layers over an existing
+pavement.
+2.In India,the bituminous constructionisbyandlargeadoptedon
+the surface course.
+3.The black top construction is
+in extensive use in developing
+nations.
+Whichof the abovestatementsare
+correct?
+(A) 1and2only
+(B) 2and3only
+(C) 1and3only
+（d）1,2and3
+101.Theheld water in subgrade soil forms
+icecrystals at some spots if the
+freezing temperatures continue fora
+certainperiod.Theseice crystalsgrow
+furtherinsizeifthereisacontinuous
+supplyofwaterduetocapillaryaction
+and the depressed temperature continues.This results in raising ofportion
+ofthepavement structureknown as
+(A) Frost heave
+(B) Frost melting
+?
+Alternatefreeze-thawcycle
+(D) Frost action
+1
+
+102.Considerthefollowing statements
+related toIRCrecommendations for
+the CBR method of design (IRC:
+37-1970):
+1.The
+CBR
+testsshouldbe
+performedonremouldedsoilson
+the field.
+2.For the design ofnewroads,the
+subgrade soil sample should be
+compacted atOMCtoproctor
+density.
+3.In new constructions,the CBR
+test samples may be soaked in
+waterforfourdaysperiodbefore
+testing.
+Whichof theabovestatements are
+correct?
+(A) 1 and2only
+(B) 2and3only
+（c)1and3only
+（d)1,2and3
+103.Which oneof thefollowingmeasures
+should be takenformaintainingrolling
+stock?
+(A) The differentparts ofrolling stock
+neednotbecleaned every day.
+(B) Allaxles completed service life
+need not bereplaced.
+?
+Thepartsofrolling stock which
+getwornoutneednotbereplaced.
+（d)Lubricationof all the reciprocating parts and bearings with
+asuitablelubricant should be
+done.
+
+19. A-PKL-D-CVL
+
+--- page 20 ---
+104.Space-mean speed represents
+（a)the instantaneous speed ofa
+vehicle ata specified section or
+location
+(B) the effective speed with which a
+vehicle traverses aparticularroute
+betweentwoterminals
+C
+the average speedofvehiclesina
+certainroadlengthatanytime
+（d)theaverageofinstantaneous
+speedsofobservedvehiclesatthe
+spot
+105.Avehiclehasawheelbaseof6.5m.
+What is the off tracking while negotiatingacurvedpathwithamean
+radius32m?
+(A) 1.32m
+(B) 1.15m
+(C) 0.86m
+(D) 0.66m
+106.The Thickness design of pavement
+mainly dependson
+(A) thepavementmaterials
+(B) the climatic factors
+the design wheel road
+(D) the subgrade soil
+107.For traffic surveys using origin and
+destination studies,the most suitable
+method incase ofheavy traffic and
+absenceofskilledor trainedpersonnel
+is
+PKL-D-CVL-A
+20
+(A) Road sideinterviewmethod
+License plate method
+?
+Work spotor homeinterview
+method
+(D) Returmpostcardmethod
+108.In traffic control,the speed at which
+vehicles arepresumedto travel through
+thecoordinatedsignalsystemisknown
+as
+(A) Signal coordination
+(B) Speed of progression
+(C) Cycle
+(D) Through band
+109.The pressure outside the droplet of
+waterofdiameter0.04mmis10.32
+N/cm²(atmospheric pressure).What is
+thepressurewithinthedropletif
+surfacetensionis0.0725N/mof
+water?
+(A) 11.045N/cm²
+(B) 10-32N/cm²
+(C) 9.45N/cm²
+(D) 8.595N/cm²
+110.Whatis theviscosityofaliquidwhose
+kinematic viscosity is 6 stokes and
+specific gravity is 1.90?
+(A) 1·14poise
+(B) 11.40poise
+(C) 0.114Ns/m2
+(D) 11.40 Ns/m²
+20
+
+--- page 21 ---
+111.A2mwide tank containswaterupto
+aheightof 0.50maboveitsbase.
+An immiscible liquid of specific
+gravity0.80 isfilled on the topof the
+waterupto1mheight.Whatisthe
+totalpressureforceononesideofthe
+tank？（Takedensityofwateras
+1000kg/m²andg=9.81m/s²)
+(A) 7.85kN
+(B) 24.52kN
+10-3kN
+(C) 
+(D) 18.15kN
+112.Apipelineofuniformlyvarying cross
+section carriesanoil ofspecificgravity
+0.87.Thediameterofpipeis200mm
+atendAand500mmatendB.Theend
+Bislocatedat4mhigherthanA.What
+is thelossofheadin thepipelineif the
+pressurereadingatAis9.81N/cm²and
+at Bis 5.886N/cm2？(Take discharge
+is200 litres/s and g=9.81 m/s²)
+(A) 2.609m
+(B) 26.09cm
+(C) 2.109m
+(D) 21.09cm
+113.Air at standard conditions flowsover
+a flatplate.The free stream speed is
+3m/s.Whatisthethicknessof
+boundarylayeratadistanceof1m
+from theleadingedgeof theflatplate?
+（Take thekinematicviscosity ofair is
+1.5x10-5m²/sand density is1.23
+kg/m3)
+21
+
+（a)1.80mm
+(B) 1.80cm
+(C) 10.3cm
+(D) 10.3mm
+114.Thewaterisflowingwith avelocityof
+1.5m/sinapipeoflength2500mand
+diameter500mm.Avalveisprovided
+at theendofthepipe.Whatis therise
+inpressureif thevalveis closed in25
+seconds？（Take velocity of pressure
+waveis1460m/s)
+（a)15N/cm²
+(B) 1500N/cm²
+(C) 150N/m2
+(D) 15kN/m²
+115.Thedepthofflowofachannel section
+at which the specific energy is minimum,is called
+(A) Critical velocity
+(B) Critical depth
+(C) Critical energy
+(D) Subcritical flow
+116.Whichoneof thefollowingstatements
+is correct with respect to Kaplan
+Turbine?
+（a)Theperipheral velocity atinlet is
+more than peripheral velocity at
+outlet.
+(B) Velocityofflowatinletismore
+thanvelocityofflowatoutlet.
+?
+Theperipheralvelocity atinlet
+andoutletareequal.
+(P
+Velocityofflowatoutletismore
+thanvelocityofflowatinlet.
+
+21. A-PKL-D-CVL
+
+--- page 22 ---
+117.The speed of the generator can be
+maintained constantonlyif the speed
+ofthe turbinerunner is constantequal
+60f
+to the one given by equation N=
+p
+and itisknown as
+(A) Synchronous speed
+(B) Asynchronous speed
+(C) Derived speed
+(D) Measuredvariable speed
+118.Consider the following
+statements
+related tonegative slipof thereciprocatingpump:
+1.The actual discharge of a reciprocatingpumpismorethan the
+theoretical discharge.
+2.The co-efficientofdischargewill
+be more than unity.
+3.When the suctionpipeis short and
+deliverypipeis long andpump is
+running atslowspeed,then
+negativeslipof thepump occurs.
+Whichof theabovestatements are
+correct?
+（a)1 and2only
+(B) 1 and3only
+（c)2and3only
+（d）1,2and3
+119.A single actingreciprocatingpump has
+aplungerofdiameter 250mmand
+strokeof350mm.Ifthespeedofthe
+pumpis60rpmandit delivers16.5
+lit/secofwateragainstasuctionhead
+of5mandadeliveryheadof20m,
+what is theco-efficientofdischarge？
+PKL-D-CVL-A
+22
+(A) 0.72
+(B) 0.79
+(C) 0.86
+(D) 0.96
+120.The stream function is given by the
+expression w=2x²-y².What is the
+resultantvelocityatapointdenotedby
+x=2andy=3？
+(A) 10
+(B) 12
+(C) 15
+(D) 18
+121.A catchment has six rain
+gauge
+stations.In a year,the annual rainfall
+recordedbythegauges are asfollows:
+Station
+A
+B
+C
+D
+E
+F
+Rainfall
+82-6
+102.9
+180-3
+110-3
+98.8
+136.7
+(cm)
+Fora10%errorintheestimation
+of the mean rainfall,what is the optimumnumber of stations in the catchment?（TakeP=118.6,0m-1=35-04
+and ε=10)
+(A) 10
+(B) 9
+(C) 8
+(D) 7
+22
+
+--- page 23 ---
+122.Which oneofthefollowingisdefined
+asthe processbywhich thewater
+leaves aliving plantduring photosynthesis,through its leaves,to enter
+theatmosphere aswatervapour？
+(A) Transpiration
+b
+Evapotranspiration
+(C) Stomata
+(D) Evaporation
+123.Which oneof thefollowingisa gap
+developed in the canal bank due to
+erosionofsomeportionofthebank？
+(A) Canal breach
+(B) Sub canal
+Temporary outlet used for irriga-
+?
+tion
+(D) Fault
+124.Which oneof thefollowingstagesdoes
+theriver bedconsistofamixtureof
+boulders,gravels,shingles and alluvial
+sand depositscreatedbyitself?
+(A) Rocky stage
+Incisedriver stage
+(B) Boulderriverstage
+（d) Rivers in alluvial flood plains
+stage
+125.Whichof the followingare theonly
+twofactorswhich govern thestorage
+capacityofthereservoir？
+23
+(A) Inflow to reservoir and the outflowfrom thereservoir
+(B) Inflow and catchment area
+Catchmentarea andoutflow
+?
+(D) Heightofreservoir andcatchment
+area
+126.Formation of successive bends of
+reverseordermaylead to theformationofacompleteScurvecalled
+(A) Concaveorouteredge
+(B) Scouring
+(C) Meander
+(D) Convex or inner edge
+127.The monthly consumptive use values
+forpaddyaretabulatedbelow.Whatis
+averagemonthlyconsumptiveuse?
+Rice
+Month
+Dates
+(Loam Soil)
+Cuincm
+June
+1-30
+29.69
+Nursery
+July
+1-12
+8.76
+July
+13-31
+14-38
+August
+1-31
+22.73
+September
+1-30
+21-29
+October
+1-31
+25-50
+November
+1-24
+15-06
+(A) 7.7cm
+(B) 23.1cm
+（c)26.69cm
+（d)137.41cm
+A-PKL-D-CVL
+23
+
+--- page 24 ---
+128.Water bearing stratum,having no
+confined impermeableover burden
+lying over it,isknown as
+(A) Anunconfinedaquifer
+(B) An artesian aquifer
+?
+Confined aquifer
+(D) Controlled aquifer
+129.The permeable groynes made from
+timber stakes or wooden piles,are
+called
+(A) Balli spurs
+(B) Tree spurs
+（c)Balli crates
+(D) Wire crates
+130.Areservoir with uncontrolled and
+ungatedoutletsisknown as
+(A) Retarding basin
+b
+Storage reservoir
+?
+Controlledreservoir
+(D) Detention basin
+131.The distance between theouteredges
+ofclockwiseand anti-clockwiseloops
+ofthemeander
+(A) Meanderlength
+Meanderbelt
+(C) Meander ratio
+(D) Cross-overs
+PKL-D-CVL-A
+24
+
+132.Which oneof thefollowingisthe one
+whichrestsin apervious stratum and
+drawsitssupplyfrom thesurrounding
+material?
+(A) Sidetrack well
+(B) Horizontal well
+(C) ）Deepwell
+(D) Shallow well
+133.The various types of water demand,
+whicha citymayhave,maybebroken
+down into which of the following
+classes?
+1.Domesticwater demand
+2.Industrial water demand
+3.Demand for publicuses
+Select the correct answer using the
+codegivenbelow:
+(A) 1and2only
+(B) 2and3only
+(C) 1and3only
+（d)1,2and3
+134.Inabig city having population of
+50lakhs,if6moderate fireseach of
+3hours break outin a day,what is the
+approximateamountofwaterrequired
+per person per day？（Assume 3jet
+streamssimultaneously throwingwater
+fromahydrantwith dischargeof1100
+litres/minute/stream)
+(A) less than 1 litre
+(B) between1-3litres
+(C) between3-5litres
+(D) 20 litres
+24
+
+--- page 25 ---
+135.Forwater supply scheme design ofa
+town ora city,thesuitablemethod of
+estimatingfuturepopulationby the end
+ofthedesignperiodis
+a
+increasingratemethod
+decreasingratemethod
+C
+exponential curvemethod
+(D) incremental decrease method
+136.Whichoneof thefollowingisNOTa
+factor affecting losses and wastes in
+water supply scheme？
+(A) Metering
+(B) Unauthorised connections
+(C) Water demand
+(D) Pressurein the distribution system
+137.Whichoneofthefollowingforecasting
+methodsforpopulationisalsoknown
+as uniform increase method？
+(A) Arithmetic increase method
+b
+Decreasingratemethod
+Geometricincreasemethod
+?
+(D) Simple geographical method
+138.Storagecapacityofareservoircan be
+estimatedbyusing
+(A) Cuboidal formula
+(B) Cylindrical formula
+（c）Prismoidal formula
+(D) Conical formula
+
+139.Modern
+commercial
+turbidimeter
+which works on the principleof
+scatteringof lightatright anglesto the
+incident light,is called
+(A) Spectrometer
+(B) Nephelometer
+(C) Optimeter
+(D) Lightmeter
+140.Whichoneof thefollowingis a disease
+caused by protozoal infectionsunder
+water-borne diseases?
+(A) Infectious hepatitis
+Amoebicdysentery
+C
+Infectious jaundice
+(D) Poliomyelitis
+141.Whichof thefollowingmethods
+adoptedforpurifyingthepublicwater
+supplies?
+1.Screening
+2.Sedimentation aidedwith coagulation
+3.Disinfection
+Select the correct answer using the
+codegiven below:
+（a)1 and 2 only
+(B) 2and3only
+(C) 1 and3only
+(D) 1,2 and 3
+
+25. A-PKL-D-CVL
+
+--- page 26 ---
+142.According to Stoke's law,if the diameter
+(D) isless than 0.1mm,then the
+settlingvelocityofsphericalparticles
+isdirectlyproportional to
+(A) d2
+(B) d3
+(C) d
+(d）d1/2
+143.What is thesettling velocity ofa
+discreteparticleinwaterunder
+conditions when Reynold'snumberis
+lessthan0.5？（Take thediameterand
+specific gravity of the particle are
+5x10-3cmand2.65respectivelyand
+Kinematicviscosityofwater at20°Cis
+1.01x10-2cm2/sandg= 9.81m/s²)
+(A) 0.22cm/s
+(B) 0.35cm/s
+（c)0.14cm/s
+(D) 0.46cm/s
+144.Therate offiltration ofpressure filter
+as compared torapidgravityfilteris
+about
+(A) 10 times
+(B) 15times
+(C) 2to5times
+(D) 6to8times
+PKL-D-CVL-A
+
+26. Directions:
+Each of the next Six (06) items consists
+oftwo statements,one labelled as the
+Statement(I)'and theother as‘Statement
+(Il)'.You are to examine these two statements carefully and select the answers to
+these items using the codesgiven below:
+Codes:
+(A) Both Statement (l) and Statement(Il) are individually true and
+Statement （Il) is thecorrect
+explanationofStatement(I)
+(B) Both Statement (I) and Statement(Il) are individually true but
+Statement(Il)isNOT thecorrect
+explanationofStatement(I)
+C
+Statement (I) is true butStatement(Il)is false
+(D) Statement (I) is false but Statement (II) is true
+145.Statement(I):The stone should be
+well seasoned.
+Statement(II):Theresistancesofstone
+against the wear and
+tearduetonatural
+agencies should be high.
+146.Statement(I):The tensile strength(or
+ultimatestrength)is
+defined as the highest
+valueof the engineering
+stress.
+Statement（Il):For ductile materials,
+the
+tensile
+strength
+correspondsto thepoint
+at which necking starts.
+26
+
+--- page 27 ---
+147.Statement (I):The use of slope deflectionmethod islimited
+tostructureswhichare
+not highly indeterminate.
+Statement(Il):Theslopedeflection
+equations can be obtained byusing the
+principle of superposition
+by
+considering
+separately themoments
+developed ateach supportduetoeachofthe
+displacements,and then
+theloads.
+148.Statement(I):In the partial safety
+factor-based design format,thedesigncapacity
+isdefinedbyconsidering the corresponding
+partial safety factors.
+
+27. Statement(Il):The partial safety factors are associatedwith
+the inherent andmodeling uncertainties.
+149.Statement(1):The theory of reinforced
+concrete
+is
+developed
+with
+the
+assumption that there
+isperfectbondbetween
+steel and concrete,in
+other words,thereis no
+slip.
+Statement（II):In case ofribbed bars,
+thereisno needto
+check thebondfailures.
+150.Statement(I):Theboundary
+layer
+thickness decreases as
+the distance from the
+leading edge increases.
+Statement(Il):Greateris thekinematic
+viscosityof the fluid
+greater is the boundary
+layer thickness.
+
+27. A-PKL-D-CVL
+
+--- page 28 ---
+ROUGH WORK
+28
+
+--- page 29 ---
+ROUGH WORK
+A-PKL-D-CVL
+29
+
+--- page 30 ---
+ROUGHWORK
+0
+
+--- page 31 ---
+ROUGHWORK
+A-PKL-D-CVL
+31
+
+--- page 32 ---
+ROUGH WORK
+32

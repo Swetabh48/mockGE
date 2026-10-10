@@ -16,6 +16,15 @@
     "db:seed": "tsx scripts/seed.ts",
     "import:sscgl": "python scripts/import_sscgl_pdfs.py",
     "corpus:build": "python scripts/build_model_corpus.py",
+    "ies:download": "python scripts/download_ies_ce_papers.py",
+    "ies:import": "python scripts/import_ies_ce_pdfs.py",
+    "ies:seed": "tsx scripts/seed_ies_from_json.ts",
+    "ies:seed-demos": "tsx scripts/seed_ies_demos.ts",
+    "ies:corpus": "python scripts/build_ies_corpus.py",
+    "ies:textbooks": "python scripts/build_ies_textbook_index.py",
+    "ies:ocr": "python scripts/ocr_ies_ce_rapid.py",
+    "ies:ocr-gemini": "python scripts/ocr_ies_ce_gemini.py",
+    "ies:upsc-links": "python scripts/fetch_upsc_ce_links.py",
     "postinstall": "prisma generate"
   },
   "dependencies": {

@@ -1,0 +1,2088 @@
+
+--- page 1 ---
+Engineer
+Exam,20
+DONOTOPENTHISTESTBOOKLET
+T.B.C.:FGT-B-CVL
+1049773
+Serial
+TESTBO
+CIVILENGI
+TimeAllowed:ThreeHours
+INSTRUC
+
+1. IMMEDIATELYAFTERTHECOMMENCEMENTOR
+THISTESTBOOKLETDOESNOTHAVEANYUNH
+ETC.IFSO,GETITREPLACEDBYACOMPLETETE
+
+2. Please note thatit is thecandidate'sresponsibili
+Booklet Series Code A,B,C orD carefully ar
+appropriateplacesin theOMRAnswerSheet.A
+Sheetliableforrejection.
+
+3. YouhavetoenteryourRoll Numberonthe
+TestBookletintheBoxprovidedalongside
+DONOTwriteanythingelseontheTestBooklet
+
+4. ThisTestBookletcontains150items(questions).
+willselecttheresponsewhichyouwanttomark
+more than one correctresponse,marktherespons
+ONLYONEresponseforeachitem.
+
+5. YouhavetomarkallyourresponsesONLYon th
+intheAnswerSheet.
+
+6. All itemscarryequalmarks.
+
+7. Beforeyouproceed tomarkin theAnswer Sheet
+youhavetofillinsomeparticularsintheAnswe
+Admission Certificate.
+
+8. Afteryouhavecompletedfillinginallyourrespon
+concluded,youshouldhandoverto theInvigilato
+takeawaywithyou theTestBooklet.
+
+9. Sheetsforroughworkare appendedintheTestBo
+
+10. Penaltyforwronganswers:
+THEREWILLBEPENALTYFORWRONGANSWE
+(i
+There arefour alternativesforthe answertoever
+has been given by the candidate,one-third（
+deducted aspenalty.
+(ii)
+Ifa candidategives more than one answer,itwill
+answershappenstobecorrect andtherewillbesa
+(iii)
+Ifa question is left blank,i.e.,no answer is give
+question.
+DONOTOPENTHISTESTBOOKLETU
+FGT-B-CVL
+(1-A
+
+ering Services (P)
+2021
+ETUNTILYOUARETOLDTODOSO
+TestBookletSeries
+A
+OOKLET
+INEERING
+MaximumMarks:300
+CTIONS
+OFTHEEXAMINATION,YOUSHOULDCHECKTHAT
+NPRINTEDORTORNORMISSINGPAGESORITEMS,
+TESTBOOKLET.
+ilitytoencodeandfillintheRollNumberandTest
+and without any omission or discrepancy at the
+.Anyomission/discrepancy willrender the Answer
+let.
+s).Eachitemcomprisesfourresponses(answers).You
+kontheAnswerSheet.Incaseyoufeel thatthereis
+onsewhichyou considerthebest.Inanycase,choose
+the separateAnswerSheetprovided.Seedirections
+ettheresponsetovarious itemsin theTestBooklet,
+werSheetasperinstructionssenttoyouwithyour
+oonsesontheAnswerSheetand theexaminationhas
+atoronlytheAnswerSheet.Youarepermittedto
+Bookletatthe end.
+WERSMARKEDBYACANDIDATE.
+veryquestion.Foreachquestionforwhichawronganswer
+1(0.33)of the marks assigned to thatquestion willbe
+villbetreatedasawronganswerevenifoneofthegiven
+esamepenaltyasabovetothatquestion.
+givenbythecandidate,there willbenopenaltyforthat
+TUNTILYOUARETOLDTODOSO
+(A) --- page 2 ---
+
+1. Anetworkofpipesconveyingwatertoacity
+has thefollowingspecifications.Thediameter
+ofamainpipeis30cmand itbranchesinto
+twopipesofdiameters20cmand15
+cm
+respectively.Ifthe average velocityin the
+mainpipeis25m/sandtheaveragevelocity
+inthe20cmpipeismeasuredas2m/s,what
+isthevelocityinthe15cmpipe？
+(A) 8.84m/s
+(B) 7.44m/s
+(C) 5.84m/s
+(D) 6.44m/s
+
+2. Acentrifugalpumpdeliverswateragainsta
+netheadof145mandadesignspeedof
+1000 r.p.m.Thevanesare curved back to an
+angleof30°withtheperiphery.Theimpeller
+diameteris300mmandtheoutletwidthis
+50mm.Whatisthetangentialvelocityof
+impelleratoutlet?
+(A) 15.7m/s
+(B) 13.2m/s
+(C) 9.7m/s
+(D) 11·2m/s
+
+3. A75cmdiameterjetofwaterstrikesa
+curvedplateatitscentrewithavelocityof
+20m/s.The curvedplate ismoving witha
+velocityof8m/sinthedirectionofthejet.The
+jetis deflected through anangleof165°.By
+assuming the plate as smooth,what is the
+anglemadebytherelativevelocityat the
+outletoftheplate?
+(A) 45°
+(B) 30°
+(C) 15°
+(D) 0°
+Areservoirhasaheadof40mandachannel
+leadingfromthereservoirpermitsaflowrate
+of34m/s.If therotational speedoftherotor
+is150 r.p.m.,what is the power of the
+turbine?(Takeg=9.81m/s2)
+(A) 14·34MW
+(B) 13.34MW
+12.34MW
+(C) 
+(D) 11.34MW
+FGT-B-CVL
+(2
+
+5. A streamfunction is given by=3x²-y3
+r
+Whatisthemagnitudeofvelocitycomponents
+0
+atthepoint(2,1)？
+n
+(A) 8.52
+e
+y
+(B) 9·17
+t
+10.81
+(C) 
+(D) 12.37
+
+6. Fullload issuppliedbythe turbine shaft
+when thediameter ofjetissuing fromthe
+nozzleis150mm.Iftheload suddenlydrops
+a
+to36%ofthefullload,whatdiameterofthe
+of
+jetshouldbeattainedbyregulatingthespear
+rod?
+r
+(A) 15mm
+S
+(B) 45mm
+of
+(C) 90mm
+(D) 180mm
+
+7. Whatisthedepthofapointbelowwater
+surface in sea,where pressure intensity is
+1.006MN/m²？(Specificgravityofseawater
+a
+is1·025)
+of
+(A) 60m
+a
+(B) 80m
+e
+y
+(C) 100m
+le
+(D) 120m
+le
+
+8. Two pressure points in a water pipe are
+connectedtoamanometerwhichhastheform
+ofaninvertedU-tube.The spaceabovethe
+waterinthetwolimbsofthemanometeris
+filledwith toluene(specificgravityis0·875).If
+el
+thedifferenceoflevelofwatercolumnsinthe
+te
+two
+limbsreads12·0cm,whatisthe
+or
+？
+corresponding
+differenceofpressure
+le
+(Take g=9.81 m/s2)
+(A) 110-49N/m2
+(B) 128.12N/m2
+(C) 131.34N/m2
+(D) 147·15N/m2
+2-A)
+
+--- page 3 ---
+
+9. Whatistheminimumsizeofglasstubethat
+canbeusedtomeasurewaterlevelifthe
+capillaryriseinthetubeistoberestricted to
+2mm ？（Take surface tension of water in
+contactwithairas0.073575N/m)
+(A) 1·5cm
+(B) 1.0cm
+(C) 2.5cm
+(D) 2.0cm
+
+10. Asemi-tubularcylinderof75mmradiuswith
+concave sideupstream（drag coefficient=2·3）
+issubmergedinflowingwaterofvelocity
+0.6m/s.If the cylinder is7.2mlongand
+density ofwateris 1000kg/m²,whatis the
+drag?
+(A) 150N
+(B) 173N
+955N
+(C) 
+(D) 223N
+
+11. A double acting reciprocating pump having
+piston area 0.1m²has a strokelength 0.30m.
+Thepump is discharging24mofwater per
+minute at45r.p.m.throughaheightof10m.
+Whatistheslipofthepump?
+(A) 0.005m3/s
+(B) 0.015m3/s
+(C) 0.025m/s
+(D) 0.035m/s
+
+12. Ifpressureheadofwateris100mandspecific
+gravity of kerosene is 0.81,what is the
+pressureheadofkerosene?
+(A) 123.5mofkerosene
+(B) 241·3mofkerosene
+(C) 75.1mofkerosene
+(D) 52.4mofkerosene
+FGT-B-CVL
+(3-A
+
+13. A lakehas an area of15km².Observation of
+hydrologicalvariablesduringa certainyear
+hasshown asfollows:
+Precipitation=700mm/year;
+Average inflowQ=1·4m/s;
+in
+AverageoutflowQ
+=1·6m/s.
+put
+Assume that thereisnonetwaterexchange
+betweenthelakeandthegroundwater.What
+is theevaporation duringthisyear?
+(A) 480mm
+(B) 280mm
+(C) 380mm
+(D) 180mm
+
+14. Abridgehasanexpectedlifeof25yearsand
+isdesignedforafloodmagnitudeofreturn
+period100years.Whatis the riskofthis
+hydrologic design?
+100）25
+(A) 99
+99)25
+(B) （100）
+25
+(C) 66
+100
+(100)25
+(D) 99
+
+15. In a groundwater field test,a tracer took
+8hourstotravelbetweentwoobservation
+wellswhichare56mapart.Thedifferencein
+watertable elevationsinthese wellswas
+0.70m.Thevolumeofthevoidoftheaquifer
+is30%ofthetotalvolumeoftheaquifer.
+Whatisthehydraulicconductivityof the
+aquifer,if the dynamicviscosityofwater is
+0.995×10-3Ns/m2?
+(A) 4.664cm/s
+(B) 3.664cm/hr
+(C) 2.664mm/s
+(D) 1·664 cm/hr
+(A) --- page 4 ---
+
+16. Consider the followingstatementsregarding
+channel routing:
+
+1. In
+channel
+routing,
+the
+flood
+hydrograph atvarioussections ofthe
+reach is predicted by considering
+a
+channelreachandaninputhydrograph
+attheupstreamend.
+
+2. Asthefloodwavemovesdowntheriver,
+the shape ofthewave doesnotchange.
+
+3. Floodwavespassingdownariverhave
+theirpeaks attenuated duetofriction.
+
+4. Theadditionoflateralinflowscancause
+anincreaseofattenuation.
+Whichoftheabovestatementsarenot
+correct?
+(A) 1and3only
+(B) 2and3only
+(C) 1and4only
+(D) 2and4only
+
+17. Consider thefollowingstatementsrelatedto
+waterlogging control:
+
+1. Itis evidentthatwaterloggingcanbe
+controlledonlyifthequantityofwater
+intothesoilbelowischeckedand
+reduced.
+
+2. Attemptsshouldbemadetoreducethe
+seepageofwaterfromthecanalsand
+watercourses.
+
+3. Theentireirrigablelandshouldreceive
+canalwaterinallseasons.
+Whichoftheabovestatementsarecorrect?
+(A) 1and2only
+(B) 2and3only
+(C) 1and3only
+(D) 1,2and3
+
+18. Ifwheatrequires75cmofwaterafterevery
+28daysandthebaseperiodforwheatis
+140days,whatis the value of delta for
+wheat?
+(A) 7.5cm
+(B) 27.5cm
+(C) 37.5cm
+(D) 17.5cm
+FGT-B-CVL
+（4
+
+19. A tile drainage system draining 12hectares,
+flows atadesigncapacity for two days,
+followingastorm.If the system isdesigned
+usingadrainage coefficientof1.25cm,how
+muchofwaterwillberemoved during this
+period?
+(A) 1500m3
+4500m3
+(B) 
+(C) 3000m3
+(D) 3500m3
+
+20. Whatis thehydraulicradius ofastablecanal
+carryinga discharge of 27m3/s usingLacey's
+method?(Assume siltfactoris1·0)
+(A) 1.44m
+(B) 2.67m
+(C) 3.14m
+(D) 4.28m
+
+21. Consider thefollowing statementsregarding
+lossofwaterincanals:
+
+1. Thewaterlostbyevaporationis
+1
+generallyvery small,ascompared to the
+waterlostbyseepageincertain
+channels.
+a
+
+2. In percolation,there exists a zone of
+continuoussaturationfromthecanalto
+thewater-tableandadirect flowis
+established.
+
+3. In absorption,a small saturated soil
+zoneexists around thecanalsection and
+issurroundedbyazoneofdecreasing
+>
+saturation.
+S
+Whichoftheabovestatementsarecorrect？
+(A) 1and2only
+(B) 2and3only
+(C) 1and3only
+(D) 1,2and3
+4-A)
+
+--- page 5 ---
+
+22. Thechiefaim ofrivertrainingis
+(A) toprotectwaterfromloss.
+(B) bed scouring.
+(C) toachieveultimatestabilityofriver
+withtheaidofrivertrainingmeasures.
+(D) pitchingofbanksandprovisionof
+launching aprons.
+
+23. Which
+oneof thefollowingconditionsis
+correctfor achanneltobehave intrue
+regime?
+(A) Discharge isnon-uniform
+(B) Flowisnon-uniform
+(C) Siltgradeisvarying
+(D) Silt chargeis constant
+
+24. Whatis thedelta foracropwhen itsdutyis
+864hectares/cumeconthefieldandthebase
+period ofthis cropis120days？
+(A) 120cm
+(q)
+140cm
+(C) 160cm
+(D) 172cm
+
+25. Whichoneofthefollowingisthemeritof
+combinedsewer system?
+(A) Rain
+water
+dilutes
+the
+sewage,
+therefore,it
+can
+be
+easily
+and
+economicallytreated.
+(B) Initial cost is high as comparedwith
+separatesystem.
+(C) Ifthewholesewageistobedisposedoff
+by pumping,itisuneconomical.
+(D) Duringheavy rains,the overflowing of
+sewerswillendangerthepublichealth.
+
+26. Whichoneofthefollowingisadeviceusedfor
+measuringthevelocityofflowingwaterin
+pipesoropenchannels?
+(A) Pitottube
+(B) Piezometer
+(C) Venturimeter
+(D) Venturitube
+FGT-B-CVL
+(5-A
+
+27. Whichoneofthefollowingis theprocessin
+which ammoniaisoxidisedtonitritesand
+then tonitratesby aerobicbacteria?
+(A) Nitrification
+(B) Denitrification
+(C) Adsorption
+(D) Regeneration
+
+28. A tankinto which rawor partlytreated
+sewage
+eiscollected,lefttostay，and
+dischargedatsucharate asmaybenecessary
+for subsequenttreatment,is called
+(A) Dosing tank
+(B) Sedimentationtank
+(C) Skimmingtank
+(D) Settlingtank
+
+29. In
+the contextofsludgeconditioning,
+Elutriationis synonymousto
+(A) Washing
+(B) Heating
+(C) Compacting
+(D) Filtering
+
+30. Sludge thickeningis commonlyachieved by
+thefollowingmethods:
+
+1. Gravitythickening
+
+2. Airflotation
+
+3. Centrifugation
+Whichofthe abovemethodsarecorrect?
+(A) 2and3only
+(B) 1 and2only
+(C) 1 and3only
+(D) 1,2 and 3
+(A) --- page 6 ---
+
+31. Whichone of thefollowing istheprocess
+wherebychemicalsareaddedtoawastewater
+resultinginareductionoftheforcestending
+tokeepsuspendedparticlesapart?
+(A) Coagulation
+(B) Flocculation
+(C) Clarification
+(D) Sedimentation
+
+32. Whichoneofthefollowingisagrit-removal
+unitwhichalsoremovessiltaswellassome
+organicmatteralongwithgrit?
+(A) Detritus Tank
+(B) SkimmingTank
+(C) Detention Tank
+(D) SuspensionTank
+
+33. Thedomesticsewageofatownwas testedfor
+totalsolidsand thefollowingresultswere
+obtained:
+Weightofsampleofsewage=1000gm
+Weightofsolidsafterevaporationof
+liquid=0.952gm
+Weight
+of
+dry
+residue
+after
+ignition=0-516gm
+Whatisthevalueofvolatilesolids？
+(A) 952ppm
+(B) 516ppm
+(C) 436ppm
+(D) 694ppm
+
+34. The
+quantityofnitrogen
+present
+in
+wastewaterbeforethedecomposition
+of
+organicmatterhasstarted,is indicated by
+(A) .
+AlbuminoidNitrogen
+(B) FreeAmmonia
+(C) OrganicNitrogen
+(D) NitrateNitrogen
+FGT-B-CVL
+(6-
+
+35. Whichoneofthefollowingisthat(low)water
+contentofthe soilatwhich plants canno
+longerextractsufficientwaterfortheir
+growth?
+(A) Wiltingpoint
+(B) Tailwater
+(C) Irrigatinghead
+(D) Capillarywater
+
+36. Whichoneofthefollowingistheadvantageof
+usingactivatedcarbonforwatertreatment?
+(A) Whenusedin powderedformafter
+coagulation,
+it
+does
+not
+aidin
+coagulation.
+(B) It increases the chlorine demandof
+treatedwater.
+(C) It removes organicmatter present in
+water.
+(D) Its overdoseisharmful.
+37.A soil has bulk density of 20.1kN/m²and
+watercontent15%.Whatisthewatercontent
+ifthesoilpartiallydriestoadensityof
+19.4kN/mandthe voidratioremains
+unchanged?
+10.86%
+(A) 
+(B) 10.76%
+(C) 10.68%
+(D) 10.66%
+
+38. Afinegrained soilisfoundtohavealiquid
+limitof90%andaplasticityindexof50.The
+naturalwater content is 28%.Whatis the
+liquidity index?
+(A) -0-34
+(B) -0-14
+(C) -0-24
+(D) -2.40
+-A)
+
+--- page 7 ---
+39.Aconcentratedloadof2000kNisappliedat
+thegroundsurface.Whatis theverticalstress
+atapoint6mdirectlybelowtheload？
+16-42kN/m2
+(A) 
+(B) 26-53kN/m2
+(C) 36.12kN/m2
+(D) 40.51kN/m2
+
+40. Whichone ofthefollowingisacharacteristic
+oflocalshearfailure?
+(A) Failurepattern isnotclearly defined.
+(B) Failure surfacesreach ground surfaces.
+(C) There is no bulging of soil around the
+footing.
+(D) Failure is not sudden and there is no
+tiltingoffooting.
+41.A sampleofsiltyclayhasavolumeof
+14.88cm²,a total massof 28.81 gm,a dry
+massof24·83gmanda specificgravityof
+solids2·7.Whatisthevoidratio?
+(A) 0-412
+(B) 0-521
+(C) 0.618
+0.663
+(D) 42.
+Aconstantheadpermeabilitytestiscarried
+outonacylindricalsampleofsand10cm
+diameterand15cmheight.160cm3ofwater
+iscollectedin1.75minutes,underaheadof
+30cm.Whatis thecoefficientofpermeability
+in m/year?
+(A) 1257m/year
+(B) 2111m/year
+(C) 3060m/year
+(D) 3332m/year
+FGT-B-CVL
+
+43. Whichoneofthefollowingisthecorrect
+assumptionofRankine'stheory?
+(A) The soil mass isinfinite.
+(B) The soil mass is non homogeneous.
+(C) The soil massis cohesive.
+(D) The ground surface is a plane which
+maybehorizontalorinclined.
+
+44. Ifaretainingwall5mhighisrestrainedfrom
+yielding，what is the at-rest earth pressure
+permeter length of wall？（Consider the
+backfilliscohesionlesssoil having=30°and
+=18kN/m3)
+(A) 108kN/m
+(B) 112.5kN/m
+(C) 115kN/m
+f
+(D) 124kN/m
+
+45. Consider the following steps relatedto
+constructionwiththeuse ofgeotextiles:
+
+1. Startwithanadequateworkingsurface
+and stagingarea.
+
+2. Layageotextilesheetofproperwidth
+on theground surface.
+
+3. Construction
+equipmentmustwork
+fromthesoilbackfill andbekeptoffthe
+unprotectedgeotextile.
+Whichofthe above stepsarecorrect?
+(A) 1and2only
+(B) 2and3only
+(C) 1and3only
+(D) 1,2and3
+-A）
+
+--- page 8 ---
+46.Thevoidratioofaclaysampleis05andthe
+degreeofsaturationis70%.Whatisthebulk
+unitweightofthe soil?(Assume G=2.7)
+(A) 10.46kN/m3
+(B) 14-32kN/m3
+17.77kN/m3
+(C) 
+(D) 19.95kN/m3
+
+47. Whatis thecoefficientof volumechange
+（using change in void ratio method）for
+pressurerange100kN/m²to200kN/m2
+(Consider
+’=200kN/m²,e= 0.964,△= 100 kN/m²
+and△e=-0.157)
+0.25m²/MN
+(A) 
+(B) 0.48m²/MN
+(C) 0.69m2/MN
+(D) 0.74m²/MN
+
+48. Which
+oneofthefollowingproblemsis
+requiredtobestudiedinthedesignofearth
+dams?
+(A) Thepredictionofthepositionoftheline
+ofseepageinthelongitudinal section.
+(B) Thecomputationofseepageloss.
+(C) The seepage line
+eshouldcutthe
+down-stream slope.
+(D) The seepageloss through thedam
+shouldbemaximum.
+
+49. Whichoneofthefollowingisnot
+an
+instrumentfor setting outright angles?
+(A) Cross staff
+(B) Sitesquare
+(C) Prism square
+(D) Optical staff
+FGT-B-CVL
+(8-
+
+50. Whichoneof the following is correctfor
+Prismatic Compass?
+(A) Thegraduatedringrotateswithlineof
+sight.
+(B) Instrumentcannotbeusedwithout
+tripod.
+(C) Thegraduations are engravedinverted.
+(D) Thereadings can directlybe taken by
+seeingthroughthetopoftheglass.
+
+51. Magneticdeclinationataplaceisthe
+horizontalanglebetween
+(A) thetruemeridianand the arbitrary
+meridian.
+the
+and
+the
+(B) magnetic
+meridian
+arbitrarymeridian.
+(C) thetrue bearingandthe magnetic
+bearing.
+(D) the truemeridian andthemagnetic
+meridian.
+
+52. Themagnetic bearingofaline ABis
+S2830'E.WhatisthetruebearingoflineAB
+if themagneticdeclinationis7°30'towards
+west?
+(A) S36°E
+(B) N21W
+(C) S21°E
+(D) N36°W
+
+53. TheZenithis/are
+(A) the pointontheupper portion of the
+celestial spheremarked byplumbline
+above the observer.
+(B) thepointon thelower portionof the
+celestial spheremarked byplumbline
+belowtheobserver.
+(C) thetwopointsinwhich theEarth'saxis
+ofrotationmeets theEarth'ssphere.
+(D) thegreatcircleoftheEarth,theplane
+ofwhichisatrightanglestotheaxisof
+rotation.
+(A) --- page 9 ---
+
+54. Whichoneofthestatementsisnotcorrectfor
+remote sensing?
+(A) Itrequires energy source.
+(B) Itrequirespropagation
+ofenergy
+throughatmosphere.
+(C) Itrequiresenergyinteractionwith the
+Earth's surface features.
+(D) Itrequiresabsorptionofenergybythe
+Earth's surface.
+
+55. Energyinremote sensing dealswith which
+regionofelectromagneticspectrum?
+(A) Ultraviolet
+(B) Infrared
+(C) X-Ray
+(D) Gamma Ray
+
+56. Consider the followingstatementsrelated to
+the classification basedupon theobjectof
+survey:
+
+1. Archaeologicalsurveys for unearthing
+relics of antiquity.
+
+2. Geologicalsurveys
+sfordetermining
+different strataintheEarth'scrust.
+
+3. Mine surveysfor exploring mineral
+wealth such as gold,coal,etc.
+Whichoftheabovestatements arecorrect?
+(A) 1and2only
+(B) 2and3only
+(C) 1and3only
+(D) 1,2and3
+
+57. Insettingupofplane tableatastationP,the
+corresponding point on the planwas not
+accurately
+centeredaboveP.Ifthe
+displacementofPwas30cminadirectionat
+rightangles
+totherayand
+scaleis
+1cm=2m,howmuchontheplanwouldbe
+theconsequentdisplacementofpointfromits
+true position?
+(A) 0.15mm
+(B) 6.0mm
+(C) 1.5mm
+(D) 0.3mm
+FGT-B-CVL
+6）
+
+r
+58.Aphotographic surveyis carriedoutto a scale
+of1:20000.Acamerawithawideanglelens
+off=170mmwasusedwith25cm×25cm
+ty
+platesizeforanet65%overlapalongtheline
+offlight.Whatistheerrorinheightgiven by
+le
+anerrorof0.15mminmeasuringtheparallax
+ofthepoint?
+le
+(A) 5.15m
+(B) 5.27m
+h
+(C) 5.83m
+(D) 6.45m
+
+59. Whatistheaeroplaneflyingheighttoobtain
+theaverage scaleof thephotographequal
+1
+to
+？（Ground surface elevations vary
+0
+7200
+of
+from160mto430mandfocallengthofthe
+cameralensis153mm)
+g
+(A) 1021m
+b0
+(B) 1145m
+(C) 1284m
+(D) 1397m
+
+60. Whichoneofthefollowingconditionsshallbe
+fulfilledwhena transition curveisinserted
+betweenthetangentandcircularcurve?
+(A) It shouldnotmeettheoriginal straight
+e
+tangentially.
+t
+e
+(B) It should not meet the circular curve
+t
+tangentially.
+S
+e
+(C) Its radius atthe junctionwiththe
+S
+circular curve should be the same as
+thatofthecircularcurve.
+(D) Therateofdecrease ofcurvaturealong
+thetransitioncurve shouldbesame as
+thatofincreasein superelevation.
+9-A)
+
+--- page 10 ---
+
+61. Consider thefollowingstatementsrelatedto
+roadpavements:
+1.Deflections measured near cracks are
+normally
+much
+lower
+than
+the
+measurementsin non-distressed areas.
+
+2. Deflection
+measurements
+near
+longitudinal joints,transverse joints or
+cornersarehigher than thosemeasured at
+mid-slabforconcretepavements.
+Thermal andmoisture gradient in the
+verticaldirectionofconcrete slabs does
+not have any influence on deflection
+measurements.
+Measurements taken atnight orin the
+6
+earlymorning areconsiderably different
+from thoseobtainedintheafternoon.
+Whichof theabovestatementsarenot
+correct?
+(A) 1and2only
+(B) 1and3only
+(C) 2and4only
+6
+(D) 1,2and4only
+
+62. Whichoneofthefollowingtunnelling
+methodsisadoptedfor the situationswhere
+themetro alignmentpassesunderresidential
+buildings or a canal?
+(A) Earth
+pressure
+balance
+tunneling
+machinemethod
+(B) Tunnel boringmachinemethod
+(C) Tubetunnelingmethod
+(D) Driven shieldtunnelingmethod
+FGT-B-CVL
+（10-A
+
+63. Consider thefollowingstatementsrelated to
+the advantagesofconcretesleepers:
+1.Concrete sleepers can generallybe mass
+producedusinglocalresources.
+
+2. Concrete sleepers are not suitable for
+beaterpacking.
+
+3. Concretesleepers have averylong
+lifespan.
+4.Concretesleepershavenoscrapvalue.
+Whichoftheabovestatementsis/arecorrect?
+(A) 1only
+(B) 1and3only
+(C) 2only
+(D) 2and4only
+
+64. Whichoneofthefollowingisnotthemethod
+oftunnelinginhardrock?
+(A) Full-faceheadingmethod
+(B) Headingandbenchmethod
+(C) Driftmethod
+(D) Shaftmethod
+
+65. Consider thefollowingstatementsrelated to
+theadvantagesofuniformityofrailgauges:
+
+1. As transhippingis notrequired,thereis
+breakageofgoods.
+
+2. Large sheds to store goods are not
+required.
+
+3. Labour strikes,etc.do not affect the
+serviceandoperationoftrains.
+Whichoftheabovestatements arecorrect?
+(A) 1and2only
+(B) 2and3only
+(C) 1and3only
+(D) 1,2and3
+(A) --- page 11 ---
+
+66. Whichoneofthefollowingareprovidedto
+giveaccesstopropertiesalonganimportant
+highwaywithcontrolledaccess.toexpressway
+orfreeway?
+(A) Lay-bys
+(B) Frontageroads
+(C) Driveways
+(D) Cycle tracks
+
+67. When
+properlydesignedtrafficsignalsare
+used,which one of the following is the
+advantageoftrafficsignals?
+(A) The signals allowcrossingoftheheavy
+trafficflowwithsafety.
+(B) Therear-endcollisionmayincrease.
+(C) Improperdesignandlocationofsignals
+mayleadtoviolationofthecontrol
+system.
+(D) Failure ofthe signaldue toelectric
+power failure may cause confusion to
+theroadusers.
+
+68. If theruling gradient is1in150ona
+particularsectionofbroadgaugeandatthe
+same timeacurveof4degreeissituatedon
+this ruling gradient,what is the allowable
+rulinggradient?
+(A) 1in10
+(B) 1in72
+(C) 1in196
+(D) 1in245
+
+69. Whatis thevalueofheadlightsightdistance
+forahighwaywithadesignspeedof
+65kmph？(Takef=0·36andt=2·5sec)
+(A) 66.5m
+81·3m
+(B) 
+(C) 91·4m
+(D) 182.8m
+FGT-B-CVL
+
+70. Whatistheminimum stoppingsightdistance
+ona-3.5%gradeforadesignspeedof
+110kmph ？（Consider friction coefficient
+f=0·28,t=2·5secandG=0·035）
+(A) 76.4m
+(B) 194.4m
+(C) 214.6m
+270.8m
+(D) 71.
+Thefreemeanspeedonaroadwayisfoundto
+be 80 kmph.Under stoppedcondition,the
+averagespacingbetween thevehiclesis6·9m.
+Whatisthecapacityflow?
+(A) 5800Vehicles/hour(perlane)
+(B) 7200Vehicles/hour(perlane)
+(C) 1450Vehicles/hour(perlane)
+(D) 2900Vehicles/hour(perlane)
+
+72. For a street lighting system,having the
+following conditions:
+Streetwidth=15m
+Mountingheight=7.5m
+Lampsize=6000lumen
+Luminaire type=II
+Coefficientofutilization=0.44
+Maintenancefactor=0.8
+Whatisthespacingbetweenlightingunitsto
+produce averageLux=6?
+(A) 18m
+(B) 20m
+(C) 23m
+27m
+(D) -A)
+
+--- page 12 ---
+
+73. Consider the following for theobjectsof
+seasoningwood:
+
+1. Reduce theshrinkage andwarpingafter
+placementinstructure
+
+2. Increaseitstendencytosplit anddecay
+
+3. Decreaseworkability
+
+4. Reduceitsweight
+Whichoftheaboveobjectsarecorrect？
+(A) 1,3and4only
+(B) 1and4only
+(C) 1and3only
+(D) 2,3and4only
+74.Thehardnessof aggregate istested by
+(A) Impacttest
+(B) Crushingstrengthtest
+(C) Abrasiontest
+(D) Soundnesstest
+
+75. Whichone of the following statementsis
+correctinrespectofmildsteel?
+(A) Ithashigh carbon content.
+(B) Itis tougherthanhard steel.
+(C) Itis more elastic thanhard steel.
+(D) It can beforged andwelded easily.
+FGT-B-CVL
+（12
+
+76. The chemical composition‘Silicates ofiron
+andalumina’isfoundinwhich one ofthe
+followingminerals?
+(A) Garnet
+(B) Serpentine
+(C) Olivine
+(D) Calcite
+
+77. Thedrawbackofelectricseasoningoftimber
+is
+(A) Checks
+(B) Splitting
+(C) Cracks
+(D) Reduced Strength
+
+78. Whichoneofthe followingisaproduct
+obtainedbydistillingtarandisusedlargely
+asaneffectivepreservativeforwood?
+(A) Creosote
+(B) Solignum
+(C) Coaltar
+(D) Waxpolish
+
+79. Pozzolanas are
+(A) argillaceousmaterials
+(B) calcareousmaterials
+(C) accelerators
+(D) siliceousmaterials
+-A)
+
+--- page 13 ---
+80.For better chemical resistance,proportion of
+whichoneofthefollowingcompoundsin
+cementclinkershallbeincreased？
+(A) Tricalcium Silicate
+(B) Dicalcium Silicate
+(C) TetracalciumAluminate
+(D) TetracalciumAluminoferrite
+
+81. ThefinishingcoatinX-rayroom wallsis done
+preferablywith
+(A) Bariumplaster
+(B) Cementplaster
+(C) Gypsum
+(D) PlasterofParis
+
+82. The most suitable type of cement for mass
+concretingworksis
+(A) Rapid Hardening Cement
+(B) High Alumina Cement
+(C) LowHeatPortland Cement
+(D) QuickSettingCement
+
+83. Whichoneofthenon-destructive testscanbe
+performedonfreshconcrete?
+(A) Ultrasonic test
+(B) Penetration test
+(C) Core test
+(D) Hammertest
+
+84. Ina concrete mix,for given cement content
+and workability，higher proportion of fine
+aggregatewillberequiredif
+(A) maximum size of aggregate islarge.
+(B) maximum size of aggregateissmall.
+(C) rounded aggregateis used.
+(D) all in aggregate is used.
+FGT-B-CVL
+（13-
+
+85.Acentralsteelrod18mmdiameterpasses
+througha.coppersleevewith24mminside
+and39mmoutsidediameter.Itisprovided
+withnutsandwashersateachendandthe
+nutsaretighteneduntilastressof10N/mm²
+isset up in the steel.Then,the stress
+developedincoppertubeis
+(A) 29.1N/mm²,Compressive
+(B) 3.4N/mm²,Compressive
+(C) 3.4N/mm²,Tensile
+(D) 29.1N/mm²,Tensile
+
+86. A
+2mlongalloybarof1500mm²
+cross-sectionalarea hangsverticallyandhas
+acollarsecurelyfixedatitslowerend.What
+isthestressinducedinthebarwhenaweight
+of2kNfallsfromaheightof100mmonthe
+collar？(TakeE=120 GPa)
+(A) 126.5MPa
+(B) 158.3MPa
+(C) 161.2MPa
+(D) 181.3MPa
+
+87. Normal stressesof126MN/m²（Tensile)and
+94MN/m²（Compressive)areactingatapoint
+inanelasticmaterialatrightanglestoeach
+other.If themaximum principal stress is
+limited to 146MN/m²,the shear stress that
+maybeallowedat thatpointinthesame
+planeis
+(A) 170MN/m2
+(B) 89MN/m2
+(C) 69MN/m2
+96MN/m2
+(D) -A)
+
+--- page 14 ---
+88.Aplaneelementinabodyis subjected toa
+tensilestressof100MPaandshearstressof
+25MPa.Whatis thenormal stressonaplane
+inclinedat15°with thetensilestress?
+(A) -5.8MPa
+(B) -4·8MPa
+(C) -3·8MPa
+(D) -2.8MPa
+89.Aloadof2100 Nisdroppedaxiallyona
+closed-coiledhelicalspring fromaheight of
+240mm.The spring has 22 coils each of
+mean
+diameter
+180
+mm
+and
+wire
+diameteris 25mm.Ifmodulusofrigidity
+C=84000N/mm²andamountofcompression
+8=255mm,whatis themaximum shear
+stressproducedinthe spring?
+(A) 156N/mm²
+(B) 346N/mm²
+(C) 239N/mm²
+123N/mm²
+(D) 90.AnI-sectionpurlinof span4mis subjectedto
+a totaluniformlydistributedloadof5kN.The
+purlinwillbedesignedformaximumbending
+momentof
+(A) 2000Nm
+(B) 20kNm
+(C) 2500Nm
+(D) 25kNm
+FGT-B-CVL
+
+91. A14mlonglaminatedcarriagespringhas
+leavesof100mmwidthand10mmthickness.
+The springhastoabsorb125N-mofenergy
+when straightened,without exceeding the
+bendingstressof160MPa.Whatisthe
+number ofleaves?(Take theelasticmodulus
+ofmaterialofspringas200GPa)
+(A) 11
+(B) 9
+(C) 7
+(D) 5
+
+92. Awoodenfloorisrequired tocarryaloadof
+12kN/m²andis tobe supportedbywooden
+joistsof120mmx250mminsectionovera
+spanof4m.Ifthebendingstressinthese
+woodenjoistsisnottoexceed8MPa,whatis
+thespacingofthejoists?
+(A) 356mm
+(B) 318mm
+(C) 432mm
+(D) 417mm
+93.Amotor drivingasolidcircularshaft
+transmits30kWat500r.p.m.Whatis the
+torqueactivityontheshaft,ifallowable shear
+stressis42MPa?
+(A) 427Nm
+(B) 573Nm
+(C) 180Nm
+219Nm
+(D) 4-A)
+
+--- page 15 ---
+94.Anopen-coiledhelicalspringofwirediameter
+12mm,mean coilradius 84mm,helixangle
+60°carriesanaxialloadof480N.Whatisthe
+twistingmoment?
+(A) 10-22Nm
+(B) 20.16Nm
+(C) 14·24Nm
+(D) 24·11Nm
+
+95. Thestresses ata point of amachine
+componentare 150MPaand50MPa,both
+tensile.Whatis theintensityofnormalstress
+onaplaneinclinedatanangleof30°withthe
+axisofmajortensilestress?
+(A) 25MPa
+(B) 50MPa
+(C) 75MPa
+(D) 100MPa
+
+96. In case oflinteldesign,theload enclosed in an
+equilateraltriangleisfullytransferredtothe
+9
+lintelprovidedtheheightofwallabovelintel
+is
+(A) notless than 1.25 times theheightof
+theequilateraltriangle.
+(B) lessthantwicetheheightofthe
+equilateraltriangle.
+(C) lessthan1.25timestheheightofthe
+equilateraltriangle.
+(D) greaterthantwicetheheightofthe
+equilateraltriangle.
+FGT-B-CVL
+（15-A
+
+97. Consider thefollowingstatementsforEuler's
+equationtofindcriticalloadofacolumn:
+
+1. Criticalloadofacolumnisproportional
+totheflexuralrigidity.
+
+2. Critical loadofacolumndependsupon
+yield stress.
+
+3. Critical load ofa column is inversely
+proportionaltothelengthofcolumn.
+
+4. Criticalloadofacolumnisinversely
+proportionalto thesquareofthelength
+ofcolumn.
+Whichofthe above statementsarecorrect?
+(A) 1and2only
+(B) 1and4only
+(C) 2and3only
+(D) 2and4only
+98.A steelplate120mmwideand20mm thickis
+bentintoacircular arcofradius 10m.What
+isthe maximum stress produced and the
+bending moment which can produce this
+stressrespectively?(TakeE=200 GPa)
+(A) 100MPa,32kN-m
+(B) 200MPa,160N-mm
+(C) 200MPa,1600N-m
+(D) 20MPa,160kN-m
+A
+
+--- page 16 ---
+
+99. Consider thefollowing statementsregarding
+shearingforce andbendingmoment:
+
+1. Pointofcontraflexureisthepointwhere
+bendingmoment changesitssign.
+
+2. Shear forceistherate ofchange of
+bendingmoment.
+
+3. For
+bending
+moment
+tobe
+the
+maximum or minimum,shear force
+should changeits sign.
+Rateofchangeofloadingisequalto
+shearforce.
+Whichofthe above statements are correct?
+(A) 2and3only
+(B) 1and4only
+(C) 1,2and4only
+(D) 1,2and3only
+100.Consider thefollowingstatements:
+MomentAreaMethodprovesadvantageousin
+analyzing
+
+1. cantileverbeams.
+
+2. symmetricallyloadedsimply supported
+beams.
+
+3. fixed beams.
+
+4. continuousbeams.
+Whichofthe above statementsarecorrect?
+(A) 1,2and4only
+(B) 3and4only
+(C) 1,2 and 3only
+(D) 1and2only
+FGT-B-CVL
+(16
+
+101.Consider the following statementsregarding
+continuousbeam:
+
+1. Abeamis said tobeacontinuousbeam
+e
+ifitissupported onmore than two
+supports.
+of
+
+2. Acontinuous beam is a statically
+indeterminate structure.
+
+3. Thedegreeofindeterminacy depends
+e
+uponthenumberofsupports and also
+e
+on thenatureofthe supports.
+Whichoftheabovestatementsarecorrect?
+D
+(A) 1and2only
+(B) 2and3only
+(C) 1,2and3
+(D) 1and3only
+102.Incase of flexuraltensionorflexural
+compression,theminimumlengthofthebar
+whichmustbeembeddedinconcretebeyond
+any section to develop its full strength,is
+termedas
+(A) Twistedlength
+(B) Flexurallength
+(C) Bond length
+(D) Developmentlength
+103.Itisobserved experimentallythat the
+amplitudeoffreevibrationofacertain
+structuremodelledasasingledegreeof
+freedomsystem,decreasesfrom1·0to0.4in
+10cycles.Whatis the percentage ofcritical
+damping?
+Takeln2=0.693andln10=2·303)
+(A) 5.21%
+(B) 1.46%
+(C) 2.37%
+(D) 3.22%
+6-A)
+
+--- page 17 ---
+104.Theultimate tensile strain in steelisin the
+rangeof
+(A) 0·012-0-020
+(B) 0.0012-0·0020
+(C) 0.12-0-20
+(D) 0-00012-0-00020
+105.Consider the following statements regarding
+staticallydeterminate structures:
+
+1. Conditionsofequilibriumaresufficient
+tofully analysethestructure.
+
+2. Thebendingmomentatasectionorthe
+forcein anymemberisindependentof
+thematerialofthecomponentsofthe
+structure.
+
+3. Thebendingmomentatasectionorthe
+forceinanymemberisindependentof
+the
+cross-sectional
+areas
+softhe
+components.
+Whichoftheabovestatementsarecorrect?
+(A) 1and2only
+(B) 2and3only
+(C) 1,2and3
+(D) 1and3only
+FGT-B-CVL
+（17
+
+106.Acantileverbeamof4mspancarriesaUDL
+of3kN/moveritsentirespanandapointload
+of3kNatthefreeend.Ifthesamebeamis
+simply supportedattwo ends,whatpointload
+atthecentreshoulditcarrytohavesame
+deflection as the cantilever?
+(A) 60kN
+(B) 120kN
+(C) 160kN
+(D) 210kN
+107.AbeamABofspan5mfixedatbothends
+carriesaUDLof 12kN/mover thewhole
+span.If therightendBsettlesdown by
+12mm,whatare the endmomentsfor the
+beam?(TakeEI=15000kNm²)
+(A) M=68·2kNm(hogging)and
+Mb=18.2kNm（sagging)
+(B) Ma=18.2kNm(hogging）and
+M,=68·2kNm（sagging)
+(C) Ma=68·2kNm(hogging)and
+M=68.2kNm（sagging)
+(D) Ma=18·2kNm(hogging）and
+M=18.2kNm（sagging)
+108.Acable is suspended between two points,
+75maparthorizontallywithitsleftendlower
+than the right end by 10m.The cable
+supportsaUDLof5kN/malongthe
+horizontalspan.What is the horizontal
+tensioninthecableifcentralsagis75m？
+(A) 385·13kN
+(B) 468.75kN
+(C) 145·15kN
+(D) 528.62kN
+7-A)
+
+--- page 18 ---
+109.Consider the following statementsrelated to
+meritsofconstructioninstructuralsteel:
+
+1. Structuralsteel has high strength per
+unitweightascomparedtoRCC.
+
+2. The steelmembers are slenderor small
+in size ascompared toRCC.
+
+3. The steel structures are useful in
+construction oftallbuildings,long-span
+bridges and airplanehangars.
+Whichofthe above statementsare correct?
+(A) 1and2only
+(B) 2and3only
+(C) 1,2and3
+(D) 1and3only
+110.Foralacedcolumn,theminimumwidthofthe
+lacing bars when using 20 mm nominal
+diameterrivetsis
+(A) 65mm
+(B) 60mm
+(C) 55mm
+(D) 50mm
+111.A beam simply supportedover aneffective
+span of9m,carriesauniformly distributed
+loadof60kN/m,inclusiveofitsownweight.
+What is the section modulusofthe beam,if
+f=250N/mm²andE=2×105N/mm²？
+(Assumewidthofsupportis200mm)
+2612×10²mm3
+(A) (q)
+3682×10mm²
+(C) 4682×10mm²
+(D) 5124×10mm²
+FGT-B-CVL
+（18-
+
+112.Consider thefollowing statementsrelated to
+battenplates:
+
+1. These normally consist of flat plates,
+connectingthecomponentsofthe
+built-upcolumns in twoparallelplanes.
+
+2. These areusedfortriaxialloading.
+
+3. Thedesign ofbattenedcolumns and the
+design ofbattensare usuallygoverned
+byIScoderequirements.
+Whichofthe above statementsarecorrect?
+(A) 1and3only
+(B) 2and3only
+(C) 1,2and3
+(D) 1and2only
+113.Consider the following statements related to
+designoftensionmemberwithsingle
+structural shapes andplates:
+
+1. The common single structural shapes
+are angle sections,tee sections and
+channel sections.
+
+2. Single angles are not used for bracing,
+forlight truss tensionmembers.
+
+3. Occasionally,I sections are also used as
+tension members as they have more
+rigidity.
+Whichoftheabove statements arecorrect?
+(A) 1and3only
+(B) 2and3only
+(C) 1and2only
+(D) 1,2and3
+3-A)
+
+--- page 19 ---
+114.Consider the following statementsregarding
+the advantages ofagood organization:
+1.It increases cooperationand afeeling of
+freedom.
+2.Itprevents duplication ofwork.
+3.Itmakes communication easier.
+4.Itincreasesthelikelihood ofrun-arounds.
+Whichoftheabovestatementsarecorrect?
+(A) 1,2and3only
+(B) 2,3and4only
+(C) 1,3and4 only
+(D) 1,2and4only
+115.For design of a roof truss,if the design wind
+velocityis 20m/s,whatis the design wind
+pressure?
+(A) 400N/m2
+(B) 240N/m2
+(C) 40N/m2
+(D) 200N/m2
+116.Considerthefollowingstatements:
+1.The working stress design is basedon
+explicitconsiderationofthevarious
+conditionsunderwhichthestructuremay
+ceasetofulfilitsintendedfunction.
+
+2. In case ofworking stress design,structure
+willdirectlytakeintoconsiderationthe
+variousrelevantmodesoffailure.
+3.Inworking stress method,regulatory
+bodies or classification societies usually
+specify thevalueofthe allowablestress as
+somefractionofthemechanicalproperties
+ofmaterials.
+Whichoftheabovestatementsis/arecorrect?
+(A) 1and2only
+(B) 2only
+(C) 2and3only
+(D) 3only
+FGT-B-CVL
+（19-
+
+117.Consider the following statementsregarding
+theworkingstress designmethod:
+
+1. Working stressdesign isbasedon the
+elastictheory.
+
+2. The working stress in the member
+shouldbelessthanthepermissible
+stress.
+
+3. Thepermissiblestressistheratioofthe
+factorofsafetyto theyield stress.
+
+4. The permissible stresses for fasteners
+areusuallybasedontheultimate
+strengthoftheconnection.
+Whichof the abovestatementsis/arenot
+correct?
+(A) 1and3only
+(B) 3only
+(C) 4only
+(D) 2and4only
+118.Asteelcantileverbeamisproposedtobuild
+intoaconcretewallatoneendandotherend
+isfree.Itsupportsadeadloadof20kN/mand
+aliveloadof10kN/m.Thelengthofthebeam
+is5m.Whataretheshearforceandbending
+momentrespectively?(Takeyield strengthof
+steelas250N/mm²)
+(A) 225kNand562.5kNm
+(B) 22.5kNand56·25kNm
+(C) 225kNand56·25kNm
+(D) 225kNand562.5kNm
+A）
+
+--- page 20 ---
+119.Consider the followingfor localcapacityof
+section:
+
+1. Local
+section
+failureis
+usually
+encounteredinthecaseofshortstocky
+beam-columnswithrelativelysmaller
+axial
+compression
+ratio
+and
+beam-columns
+bent
+in
+reverse
+curvature.
+
+2. The strength of end section reached
+undercombinedaxialforceandbending,
+governsthefailure.
+
+3. The strength of thesectionmaybe
+governedbyplasticbucklingofplate
+elementsin thecase ofplastic,compact
+andsemi-compactsections.
+Whichofthe above statements arecorrect?
+(A) 1and2only
+(B) 2and3only
+(C) 1,2and3
+(D) 1and3only
+120.A tension member ofaroof truss carriesa
+factored loadof430kN.By consideringthe
+strength in yield,whatis the gross area
+required to carry thisload？（ConsiderFe250
+grade steel)
+(A) 1892mm²
+(B) 1978mm2
+(C) 1903mm2
+(D) 2150mm²
+FGT-B-CVL
+(20
+
+of
+121.Stirrup area in excess of that required for
+shear andtorsion isprovidedalongeach
+y
+terminatedbaroveradistance fromthe
+cut-offpointequalto
+er
+(A) three-fourththeeffectivedepthofthe
+d
+member.
+e
+(B) one-thirdtheeffectivedepthofthe
+member.
+d
+(C) two-thirdtheeffective depthofthe
+member.
+(D) one-fourththeeffectivedepthofthe
+e
+member.
+122.Which oneof the followingis nota type of
+mortar?
+(A) Lime surkhimortar
+(B) Cementsandmortar
+(C) Cementstonechipsmortar
+(D) Cementlimemortar
+123.The gradeofconcrete andreinforcementare
+M-20andFe-250respectively.Consider
+e
+25mm diameterbars andtbais 1·2.Whatis
+thedevelopmentlengthatsupport fora
+a
+0
+simplysupportedbeamofarectangular
+section?
+(A) 1133mm
+(B) 1033mm
+(C) 1321mm
+(D) 1232mm
+20-A)
+
+--- page 21 ---
+124.Ina singlyreinforced beam,forgivengradeof
+12
+concrete,permissiblebond stressindeformed
+bars
+(A) islesserthan thatofplainbars.
+(B) isequal tothatofplainbars.
+(C) maybe greater than or smaller than
+thatof plain bars.
+(D) isgreaterthan thatofplainbars.
+12
+125.Thesafeloadcarried bythehelically
+reinforcedcolumnis
+(A) 1.05timestheloadcarriedbythe
+similarcolumnwithties.
+(B) 2.15timestheloadcarriedbythe
+12
+similarcolumnwithties.
+(C) 1.15times theloadcarriedbythe
+similarcolumn with ties.
+(D) 2.05timestheloadcarriedby the
+similarcolumnwithties.
+126.Nominalcover to reinforcement is provided
+to
+13
+
+1. protectreinforcement againstcorrosion.
+
+2. provide shearresistance.
+
+3. protectreinforcementagainstfire.
+
+4. develop sufficientbondstrength along
+surfaceareaofreinforcementbars.
+Whichoftheabovestatements arecorrect?
+13
+(A) 1and4only
+(B) 2,3and4only
+(C) 1,3and4only
+(D) 1,2and3only
+FGT-B-CVL
+(21-A
+
+127.In slab design,ratio ofmaximum diameterof
+reinforcingbars to the total thickness ofslab
+shouldnotbemorethan
+(A) 1/12
+(B) 1/6
+(C) 1/8
+(D) 1/7
+128.Toprevent cracking ofedges,the corners in
+twowayslabsareprovidedwith
+(A) shearreinforcement
+(B) torsionreinforcement
+(C) tensilereinforcement
+(D) compressionreinforcement
+129.Critical section for twoway shear in case of
+isolatedfootingdesignis at
+(A) thefaceofcolumn.
+(B) effectivedepthfromthefaceofcolumn.
+(C) halfoftheeffectivedepthfromtheface
+ofcolumn.
+(D) two-thirdoftheeffectivedepthfromthe
+face ofcolumn.
+130.Acceptedrelationshipbetweentreadandriser
+in case ofstaircase design is
+(A) RiserxTread=60,000mm²
+(B) 2xRiser+Tread=600mm
+(C) Riser+Tread=600mm
+(D) 2×Tread+Riser=600mm
+131.Loss ofpre-stressisnotdirectlyrelated to
+(A) creep ofconcrete.
+(B) shrinkage ofconcrete.
+(C) grade ofconcrete.
+(D) slippingofsteeltendonsfromconcrete.
+(A) --- page 22 ---
+132.Whichoneofthefollowingstatementsisthe
+disadvantage ofpost-tensioningmethod?
+(A) Thelossof pre-stressisless
+as
+comparedtopre-tensioningsystem.
+(B) Post-tensioning method is costly
+as
+comparedtopre-tensioningmethod.
+(C) Post-tensioningcanbe doneinfactories
+and atthe site also.
+(D) Post-tensioningmethodisusedforlarge
+spans andheavilyloadedstructures.
+133.Whatisthemainlimitationofbarchart?
+(A) Itdoesnothelpinmaterialandlabour
+planning.
+(B) Itdoesnot showall theactivitiesofa
+project.
+(C) It doesnotindicatecritical activitiesof
+a project.
+(D) Projectduration cannotbe estimated.
+134.Graders arenot suitablefor
+(A) levellingofearthwork.
+(B) cutting ditches.
+(C) workingonsteeperslopes.
+(D) heavy excavation.
+135.Line ofBalance technique is
+(A) modifiedbarchart.
+(B) planningofrepetitive activitiesofa
+project.
+(C) modifiedformofPERT.
+(D) usedforplanningmilestonesofa
+project.
+FGT-B-CVL
+(22
+
+he
+136.Which oneofthefollowingstatementsisnot
+correctinrespectofdrawingnetwork?
+as
+(A) No activitycanstartuntilits tailevent
+hasoccurred.
+(B) Aneventcannotoccurtwice.
+as
+(C) Lengthofarrowshouldbeinproportion
+tothetimeconsumed bythatactivity.
+es
+(D) Thenumber ofarrows shouldbe equal
+tothenumberofactivitiesinthe
+ge
+project.
+137.A-O-Nsystem ofnetwork
+(A) completelyeliminatestheuseofdummy
+ur
+activities.
+(B) requires
+judicioususeofdummy
+activities.
+a
+(C) doesnotdistinctlyshowpre-operation
+andpost-operationoftheactivities.
+of
+(P)
+is not suitable for projects with large
+numberofactivities.
+138.Which oneof thefollowing typesofcost-plus
+contracts
+allows.the
+amountofthe
+re-imbursementtoincreaseifthe contractor's
+costincreases?
+(A) Cost-plusawardfee contract
+(B) Cost-plusincentivefee contract
+(C) Cost-plusfixedfeecontract
+(D) Cost-pluspercentagefeecontract
+139.Number ofbricks required for 15cu.m of
+a
+brickworkisapproximately
+(A) 6750
+(B) 7200
+a
+(C) 7500
+(D) 6000
+22-A)
+
+--- page 23 ---
+140.Theplinthareaofabuildingdoesnotinclude
+14
+areaof
+(A) thewallsatthefloorlevels.
+(B) internalshaftforsanitaryinstallations
+upto2sq.marea.
+(C) lifts.
+(D) cantileveredporches.
+141.Whichoneofthefollowingstatementsisnot
+correct?
+(A) Thecirculationareaof anyfloor
+includes entrancehalls.
+(B) Floor areaofabuildingincludesarea of
+sillsof doors and other openings.
+(C) Cuberate estimateofabuildingismore
+accurateascomparedtoplintharea
+estimate.
+(D) The preliminaryestimatefor water
+14
+supply and sewerage projectcan be
+prepared on the basisofper headof
+populationserved.
+142.Consider the following statementsregarding
+theadvantagesinLineorMilitary
+Organizationofmanagementtechnique:
+
+1. The command and control is very
+effective.
+
+2. Itissimpletoworkand easily
+understoodbytheemployees.
+
+3. Responsibilitiesin all levelsaredefinite
+andfixed.
+
+4. The organizationisrigid
+Whichoftheabovestatements arecorrect?
+(A) 1,2and3only
+(B) 2,3and4only
+(C) 1,2and4only
+(D) 1,3and 4only
+FGT-B-CVL
+(23-A
+
+143.Projectmanagementauditconsists ofwhich of
+thefollowing?
+
+1. Project
+work-breakdown
+structure
+verificationandtherelevance.
+
+2. Risk identification,cost,levels and
+security.
+
+3. Measurementsofriskimpacts.
+Select thecorrectanswerusingthecodegiven
+below:
+(A) 1and2only
+(B) 2and3only
+(C) 1,2and3
+(D) 1and3only
+144.Consider thefollowing statementsregarding
+inspectionandquality control:
+
+1. Coefficientof variation isarelative
+measureofdispersion.
+
+2. Standard deviation is therootmean
+squareofthedeviationofall theresults.
+
+3. Standard deviationisrelativemeasure
+ofdispersion.
+
+4. Lowervalueofstandarddeviation
+indicateslowdegreeofuniformityof
+observations.
+Whichoftheabovestatementsarecorrect?
+(A) 1and4only
+(B) 2and3only
+(C) 1and2only
+(D) 2and4only
+(A) --- page 24 ---
+Directions:Eachofthenextsix(06)items consists
+oftwostatements,onelabelledasthe‘Statement(I)
+andtheotheras‘Statement(II)'Youaretoexamine
+thesetwostatementscarefullyandselecttheanswers
+totheseitemsusingthecodesgivenbelow:
+Codes:
+(A) Both Statement (I)and Statement (II)
+areindividuallytrueandStatement(II)
+is
+the
+correct
+explanation
+of
+Statement(I)
+(B) Both Statement(I)andStatement (II)
+areindividually true,but Statement(II)
+isnotthecorrectexplanation
+of
+Statement(I)
+(C) Statement(I)is true,but Statement(II)
+isfalse
+(D) Statement(I)isfalse,butStatement(II)
+istrue
+145.Statement(I):
+The theoreticalstrength ofconcreteas per
+Gel-Spaceratiotheoryislessthan theactual
+strengthofconcrete.
+Statement(II):
+In the Gel-Space ratio theory，it has been
+assumedthattheconcreteisperfectly
+homogeneousandflawless.
+146.Statement(I):
+Spurlengthiskeptlongerthan15to2times
+thedepthofflow.
+Statement(II):
+Shorter spurlengthindeeperriversinduces
+swirlingmotiononboththeupstreamand
+downstreamsidesofthe spur.
+FGT-B-CVL
+(24
+
+sts
+147.Statement(I):
+I)'
+BoththeEmpiricalformulaegivenby
+ne
+AmericanInsurance Association and Buston
+ers
+for thedeterminationoffiredemandofwater
+arenotsuitableforIndianconditions.
+Statement(II):
+Kuichling's formulaestimateslesservalueof
+II
+firewater demand.
+II)
+of
+148.Statement(I):
+For the design ofslender column,additional
+II
+II)
+momentsarerequiredtobeconsidered.
+of
+Statement(II):
+Lateral deflection of slender columns,under
+II)
+axial
+load,issubstantial
+and
+causes
+additionalmoments.
+II)
+149.Statement(I):
+Toachievemaximum value forminimum
+radius of gyration of compression members,
+withoutincreasing thearea ofthe section,a
+numberofelementsareplacedawayfromthe
+er
+principal axisusingsuitablelateral systems.
+lal
+Statement(II):
+Battenshallbeplacedat40°to70°totheaxis
+ofbuilt-upmembers.
+en
+ly
+150.Statement(I):
+Chain surveyingis thattype ofsurveyingin
+whichonlylinearmeasurementsaremadein
+thefield.
+es
+Statement(II):
+Traversingisthattypeofsurveyinwhicha
+numberofconnected surveylinesfrom the
+bes
+frameworkandthedirectionsandlengthsof
+pu
+thesurveylinesaremeasuredwiththehelpof
+an anglemeasuring instrumentanda tape
+respectively.
+24-A)
+
+--- page 25 ---
+ROUGHWORK
+—A)
+
+--- page 26 ---
+ROUGHWORK
+26-A)
+
+--- page 27 ---
+ROUGHWORK
+—A)
+
+--- page 28 ---
+ROUGHWORK
+8-A)

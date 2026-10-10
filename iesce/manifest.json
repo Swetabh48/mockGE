@@ -1,0 +1,425 @@
+{
+  "updated": "2026-10-09",
+  "papers": [
+    {
+      "year": 2026,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP_ESPE26_CivilEngg_II_09022026.pdf",
+      "path": "iesce/pdfs/2026/paper2.pdf",
+      "sha256": "bad258807984b53a22a236e2434acf4574ec287d187728ea89192f44e0e05fb1",
+      "status": "downloaded",
+      "note": "UPSC ESE 2026 Prelims Civil Engg (official Paper-II)"
+    },
+    {
+      "year": 2025,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP-ESEP-25-CIVIL-ENGINEERING-P-II-090625.pdf",
+      "path": "iesce/pdfs/2025/paper2.pdf",
+      "sha256": "f994266b03451c039f94d04ac8455a861fad70c69aa7f7fdbafe8d6ce345dff4",
+      "status": "downloaded",
+      "note": "UPSC ESE 2025 Prelims Civil Engg (official Paper-II)"
+    },
+    {
+      "year": 2024,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP-EnggServcPrelExam-24-CIVIL-ENGINEERING-190224.pdf",
+      "path": "iesce/pdfs/2024/paper2.pdf",
+      "sha256": "4a1915e4a4b62fd072c082da73ec3cf3e39d672dc71a37e2570118068c7e9fc1",
+      "status": "downloaded",
+      "note": "UPSC ESE 2024 Prelims Civil Engg (official Paper-II)"
+    },
+    {
+      "year": 2023,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/ESEP23-P-II_CivilEngg_20022023.pdf",
+      "path": "iesce/pdfs/2023/paper2.pdf",
+      "sha256": "43ebdf57c0079c1feb8c22685e7886fde1b61c1430643207be4764cfaab1bc2d",
+      "status": "downloaded",
+      "note": "UPSC ESE 2023 Prelims Civil Engg (official Paper-II)"
+    },
+    {
+      "year": 2022,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP-ESEP-22-PAPER-II-CivislEngg-210222.pdf",
+      "path": "iesce/pdfs/2022/paper2.pdf",
+      "sha256": "f2aba1e662af065771cd9baca5a9d27a63b03a83f9e6285ab3c8b7b115703d60",
+      "status": "skipped_exists",
+      "note": "UPSC ESE 2022 Prelims Civil Engg (official Paper-II)"
+    },
+    {
+      "year": 2021,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?id=1fXS3nBgeCm96IEppOyXtUeVSwGJA5kJE&export=download",
+      "path": "iesce/pdfs/2021/paper2.pdf",
+      "sha256": "b46839c71691f86de047f65193f5389248c0c0691e05ada1a6547f6017e930b6",
+      "status": "skipped_exists",
+      "note": "ESE 2021 Civil objective"
+    },
+    {
+      "year": 2020,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1YlcYp4LFqZRWNqPTMVoK3anhVN6NHeaL",
+      "path": "iesce/pdfs/2020/paper2.pdf",
+      "sha256": "11d053a2bbacd3012ad0c70941b7a03774a0fa182ff4e016198601875b6e0eb2",
+      "status": "skipped_exists",
+      "note": "ESE 2020 Civil objective"
+    },
+    {
+      "year": 2019,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1fOfDxn6rfhUyL4rFGr1QVz49BxDkU77u",
+      "path": "iesce/pdfs/2019/paper2.pdf",
+      "sha256": "b19f9111188a7b8a2d6e82116c6da0ed37b3ec592abebcfde378c48df6796e6e",
+      "status": "skipped_exists",
+      "note": "ESE 2019 Civil objective"
+    },
+    {
+      "year": 2018,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1DnmRK3Ob7tXWma3qaNsV7I9znk-3VHKx",
+      "path": "iesce/pdfs/2018/paper2.pdf",
+      "sha256": "8a97b41998379236ef304b34c39f4b53616a1d13dc48bf1dbaddc4b63ce9a3fc",
+      "status": "skipped_exists",
+      "note": "ESE 2018 Civil objective"
+    },
+    {
+      "year": 2017,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1xjVfR0k4dVG_yDOxR_duPhIAnvBNcBhb",
+      "path": "iesce/pdfs/2017/paper2.pdf",
+      "sha256": "5e706ae4d3bfd2940bf332a05e3f1922b65ed2a380a437077de29a50957ccd32",
+      "status": "skipped_exists",
+      "note": "ESE 2017 Civil objective"
+    },
+    {
+      "year": 2016,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1H4ISPyw_0L0fwAoMTlrbsu0BMndld9vX",
+      "path": "iesce/pdfs/2016/paper1.pdf",
+      "sha256": "90e797317aa0f2970e2d43108091d810ca15221d1f6d931d9a4e4fd6765eee7a",
+      "status": "skipped_exists",
+      "note": "IES 2016 CE Paper-I"
+    },
+    {
+      "year": 2016,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=15uK11LdlRoAkJODN2E_8Mp178lEm8HIx",
+      "path": "iesce/pdfs/2016/paper2.pdf",
+      "sha256": "15cd6044c5794b29a925727a3d41115a573ba79beadea1454b62f3a36e7bf19e",
+      "status": "skipped_exists",
+      "note": "IES 2016 CE Paper-II"
+    },
+    {
+      "year": 2015,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1kY8PtHUirNeslQ4ZomXb_WD4ZxthZPgC",
+      "path": "iesce/pdfs/2015/paper1.pdf",
+      "sha256": "50cdfd6a9efb38ccfb6d9d2250524a5d48c963fdab48b96a76183ee881581efb",
+      "status": "skipped_exists",
+      "note": "IES 2015 CE Paper-I"
+    },
+    {
+      "year": 2015,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1nkJFL2HYyaJM__88M6Kr_g4oJ0QLOtUY",
+      "path": "iesce/pdfs/2015/paper2.pdf",
+      "sha256": "981354ee7e077c2e4212211a2ece16f400a89cf7a0b529ee875513bbbf711361",
+      "status": "skipped_exists",
+      "note": "IES 2015 CE Paper-II"
+    },
+    {
+      "year": 2014,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1DNPx5Xi099zxWvQO-F1vGLWreIxlHxN4",
+      "path": "iesce/pdfs/2014/paper1.pdf",
+      "sha256": "012b8c3f7b460d750dd1e5da93a9b6a463cd9231a006fbb5700807188a71512e",
+      "status": "skipped_exists",
+      "note": "IES 2014 CE Paper-I"
+    },
+    {
+      "year": 2014,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1XeU1D9TsO1qg_OOTruNacKy5K5DUHUZm",
+      "path": "iesce/pdfs/2014/paper2.pdf",
+      "sha256": "d85a937faf81c1e7ef052f95dd94ac7fdbe32848a3a13d41d398e9e358267878",
+      "status": "skipped_exists",
+      "note": "IES 2014 CE Paper-II"
+    },
+    {
+      "year": 2013,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=18yUXNmRMn8e9SFfuxMWwOjLeOvkAiSMu",
+      "path": "iesce/pdfs/2013/paper1.pdf",
+      "sha256": "7d9e5052f48ead775c4f8ba2617cf71f133f67dfff5090ac5eaf02ad2b5e8747",
+      "status": "skipped_exists",
+      "note": "IES 2013 CE Paper-I"
+    },
+    {
+      "year": 2013,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1g7Qj2GOc2dXYlAUQ0GSvdVzIPk5-DYrc",
+      "path": "iesce/pdfs/2013/paper2.pdf",
+      "sha256": "84b001b3b6399f7f8bb44c85d1a787a13dd5b389d0984e6a7de43cc79b0c9eae",
+      "status": "skipped_exists",
+      "note": "IES 2013 CE Paper-II"
+    },
+    {
+      "year": 2012,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1w6bvw0Tti3E2euEvC-wCXpGY0rhQi_0k",
+      "path": "iesce/pdfs/2012/paper1.pdf",
+      "sha256": "87ff7ebb2a66d39fccc89c000ff2aeb88dc9fe5ea85414086249976d0b24a4bf",
+      "status": "skipped_exists",
+      "note": "IES 2012 CE Paper-I"
+    },
+    {
+      "year": 2012,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1807pSz7oKdGe_tn7kgRVyTvMPom8LF9p",
+      "path": "iesce/pdfs/2012/paper2.pdf",
+      "sha256": "f2fbbc6f7c8d60d571ea08545c6a1f375e06a24d2a6ed697711520bfd0e78b91",
+      "status": "skipped_exists",
+      "note": "IES 2012 CE Paper-II"
+    },
+    {
+      "year": 2011,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1QkcqrLCLGkcIqBP-cjG2Oa0B06e820do",
+      "path": "iesce/pdfs/2011/paper1.pdf",
+      "sha256": "cf1f44a162007300a32aed878daadad1ac03ba11d52b0cccf34e0d254a5e9427",
+      "status": "skipped_exists",
+      "note": "IES 2011 CE Paper-I"
+    },
+    {
+      "year": 2011,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1KBQvesoaH7VEqsF_q4cj2i4kpkFm-gZw",
+      "path": "iesce/pdfs/2011/paper2.pdf",
+      "sha256": "3cf58485700ef28988a0f4d2d0291331b89678c974f5a37a73b265f688ca33d9",
+      "status": "skipped_exists",
+      "note": "IES 2011 CE Paper-II"
+    },
+    {
+      "year": 2010,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1UWHOIgNJxotr9vhxttwIBoiantKb-2qo",
+      "path": "iesce/pdfs/2010/paper1.pdf",
+      "sha256": "2033f77a7eb3c88aa0963f5b37c828aac19db346a1340f5dc89b88d9ae766f74",
+      "status": "skipped_exists",
+      "note": "IES 2010 CE Paper-I"
+    },
+    {
+      "year": 2010,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1RMuL5tWhR5CYLtwyJEqwLMcBCyoW37G7",
+      "path": "iesce/pdfs/2010/paper2.pdf",
+      "sha256": "e5b4558089d34e867e2976e92b2c62b501def412ce5edf9907304eef8c4dc75c",
+      "status": "skipped_exists",
+      "note": "IES 2010 CE Paper-II"
+    },
+    {
+      "year": 2009,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1-oO2MdHR167WML5qISyyCXe30Oo-omUA",
+      "path": "iesce/pdfs/2009/paper1.pdf",
+      "sha256": "69730ee9ab41b03f3422b019b7f8ae05cd644f3995623a7da5adec1d8a69c31e",
+      "status": "skipped_exists",
+      "note": "IES 2009 CE Paper-I"
+    },
+    {
+      "year": 2009,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1Wy9CBF_o4eIIAZRSVFnu6fNPV2heVn6F",
+      "path": "iesce/pdfs/2009/paper2.pdf",
+      "sha256": "0985ac376204891a44647905f0e2680580d25301d60f0f00af0a36f75a607d89",
+      "status": "skipped_exists",
+      "note": "IES 2009 CE Paper-II"
+    },
+    {
+      "year": 2008,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1fvTkTDdmAr1QwI8sdG0u_RWeNgucGtUs",
+      "path": "iesce/pdfs/2008/paper1.pdf",
+      "sha256": "22bd420800898ca982b2e850b4b55108b3943996dc2253fc2a979214c0e78c87",
+      "status": "skipped_exists",
+      "note": "IES 2008 CE Paper-I"
+    },
+    {
+      "year": 2008,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1Kcjtvi9zCA7zdBcqByqj5L_PFcsBMshF",
+      "path": "iesce/pdfs/2008/paper2.pdf",
+      "sha256": "fe02db74daf6fe8516e1786d3663a8cd165fe8d55a64c664193364d2e13819f2",
+      "status": "skipped_exists",
+      "note": "IES 2008 CE Paper-II"
+    },
+    {
+      "year": 2007,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1NqmU_ra0K0PggbpkBx0k4-7_kqGT6bm7",
+      "path": "iesce/pdfs/2007/paper1.pdf",
+      "sha256": "b5acc7cc373ea86fe830cf4f3950e35289ac759bcbe360d7e67f2aa53e9fafc1",
+      "status": "skipped_exists",
+      "note": "IES 2007 CE Paper-I"
+    },
+    {
+      "year": 2007,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=11pBPLWLnxwcvFEna0oAMaDlhXrB8fUdv",
+      "path": "iesce/pdfs/2007/paper2.pdf",
+      "sha256": "e71a30cf0e80c31e2f57922d5c220cb5b3deb65f2994031bfee4a9dc07f46813",
+      "status": "skipped_exists",
+      "note": "IES 2007 CE Paper-II"
+    },
+    {
+      "year": 2006,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1RGx2-Yr_JpN7HZMIj4x9KNcgOLx3636-",
+      "path": "iesce/pdfs/2006/paper1.pdf",
+      "sha256": "560d3c378694bad1b3bc48a9a8d4f78b1bb0828500b3fb550b6fef9664d17e4c",
+      "status": "skipped_exists",
+      "note": "IES 2006 CE Paper-I"
+    },
+    {
+      "year": 2006,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1UY70KF20DrT5zE92s3QoawE34-kbLjGH",
+      "path": "iesce/pdfs/2006/paper2.pdf",
+      "sha256": "66cb2e512c0657c76a74f0b24f5ce0be47bfaa8f8447673111366f8b64b9b4ca",
+      "status": "skipped_exists",
+      "note": "IES 2006 CE Paper-II"
+    },
+    {
+      "year": 2005,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1BTj5O_ZcQA1IJGUCU_gV02OFQQ40Ap6F",
+      "path": "iesce/pdfs/2005/paper1.pdf",
+      "sha256": "7db2db51e9630b724df92035181ae751c1df78af10d96d1157e7ac8c9d49ba32",
+      "status": "skipped_exists",
+      "note": "IES 2005 CE Paper-I"
+    },
+    {
+      "year": 2005,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1OL9aEoVmSLOB7zZM0iDdlv-8KJ5xDP64",
+      "path": "iesce/pdfs/2005/paper2.pdf",
+      "sha256": "7b34fd96241002558c23446240f1afd820695975f8fe53e69c08b01aca260321",
+      "status": "skipped_exists",
+      "note": "IES 2005 CE Paper-II"
+    },
+    {
+      "year": 2003,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1Rh4yaLzYY-SoceGQRM9oWuiEE43B9r5A",
+      "path": "iesce/pdfs/2003/paper1.pdf",
+      "sha256": "8fc6eccd355bc13cbf0dc29fba99463d0b675c7f07e917cf64973ff8bd479bf5",
+      "status": "skipped_exists",
+      "note": "IES 2003 CE Paper-I"
+    },
+    {
+      "year": 2003,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=12iGS6hVyq8PcRoTDQEtXa3IJjWoSiHq_",
+      "path": "iesce/pdfs/2003/paper2.pdf",
+      "sha256": "1993ca54eb0ca015797c4710c283473abb54a9bd15cac1cc4fdb8e165df82029",
+      "status": "skipped_exists",
+      "note": "IES 2003 CE Paper-II"
+    },
+    {
+      "year": 2002,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1wXpA_ymujMtDKmzP124mrFvNk_HKrpkg",
+      "path": "iesce/pdfs/2002/paper1.pdf",
+      "sha256": "660869082ba9381c11556cf44b722681b5c37fcdd30b1872527f44f87644d586",
+      "status": "skipped_exists",
+      "note": "IES 2002 CE Paper-I"
+    },
+    {
+      "year": 2002,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1aK569E_4UnvRSGj5reaxDFh49ERP6Vbn",
+      "path": "iesce/pdfs/2002/paper2.pdf",
+      "sha256": "c4e069346ef054541cd210e20fb5c32c27aff2745c3bcbf7a6aaf45b2e53b1b3",
+      "status": "skipped_exists",
+      "note": "IES 2002 CE Paper-II"
+    },
+    {
+      "year": 2001,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1ph0O1cbkwm4f4wEI-UamfF7MrE8JSKVQ",
+      "path": "iesce/pdfs/2001/paper1.pdf",
+      "sha256": "d5fc9ec948fddf7da0174a2c323552ff100f03b2f7192fa814cf9f4273e578d5",
+      "status": "skipped_exists",
+      "note": "IES 2001 CE Paper-I"
+    },
+    {
+      "year": 2001,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1Q5uv7_9Ds2IIXviNNmLJ8gdE138cIiCV",
+      "path": "iesce/pdfs/2001/paper2.pdf",
+      "sha256": "f4fad37f4c39551807daaf8dd9377be640aa6716285dee94425e6bbd748400da",
+      "status": "skipped_exists",
+      "note": "IES 2001 CE Paper-II"
+    },
+    {
+      "year": 2000,
+      "paper": 1,
+      "iesPaper": "ce_paper1",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1vPnDxiVCgGwpWpUZyJUONrJDix9mLqCc",
+      "path": "iesce/pdfs/2000/paper1.pdf",
+      "sha256": "2e30122b165a490232e66ce44641122684f75a4fc37be2c88e42569f07e30812",
+      "status": "skipped_exists",
+      "note": "IES 2000 CE Paper-I"
+    },
+    {
+      "year": 2000,
+      "paper": 2,
+      "iesPaper": "ce_paper2",
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1Xcqb3jQxXt2UwL06-9Xio5hYY_yofPpl",
+      "path": "iesce/pdfs/2000/paper2.pdf",
+      "sha256": "aaf926f70c293a718c660ef4bcda2ed02351ed9571e1e5b8f5f2513f5e9b92d5",
+      "status": "skipped_exists",
+      "note": "IES 2000 CE Paper-II"
+    }
+  ]
+}

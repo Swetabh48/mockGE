@@ -1,0 +1,2160 @@
+
+--- page 1 ---
+ENGINEERINGSERVICES(P)E
+DONOTOPENTHISTESTBOOKLET
+T.B.C.:MNGY-D-CVL
+TESTBO
+Serial No.
+0030505
+PAPER
+CIVILENGIN
+TimeAllowed:ThreeHours
+INSTRUCT
+IMMEDIATELYAFTERTHECOMMENCEME
+CHECKTHATTHISTESTBOOKLETDOES
+MISSING PAGES OR ITEMS,ETC.IF SO,
+BOOKLET.
+
+2. PLEASENOTETHATITISTHECANDID
+FILLINTHE ROLLNUMBERANDTEST
+CAREFULLYANDWITHOUTANYOMIS:
+PRIATE PLACESIN THE OMRANSWEH
+WILLRENDERTHEANSWERSHEETLIAR
+
+3. You have to enter your Roll Number on the
+Booklet in the Box provided alongside.Do
+writeanythingelseon theTestBooklet.
+
+4. ThisTestBookletcontains150items(questions).
+willselect theresponsewhichyou want to mark
+is more than one correct response,mark the res
+choose ONLYONEresponseforeachitem.
+
+5. Youhave tomarkyourresponsesONLYon th
+in the Answer Sheet.
+
+6. All items carry equal marks.
+
+7. Beforeyou proceed to mark in theAnswerSheet
+you have tofill in someparticulars in theAnsw
+Admission Certificate.
+
+8. Afteryouhavecompletedfillinginallyour.respo
+concluded,youshouldhandovertotheInvigilato
+awaywithyou theTestBooklet.
+
+9. Sheets forrough work are appendedin the Test
+
+10. Penalty forwrongAnswers:
+THEREWILLBEPENALTYFORWRONGAN
+(i
+There arefour alternatives for the answer
+wrong answer has been given by theca
+questionwill be deducted aspenalty.
+(ii)
+Ifacandidategivesmore thanoneanswe
+ofthegiven answershappens tobecorre
+question.
+(ii)
+Ifaquestion is leftblank i.e.no answeri
+for that question.
+DONOTOPENTHISTESTBOOKLET
+
+P)EXAM-2023
+TUNTILYOUARETOLDTODOSO
+TestBookletSeries
+DOKLET
+A
+ERII
+GINEERING
+MaximumMarks:300
+CTIONS
+MENTOFTHEEXAMINATION,YOUSHOULD
+ESNOTHAVEANYUNPRINTEDORTORNOR
+O,GETITREPLACEDBYACOMPLETETEST
+IDATE'SRESPONSIBILITYTOENCODEAND
+ESTBOOKLETSERIESCODEA,B,CORD
+IISSIONORDISCREPANCYATTHEAPPRO-
+/ERSHEET.ANYOMISSION/DISCREPANCY
+IABLEFORREJECTION.
+he Test
+ONOT
+s).Each item comprisesfourresponses(answers).You
+arkontheAnswerSheet.In case,youfeel that there
+response which you consider the best.In any case,
+the separate Answer Sheetprovided.See directions
+eettheresponse tovariousitems in theTestBooklet,
+swerSheetasperinstructionssenttoyouwithyour
+sponsesontheAnswerSheetand theexaminationhas
+atoronlytheAnswerSheet.You arepermittedtotake
+estBookletattheend.
+ANSWERSMARKEDBYACANDIDATE.
+vertoeveryquestion.Foreachquestionforwhicha
+candidate,one-third of the marks assigned to that
+swer,itwill be treatedaswronganswer even if one
+rrectand therewillbesamepenaltyasaboveto that
+erisgiven by the candidate,therewill beno penalty
+TUNTILYOUARETOLDTODOSO
+
+--- page 2 ---
+
+1. According to Terzaghi,a foundation is
+shallowif its
+(A) depth is equal to or less than its
+width
+(B) depthis twice thewidth
+（）width is thrice the depth
+（d）width is onefourthofdepth
+
+2. The ultimate bearing capacity is
+(A) the minimum net pressure intensity causing shear failureofsoil
+(B) the minimum gross pressure intensity at thebaseof thefoundation
+atwhich the soilfailsin shear
+（c)thedifferenceinintensitiesofthe
+gross pressure after the constructionofthestructure
+(D) thetotalpressureatthebaseofthe
+footingduetotheweightofthe
+superstructure
+
+3. Whichoneof thefollowing isNOT
+the common nomenclature of geosynthetics?
+(A) Geotextiles
+(B) Geogrids
+(C) Geogrouts
+(D) Geonets
+MNGY-D-CVL-A
+
+4. Which oneof the following isan
+advantagewhengeotextilesisusedin
+roadworks?
+(A) Prior strippingof the natural soil
+(B) Economyofaggregate
+?
+Increase ofdifferent settlings
+(D) Slower consolidation offills
+
+5. Consider the following statements
+related to ultimatebearingcapacityof
+footing basedon theSPT andCPT
+values:
+
+1. Theempiricalcorrelations establishedintheUSAbetweenNand
+soilpropertiesindicate thevalue
+ofNconforms to certain standard
+energyratios.
+
+2. ThevalueofNtobeusedfor
+gettingis thecorrectedvaluefor
+standard energy.
+
+3. Theangleobtainedbythis
+methodcan'tbeusedforobtaining
+thebearing capacityfactors.
+Whichof theabovestatementsare
+correct?
+（a)1 and2only
+(b）2and3only
+（c)1and3only
+（d)1,2and3
+2
+
+--- page 3 ---
+
+6. The unified classification system is
+basedontherecognitionofthetype
+andpredominanceof theconstituents
+considering
+(A) grain length
+(B) gradation
+(C) elasticity
+(D) non-compressibility
+
+7. Which one of the followingcoffer
+dams is suitable for small heights?
+(A) Cantilever sheetpilecoffer dam
+(B) Braced coffer dam
+(C) Embankmentprotectedcoffer dam
+（d)Double wall coffer dam
+
+8. Afooting3mx1.5minplantransmitsapressureof 160kN/m²ona
+cohesivesoilhavingE=8x104kN/m²
+andμ=0.48.Whatistheimmediate
+settlementat the centre,assuming the
+footing tobeflexible？（Take I=1·52)
+（a)2.11mm
+(B) 3.21mm
+（c)3.51mm
+(D) 4.62mm
+3
+
+9. Bymeans of Boussinesq's stress
+distributiontheory,whichoneof
+the following pressure distribution
+diagramscanbeprepared?
+(A) Strain isobar
+(B) Verticalpressure distribution ona
+horizontal plane
+Vertical pressure distribution on
+an inclinedplane
+（d)Pressure distribution diagram on
+anobliqueplane
+
+10. Which one of the following isan
+assumptionmadebyCoulombinthe
+developmentof hisearthpressure
+theoryforsandandforactivestate?
+（a)The rupture surface is nonuniform surface
+（b)There is a wall friction on the
+pressure surface
+Failure is three dimensional
+(D) The soil is cohesive
+
+11. Which one of thefollowingis acorrect
+general consideration for a mechanicallystabilizedearthwallfailure？
+(A) Compression inreinforcement
+(B) Bearing capacity failure
+Shearingin thewall
+（d)Partly slidingofwall soil
+A-MNGY-D-CVL
+
+--- page 4 ---
+
+12. Which one of the following is the
+partof assumptionsmadebyTerzaghi
+while developing the mathematical
+statement of the consolidation process?
+(A) The soil is non-homogeneous
+(B) The soil particles and water are
+incompressible
+?
+Thepartialdeformationofsoil is
+due topartialchangeinvolume
+(D) Co-efficient of permeability is
+variableduringconsolidation
+
+13. Which one of thefollowingstatements
+isNOTcorrect?
+(A) The porosity of a rock depends
+upon size and shape of therock
+grains
+(B) Specific gravity is useful for
+calculating the rock.over burden
+stress
+?
+Theporositydoes not depend on
+rock mechanical processes
+（d)The porosity of spherical rock
+grains is high in case of cubic
+packing
+
+14. Consider the following objectives
+related to the sub-surface investigation:
+
+1. To establish thegeological profile
+
+2. Toestablish
+Hydrogeological
+conditions.
+
+3. Tomonitor future changes in
+ground conditions through instrumentation.
+MNGY-D-CVL-A
+
+Which of the aboveobjectivesare
+correct?
+(A) 1and2only
+(B) 2and3only
+(C) 1 and3only
+（d)1,2and3
+
+15. Dip fault is a fault plane
+(A) parallel to the dip of beds
+(B) parallel to the strike of a bedding
+plane
+（c)diagonal to the dip of a bedding
+plane
+（d)withnorelationshiptothe
+beddingplane
+
+16. Which oneofthefollowingconsistsof
+horizontal and vertical locationof
+certain points by linear and angular
+measurements and is made to determine thenatural featuresofa country?
+(A) Cadastral survey
+(B) Topographical survey
+(C) Astronomical survey
+(D) Military survey
+
+--- page 5 ---
+
+17. Whichoneof thefollowingstatements
+isNOTcorrect?
+(A) Trigonometric levelling has never
+been used in geodetic surveys
+(B) The differences in elevation are
+determined indirectlyby trigonometric levelling
+（）The electronic distance measurement devices canbeused for
+measuring thevertical distances
+(D) Thecombinedeffectsofcurvature
+and refraction produce vertical
+readings that areslightly too short
+
+18. AlineABbetween thestationsA andB
+wasmeasured as 348.28musinga
+20m tape,tooshort by0.05m.Whatis
+thecorrectlengthoflineAB？
+（a)349.15m
+(B) 348.41m
+（c)347.41m
+（d)346.15m
+
+19. The levelling is carried out between
+two stations Pand Q separated by
+1000m.The Back Sight (BS)reading
+isnoted as 0.70m on stationP,whose
+BMis 240.00m.Next,the Fore Sight
+(FS) reading is taken on an intermediatepoint and thevalueis1.25m.
+Thentheinstrumentisshifted toanew
+location and BS is taken on intermediate point as 0.85m.Finally,the
+FS reading is taken on station Q as
+1.10m.What is the Reduced Level
+ofQ？
+5
+
+（a)239.20m
+(B) 240.80m
+(C) 241.25m
+(D) 241.80m
+
+20. Thelengthofalineoriginally100mm
+longonamapplotted toa scaleof
+1/1000,was found tobe96mm due to
+shrinkage of themap.Themap
+prepared using a tape oflength 20m
+waslaterfound tobe actually20.03m.
+Ifa certain area on the map,measured
+usingaplanimeter,is282mm²,whatis
+the correct area on the ground?
+(A) 237m²
+(B) 307m²
+(C) 347m²
+（d)397m²
+
+21. In Map versus Aerial photograph,due
+tosymbolicrepresentation the clarity
+ofdetails is
+(A) less on map than on a photo
+b
+moreonmapthanonaphoto
+?
+lessonaphotothanonmap
+(D) moreon aphotothanonmap
+
+5. A-MNGY-D-CVL
+
+--- page 6 ---
+
+22. In multilevel classification system,
+Level IVclassificationis suitable for
+(A) Landsat MSS images
+(B) High-altitude aerial photographs
+(C) Low-altitude aerialphotographs
+(D) Medium-altitudeaerial
+photographs
+Directions for the following TWO (02)
+items:
+Read thefollowinginformation and answer
+thetwoitems thatfollow:
+The chainageof the intersection point of
+two straights is1060m,and theangleof
+intersection is120°.Ifradiusofacircular
+curvetobesetoutis570m,andpeginterval
+is30m
+
+23. What is thelengthof the curve？
+（a)190πm
+(B) 185πm
+(C) 180πm
+(d）170πm
+
+24. What is the length of the long chord？
+(A) 370m
+(B) 470m
+(C) 670m
+（d)570m
+MNGY-D-CVL-A
+
+25. The design speed for a two-way
+trafficonatwowaylane road is
+50kmph.Whatisthevalue ofsafe
+stopping sight distance,if co-efficient
+offrictionis0.37andreactiontime
+ofdriveras2.5sec？
+(A) 34.8 sec
+(B) 61.4sec
+(C) 122.8sec
+(D) 193.5 sec
+
+26. Consider thefollowing statements
+relatedtoeconomicdesignofmodern
+track:
+
+1. Axle loading,possible weight
+reductionof therolling stock and
+increaseinnumber ofaxlesshould
+berationalized.
+
+2. Rail to sleeper fasteningsfor
+differenttypeofsleepersathigh
+speedsshouldhave
+definite
+standards.
+
+3. Theweightof the sleeper and the
+railmaynotberelated toeach
+other.
+Whichof theabove statements are
+correct?
+(A) 1and2only
+(B) 2and3only
+(C) 1and3only
+（d)1,2and3
+6
+
+--- page 7 ---
+
+27. The longitudinal joints in cement
+concrete pavements are constructed
+with suitable
+(A) tie bars
+(B) torsionrods
+(C) small spacing
+(D) shear rods
+
+28. Inwhich one ofthefollowing systems
+theoptimumroadlengthiscalculated
+for an area based on the conceptof
+obtaining maximum utility per unit
+length ofroad?
+(A) Saturation system
+(B) Unsaturated system
+（)Minimumutility system
+(D) Average utility system
+
+29. Which oneof thefollowingalignments
+isobtained by development accompanied bytunneling?
+(A) Valley alignment
+(B) Cross country alignment
+C
+Mountain alignment
+(D) Zig-Zagalignment
+
+30. Whichone of thefollowing testsis
+carried outusing a relatively large
+diameter plate toevaluatetheload
+supporting
+capacityofpavement
+layers?
+7
+(A) Californiabearingratiotest
+b
+Californiaresistancevalue test
+?
+Triaxialcompression test
+(D) Platebearing test
+
+31. Consider the following aspects of
+human vision which are important for
+a traffic engineer:
+
+1. Field ofvision
+
+2. Visual acuity
+
+3. Colourperception
+Which of the aboveaspectsare
+correct?
+（a)1and2only
+(B) 2and3only
+(C) 1 and 3only
+（d)1,2and3
+
+32. The survey of the highway constructionworkforpreparationof
+longitudinal
+and
+cross
+sections,
+computations of earthwork quantities;
+and other construction material and
+checking details of geometric design
+elements iscarried outin
+(A) Reconnaissance survey
+(B) Preliminary survey
+?
+Location offinal alignment
+(D) Detailed survey
+
+7. A-MNGY-D-CVL
+
+--- page 8 ---
+
+33. Theraisingof outerrail over inner rail
+is called
+(A) Cant deficiency
+(B) Cant
+(C) Capacityof thetrack
+(D) Centre bound sleepers
+
+34. Thedistance
+between
+successive
+vehicles moving in the same line
+measuredfromhead atanyinstanceis
+(A) the space headway
+(B) the time headway
+(C) the one-way stream
+(D) the head-way stream
+
+35. Theroads which areprovided with a
+hardpavementcoursehavingatleast a
+water bound macadam (WBM) layer
+are classified as
+(A) Pavedroads
+(B) Unpaved roads
+(C) Surface roads
+(D) Unsurfaced roads
+
+36. The planning surveys about engineering studies consists of
+(A) Income per capita
+(B) Living standard
+MNGY-D-CVL-A
+(C) Trafficvolume
+（d)Road location and alignment
+studies
+
+37. A cipolletti weir has length of 2.0m
+andheadover theweiris1m.What
+is the discharge over the weir？(Take
+Cd=0.62)
+(A) 10.35m²/s
+(B) 3.66m²/s
+(C) 45.21m3/s
+(D) 75.68m3/s
+
+38. Which one of the following is an
+advantage using a triangular notch
+over a rectangular notch?
+(A) Ventilation of a triangular notch
+isnecessary
+(B) The same triangular notch cannot
+measure awide range of flows
+accurately
+(C) For heavy discharges,a triangular
+notch givesmore accurate results
+than arectangularnotch
+（d)In a given triangular notch,only
+onereadingisrequired tobetaken
+for themeasurementofdischarge
+8
+
+--- page 9 ---
+
+39. Whichoneofthefollowingstatements
+is correctforflowin open channels？
+(A) When the depth of flow ina
+channel isgreater than the critical
+depth,theflowissaid tobesupercriticalflow
+(B) Whenthedepthofflowina
+channel is equal to critical depth,
+theflowissaid tobesuper-critical
+flow
+C
+When the depth of flowina
+channel is less than the critical
+depth,the flow is said to be subcriticalflow
+(D) When the depth of flow ina
+channelis greater than the critical
+depth, the flow is said to be subcriticalflow
+
+40. Waterflowsthroughapipeof200mm
+indiameter60mlongwithavelocity
+of2.5m/s.Whatistheheadlossdue
+tofriction using Darcy’s formulae？
+(Assumef=0.005)
+(A) 1.52m
+(B) 1.79m
+(C) 1.85m
+(D) 1.91m
+
+41. The pressure distribution in a liquid
+subjected to a constant horizontal
+acceleration is
+(A) sameas
+hydrostatic
+pressure
+distribution
+(B) less than the hydrostatic pressure
+distribution
+9
+(C) more than thehydrostaticpressure
+distribution
+d
+equal to hydrostaticpressure distributionminusweightofliquid
+
+42. A convergent mouthpiece is discharging water under a constant head
+of5metres.Ifthediameterofthe
+mouthpieceis75mm,thenwhatis the
+discharge?
+(A) 38.2 litres/sec
+(B) 40.4litres/sec
+(C) 43.8litres/sec
+(D) 46·1litres/sec
+
+43. Aflatplate1.5mx1.5mmovesat
+45km/hourinstationary airofspecific
+weight11.3N/m3.Ifthecoefficientof
+lift is 0.75,then what is theliftforce？
+(A) 120.4N
+(B) 151.9N
+(C) 180.4N
+(D) 225.9N
+
+44. A submarine which may be supposed
+toapproximate acylinder 3min
+travels
+diameter
+and15mlong
+submergedat1.54m/sinseawaterat
+4°C.What is the drag exerted on it？
+（TakeCa=0.7andp=1025kg/m3)
+(A) 30129N
+(B) 34517N
+(C) 37112N
+(D) 38287N
+
+9. A-MNGY-D-CVL
+
+--- page 10 ---
+
+45. If the pressure heads at the different
+sectionsofthepipe areplottedtoscale
+asvertical ordinates above the axis of
+thepipe and all thesepoints are joined
+bya slopping straight line,which is
+known as
+(A) Hydraulic gradient line
+(B) Total energy line
+C
+Total head line
+(D) Energy grade line
+
+46. The difference in the water surface
+levelof tworeservoirswhichare
+connected by a siphonis 8m.The
+lengthofsiphonis600mandits
+diameter0.3m.If the siphon isrunning
+full, then what is the discharge？(Take
+f=0.02)
+(A) 3.242m3/s
+(B) 2.117m3/s
+(C) 1.842m3/s
+(D) 0.137m3/s
+
+47. The airvessel is notrequired for multicylinderpumpbecauseithas
+(A) muchsmallerfluctuationsof
+velocityinboth thedeliveryand
+suction pipes
+(B) large fluctuations of velocity in
+deliverypipes
+(C) large fluctuations ofvelocity in
+suction pipes
+(D) moderatevariationofspeedof
+fluidreciprocatingpump
+MNGY-D-CVL-A
+10
+
+48. Which one of thefollowing is the
+correctassumptionfor the derivation
+ofBernoulli'sequation?
+(A) The flow is compressible
+(B) Viscosityis zero
+()The flow is unsteady
+（d)Theflowisrotational
+
+49. A fullypenetratingwell in a confined
+sandy aquifer has a maximum discharge capacityof 1200llmin.The
+aquifer is overlain andunderlain by
+impervious formations.The thickness
+ofthe aquifer is 20m.Assume the
+percentage of the open area of an
+availablestrainertobe15%andbore
+hole diameter as 15cm.Whatis the
+length of thewell screen？(Take safe
+entrancevelocity as0.02m/s)
+(A) 10.5m
+(B) 12.3m
+(C) 13.1m
+（d)14.1m
+
+50. Whichoneofthefollowingis thetotal
+area,bounded within the irrigation
+boundary of aproject,which can be
+economically irrigatedwithout consideringthelimitationofthequantity
+ofavailablewater?
+(A) Gross command area
+(B) Cultivable command area
+Netand gross sown area
+(D) Net and gross irrigated area
+10
+
+--- page 11 ---
+
+51. Whichoneofthefollowingtechniques
+ofwater distribution in the farmsis
+sometimes calledwild flooding?
+(A) Free flooding
+(B) Checkflooding
+(C) Border flooding
+(D) Furrowirrigationmethod
+
+52. Which oneof thefollowingconditions
+isfavorable for sprinkler irrigation
+method?
+（a)When the land topography is
+regular
+(B) Whenthesoilisnoteasily
+erodible
+(C) When thewater tableislow
+(D) When theland soilis excessively
+permeable
+
+53. If the sodium ions increase to about
+10%ormore,thesoilbecomes
+(A) lesspermeable andofpoorertilth
+(B) morepermeable
+(C) good tilth
+（d)more permeable and of better tilth
+
+54. In drip irrigation method, the drip
+nozzles are fixed on laterals,dischargingwater at a very small rate of
+theorderof
+（a)0.1 to1 litre per hour
+(B) 1to2litresperhour
+（)2to10 litresperhour
+(D) 10to15litresperhour
+11
+
+55. If thecultivationmethodisfaultyand
+less efficient,resulting in the wastage
+ofwater,thedutyof thewater will
+naturallybe
+(A) less
+(B) more
+(C) average
+(D) depending upon cultivators
+
+56. Inwhichoneof thefollowingtypesof
+falls,the energy dissipation on a
+straightglacis remain incompletedue
+toverticalcomponentofvelocity
+remainingunaffected?
+(A) ）Montage type falls
+(B) Gravity falls
+(C) Inglis falls
+(D) Baffle falls
+
+57. Whichoneof the following is the
+correctassumption madeintwo
+dimensional design ofgravity dams？
+(A) The loads are transferred to the
+abutmentsbybeamaction
+(B) The foundation and dam behave
+as separate units
+（c)The materials in the foundation
+andbodyofthedamareisotropic
+andhomogeneous
+（d)The stresses developed inthe
+foundationandbodyof thedam
+arenotwithinelasticlimit
+A-MNGY-D-CVL
+
+--- page 12 ---
+
+58. Which oneof the following is the
+cause ofwater logging?
+(A) Adequate natural drainage
+(B) Adequate surface drainage
+?
+Normal rains
+(D) Submergence due to floods
+
+59. Whichof the following isavery
+effectivemethodtocontrolwater
+logging?
+(A) Lining of canals and water courses
+b
+Flat topography
+()Adequate natural drainage
+(D) Adequate surface drainage
+
+60. What should be done to dissipate the
+residual energy,if the tail water
+deficiency is small?
+(A) Constructionofbafflewall
+(B) Sloping apron
+(C) Stilling basin
+(D) Ski jump bucket
+
+61. A sewage has a suspended solid
+contents as 250 mg/litre. The sedimentation tankremoves55%ofthe
+suspended solids and thewater content
+ofthesludgeis95%.Whatisthe
+quantity of sludge produced after
+treating 65x106litres of sewage?
+(Assume the specificgravity of sludge
+as1.0)
+MNGY-D-CVL-A
+12
+(A) 11.875 cu.m
+14.275cu.m
+(B) 
+(C) 17.875cu.m
+(D) 20.275cu.m
+
+62. With standard notations,the total
+subsurface soil area required for the
+soak pits or dispersion trenches is
+givenby
+(A) Q=100/√t
+(B) Q=130/√t
+（)Q=200/√t
+(D) Q=260/√t
+
+63. Which one of the following is NOT
+the commonmethodof disinfection
+ofwater?
+(A) Byboiling ofwater
+(B) By ultra-violet rays
+(C) By use of ozone
+(D) By useof sodium chloride
+
+64. Which oneof the following is an
+essential requirementof swimming
+poolwater?
+(A) It should not have disinfectant
+dissolved in it
+(B) Minimum amountof chemical
+shouldbeaddedin treatingwater
+ofthe swimmingpools
+(C) Thewaterofthepoolneednotbe
+visible atmaximum depth
+(D) The pool need not have an
+efficientsurfacewater removal
+system
+12
+
+--- page 13 ---
+
+65. Thefirst stageofsewagepurification
+by the action ofanaerobicbacteria is
+termed as
+(A) Putrefaction
+(B) Liquefaction
+(C) Clarification
+(D) Oxidation
+
+66. Which one of the following isa
+measure of light-emittingproperties of
+wastewater?
+(A) Turbidity
+(B) pH
+()
+Alkalinity
+(D) Volatility
+
+67. Whichoneofthefollowingisdefined
+as the oxygen required for the microorganisms to carry out biological
+decomposition of dissolved solids or
+organic matter in the water under
+aerobic conditions at standard temperature?
+(A) Biochemicaloxygen demand
+(B) Chemical oxygen demand
+?
+Total oxygen demand
+(D) Theoretical oxygen demand
+
+68. Chlorination,liming and recarbonation
+arethepartofwhichoneof the
+followingin thecontextofunitoperationsforwastewatertreatment?
+(A) Ion transfer
+b
+Solute stabilization
+(C) Solid transfer
+(D) Solid concentration
+13
+
+69. Whichoneof thefollowingisthe
+process of driving,pouring or forcing
+leadoakumplasticor othermaterial
+intoajointtomakeitleakproof？
+(A) Caulking
+(B) Bedding
+(C) Benching
+(D) Haunching
+
+70. Whichoneof thefollowingisthe
+abilityofamaterial toabsorbmoisture
+from air and thus to dissolve and
+become liquid?
+(A) Deliquescence
+(B) Hygroscopicity
+(C) Wilting
+(D) Capillarity
+
+71. Thetheoretical timetakenbyaparticle
+ofwatertopassbetween entry and exit
+ofasettlingtankisknownas
+a
+Weir loading
+b
+Detentionperiod
+Velocityofflow
+(D) Overflowrate
+
+72. Themostcommonlyadopteddetention
+periodforgritchambersmayvaryfrom
+(A) 10 to 40 seconds
+(B) 45to90seconds
+90to120seconds
+(D) 120 to 135seconds
+
+3. A-MNGY-D-CVL
+
+--- page 14 ---
+
+73. Match the following lists:
+ListI
+List II
+(Member)
+(Maximum
+effective
+slenderness
+ratio)
+P.A member carrying
+1.400
+compressiveloads
+2.180
+resulting from dead
+andimposedload
+3.250
+Q.Amembersubjected
+tocompressionforces
+4.300
+resultingonlyfrom
+combinationwith
+wind/earthquake
+actions,provided the
+deformationofsuch
+members does not
+adverselyaffectthe
+stress in anypart of
+the structure
+R.Compression flange
+ofabeam against
+lateral torsional
+buckling
+S.Members always under
+tension(other than
+pre-tensioned members)
+Select the correct answer using the
+code given below:
+P
+Q
+R
+S
+(A) 2
+3
+4
+(B) 3
+2
+1
+4
+(C) 1
+4
+3
+2
+(D) 4
+1
+2
+
+3. MNGY-D-CVL-A
+14
+
+74. Thickness of flat lacing bars shall not
+be less than
+(A) one-seventiethof theeffective
+length for single lacings
+(B) one-fortiethoftheeffectivelength
+for double lacings
+C
+one-sixtiethof the effectivelength
+for double lacings
+(D) one-fiftiethoftheeffectivelength
+for single lacings
+
+75. An 18mm thick plate is joined to a
+16mm
+plate
+by200mm
+long
+（effective) butt weld.What is the
+strengthofjointifadoubleVbutt
+weld is used？（Assume that Fe410
+gradeplates and shop welds are used)
+(A) 605.987kN
+(B) 378.742kN
+(C) 467.535kN
+（d)478.348kN
+
+76. Consider the following statements
+relatedtoprinciples of designof
+connections:
+
+1. The centre of gravity of bolts
+shouldcoincidewith thecentreof
+gravity of the connectedmembers.
+
+2. The length of connection should
+be kept as small as possible.
+Which of theabove statementsis/are
+correct?
+(A) 1only
+(B) 2only
+(C) Both 1and2
+(D) Neither 1nor2
+14
+
+--- page 15 ---
+
+77. Nominal shear capacity of a bolt is
+82335N.Whatis thedesigncapacity
+ofthebolt,if slip resistance is
+designated at serviceload？
+(A) 82335N
+(B) 74850N
+(C) 449.099N
+(D) 395.208N
+
+78. Whichoneof thefollowing isan
+advantageofweldedconnection？
+(A) Noiseproducedin
+welding
+process is relatively less.
+(B) Proper welding in field condition
+is difficult.
+Theinspection of welded joint
+requires non-destructive testing.
+(D) ）There isa greater possibilityof
+brittle fracture in welding.
+
+79. Consider the following statements
+related to lug angle:
+If the main member is an angle
+
+1. the strength of lug angles and
+fastener connecting lug angle to
+gusset plate should be at least20%
+more than theforcein outstanding
+leg.
+
+2. thestrengthofthefastener
+connecting lug angle and main
+membershouldbeatleast40%
+more than theforceinoutstanding
+leg.
+
+3. thewhole area of themember is
+net area less deduction for bolt
+holes.
+
+15. Whichof theabovestatements are
+correct?
+（a)2and3only
+(B) 1 and3only
+(C) 1and2only
+（d)1,2and3
+
+80. The shear force for which each lacing
+shallbedesigned if two parallel
+systems oflacingisthereinthecolumn
+is
+(A) 2.5%ofaxial force in the column
+(B) 1·25%ofaxial force in thecolumn
+（c)50%ofaxialforceinthecolumn
+(d）25%ofaxial force in thecolumn
+
+81. To accountfor shear deformation,the
+effectiveslendernessratioofbattened
+columns shall be taken as
+(A) 1.1 times the maximum actual
+slendernessratioof thecolumn
+(B) 2.5 times the maximum actual
+slendernessratioofthecolumn
+()1.25 times the maximum actual
+slendernessratio of thecolumn
+（d）0.9 times the maximum actual
+slendernessratioofthecolumn
+A-MNGY-D-CVL
+15
+
+--- page 16 ---
+
+82. The maximum pitch for tension and
+compressionmembersrespectivelyare
+（a)（12tor200mm,whicheverisless)
+and（16tor200mm,whicheveris
+less)
+(B) （12tor300mm,whicheverisless)
+and(16tor300mm,whichever is
+less)
+（）（16tor200 mm,whichever is less)
+and（12tor200mm,whicheveris
+less)
+（d）（16tor300mm,whicheverisless)
+and（12tor300mm,whicheveris
+less)
+
+83. Theminimum sizeof filletweld for
+20mmto32mmplateis
+(A) 3mm
+(B) 5mm
+（c)6mm
+(D) 8mm
+
+84. What is the section modulus required
+todesign an angle Purlin which
+experiences
+a
+maximum
+bending
+momentof10kNm,if the section is
+madewithFe250 grade steel?
+（a)4.55cm3
+(B) 45.57cm3
+MNGY-D-CVL-A
+16
+
+（c)75.57cm3
+（d)7.55cm²
+
+85. A rectangular simply supported beam
+ofspan4mis300mm×700mmin
+cross sectionand is reinforced with
+3barsof20mm on tension side at
+an effective cover of 50mm.The
+beam experiences an imposed working
+loadof20kN/m.Assume thedensity
+of concrete as 25 kN/m3（excluding
+self-weight).What is the maximum
+bendingmoment?
+(A) 5.05kNm
+(B) 50.5kNm
+(C) 55.0kNm
+（d)5.5kNm
+
+86. Arectangular concretecantileverbeam
+ismade ofM25 grade concrete and
+Fe415grade steel isused.What is the
+modularratioof the section assuming
+themodulusofelasticityofsteelas
+2x105MPa?
+(A) 18
+1
+(B) 14
+(C) 4
+(D) 8
+16
+
+--- page 17 ---
+
+87. Consider the following statements
+related to thelimit state design
+criterionfor asafedesign of the
+structure:
+
+1. The structure or its elements
+should
+not
+collapse
+when
+subjected to the design loads.
+
+2. The structure should not become
+unfit for use due to cracking or
+excessive deflection.
+
+3. The structure shouldreacha limit
+stateduring its design life.
+Whichof the abovestatementsare
+correct?
+（a)1and2only
+(B) 2and3only
+（c)1and3only
+(D) 1,2and3
+
+88. What is thetheoreticalvalue of
+effectivelengthof acompression
+memberwhen itis‘effectivelyheld in
+position at both ends but not restrained
+againstrotation'?
+(A) 0.50L
+(B) 0.65L
+(C) 1.00 L
+(D) 2.00 L
+17
+
+89. An RCC beam 200mm wide and
+450mmdeep,isreinforcedwithFe415
+grade steelof area 1000mm²on
+tensionsidewith aneffectivecover of
+50mm.If the shearreinforcementof
+100mm² stirrups isprovided ata
+spacingof 150mm centre tocentre
+(c/c).What is the ultimate shear
+strength (Vus) corresponding to the
+shearreinforcement?
+(A) 96·3kN
+(B) 90.6kN
+(C) 9.63kN
+(D) 9.06kN
+
+90. An RCCbeam having 200mm wide
+and400mmeffectivedepth is reinforcedwithFe415gradesteelofarea
+1000mm²in tension.Assume M20
+grade concrete,what is approximate
+valueofthedepthofneutral axisfor
+theequilibriumofforcesatthelimit
+state ofcollapse?
+(A) 200mm
+(B) 250mm
+(C) 300mm
+(D) 350mm
+
+91. What is the percentage ofreinforcementofanaxiallyloadedshortsquare
+columnof400mm sidetosupporta
+factoredloadof 1600kN？(UseM20
+concreteandFe415steel)
+(A) 0.64
+(B) 7.40
+(C) 0.74
+(D) 6.40
+
+17. A-MNGY-D-CVL
+
+--- page 18 ---
+
+92. A simply supported RCC one-way slab
+foran office floor has clear dimensionsof4mx10mwith230mmwalls
+all-around.Whatis theeffectivelength
+of the slab？(Take the effective depth
+of the slab as 160 mm)
+(A) 2.23m
+(B) 4.16m
+(C) 6.84m
+(D) 10.23m
+
+93. Themembers inwhich the entire crosssection of concrete has auniform
+compressivepressure is called
+(A) Axial prestressing
+(B) Concordant prestressing
+()Eccentric prestressing
+(D) Non-distortional prestressing
+
+94. For M-45 concrete as per IS:13432012,in prestressed concrete structures,which is the correct value for
+autogenous shrinkage (Ecax10-6)？
+(A) 45
+(B) 65
+(C) 75
+(D) 95
+MNGY-D-CVL-A
+18
+
+95. Aprestressed concretebeam ofsection
+120mmx300mmisusedoveran
+effectivespanof6000mmtosupporta
+uniformlydistributedloadof4kN/m
+includingtheself-weightofthebeam.
+The beam isprestressed bya straight
+cable carrying a force of 180kN
+locatedataneccentricityof50mm.
+What is the stress due to prestressing
+force?
+500N/mm²
+(A) （b)50N/mm²
+（c)5N/mm²
+(D) 0.5N/mm²
+
+96. Consider the following statements:
+
+1. The viscosity-modifying agents
+allowtheconcretetoremain
+cohesiveevenwithahigh degree
+of fluidity.
+
+2. Self-consolidatingconcrete can be
+used for beam-column joints in
+earthquakeresistant structures.
+
+3. Self-consolidating concrete is not
+recommended for precast prestressed concrete.
+Whichoftheabovestatementsare
+correct?
+(A) 2and3only
+(B) ）1and2only
+(C) 1and3only
+(D) 1,2and3
+18
+
+--- page 19 ---
+
+97. Whichoneof thefollowingstatements
+is correct?
+(A) CPM is developed especially for
+of
+research
+and
+scheduling
+developmentwork.
+PERT is developedfor the quality
+control
+laboratory
+work
+at
+construction site.
+?
+PERTisamethodofstatistically
+evaluatingprojectduration overa
+time-sensitive domain.
+（d)Aprojectscheduleisarough time
+tableofconstruction operation.
+
+98. Which one of the following is NOT
+consideredfortheestimationof
+activityduration?
+(A) Evaluate activities oneata time,
+independentlyof all others.
+(B) For each activity,assume a normal
+level
+ofmanpowerand
+or
+equipment.
+（c)If time units ofworking days are
+being used,assume an exceptional
+daywithmaximum working
+hours.
+（d) Normal weather conditions is
+considered for theestimationof
+durationofeachactivity.
+
+99. Whichoneofthefollowingstatements
+isNOTcorrectrelated tototalfloat？
+（a)Totalfloatofanactivityis
+obtainedby subtractingits early
+start timefromitslatestarttime.
+19
+(B) Subtracting the early finish from
+latefinishprovidestotalfloat.
+C
+Activitieswithzero total floatis
+called critical activities.
+（d)Total float can be calculated by
+subtracting its early finish time
+fromtheearliestoftheearlystart
+timeof theactivitiesdirectly
+following.
+
+100. For heavy civil projects,examination
+ofweightand dimension limitofthe
+roadisrelated to
+(A) equipment planning
+(B) support planning
+(C) quality planning
+(D) safety planning
+
+101. The basic objective of which one of
+thefollowing is to supply and support
+thefieldoperationsso thatestablished
+timeobjectives can bemet and costs
+can be kept within the construction
+budget?
+(A) Time management
+(B) Resource management
+(C) Financial management
+(D) Equipment management
+A-MNGY-D-CVL
+19
+
+--- page 20 ---
+
+102. Which oneof thefollowingisNOT the
+characteristic of equipment management and scheduling?
+(A) Work should be planned and
+scheduled to achieve thefullest
+use of every equipment item,
+minimizingidle equipment time.
+(B) To the maximum extent possible,
+equipmentsenttothejob should
+beof the type that will best
+perform theworkunderactual job
+conditions.
+(C) The
+temptationto
+overload
+equipmentin aneffort togetmore
+production
+is
+but
+common
+counterproductive.
+P
+Examination
+of
+weight
+and
+dimension limit of theroad for
+carryingheavy equipment.
+
+103. Whichoneof thefollowingstatements
+is NOT correct according to Gantt
+chart?
+(A) Activities are illustrated as bars on
+a horizontal time line.
+(B) Beginning
+and
+endofabar
+coincides
+with
+theactivity's
+starting and ending dates.
+() The time and operational concurrency aspects ofthe schedule
+is missed in this chart.
+（d)Illustrations are given that how
+theactivitiesaretobedistributed
+over theproject timeline.
+MNGY-D-CVL-A
+20
+
+104. Whichoneofthefollowingstatements
+is NOT correct related toline-ofbalance schedule?
+(A) It represents both a presentation
+format and a schedulingtechnique.
+(B) It is a very visual method of
+representinga particular typeof
+project.
+(C) It allows the planning team a
+single sequence without any
+option.
+(D) Using a combination of sloping
+lines,bars and blocks,operations
+can be sequenced so that space
+andresource conflicts are quickly
+identified and addressed.
+
+105. Whichoneof thefollowingstatements
+is correct?
+(A) PERT is commonly used in the
+constructionwork.
+(B) PERTis
+suitable
+forthe
+estimationof activityduration
+wherehighlevelsofuncertaintyis
+there.
+(C) PERT does not provide time
+duration.
+(D) PERT isa deterministic approach
+for estimating the time duration
+ofan activity.
+20
+
+--- page 21 ---
+
+106. Consider thefollowingstatements:
+
+1. Building Information Modeling
+has the ability toproduce3D CAD
+model.
+
+2. Sequencing of the construction
+operationscan be studied and the
+schedule can beincorporated into
+theBIMmodel.
+
+3. BIM has the capability ofadding
+what some refer toas the fifth
+dimension,theverbal definitionof
+installed items.
+Whichof the above statements are
+correct?
+(A) 2and3only
+(B) 1and2only
+（c)1,2and 3
+（d)1and3only
+
+107. Match thefollowinglists:
+ListI
+ListII
+P.Resource
+
+1. Getting the
+management
+correctmaterials
+totheworkface
+whenneeded
+Q.Manpower
+leveling
+
+2. Judicious allocation ofthephysicalresources
+R.Supply chain
+management
+
+3. Practical
+improvementof
+the allocation of
+laborresources
+
+21. Selectthecorrectoptionusingthecode
+given below:
+P
+R
+Q
+3
+(A) 2
+1
+1
+(B) 3
+2
+(C) 1
+3
+2
+(D) 1
+2
+3
+
+108. For repetitive operations,better information can be obtained from
+(A) Gantt chart
+(B) Line of balance
+C
+Precedence diagram
+(D) Bar Chart
+
+109. Thedensityofwoodusedfor
+construction in therangesbetween
+(A) 1.2to 1.3g/cm3
+(B) 1.5to1.6g/cm3
+(C) 2.3 to 2.6 g/cm3
+(D) 2.6 to 2.9 g/cm3
+
+110. Whichoneofthefollowingstatements
+isNOTcorrect?
+(A) Rustic Brick has mechanically
+textured finish,varying in pattern.
+(B) Arch Bricks are over-burnt also
+known as clinker bricks obtained
+frominnerportionofthekiln.
+(C) Pale Bricks are over-burnt bricks
+obtained from outer portion of
+the kiln.
+(D) Body Bricks are well burnt bricks
+occupying centralportionof the
+kiln.
+A-MNGY-D-CVL
+
+--- page 22 ---
+
+111. Consider the followingstatements
+related to the glass:
+
+1. The addition of lime makes the
+glass fluid and suitable for
+blowing.
+
+2. Excess of soda increases the
+safety.
+
+3. Silica is used in theform ofpure
+quartz.
+Whichof theabovestatements are
+correct?
+(A) 2and3only
+(B) 1 and 2only
+（c)1,2and3
+(D) 1and3only
+
+112. Asper IS:303and 10701,the thicknessof5plyplywoodboardsfor
+structuralpurposeare availablein
+(A) 6mmand9mm
+(B) 12mmand16mm
+16mmand19mm
+（d)10mmand15mm
+
+113. As per IS 8112:1989,theminimum
+requiredcompressivestrengthof43
+grade ordinary portland cement for
+72hours is
+(A) 23MPa
+(B) 33MPa
+(C) 43MPa
+(D) 53MPa
+MNGY-D-CVL-A
+22
+
+114. Consider the following oxides:
+
+1. Al2O3
+
+2. CaO
+
+3. SiO2
+Which one of the following is the
+correct sequence inincreasing orderof
+their percentage analysis for an
+ordinaryportland cement?
+(A) 2,1,3
+(B) 2,3,1
+（c)3,2,1
+(D) 1,3,2
+
+115. Excess of Silica makes the brick
+(A) brittle on burning
+(B) crack on drying
+(C) melt on burning
+(D) warp
+
+116. Match the following lists:
+ListI
+List II
+(PropertyofCement)
+(Apparatus)
+P.Specific gravity 1.Blain's
+apparatus
+Q.Settingtime
+
+2. Le-Chatelier's
+flask
+R.Soundness
+
+3. Autoclave
+S.Fineness
+
+4. Vicat's
+apparatus
+Select the correct answer using the
+codegivenbelow:
+P
+R
+S
+Q
+(A) 1
+2
+3
+4
+(B) 2
+1
+4
+3
+4
+(C) 2
+3
+1
+(D) 4
+2
+1
+3
+22
+
+--- page 23 ---
+
+117. Which.of the following is/areused to
+measuretheworkabilityoflime？
+and
+(A) Standard Flowtable
+a
+truncated conicalmould
+(B) Autoclave apparatus
+(C) Vicat's apparatus
+(D) Slump cone test
+
+118. Which one of the following is NOT
+correctforcharacteristicsoflime？
+(A) Lime possesses good plasticity
+andiseasy toworkwith.
+(B) It stiffens easily and isresistant to
+moisture.
+(C) The excellentcementitiousproperties make it most suitable for
+masonry work.
+(D) The shrinkage on drying is large
+becauseofitshigh
+water
+retentivity.
+
+119. Consider the followingstatements:
+
+1. Slaking takes place on adding
+water in lime.
+
+2. Hardening takesplace on adding
+waterin cement.
+Whichoftheabovestatementsis/are
+correct?
+(A) 1 only
+(B) 2only
+(C) Both1and2
+（d)Neither1nor2
+23
+
+120. Whichoneofthefollowingstatements
+isNOTcorrectwithrespect tomix
+design?
+(A) The mix must be workable so that
+it can be placed and finished
+easily.
+(B) The cement is themost costly
+ingredient in the concrete mix.
+C
+The strength and water tightness
+increasewith thedensityofthe
+mix.
+thewater
+content
+(D) Increasing
+beyondthatrequiredforplasticity
+causes the strength to increase
+constantly.
+
+121. The value of Poisson’s ratio for cast
+ironisin therangeof
+(A) 0.09-0.19
+(B) 0-20-0.30
+(C) 0.31-0.41
+（d)0.42-0.52
+
+122. Acylindrical barof25mm diameter
+and1.20mlengthissubjectedtoa
+longitudinal strain during a tensile
+test is four times the lateral strain,
+what is thevalue of shear modulus？
+(Takethe modulus of elasticityas
+1.2×105N/mm²)
+(A) 5.8kN/mm²
+(B) 4.8kN/mm²
+（c)58kN/mm²
+(D) 48kN/mm²
+
+23. A=MNGY-D-CVL
+
+--- page 24 ---
+
+123. Whichoneofthefollowingstatements
+is NOT correct?
+（a) For structural steel, the rupture
+strength ishigher than theultimate
+strength.
+(B) Yield stress is the lowest stress at
+which extension ofthe testpiece
+increases without further increase
+in load.
+?
+Theultimatestrengthiscommonly
+taken as the maximum stress of
+the material.
+(D) Ultimate strength is the ratio of
+maximum load to the original
+cross sectional area.
+
+124. A prismatic bar has a cross section
+of25mm×50mmandalengthof
+2m.If the bar is subjected to an
+axial tensile force of 90kN,the bar
+iselongatedby1.5mm.Whatisthe
+tensile stress?
+(A) 3.6N/mm²
+(B) 7.2N/mm²
+（c)36N/mm²
+(D) 72N/mm²
+
+125. The normal stress across the principal
+plane is known as
+(A) Shear stress
+b
+Maximum shear stress
+C
+Principal stress
+(D) Tangential stress
+MNGY-D-CVL-A
+
+126. If the principal stresses at a point in
+an elasticmaterialare 2ftensile,1·5f
+tensileand fcompressive.Whatis the
+valueoffat failureusingmaximum
+principalstresstheory？（Takethe
+elastic limit in simple tension as
+210N/mm2andμ=0.3)
+(A) 210N/mm²
+(B) 420N/mm²
+(C) 170N/mm²
+（d)105N/mm²
+
+127. Consider the following statements
+related tomaximum shearstress theory
+(Guest'stheory):
+
+1. This theory is well justified for
+ductilematerials.
+
+2. It gives accurate results for the
+state of stress of pure shear in
+whichmaximum amountofshear
+is developed.
+
+3. The results of this theory differ
+from theexperimentalresults for
+materialshavinglarge differences
+in elastic stress limits in tension
+and compression.
+Whichoftheabovestatementsis/are
+NOTcorrect?
+(A) 1only
+(b）2only
+(C) 3only
+(D) 2and3only
+24
+
+--- page 25 ---
+
+128. Whichoneof thefollowingstatements
+is correct for an isotropicmaterial?
+(A) Shear modulus is independent of
+Young's modulus only.
+(B) Shearmodulus isindependentof
+Poisson's ratio only.
+（Shear modulus isindependentof
+Young's modulus and Poisson’s
+ratio.
+(D) Shear modulus is not independent
+ofYoung'smodulus andPoisson's
+ratio.
+
+129. A body isloadedelastically so that
+strain in y-direction (ey)=0 and o=0.
+Take Oxand oyas finite.Whatis the
+value of strain in z-direction （ez)in
+terms of stress in x-direction （ox）,
+Young’s Modulus (E),and Poisson’s
+ratio(o)?
+(A) ez=oxu（1+2u）/E
+(B) ez=oxU（1-4u)/E
+（c)ez=ox（1+v）/E
+(D) ez=-0xu（1+u)/E
+
+130. What are the three stress invariants
+(in MPa)respectively in a body under
+the stress states of,x=10,y=8,
+2=-5,tyz=tzy=5,tzx=txz
+=-4，
+x=xpue
+=-8,where all stresses
+are in MPa?
+(A) 23,-128and 125
+(B) 13,115and-138
+（c)115,13,-128
+（d)-138,23,125
+25
+
+131. Acantileverbeamof 4m span carries
+three point loads of 1kN,2kN and
+2kNat2m,3mand4mfromthe
+fixed end respectively.What is the
+bendingmomentat3m from fixed
+support?
+(A) 4kNm(Anticlockwise)
+(B) 6kNm(Clockwise)
+(C) 3kNm(Clockwise)
+(D) 2kNm(Anticlockwise)
+
+132. A simply supported beam of 9m span
+carriesapointloadof30kNat2m
+from the left end of the support.It also
+carriesaUDLof12kN/mover4m
+span from the right support. What is
+thevalueofshearforceat5mfromthe
+left support?
+(A) 4kN
+(B) 44kN
+(C) 3kN
+(D) 33kN
+
+133. What is theratio of elongation of
+arectangular bar due to self-weight
+totheelongationif totalweightof
+thebar is applied at its end？
+1
+(A) 12
+(B) 2
+(C) 1-3
+(D) 3
+A-MNGY-D-CVL
+25
+
+--- page 26 ---
+
+134. The stresses ontwo perpendicular
+planesthroughapointare60N/mm²
+tension,40N/mm²
+compression and
+30N/mm² shear.What is the absolute
+normal stressonaplaneat60°to that
+ofthe tensile stress？
+(A) 10.98N/mm²
+(B) 17.63N/mm²
+(C) 20.98N/mm²
+(D) 32.63N/mm²
+
+135. Whichoneofthefollowingstatements
+is correct?
+(A) The rate of change of shear force
+along the lengthof the beam is
+equal tobendingmoment.
+(B) The bending moment is zero at the
+point where shear force changes
+sign.
+（) Shear force changes abruptly at
+thepointofapplicationofcouple.
+（d)Rateofchangeofbending
+momentchangesabruptly at the
+location ofpointload.
+
+136. A cantilever beam is subjected toa
+point load against gravity at its free
+end.Thevariation and natureof the
+bendingmomentwill be
+a
+linear and hogging
+(B) linear and sagging
+(C) parabolic and hogging
+(D) parabolic and sagging
+MNGY-D-CVL-A
+26
+
+137. A cast ironpipe has 300mm bore and
+10mmmetalthickness,andis
+supportedattwopoints 8mapart.
+What is the internal area ofpipe？
+(A) 0.07069m²
+(B) 1.57059m²
+(C) 2.67069m2
+(D) 3.47059m2
+
+138. Aparabolic3hingedarch(AB) carries
+au.d.1.of 30kN/mon theleft half
+of the span.It hasa spanof16m and
+acentralriseof 3m.What is the
+resultant thrust at‘A'(left hand end)？
+(A) 271kN
+(b）141kN
+(C) 241kN
+(d）171kN
+
+139. A fixed beamsubjected toa central
+pointload againstgravity,thenumber
+ofpointsof contraflexure and their
+positionsrespectively are
+(A) 1and L/2fromcentre of the beam
+(B) 2andL/3fromboth the supports
+()2and L/4from centreof thebeam
+(d）3andL/4fromboththesupports
+andatcentreofthebeam
+26
+
+--- page 27 ---
+
+140. If one supportofa fixed-ended beam
+settles,then what is thenature of the
+endmoments?
+(A) One will be clockwise and another
+will beanticlockwise.
+(B) Both will be either clockwise or
+anticlockwise.
+（c)No moments will be induced at
+theends.
+(D) Themomentswillbe3EI/L and in
+same sense.
+
+141. A rectangular c/s beam of size
+300mmx500mmissubjectedto
+shearforceof20kN.Whatistheshear
+stressat150mm aboveneutralaxis？
+(A) 0.30MPa
+(B) 0.60MPa
+（)0.26MPa
+(D) 0.13MPa
+
+142. WhichoneofthefollowingisNOTthe
+assumptionofEuler'scolumn theory?
+(A) The direct stress is very small
+compared to thebending stress.
+(B) The self-weight of the column is
+considerable.
+?)
+The cross-section of the column is
+uniformthroughout.
+（d)The column will fail by buckling
+only.
+27
+
+143. In a rigid joint plane frame structure,
+introductionofpinstoallmembersata
+joint produces additional equations
+equal to
+(A) Numberofmembers at the joint-4
+(B) Numberofmembers at thejoint-2
+（c)Number ofmembers at thejoint-1
+(D) Number ofmembers at thejoint-3
+
+144. Consider thefollowingstatements:
+
+1. The distribution factor for fixed
+and pin support is zero since any
+moment is resisted by an equal
+and oppositemomentwithin the
+support and no balancing is
+required.
+
+2. In the case ofpinned supports,
+thedistribution factor isequal to
+1.0since100%ofanyapplied
+moment must be balanced and
+a carry-over of x the balancing
+momenttransferred to theremote
+endat theinternalsupport.
+Whichoftheabovestatementsis/are
+correct?
+(A) 1 only
+(B) 2only
+(C) Both 1and2
+(D) Neither 1nor2
+
+27. A-MNGY-D-CVL
+
+--- page 28 ---
+Directions:
+Each of the next Six（06)items consists
+oftwo statements,one labelled as the
+Statement(I)'and theotheras‘Statement（Il)'.You are to examine these two
+statements carefullyand selecttheanswers
+to these items using the codesgiven below:
+Codes:
+(A) Both Statement (l) and Statement(Il) areindividually true and
+Statement(ll)is thecorrect
+explanationofStatement(I)
+b
+Both Statement (I) and Statement(Il)areindividually true but
+Statement（Il)isnotthe correct
+explanationofStatement(I)
+C
+Statement (I)is true but Statement (II)is false
+(P)
+Statement (I) is false but Statement(II)is true
+
+145. Statement (I):Wood is essentially an
+organicsubstance,made
+upofaskeletonof
+cellulose impregnated
+withlignin.
+Statement (Il):The organic substances
+arenotsusceptibleto
+attackbybothbacteria
+and fungi.
+
+146. Statement(1):Anyorthogonalsetof
+axesare180°toone
+anotheron
+Mohr's
+circle.
+Statement(Il):The distancebetween
+these axes is half the
+diameterofthecircle.
+
+147. Statement (1):There may be asmany
+unknown
+forcesas
+thereareequationsof
+equilibrium;however,
+instabilityormovement
+ofa structureor its
+members can develop
+becauseof,improper
+constraining
+bythe
+supports.
+MNGY-D-CVL-A
+
+Statement(Il):This can occur if all
+the support reactions
+areconcurrentata
+point and when the
+reactive forces are all
+parallel.
+
+148. Statement (I):The negative derivative
+ofvelocitypotential
+functionwithrespectto
+any direction gives the
+fluid velocity in that
+direction.
+Statement(Il):Thepartial derivative
+ofstream functionin
+any direction gives the
+velocity component in
+that direction.
+
+149. Statement (1):In Hardy cross method,
+atrialdistributionof
+discharges
+ismade
+arbitrary.
+Statement(Il):The continuityequationmust satisfyat
+each junction.
+
+150. Statement (I):Cross drainage structure,aqueduct is constructed tonegotiatean
+aligned channel over,
+beloworatthe same
+levelofastream.
+Statement(Il):Aqueduct
+is
+constructed,
+when
+full
+supply level (FSL)of
+canal is much higher
+thanhighfloodlevel
+(HFL)of a stream.
+28
+
+--- page 29 ---
+ROUGHWORK
+
+29. A-MNGY-D-CVL
+
+--- page 30 ---
+ROUGH WORK
+30
+
+--- page 31 ---
+ROUGHWORK
+
+31. A-MNGY-D-CVL
+
+--- page 32 ---
+ROUGH WORK
+32

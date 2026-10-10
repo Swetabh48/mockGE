@@ -1,0 +1,1935 @@
+
+--- page 1 ---
+DONOTOPENTHISTESTBOOKLETUNTI
+T.B.C.:R-FTF-M-DFB
+Serial
+TEST BOOKI
+CIVILENGINEE
+Paper II
+TimeAllowed:TwoHours
+INSTRUCTION
+
+1. IMMEDIATELYAFTERTHECOMMENCEMENTC
+CHECKTHATTHISTESTBOOKLETDOESNO
+OR MISSING PAGES OR ITEMS,ETC.IF SO,(
+TESTBOOKLET.
+
+2. ENCODECLEARLYTHETESTBOOKLETSERIE
+BEINTHEAPPROPRIATEPLACEINTHEANSW
+
+3. YouhavetoenteryourRollNumber on the
+TestBookletin theBoxprovidedalongside.
+DONOTwriteanythingelseontheTestBooklet.
+
+4. This Test Booklet contains 120 items （questions）
+(answers).Youwill select the response which you
+caseyoufeelthatthereismorethanone_correct
+considerthebest.Inanycase,chooseONLYONEre
+
+5. YouhavetomarkallyourresponsesONLYon th
+directionsin the Answer Sheet.
+
+6. Allitems carry equal marks.
+
+7. Before youproceed tomark in theAnswer Sheet th
+Booklet,you have to fill in some particulars in the
+youwithyourAdmissionCerificate.
+
+8. Afteryouhavecompletedfillinginallyourres
+examinationhas concluded,youshouldhandover to
+You arepermitted to take awaywithyou the TestB
+
+9. Sheets for rough work are appended in the TestBool
+
+10. Penalty for wrong answers:
+THEREWILLBEPENALTYFORWRONGANSWER
+OBJECTIVETYPEQUESTIONPAPERS.
+(i)
+There are four alternatives for the answer to everyq
+answer has been given by the candidate,one-third
+willbe deducted aspenalty.
+(ii)
+If a candidate gives more than one answer,it will b
+the given answershappens tobe correct and there w
+(iii)
+Ifa question is left blank,i.e.,no answer is given by
+that question.
+DONOTOPENTHISTESTBOOKLETUNTIL
+
+LSLxom->2oa
+TILYOUAREASKEDTODOSO
+TestBookletSeries
+KLET'.
+ERING
+MaximumMarhs:200
+ONS
+TOFTHEEXAMINATION,YOUSHOULD
+VOTHAVEANYUNPRINTEDORTORN
+GETITREPLACEDBYACOMPLETE
+RIESA,B,C,ORDASTHE CASE MAY
+SWERSHEET.
+et.
+ns).Each item comprises four responses
+ouwanttomark ontheAnswerSheet.In
+ctresponse,mark the response whichyou
+responseforeachitem.
+theseparateAnswer Sheetprovided.See
+theresponsetovariousitemsintheTest
+neAnswerSheetasperinstructionssent to
+responsesontheAnswerSheetandthe
+totheInvigilator onlytheAnswerSheet.
+Booklet.
+ookletattheend.
+ERSMARKEDBYACANDIDATEINTHE
+yquestion.For eachquestionforwhichawrong
+rd(0-33)of themarksassigned tothatquestion
+1lbetreatedasawronganswerevenif one of
+will be same penalty as above to thatquestion.
+by the candidate,there willbe nopenalty for
+TILYOUAREASKEDTODOSO
+
+--- page 2 ---
+1..Arectangular tank10mx5min plan and
+3mdeep isdividedbyapartition wall
+parallelto theshorterwallofthetank.One of
+thecompartmentscontainswatertoadepth
+of3 m,and the other a lighter liquid of
+specificgravity0.75 toadepthof 2m.The
+resultantpressure thrust on thepartitionwall
+is
+(A) 1000kg
+(B) 1500kg
+(C) 2000kg
+(D) 2500kg
+
+2. Whichofthefollowingpairsare'correctly
+matched?
+
+1. Piezometrichead:Sumofdatumhead
+and pressure head
+
+5. 
+2. Dynamic head
+:Sum ofdatum head
+andvelocityhead
+
+3. Stagnationhead:Sumof Piezometric
+head
+1andvelocity
+head
+
+4. Total head
+：Sum ofPiezometric
+headand dynamic
+head
+(A) 1,2 and 3 only
+
+6. (B) 1,3 and 4 only
+(C) 2,3and 4 only
+(D) 1,2,3 and 4
+
+3. The thickness ofthelaminarboundarylayer
+overaflatplateattwodifferentsections
+Pand Qare 0.8cm and2.4cm respectively.If
+the sectionQis3·6mdownstream of P,the
+distance of sectionPfrom theleadingedge of
+the plate is
+(A) 0·32m
+(B) 0.22m
+(C) 0.40m
+(D) 0.53m
+R-FTF-M-DFB
+（2-A)
+
+Consider the following assumptions made in
+theanalysis ofajetimpingingnormallyona
+moving plate tointroduce theprincipleof
+moment'ofmomentum:
+
+1. Frictionbetweenjetandplateis
+neglected.
+
+2. Flow is steady.
+
+3. momentum
+Impinging
+of
+jet
+is
+unchanged.
+
+4. Plate moves at a constant velocity.
+Whichofthese statements arerelevant?
+(A) 1,2and4only
+(B) 1,2 and 3 only
+(C) 2,3and 4 only
+(D) 1,2,3 and 4
+A hightensioncable5cmindiameteris
+strung-outbetweentwotowers.Atawind
+velocity of 22·22m/s(correspondingReynolds
+number being 7.4 x 104) the frequency of
+vortexsheddingis
+100 Hz
+(A) 
+(B) 9.33Hz
+(C) 93·3Hz
+(D) 10.0Hz
+Consider thefollowingstatementsinrespect
+ofcriticalflowinawiderectangular channel:
+
+1. The specific energy is minimum for a
+given discharge.
+
+2. The discharge is maximum for a given
+specific energy.
+
+3. The specificforce is minimum
+fora
+givendischarge.
+
+4. The Froude number is equal to unity.
+Whichof these statements are correct?
+(A) 1,2 and 3 only
+(q)
+1,2,3 and 4
+(C) 1,2 and 4 only
+(D) 2,3 and 4 only
+
+--- page 3 ---
+
+7. For ahydraulicallyefficientrectangular
+11
+channelofbedwidth4·0m,thedepth.of flow
+is
+(A) 4 m
+(B) 0.5m
+(C) 1m.
+(D) 2m
+
+8. Thevelocity withwhich an elementary surge
+wave cantravelupstream ina channelwith
+depthy=1.6mand velocityV=2·4m/s is
+(Take g = 10 m/s2)
+(A) 16 m/s
+(q)
+13·6 m/s
+(C) 2.4m/s
+(D) 1·6 m/s
+
+9. Consider thefollowingstatementsrelatedto
+water surfaceprofileingraduallyvariedflow
+in an open channel:
+
+1. Yo
+line
+M, and. S1 curves approach
+asymptotically;
+and
+tend
+to
+be12.
+horizontal asy tends to oo.
+
+2. M2
+and
+S2
+curvesmeet.
+Yo
+line
+horizontally,and Y。line asymptotically.
+
+3. and
+Sa
+line
+M3
+curves meet Yo
+normally,and
+1alsomeetthechannel
+bed normally.
+
+4. Cand C, curves will be slightly curved
+if Chezy's equation is used;otherwise,
+they may tend to be straight lines.
+Whichof thesestatements are correct?
+(A) 1,2,3and4
+(B) 1 and 4 only
+(C) 2 and 3only
+(D) 3 and 4 only
+
+10. The
+pressure drop in a30 cm diameter
+horizontalpipe is 60 kPa in a distance of
+15m.The wall shear stress in kPa is
+(A) 0·1
+(q)
+0·2
+(C) 0·3
+(D) 0·4
+R-FTF-M-DF
+(3-A)
+
+Considerthe
+following
+statements
+in
+respectof steadylaminarflowthrough a
+circular pipe:
+
+1. Shear stress is zero on the centralaxis
+of the pipe.
+
+2. Discharge varies directly
+with
+the
+'viscosity of thefluid.
+
+3. Velocityismaximumatthecentreof
+the pipe.
+
+4. Hydraulicgradientvariesas thesquare
+ofthemeanvelocityofflow.
+Whichof these statements are correct?
+(A) 1,2,3 and 4
+(B) 1 and3only
+(C) 2and 4only
+(D) 3and 4only
+Three pipes A,B and C have the following
+basicgeometries:
+Pipe
+A
+B
+C
+Diameter
+D
+D/2
+2D
+L
+Length
+L
+4L
+If these pipes are connected
+1 in series,by
+assuming thevalueoffrictionfactorftobe
+sameforallthethreepipesandthe
+equivalent-pipe,this set of pipes in series is
+equivalent toapipeof length Leand
+diameterDandfrictionfactorfwiththe
+equivalentlengthLbeingequal to
+1
+(A) 8
+(B) 
+(C) 26
+8
+(D) 33
+8
+
+--- page 4 ---
+
+13. LetC,bethevelocityof pressurewave
+
+16. travelling alongrigidpipe carryingwater with
+its bulk modulus 2·16 x 109 N/m2. Let C2 be
+thevelocityofpressurewave travelling
+alongarigidpipecarryingoilofrelative
+density0.600withitsbulk modulus as
+1.296 x109 N/m2 through a similar pipe.
+Whatwillbetheratio
+C
+(A) 0·01
+(B) 0·1
+(C) 1·0
+(D) 10.0
+
+14. The velocity of pressure wave in water of
+infiniteextentis1414m/s.Theveiocityof
+propagation of water hammer pressure in a
+pipecarryingwater and
+1havingdiameter=
+40 cm,pipe thickness = 4 mm,with E
+(Modulus ofelasticity)of the pipe material=
+2.1 x 1011 Pa,_and K (Bulk modulus of
+water)=2·1x109Pa,is
+
+17. (A) 1410 m/s
+(B) 2000m/s
+1000m/s
+(C) 
+(D) 700m/s
+
+15. Consider thefollowingstatements:
+Airvessels are fittedonthe suctionand
+delivery sides ofareciprocatingpumpto
+
+1. Achieve
+higher
+speed
+without
+separation.
+
+2. Reduce work in overcoming frictional
+resistance.
+
+3. Avoid excessive vibration permanently.
+
+4. Have nearly uniform discharge.
+Whichof thesestatementsare correct?
+(A) 1,2 and 4only
+(B) 1,2 and 3 only
+(C) 2,3 and 4 only
+(D) 1,2,3 and 4
+R-FTF-M-DFB
+(4 -A)
+
+Consider thefollowingstatements:
+
+1. The specific speed for turbines
+is
+5
+directly proportional to H4.
+
+2. The
+specificspeed
+forturbines
+is
+5
+..inversely proportional to H4.
+
+3. The specific speed for pumps is directly
+3
+proportional to H4.
+
+4. The
+specific
+speed
+1forpumps
+is
+3
+inversely proportional to H4.
+Which of these statements.arecorrect?
+(A) 1 and 3
+(B) 2 and 4
+(C) '1 and 4
+(D) 2 and 3
+Givenbelow are twolists.Whichof these are
+properlymatched?
+(Typesofpump)
+(Head-Discharge
+performance)
+1.Propeller pump
+Large
+discharges
+and low headswith
+negligible
+percentage
+variation in head
+2,Single stage
+Medium
+heads,
+centrifugalpump
+with
+decreasing
+withbackward
+head
+1asdischarge
+increases
+curvedblades
+3.·Turbine pump
+Mediumtohigh
+heads with low,but
+constant,
+discharges
+(A) 1 and 2
+(B) 2and3
+(C) 2only
+(D) 3only
+
+--- page 5 ---
+
+18. A turbine discharging 10 m3/s is to be
+21
+designed sothat a torque of 1600kg-m is to
+beexertedon theimpellerturningat200rpm
+under thecondition that theexitingliquid
+exertsnomomentinspiteofitsmomentum.
+The tangential component of the velocity at
+theouterperipheryoftheimpeller ofradius
+1·0 m is
+(A) 0.98m/s
+(B) 1·57 m/s
+(C) 2.10 m/s
+(D) 2·26m/s
+
+19. TwoPelton turbinesAandB have the same
+specificspeedandareworkingunder the
+samehead.Turbine A produces400kW at
+
+22. 1000 rpm.If turbine B produces100kW,then
+itsrpm is
+(A) 4000
+(B) 2000
+(C) 1500
+(D) 3000
+
+20. Consider thefollowing typesof turbines:
+
+1. Francis
+
+2. Peltonwithasinglejet
+
+23. 
+3. Kaplan
+The
+correctsequenceoftheseturbinesin
+increasingorder of theirspecificspeedsis
+(A) 1,3 and 2
+(B) 2,1 and 3
+(C) 1,2 and 3
+(D) 2,3and1
+R-FTF-M-DFB
+(5 -A)
+
+Whichof thefollowingarepertinenttothe
+realization ofhydrologicalcycle?
+
+1. Latitudinaldifferences in solar heating
+oftheEarth'ssurface
+
+2. Inclination oftheEarth'saxis
+
+3. Unevendistributionoflandandwater
+
+4. Corioliseffect
+(A) 1,2and3only
+(B) 1, 2 and 4 only
+(C) 2,3 and 4 only
+(D) 1,2,3 and 4
+The
+maximum
+1velocity.Um，
+themean
+velocityUand shear velocityuinthecase
+of turbulentflowthroughcircular pipesare
+(U
+-U)
+related as
+u
+(A) 2-5for roughboundary flow only
+5.75for smoothboundary flow only
+(B) 
+(C) 3.75
+6for
+：both
+smoothand’rough
+boundary flows
+(D) 5.75for
+both
+smooth
+andrough
+boundary flows
+The rainfall on five successive days on a
+catchment was 3,6，9，5and
+11cm
+respectively.If the p-index for the storm
+can be.assumedtobe 3cm/day,thetotal
+directrunofffromthecatchmentduetothis
+storm is
+(A) 11 cm
+(B) 24 cm
+(C) 9 cm
+(D) 20 cm
+
+--- page 6 ---
+24..The
+excessrunoffhydrograph
+
+27. 1from
+a
+catchment area 10 km2 due toa storm of
+6hrs durationhas been observed tobe
+triangular inshape.The
+peakflow
+is
+observed to be 10 m3/s and the base length
+is20 hrs.The rainfall
+excess in the
+catchment is
+(A) 5.1cm
+(B) 3.6cm
+(C) 4·5 cm
+
+28. (D) 2.5cm
+25.·Consider the following statements:
+
+1. Over
+the
+oceans
+there
+is
+more
+evaporationthanprecipitation.
+
+2. Onland it is moreprecipitation than
+evapo-transpiration.
+'29.
+Whichof these statementsare correct？
+(A) Both 1 and 2
+(B) Neither1nor2
+(C) 1 only
+(D) 2only
+
+26. Thehydrologicriskofa100-yearflood
+
+30. occurring duringthe 2-year servicelifeof a
+project is
+(A) 9.8%
+(B) 9.9%
+(C) 19·9%
+(D) 1·99%
+R-FTF-M-DFB
+(6-A)
+
+ThedesignfloodcommonlyadoptedinIndia
+forbarragesandminordamsis
+(A) Probablemaximum flood
+(B) A flood of 50-100years return period
+(#)
+Peak flood
+(D) Standardprojectfloodora100-year
+flood,whichever is higher
+TheMuskingummethodoffloodroutingis a
+(A) Form of hydraulic routing of a flood
+(B) Form of reservoir routing
+(C) Completenumerical solutionof
+St.Venant equations
+(D) Hydrological channel routing method
+Whatwouldbethevolumeofwaterstored
+ina saturated columnwithaporosityof
+0.35 with a cross-sectional areaof1 m2
+and
+depthof3m?
+(A) 2.0 m3
+(B) 0.105m3
+(C) 1·05 m3
+(D) 3·0 m3
+Thesurfacejoiningthestaticlevelsinseveral
+non-pumpingwellspenetratingacontinuous
+confined aquiferrepresents
+(A) Water-table surface
+(q)
+Capillary fringe
+(C) Piezometric surface of the aquifer
+(D) Physicaltop surfaceof theaquifer
+
+--- page 7 ---
+Twoobservation wellspenetratingintoa35.
+
+31. confinedaquiferarelocated1500mapartin
+thedirectionofflow.Headsof50mand25m
+areindicatedatthese twoobservationwells.
+Ifthecoefficientofpermeabilityforthe
+aquifer is 30m/day and itsporosity is 0·25,
+thetimeoftravelof aninerttracer from one
+well toanotheris
+(A) 75 days
+(B) 750days
+(C) 1200 days
+(D) 3000 days.
+
+36. 
+32. The local
+1scourdepthinfrontofa
+semicircular shapedrectangular pier having
+widthequal toWalignedparallel totheflow
+below the surrounding bed is
+(A) 2.0W
+(B) 1·5W
+(C) 1·2W
+1.0 W
+(D) 33.
+Criticalshearstress ofcohesive sediment
+(A) Decreaseswiththe voidratiofor
+givenplasticityindex
+
+37. (B) Increases with the plasticity index for a
+given voidratio
+(C) Increases with shear strength fora
+given clay content
+(D) Alloftheabove
+A discharge of 72m3/s istobe.allowed
+
+34. throughsiphonspillways of2mwidthand
+75cmdepthwithworkingheadof8m.The
+numberof spillwaystobeprovidedwillbe
+(Takecoefficient
+of
+dischargeforthe
+spillways =0.64)
+(A) 2
+(B) 4
+(C) 6-
+(D) 8. R-FTF-M-DFB
+(7-A
+
+Coefficient
+of
+permeability
+Jo
+an
+underground
+stratumis.0.001m/s.
+Dischargeobtained
+fromawellofarea
+20 m2
+duginto
+this
+stratum
+(with
+drawdownof'2m)will be
+(A) 2400lpm
+(B) 2000lpm
+(C) 1200 lpm
+(D) 1000lpm
+EDTA
+titration
+method
+hardness
+determinationofwatersample
+usesan
+indicator
+which
+combines
+with
+hardness-causing divalent cations and forms
+coloured
+1complex.The
+nameofthe
+indicatorandthecolouroftheformed
+complexrespectively are
+(A) Ferroin and darkblue
+(B) Ferroin and wine red
+(C) EriochromeBlack T and darkblue
+(D) EriochromeBlackTandwinered
+
+7. Consider the following statements:
+Carbonate
+hardness
+is
+due
+to
+
+1. bicarbonates.
+
+2. Non-carbonate
+ehardnessisdue
+to
+sulphates and chlorides of Ca and Mg.
+
+3. Both thehardnesses canberemoved by
+lime-soda method.
+
+4. Both thehardnessescanberemovedby
+ion-exchange method.
+Whichof thesestatementsarecorrect?
+(A) 1,2 and 3 only
+(B) 1,2 and 4 only
+(C) 2,3 and 4 only
+(D) 1,2,3 and 4
+(A) --- page 8 ---
+38.If thevelocityofflowaswellasthe41.
+diameter of'the.flowingpipe arerespectively
+doubled throughapipe system in use since
+long,the head losswillthereafter be
+(A) Halved
+(B) Doubled
+(C) Increased 4times
+(D) No change
+
+39. Consider thefollowing statements:
+The total head against which a pumphas to
+work must include,besides any other items,
+
+1. the suction lift.
+
+42. 
+2. the delivery head.
+
+3. theheadlostdue tofrictionatentrance
+in the rising main.
+
+4. theheadlostdue tofriction atexit in
+the rising main.
+Whichofthese statements are correct?
+(A) 1,2 and 3only
+(B) 2and3only
+(C) 1,2,3 and 4
+(D) 3and 4only
+
+43. 
+40. An urban area is located in plains having
+"average
+climatic
+conditions".
+The
+impervious area thereof for which drainage
+must be provided is 3·6 ha and the design
+rainfallintensityis 2.0 cm/hr.The drains
+willbedesigned fora runoff of
+(A) 0.05 m3/s
+(B) 0.10 m/s
+(C) 0.20 m3/s
+(D) 0.40 m%/s
+R-FTF-M-DFB
+(8-A)
+
+A sewerhasadiameterof300mmand
+slope of 1 in400.While running full it has
+a mean velocityof 0.7m/s.If both the
+diameterandslope
+are
+doubled
+(to
+respectivelybe 600mm and 1in200),what
+willbethechangedmeanvelocitywhen
+running half-full ?Use Manning's formula.
+(A) 1.59 m/s
+(B) 2.80 m/s
+(C) 0.90 m/s
+(D) 1.00m/s
+Asampleofsewageisestimatedtohave
+a5day20°CBODof 250mg/l.If thetest
+temperature be 30°C,in how many days
+will the same value ofBOD be obtained?
+(A) 1·5 days
+(B) 2-5 days
+(C) 3·3 days
+(D) 7.5 days
+The most common constituents of alkalinity
+innatural water are measured by titrating
+the water sample with0.02 NH2SO4using
+(A) Eriochrome
+BlackT
+andFerroin
+indicators
+(B) FerroinandPhenolphthaleinindicators
+(C) PhenolphthaleinandMethylOrange
+indicators
+(D) MethylOrange and EriochromeBlackT
+indicators
+
+--- page 9 ---
+
+44. Considerthefollowingstatements:
+
+47. The time ofBODassimilationina stream can
+be affected by
+
+1. Ratio of stream depthtoflowwidth.
+
+2. StreamBODvalue.
+
+3. BOD.rate'constant.
+Which of these statements arecorrect?
+(A) 1,2 and 3
+(B) 1 and 2 only
+(C) 2 and3 only
+(D) 1 and.3 only
+
+45. It takes0.4hrsto drive from the garage to the
+headof theroute,0.4hrsto drivebetween the
+routehead and disposal site and 0·25hrs to
+return from the disposalsite.Ittakes 0.2hrs
+tooffloadatruckatthe disposal site.The
+crewispermittedtwo15-minutebreaksand a
+further 30minutesfor miscellaneous delays.
+If tworunsaremadeto thedeposit siteeach
+day,how much timeis left inan 8-hr nominal
+
+48. dutydurationfor refusecollectionbefore
+startingtoreturntogaragefromdisposal
+site?Takeloadingtime as30minutes.
+(A) 4·15 hrs
+(B) 4·25 hrs
+(C) 4.75 hrs
+(D) 4·85hrs
+
+46. Whichof thefollowingfactorscontributeto
+formationofphotochemicalsmog?
+
+1. Stableatmosphere
+
+49. 
+2. NO
+
+3. Solarinsolation
+
+4. CO
+(A) 1,2,3 and 4
+(B) 2,3 and 4 only
+(C) 1 and 4 only
+(D) 1, 2 and 3 only
+R-FTF-M-DFB
+(9-A
+
+7. Consider thefollowing statements:
+
+1. Particulateshave irregular shapes.
+
+2. Size
+can
+be
+determined
+an
+equivalent
+aerodynamicdiameter
+by
+comparingwithaperfectsphere.
+
+3. Particulateslarger than10μaresaidto
+settle.relatively
+quickly
+since their
+settlingvelocity
+isnot
+less than
+10 cm/min.
+
+4. Theparticlesroughlythesize of
+bacteriahaveaerodynamicdiameter of
+0.1 μm to 10 μm.
+Whichof these statements are correct?
+(A) 1,2,3 and 4
+(B) 1 and3only
+(C) 1,2 and 4 only
+(D) 2,3 and 4 only
+
+48. For noise measurement，formula for sound
+P
+pressure level (SPL) is 20 log
+.What
+Prel
+will be the resultant
+tnoiseindBifPis
+0.0002μbar?
+(A) 0
+(B) 60.
+(C) 06
+(D) 100
+
+6. Environmentalimpact.assessmentincludes
+Environmental statement
+(A) 
+(B) Environmental managementplan
+(C) Risk
+and
+hazard
+assessment
+and
+mitigation
+(D) Allofthe above
+(A) --- page 10 ---
+
+50. Thenaturalwater contentofthesoil54.
+samplewas
+punog
+1tobe40%，specific
+gravityis2.7andvoidratio1.2;thenthe
+degreeof saturation of thesoilwillbe
+(A) 100%
+(B) 69%
+(C) 87%
+(D) %06
+
+51. The
+porosityofasoilsamplehavingits
+void
+ratioequaltounitywouldbe
+(A) 33·33%
+(B) 50.0%
+(C) 66·66%
+(D) 75.0%
+
+55. 
+52. The porosity of'a certain soilsample
+：was
+foundtobe80%anditsspecificgravitywas
+2.7;the critical hydraulic gradient will be
+estimated as
+(A) 0·34
+(B) 0·92
+(C) 1·0
+(P)
+1·5
+
+53. Consider thefollowing statements:
+
+1. Organic
+matter
+decreases
+the
+permeability of a soil.
+
+2. Entrapped
+air
+decreases
+the
+
+56. permeability of a soil.
+Whichofthese statements are correct?
+(A) 1 only
+(B) 2only
+(C) Both 1 and 2
+(D) Neither1nor2
+R-FTF-M-DFB
+（10-A})
+
+Consider thefollowing statements:
+
+1. Mathematicallyspeaking,thetime taken
+for100%consolidationisinfinite.
+
+2. The time factor for aparticular average
+degreeofconsolidationdependsuponthe
+distributionofinitialexcesshydrostatic
+pressure.
+'3.
+Secondary consolidation obeys Terzaghi's
+one-dimensional theory ofconsolidation.
+Whichof thesestatements arecorrect?
+(A) 1,2 and 3
+(B) 1 and2only
+(C) 2and3only
+(P)
+1 and3only
+Consider thefollowing statements:
+
+1. For
+rasaturated
+soil,Skempton's
+B-parameteris nearly equal to unity.
+
+2. .For an undisturbed sensitive.clay, the
+stress-strain curve shows apeak.
+
+3. Interlocking contributes significantly to
+theshearing strength in caseof dense
+sand.
+Whichof these statements are correct?
+(A) 1,2 and 3
+(q)
+1 and 2only
+(C) 2and 3only
+(D) 1 and 3 only
+Forthedetermination ofshearstrength
+parameters,c and o,of soil in the laboratory,
+the test tobe conductedwillbe
+(A) Triaxialcompression test
+(B) Sieve analysis
+(C) Compaction test
+(D) Relative density test
+
+--- page 11 ---
+57..An isobar is a line which connects all points|61.
+below the ground surface atwhich
+(A) The local ground elevation is same
+(B) The settlementis same
+(C) Thevertical stress is the same
+The groundelevation isvarying
+(D) 58.
+Consider the following statements regarding
+Coulomb'stheoryofearthpressure:
+
+1. Itisbasedonwedgetheoryofearth
+pressure.
+It assumes the wall surface.tobe rough.
+
+2. 
+3. Itmay or may not satisfy the static
+in
+equilibrium
+condition
+occurring
+nature.
+Which of these statements are correct?
+(A) 1, 2 and 3
+
+62. (B) 1 and 2only
+(C) 2 and3only
+(D) 1 and 3only
+
+59. Awall
+1withsmoothverticalback.and
+10metersheightretains cohesionlessmaterial
+with ahorizontalsurface.The cohesionless
+material weighs 4·91kN/m?and has an angle
+ofinternalfrictionof30°.Thetotalactive
+earthpressureis
+C
+(A) 81·585kN/m length of wall
+(B) 91.585kN/mlengthofwall
+(C) 40-743 kN/m2
+8·158kN/m2
+(D) 63.
+
+60. Ifwater tableisencountered in the standard
+pitwhile conductingplateload test
+(A) Theload test shouldbe abandoned
+The pitis considered unsafe
+(B) 
+(C) Test shouldbe conductedwith complete
+dewatering continuously throughout the
+testduration
+(P)
+The bearing capacity of soil cannot be
+determinedin thiscondition
+R-FTF-M-DFB
+(11 -A
+
+Consider thefollowingstatements:
+
+1. Standardpenetrationtestiscommonly
+used for cohesionless soils.
+
+2. Standardpenetrationtest results
+in
+respectofacohesionlesssoil
+are
+correlatedtoitsdensityindexand
+friction angle.
+
+3. UseofH-valuenot
+tcorrectedfor
+overburdenpressureleadstohighly
+conservativedesign
+1offootingsat
+shallow depths.
+Which of these statements are correct?
+(A) 1,2 and 3
+(B) 1 and 2 only
+(C) 2 and 3only
+(D) 1 and 3 only
+Consider thefollowingstatements:
+
+1. The benefit of surcharge and depth of
+foundationisonlymarginalincaseof
+Vfootings onpurely cohesive soils.
+
+2. Thebearingcapacityofafootingin
+pure clay increases with increase in size
+of the footing.
+
+3. Sizeeffectsinplateloadtestsaremore
+important in case of cohesionless soils.
+Which of these statements are correct?
+(A) 1,2 and 3
+(B) 1 and 2only
+(C) 2 and 3only
+(D) 1 and3only
+
+3. The mean unconfined compressive strength
+ofapurely cohesive soilwasfoundtobe
+50 kN/m2.The ultimate bearing capacity of a
+squarefootingcalculatedbyTerzaghi's
+concept (bearing capacity factor Nc=5·7)will
+be
+(A) 185·25 kN/m2
+(B) 390·5kN/m2
+(C) 285 kN/m2
+(D) 142·5 kN/m2
+(A) --- page 12 ---
+
+64. Thefield density andfieldmoisture contentof|67.
+a soil canbe determined by
+
+1. Core cutter method
+
+2. Sandreplacementmethod
+
+3. Proctor compaction test
+
+4. Modifiedproctor compaction test
+(A) 1,2,3 and 4
+(q)
+1 and2only
+(C) 2 and 3only
+(D) 2and 4only
+
+68. 
+65. Consider thefollowingstatements:
+
+1. Friction piles are also called floating
+piles.
+
+2. Minimumnumber ofpiles toqualify as
+a pile group is three.
+
+3. Thegroupefficiency of apilegroupmay
+beeitherless than 100%or morethan
+100%.
+Whichof thesestatements arecorrect?
+(A) 1,2 and 3
+1 and 2 only
+(B) 
+(C) 2 and3only
+(D) 1 and3only
+
+69. 
+66. Consider thefollowing statementsrelating to
+foundations on expansive soils:
+
+1. Strengthshouldbeimproved
+and
+compressibility should bereduced.
+
+2. Compressibility should be increased.
+
+3. No stabilization shouldbe done.
+Which of these statements is/are correct?
+(A) 1,2 and 3
+(B) 2only
+(C) 1 only
+(D) 3 only
+R-FTF-M-DFB
+(, 12 - A }
+
+Consider.thefollowing.statements:
+
+1. Buried servicelinesshouldbe avoided
+in an expansive soilregion.
+
+2. A swelling pressure less than 20 kN/m2
+is not of much consequence.
+
+3. Ifsoil is not black in colour,it is
+unlikely tobe an expansive soil.
+Which of·these statements are correct?
+(A) 1,2 and 3
+(B) 1and2only
+(C) 2and3only
+(D) 1 and 3 only
+IfLis thelengthofthechain,Wis the weight
+of the chain and T is the tension,the sag
+correctionfor the chain.lineis
+W2L2
+(A) 24T3
+W2L
+(B) 24T2
+W2L2
+(C) 24T2
+W2L3
+(D) 24T3
+In
+an
+inclined terrain，if the elevation
+differencebetween thetwoendsofalineish
+and the inclined length of the line is L,the
+correlation for slope is
+b²
+(A) 2
+h²
+(B) 2L2
+2h2
+(C) L2
+h2
+(D) 2L
+
+--- page 13 ---
+
+70. If the whole circle bearing is 315° 20, its|74.
+quadrantalbearingwouldbe
+(A) S36°30W
+(B) N 44°40'W
+(C) N57°24'W
+(D) S60°40'W
+
+75. 
+71. If theobservedforebearingofaline xy
+is 16°26',the back bearing of this line is
+(A) 103°26′
+(B) 118°36
+(C) 196°26'
+(D) 206°26'
+
+72. The
+subtense
+tacheometry
+method
+is
+adoptedwhen thegroundis
+(A) Flat
+(B) Inclined
+(C) Undulating
+(D) A waterbody
+
+76. 
+73. In an instrument,the bubble tube with
+divisions of 1mm anda radius of 0.9 m
+hasthesensitivityof
+(A) 1
+2
+1
+(B) 70
+1
+(C) 06
+(D) 1
+
+900. R-FTF-M-DFB
+(13 -A
+
+4. R.L.of floor at a building is 74·4 m,staff
+reading on thefloor is1·625andstaffreading
+whenitisheldinvertedwithbottom touching
+theceilingofahallis2.870;then the height
+oftheceilingabovetheflooris
+(A) 3.593m
+(q)
+3.953m
+(C) .4.495m
+(D) 4·594m
+
+5. Considerthefollowingpre-conditionsfor
+correctuse ofa theodolite：
+
+1. Thevertical
+axis
+need
+not
+be
+perpendicular tothe plane of the plate
+level bubble.
+
+2. Theline of sightmust be perpendicular
+to thehorizontalaxis.
+
+3. Theaxisof theleveltubeattachedto
+the telescope need notbeparalleltothe
+line of sight.
+
+4. The vertical axis,the horizontal
+axis
+andthelineofsightshouldall
+1pass
+through apointknown as stadia centre.
+Whichof these conditions is/are necessary?
+(A) 1,2,3 and 4
+(q)
+2only
+(C) 3only
+(D) 1 and4only
+
+76. Followingobservationsweretakenwitha
+transit fittedwithstadiawires.Theline of
+sight washorizontaland the staff washeld
+vertical.
+Readingon staff(m)
+Tophair
+1.726
+Middlehair
+2.278
+Bottoim hair
+2.830
+The tacheometric constantsk andC are100
+and
+0.4 m respectively.The horizontal
+distancebetweenstaffandinstrumentis
+(A) 90·8
+(B) 100·8
+(C) 110·8
+(D) 120·8
+(A) --- page 14 ---
+
+77. Following observations were taken during a|81.
+reciprocal levelling:
+Instrumentnear
+P
+Q
+Staffreading atP
+1·824
+0·928
+Staff reading atQ
+2·748
+1·606
+Ifreduced levelofPis140.815m,the reduced
+levelof Qis
+(A) 138.014m
+(B) 139.616m
+(C) 140.014 m
+(D) 141.616m
+
+82. 
+78. A contour maybe defined as an imaginary
+linepassing through
+(A) Points on thelongitudinalsection
+(q)
+Pointsof equalelevation
+(C) Pointofequallocalground slope
+(D) Points of transverse section surveys
+
+83. 
+79. Aclosedcontour line withtwo or more
+higher contours inside it will represent a
+(A) Depression
+(B) Hill
+(C) Cave
+(D) Well
+
+80. place of observation,the declination of a
+circumpolar star is always,
+(A) Lesser
+(B) Greater
+(C) Equal
+(D) Either lesser.or equal
+R-FTF-M-DFB
+(14 -A )
+
+When H is the flight height,R is the
+appropriateradialmeasureanddistherelief
+displacement,theverticalheightofanobject
+appearingonan aerialphotograph is
+R
+(A) dH
+dH
+(B) R
+H
+(C) dR
+(D) RH
+d
+Regarding plane-table survey，which of the
+followingstatements doesnothold?
+(A) All
+the
+plottingworkincluding
+contouringcanbedoneinthefield
+(q)
+Itis quite suitable for small scale
+surveys
+(C) Lessnumberofcontrolpointsare
+required
+(D) It canbe done in all seasons
+In a plane-table survey,the process of
+determining theplottedpositionofastation
+occupied by theplane-tablebymeans of sights
+taken towards known points,the locations of
+whichhave alreadybeen plotted,isknown as
+(A) Radiation
+(B) Resection
+(C) Intersection
+(D) Traversing
+The
+eplottingofinaccessiblepointsina
+plane-table surveycanbe donebythemethod
+of
+(A) Interpolation
+(B) Radiation
+(C) Intersection
+(D) Traversing
+
+--- page 15 ---
+
+85. Total floatin a planning networkis
+90
+'
+(A) Late start time--Early start time
+(B) Early start time-Late start time
+(C) Late start time-Latefinish time
+(D) Latefinish time-Earlyfinishtime
+
+86. An
+idealhorizontaltransitioncurveisa
+(A) Parabola
+(B) Circle
+(C) Clothoid spiral
+(D) Hyperbola
+
+87. The
+transitionalproperty of alemniscate
+curve is disruptedwhen its deflection angle is
+around
+91
+(A) 30°
+'
+(B) 45°
+(C) 60°
+(D) 06
+
+92. 
+88. If theangleof deflectionof a simple curveis0
+and itsradius is R,then thelength of the
+chordis
+(A) 2R sinθ
+(B) θ
+2R sin
+2
+(C) 2Rcosθ
+θ
+(D) 2Rtan
+2
+
+93. 
+89. IfRistheradiusof thecurve and Lis the
+lengthof'thelongchord,theshiftofthecurve
+is (all in metre units)
+L2
+(A) R
+L2
+(B) 2R
+L2
+(C) 24R
+L2
+(D) 6R
+R-FTF-M-DFB
+(15 -A
+
+90. If theradius ofa simple curveis R,then the
+length.ofthechordfor calculatingtheoffsets
+by the“method ofchordsproduced”should not
+exceed
+R
+(A) 5. R
+(B) 10. R
+(C) 20. R
+(D) 25
+
+91. The ratiobetween the adopted centrifugal
+ratiosforroadsandrailwaysis
+(A) 3 :1
+(B) 4:1
+(C) 2:1
+(D) 5:1'
+
+92. An approximateestimation of total dissolved
+solids of a givenwater sample is often made
+by measuring
+(A) Electrical
+conductivityofthe water
+sample
+(B) Electro-magnetic
+conductivityofthe
+watersample
+(C) Sound conductivityof thewater sample
+(D) Thermal
+conductivityofthewater
+sample
+
+93. Consider thefollowing statements:
+
+1. Relative
+density
+is
+ameaningful
+parameterfor alltypes ofsoils.
+
+2. Relative
+density
+is
+meaningful
+parameter only for cohesion soils.
+
+3. Relative densityisabetter indicator of
+the denseness of anin-situ granular soil
+deposit than thevoidratio.
+Whichof these statements are correct?
+(A) 1,2 and 3
+(B) 1 and 2 only
+(C) 2 and 3only
+(D) 1 and 3only
+A）
+
+--- page 16 ---
+
+94. One nephelometry turbidity unit (NTU)is|97.
+equal tothe turbidityproduced by
+(a）
+1 mg SiO,dissolved in il of distilled
+water with the testbeingrun according
+toabsorptionprinciple
+(B) 1mgSiO,dissolved in 1lof distilled
+water with thetestbeingrun according
+to scatteringprinciple
+(C) 1mg Formazin dissolvedin1lof
+distilledwater withthe testbeingrun
+
+98. accordingtoabsorptionprinciple
+(D) 1mg Formazin dissolvedin1lof
+distilledwaterwiththe testbeing run
+according to scatteringprinciple
+
+95. Consider thefollowing statements:
+
+1. Consolidation
+time
+increases
+with
+increasing compressibility.
+
+2. Consolidation
+time
+decreases
+with
+increasingpermeability.
+
+99. 
+3. Consolidationtimeisdependenton the
+magnitude of stress increase.
+Which of these statements are correct?
+(A) 1,2 and 3
+(B) 1 and2only
+(C) 2 and3only
+(D) '1and 3only
+
+96. Consider thefollowing statements:
+
+100. For pure clay,the shear strength parameters
+will be
+
+1. Cohesion c=O;and angle of internal
+frictionwillbemaximum.
+
+2. Cohesion c is maximum;and angle of
+internalfrictionis alsomaximum.
+
+3. Angle of internal frictionis zero,with
+some value of cohesion c.
+Whichof these statements is/are correct?
+(A) 1,2 and 3
+(B) 1 only
+(C) 3only
+(D) 2only
+R-FTF-M-DFB
+（16-A}
+
+Theneedleofamagneticcompassis
+generally supportedona
+(A) Bush bearing
+(B) Ball bearing
+(C) Needle bearing
+(D) .Jewel bearing
+In case oflevelling,backsightis
+(A) Afixedpointofknownelevation
+(B) Thelaststaff reading takenbefore
+shiftingtheinstrument
+(C) Thefirststaffreadingtakenafter
+settingtheinstrument
+(D) Anystaff reading taken on apoint of
+unknown elevation
+Whichoneofthefollowingtestsemploys
+EthyleneDiamineTetraAceticAcid asa
+titrating agent?
+(A) Chlorides
+(B) Dissolved oxygen
+(C) Hardness
+(D) -
+Residual chlorine
+Which
+of
+thef
+following
+reasons
+are
+responsible for adoption of post-chlorination
+ofwater?
+
+1. Chlorine demand is reduced.
+
+2. Possibilityoftasteandodour formation
+'is'reduced.
+
+3. Possibility of carcinogenic compoundsis
+reduced.
+
+4. Chloraminesareformed.
+(A) 1,2,3 and 4
+(B) 1,2 and3 only
+(C) 1 and4only
+(D) 2,3 and 4 only
+
+--- page 17 ---
+Directions:Eachofthenexttwenty.(20)items
+
+103. consists oftwostatements,onelabelledasthe
+‘Statement(I)andtheotheras‘Statement(II)'You
+aretoexaminethesetwostatementscarefullyand
+selecttheanswerstotheseitemsusingthecodes
+given below:
+Codes:
+(A) Both Statement (I)and Statement (II)
+areindividually true andStatement(II)
+isthecorrectexplanationofStatement
+(I)
+
+104. (B) Both Statement (I) and Statement (II)
+are individually true but Statement (II)
+isnotthecorrectexplanation
+Statement(I)
+(C) Statement (I)is true but Statement (II)
+is false
+(D) Statement (I)is false but Statement(II)
+istrue
+101.Statement (I):In a flownet,eachfield must
+be a(curvilinear) square.
+Statement(Il):Eachflow-channel
+in
+a
+
+105. flownethas the samerate of
+flow.
+102.Statement (I):Boundary layer theoryis
+applicable onlyinthevicinity
+of theleading edge of a flat
+plate.
+Statement (Il):Boundary layer theory is
+basedon theassumptionthat
+itsthickness is small when
+comparedtoother linear
+dimensions in theflow.
+R-FTF-M-DFB
+(17-A)
+
+03.Statement (I):The best hydraulic section
+always has the minimum
+excavation.
+Statement(Il):Thebesthydraulicsection
+gives the minimum area for a
+given discharge.
+04.Statement(l):Agiven channelmaybe
+classifiable as mild for one
+discharge,criticalfor another
+discharge,and steep for yet
+another discharge.
+Statement (Il):Normaldepth and critical
+depth
+are
+independent
+functions of the discharge
+along with,or without,other
+appropriateparameters.
+05.Statement (I):For
+hydraulic
+ram,
+D'Aubuisson's efficiency is
+always more than Rankine's
+efficiency.
+Statement (Il):Bydefinition,efficiencyis
+alwaysless than unity in any
+system of mechanics; and
+addition of a smallvalue to
+both
+numerator
+and
+denominatorintheratioof
+such a case always improves
+the value.
+
+--- page 18 ---
+106.Statement (I):Air pollutant concentration|109.
+and
+time
+of
+retention
+increase due toinversion.
+Statement(Il):Duringwinter,theheavy cold
+layerinthe
+atmosphere
+retains
+the
+hot
+toxic
+pollutantsfor alonger period
+in the atmosphere.
+107.Statement(l):Chlorides are added to kill
+pathogensasadisinfection
+
+110. process in the treatment of
+water.
+Statement(Il):It formshypochlorousacid to
+oxidize
+the
+organic
+compounds
+including
+bacteria.
+
+111. 108.Statement(I):When atube wellpenetrates
+intoahomogeneous aquifer
+and is then pumped,there
+willoccurlowering of water
+surface.
+The
+resultant
+surface
+isdesignatea
+as
+
+112. 'Drawdown curve'.
+Statement(ll):Sincethepressureonthe
+surfaceofthe‘Drawdown
+curve'
+is
+always
+at
+atmospheric level,it is called
+by this name.
+R-FTF-M-DFB
+(18-A}
+
+Statement (l):Fluorideconcentrations
+of
+approximately1.0mg/l
+in
+drinking
+water
+help
+to
+prevent dental cavities
+in
+children.
+Statement(II):During
+formation
+of
+permanent
+teeth,fluoride
+chemicallywith
+combines
+tooth
+enamelresultingin
+softer andweaker teeth that
+are less resistant to decay.
+Statement(I):Virus isliving organisms in a
+natural
+environment
+including soil.
+Statement(Il):Virus
+comestolifeafter
+entering
+the
+ehosttissue
+throughcontamination.
+Statement(I):The BOD test is conducted
+for 5 days at 20°℃.
+Statement(II):The
+amount
+of
+oxygen
+utilized bymicroorganisms
+anaerobicallyis calledBOD.
+Statement(I):An
+1epidemicofinfective
+hepatitis istransmitted by
+drinkingcontaminatedwater.
+Statement (Il):Since infectivehepatitis·is
+transmittedbybacteria,it
+canbe controlled byfiltration
+anddisinfection ofwater.
+
+--- page 19 ---
+113.Statement (I):Theabilityofwater to116.
+conductelectricity,.known
+andmeasuredas thespecific
+conductance,and
+concentrationoftotal
+dissolvedsolidsarenot
+relatable on aone-to-one
+basis.
+Statement(Il):Manyorganicmoleculesand
+compoundsdissolve inwater
+withoutionizingandhence
+arenottakenintoaccount
+
+117. whilemeasuring
+specific
+conductance.
+114.Statement (l):Water
+with
+heavy
+algal
+growth often.has pH values
+as high as 9 to 10.
+Statement(Il):Non-utilization
+of
+the
+bicarbonate ion as a carbon
+source by algae can result in
+substantial accumulation
+of
+OH-ions.
+115.Statement (I):Municipal Solid
+Waste
+is
+
+118. disposed offin theTransport
+Safe Disposal Facility(TSDF)
+toconvert itintoorganic
+compost.
+Statement(Il):The organic Municipal Solid
+into
+Wasteis（
+converted
+compost by worrms;and the
+process
+is
+called
+"Vermicomposting.
+R-FTF-M-DFB
+{19-A
+
+16.Statement(l):Chlorophyll-bearingplants
+takewaterandcarbondioxide
+to synthesize carbohydrates.
+Statement(Il):Wastedfoodultimatelyleads
+toproductionofvarious
+natural resources like water
+and sunlightenergy.
+17.Statement(I):A'curved,or straight,line
+connecting
+the
+relevant
+stress points is called the
+stress path.
+Statement(Il):All the totalstresspaths and
+the effective stress paths for
+thedrained tests are straight
+lines at a slope of 45°.
+18.Statement(I):Foundations may not be
+geometrically categorizedas
+shallow,or deep,foundations.
+Statement(Il):A foundationis shallowifits
+depth is equal toorless than
+itswidth;otherwise it is
+deep.
+(A) --- page 20 ---
+119.Statement (I):Different types of piles are
+
+120. usedinconstructionwork
+dependingonthetypeofload
+tobecarried,the sub-soil
+conditionsandtheground
+watertable.
+Statement(ll):Theload transfermechanism
+from a pile to the soil is
+selfsame in all cases.
+R-FTF-M-DFB
+(20-A)
+
+Statement(l):Present usage of GPS for
+positioningincludespersonal
+navigation,aircraft
+navigation, offshore survey,
+vessel navigation,etc.
+Statement(Il):GPSisa satellitenavigation
+systemdesignedtoprovide
+informationabout
+instantaneousvelocityand
+time almostanywhereonthe
+globe atany time andin any
+weather.
+
+--- page 21 ---
+OUGH·WORK
+
+--- page 22 ---
+UGHWORK
+
+--- page 23 ---
+ROUGHWORK
+(A) --- page 24 ---
+OUGHWORK
+(A) 

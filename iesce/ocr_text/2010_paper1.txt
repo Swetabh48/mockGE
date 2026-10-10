@@ -1,0 +1,1973 @@
+
+--- page 1 ---
+Serices
+Engineering
+DONOTOPENTHISTESTBOOKLETUN
+T.B.C.:Q-GUG-K-DFA
+N?
+018789
+Serial
+TEST BOO
+CIVILENGINE
+PAPER
+TimeAllowed:TwoHours
+INSTRUCT
+
+1. IMMEDIATELYAFTERTHECOMMENCEMEN
+CHECKTHAT THIS TESTBOOKLET DOES
+ORMISSING PAGESORITEMSETC.IFS
+TESTBOOKLET.
+
+2. ENCODECLEARLYTHETESTBOOKLETSE
+BEINTHEAPPROPRIATEPLACEINTHEA
+
+3. YouhavetoenteryourRollNumber on the
+TestBooklet in theBoxprovided alongside.
+DONOTwrite anythingelseon theTestBook
+
+4. This Test Booklet contains 120 items (quest
+(answers).You will select thc response which
+caseyoufeelthatthereismorethanonecor
+consider thebest.In any case,choose ONLY ON
+
+5. YouhavetomarkallyourresponsesONLY
+directionsin theAnswer Sheet.
+
+6. All items carry equal marks.
+
+7. Beforeyou proceed to_markin theAnswer She
+Booklet,you have tofill in some particulars in
+youwithyour AdmissionCertificate.
+
+8. After youhavecompletedfilling inall
+your
+examinationhas conciuded,you shouldhand ov
+YouarepermittedtotakeawaywithyoutheTe
+
+9. Sheets for rough work are appended in the Test
+
+10. Penalty for wrong answers:
+THEREWILLBEPENALTYFORWRONGANS
+OBJECTIVETYPEQUESTIONPAPERS.
+(i)
+There are four alternatives for the answer toev
+answer has been given by the candidate，one-tl
+will bededucted aspenalty
+(ii)
+If a candidate gives more than one answer,it
+the given answers happens to be correct and th
+(iii)
+Ifa question is left blank,i.e.,no answer is giv
+that question.
+DONOTOPENTHISTESTBOOKLETU
+
+es
+Ex0m，2010
+Bngincering ServiceEvminatioe.*
+UNTILYOUAREASKEDTODOSO
+TestBooklet Series
+OKLET
+NEERING
+R 1
+MaximumMarks:200
+CTIONS
+ENTOFTHEEXAMINATION,YOUSHOULD
+SNOTHAVEANYUNPRINTEDORTORN
+SO,GET IT REPLACEDBYACOMPLETE
+SERIES A,B,C,OR D AS THE CASE MAY
+ANSWER SHEET.
+ooklet.
+estions).Each itemcomprises four responses
+chyouwanttomarkontheAnswerSheet.In
+correctresponse，mark the responsewhich you
+ONEresponseforeachitem.
+YontheseparateAnswer Sheetprovided.See
+Sheet theresponse to various itemsin the Test
+intheAnswer Sheetasperinstructions sentto
+ourresponseson theAnswer Sheetandthe
+overtotheInvigilatoronlytheAnswerSheet.
+TestBooklet.
+estBookletattheend.
+NSWERSMARKEDBYACANDIDATEINTHE
+everyquestion.For cachquestion for which awrong
+e-third(0-33)of the marks assigned to that question
+itwill be treated as a wrong answer even if one of
+there will be samc penalty as above to that question,
+given by the candidate,there will be no penalty for
+UNTILYOUAREASKEDTODOSO
+
+--- page 2 ---
+Which
+one
+ofthefollowingdiagrams
+corresponds
+to
+the
+load-deflection
+characteristicsuptoplasticcollapseof’the
+3
+beamshown?
+(A) Load
+Deflection
+Load
+(B) Deflection
+(C) Load
+Deflection
+Load
+(D) Deflection
+Q-GUG-K-DFA
+
+2. At.thelocation of aplastichinge,
+(A) Radiusofcurvatureis infinite
+(B) Curvature is infinite
+(C) Momentis infinite
+(D) Flexible stressis infinite
+
+3. Consider
+the
+following
+stipulations
+in
+designing alaced column:
+
+1. Singlelacing systemsonoppositeplanes
+shallpreferablybeinthesame direction
+sothatoneistheshadowoftheother.
+
+2. Lacingbar should bea flat section.
+
+3. The slendernessratioof thelacingbars
+for compression shallnotexceed180.
+
+4. Laced compression members are tobe
+provided with tie plates at ends.
+Which
+1oftheaboveobservationsis/are
+correct?
+(A) 1 only
+(B) 1 and 3
+(C) 2 and 4
+(D) 1 and 4
+
+4. Ata section alongthespanofaweldedplate
+girder,in which the web is spliced,the
+bendingmoment at a section isM.The girder
+iscomprisedof top flange;webandbottom
+flange plates allof equal areas.The share of
+thebendingmomenttaken by spliceplates
+wouldbe
+(A) M
+M
+(B) 3. M
+(C) 7. M
+(D) 13. A)
+
+--- page 3 ---
+
+5. A steelplate is300mmwideand 10 mm
+8
+thick.Arivetofnominaldiameter18mm is
+driven.The net sectionalarea of the platc
+is
+(A) 1800 mm2
+(B) 2805 mm2
+2820 mm2
+(C) 
+(D) 3242mm2
+
+6. For an1-beam,the shape factor is 1·12;the
+factor of safetyinbending stressis1·5.If
+theallowablestressisincreasedby20%for
+wind or earthquake loads,then the load
+factor is
+(A) 1·10
+(q)
+1·25
+(C) 1·35
+(D) 1·40
+
+7. PERT calculations yield a project length of
+60.weeks'withavarianceof9weeks.
+Probability
+factorcorresponding
+to95%
+probabilityis1-647;thenthenumberof
+weeks requiredto complete theprojectwith
+a probability of 95%is
+(A) 60·94
+(q)
+62·94
+(C) 64·94
+(P)
+66·94
+Q-GUG-K-DFA
+
+8. C
+D
+The influence line forforce in member BCis
+(A) 1/4
+(B) 1/2
+(C) 
+(D) 6. Considerthefollowing statements:
+
+1. PERTisactivity-orientedandadopts
+deterministic approach.
+
+2. CPMisevent-oriented
+and
+adopts
+probabilistic approach.
+
+3. PERTisevent-oriented
+and
+adopts
+probabilisticapproach.
+Whichofthe above statementsis/are correct?
+(A) 1 only
+(B) 1and2
+(C) 2and3
+(D) '3only
+A}
+
+--- page 4 ---
+
+10. 
+13. A
+B
+C
+D
+For the continuous beam shown,what is the
+reaction at A at collapse,by plastic analysis ?
+(A) 50l
+12
+(B) 2
+70l
+(C) 12
+13
+(D) 24
+
+11. Considerthefollowing statements:
+14
+
+1. Shape factor
+
+2. Length of thebeam
+
+3. Type of loading
+
+4. Yieldstrengthofmaterial
+Which of these,affect the influence length of
+plastichinge in.a beam?
+(A) 1 only
+(B) 1 and 3
+(C) 2and3
+(D) 3and4
+
+12. In PERT analysis,the time estimates of
+activities correspond to
+(A) Normal distribution
+(B) Poisson's distribution
+(C) β-distribution
+(D) Binomialdistribution
+Q-GUG-K-DFA
+(4-A
+
+13. Aproppedcantileverof spanLissubjected
+to a concentrated load at midspan. If Mp is
+theplastic moment capacityof the beam,.
+thevalueofcollapseloadwillbe
+12Mp
+(A) L
+8Mp
+(B) L
+6Mp
+(C) L
+4M
+(D) L
+
+14. 100
+100
+10
+
+10. The identical rectangle strips are joined to
+form a “hat” section.What is the plastic
+momentcapacity?
+(A) 50×10
+(B) 100×103
+(C) 155×103
+(D) 300×103
+Where oisYield strengthof steel
+
+--- page 5 ---
+
+15. Afathernotesthatwhenhisteenage
+daughter uses the telephone shetakes no
+less'than5minutesfora
+callbut
+sometimes as much as an hour.15 minutes
+calls are more frequent than calls of any
+other duration.If the daughter's calls were
+tobe represented as anactivityin PERT
+project, the expected duration of each phone
+call is
+(A) 14
+minutes
+6
+5
+(B) 16
+minutes
+6
+(C) 18
+minutes
+6
+5
+(D) 20
+-
+minutes
+6
+
+16. Themaximum longitudinalpitchallowed in
+bolted joints of tension members is
+(A) 16 times thediameter ofthebolt
+(B) 32times thediameterof thebolt
+(C) 16timesthethicknessoftheplate
+(D) ·32times the thickness of the plate
+
+17. The base plate of a roof truss is attached to
+theconcretepierwiththehelpof16mm
+diametermildsteelanchorboltsofgrade
+f=250MPa.What is the maximum pull
+thebase can be subjected to,if the root
+areaof bolt=0.75times shank area？
+(A) 30 kN
+(B) 67·5 kN
+(C) 90 kN
+(D) ‘120 kN
+Q-GUG-K-DFA
+(5
+
+18. Consider the followingconditions withrespect
+toplastic analysis:
+
+1. Sumofinternalandexternalforcesand
+moments must be equal to zero.
+
+2. Atultimatecollapseload,thenumber of
+plastic hinges must be just enough to
+formamechanism.
+Which of the above conditionsis/are correct?
+(A) 1 only
+(B) 2only
+(C) Neither 1nor 2
+(D) Both1and2
+
+19. Poisson's ratio is defined as the ratio of
+(A) Longitudinalstress andlongitudinal
+strain
+(B) Lateral strain andlongitudinal strain
+Longitudinal stress and lateral stress
+(C) 
+(D) Lateral stress andlongitudinalstress
+
+20. The influencelinediagram for the support
+momentatAofthefixedbeamABofconstant
+EI is
+B
+(A) A
+0
+(B) A
+11
+ot
+(C) B
+A
+(D) 
+(A) --- page 6 ---
+
+21. The
+use
+of
+'Concordant
+cables'
+in25
+prestressed continuous beams induces
+(A) Initial support reactions
+(B) No initial support reactions
+(C) Excess cracking
+(D) Excess deflection
+
+22. Whichoneof thefollowingisnotrequired
+in concrete mix-design?
+(A) Degreeof qualitycontrolof concrete
+(B) Workabilityofconcrete
+(C) Characteristic compressive strengthof
+concrete at 28 days
+(D) Initial setting time ofcement
+
+23. The
+absolutemaximumbendingmoment
+thatasimplysupportedgirder of span
+10 m experienceswhentwo concentrated
+loads 20kNand30kNspaced2 mapart
+26
+(30 kN'as leading at the right) crosses the
+girder from left to right,is
+(A) 112.2kN-m
+(B) 96·6 kN-m
+(C) 136·8 kN-m
+(D) 105-8kN-m
+
+24. Asolidshaftrotatingat180rpmis
+subjectedtoameantorqueof5000Nm.
+What is the power transmitted by the shaft
+in kW ?
+(A) 25π
+(B) 20π
+(C) 60π
+(D) 30π
+Q-GUG-K-DFA
+(6-A
+
+25. E
+C
+F
+D
+SectionXX
+6×1·5=9m
+For the roof truss shown in figure,bottom
+chord isofISMB 200 [r=83mm,
+ry = 22 mm].
+Bottom chord bracings are available at C and
+(D) Bottom member AE will be in compression
+duetowind.Whatis thecriticalslenderness
+ratiousedfor the design of memberAE?
+(A) 18
+(B) 36
+(C) 68
+(D) 136
+
+26. Consider the followingstatements:
+Inasimplysupportedbeam subjectedto
+uniformlydistributedloadthroughoutthe
+length,at which points is the stress due to
+(i)Flexure and (i) Shear equal to zero
+selectively:
+
+1. At support section at neutral fibre.
+
+2. At mid span section atneutral fibre.
+
+3. At mid span section at topfibre.
+
+4. At support section at bottom fibre.
+Whichofthe above statements is/are correct?
+(A) 1 only
+(B) 1and2
+(C) 2and3
+(D) 2and4
+(A) --- page 7 ---
+
+27. Consider the following statements:
+Ultrasonic pulse velocity test to measure the
+strength of concrete is
+Used tomeasure thestrengthof wet
+
+1. concrete.
+Usedtoobtaincstimateofconcrete
+
+2. strengthof finished concreteelements.
+
+3. Adestructive test.
+
+4. A non-destructive test.
+Which of the above statementsis/are correct?
+(A) 2only
+(B) 1 and 3
+(C) 2and4
+(D) 3and4
+
+28. A solid shafthas length and diameterL'and
+‘D’ respectively. A hollow shaft of length Lh'
+externaldiameterD'，and internaldiameter
+‘d’'respectively.Both are of the same material.
+The ratiooftorsionalstiffness ofhollowshaft
+tothat of solid shaftis
+(A) 
+(B) [-(]会
+(C) -(]
+]
+(D) 29.
+Alive load 20 kN/m,6 m long,moves on a
+simplysupportedgirder AB 12mlong.For
+maximumbendingmomenttooccurat4m
+fromleftendA,wherewilltheheadofload
+be,as measured from A?
+(A) 4 m
+(B) 6m
+(C) 8m
+(D) 10 m
+Q-GUG-K-DFA
+
+30. A buildingwitha gabledroofwillexperience
+pressure on itsleeward slope whichis
+(A) Always positive
+t
+(B) Always negative
+(C) Sometimes
+positive
+and
+otherwise
+negative
+(D) Zero
+
+31. Thelive load for a sloping roof with slope 15°,
+where access is not provided to the roof,is
+taken.as
+(A) 0.65 kN/m2
+(B) 0.75 kN/m2
+(C) 1·35 kN/m2
+(D) 1·50kN/m2
+d
+’
+32..
+The
+battenplatesusedtoconnectthe
+r
+components ofabuilt-up column are designed
+t
+to resist
+(A) Longitudinal shearonly
+(B) Transverse shear only
+(C) Longitudinal shear and moment arising
+from transverse shear
+(D) Verticalshearonly
+
+33. The duration of any activity incase of aPERT
+programmeiscalculatedasawcighted
+averageof three timeestimates namely the
+optimistic time to,thepessimistic time tp and
+the mostprobab'e time tm,which is given as
+to+tm+4tp
+(A) a
+
+6. Or
+m
+(B) to + 4tm + tp
+ad
+6
+(C) 4to + tm + tp
+6
+(D) 3to+2tm+tp
+6
+-A)
+
+--- page 8 ---
+34.In ISMC 400 channels placed back to back|37
+at aspacing of26 cmcarry an axial load
+of 160 tonnes.Thc lacing system should be
+designed to resista transverse shear of
+(A) 16 tonnes
+12 tonnes
+(B) 
+(C) 8 tonnes
+(D) 4 tonnes
+
+35. Consider
+the
+statements
+following
+of
+network:
+
+1. Onlyone timeestimateis requiredfor
+each activity.
+38
+
+2. Three time estimates for eachactivity.
+
+3. Time and
+1costarebothcontrolling
+factors.
+
+4. Itisbuilt-up ofevent-oriented diagram.
+Whichof theabovestatementsarecorrectly
+applicable to CPM network?
+(A) 1 and3
+(B) 1and2
+(C) 2 and 4
+(D) 3and 4
+
+36. Ifasimplysupported
+dconcretebeam,
+prestressed with a force of 2500 kN, is
+designedbyloadbalancingconceptforan
+effectivespanof 10mand tocarryatotal
+loadof 40kN/m，thecentraldipof the
+cable profileshouldbe
+(A) 100 mm
+(B) 200mm
+(C) 300mm
+(D) 400mm
+Q-GUG-K-DFA
+(8-A
+
+37. Acircularshaftwhichhasa diameter of
+100^mm is subjected to a torque of 5 kN-m.
+The shear stress,in N/mm²,induced in the
+shaft would be
+160
+(A) π
+120
+(B) 元
+125
+(C) π
+80
+(D) π
+
+38. Match List Iwith List II and select the
+correct answer using the code given below
+the lists :
+ListI
+ListII
+(Type)
+(Recommended
+Slendernessratio)
+(A) Single angle
+
+1. 80-150
+in roof trusses
+(B) Double angles
+2.30-60
+in roof trusses
+(C) SingleI section
+3.100-180
+in columns
+(D) DoubleI section
+4.60-100
+in columns
+Code:
+A
+B
+C
+D
+(A) 3
+4
+1
+2
+(B) 2
+4
+1
+3
+(C) 3
+1
+4
+2
+(D) 2
+1
+4
+
+3. A)
+
+--- page 9 ---
+
+39. Flexibilitymatrix for abeam element is
+written in the form:
+[2
+5
+(A) =
+6EI
+5
+
+16. What is the corresponding stiffness matrix?
+[16
+5
+6EI
+(A) L3
+5
+2
+[16
+5]
+6EI
+(B) 7L3
+5
+2
+[16
+-5]
+6EI
+(C) L3
+-5
+2
+6EI
+16
+5
+(D) 7.L3
+5
+2
+
+40. Consider thefollowing.statementsrelating to
+structural analysis:
+
+1. Flexibility matrix and its transpose are
+equal.
+
+2. Elementsofmaindiagonalof stiffness
+matrixarealwayspositive.
+For unstable structures,coefficients in
+
+3. leadingdiagonal matrix canbe.negative.
+Whichof the above statements is/are correct?
+(A) 1,2 and 3
+(B) 1 and2only
+(C) 2and3only
+(D) 3 only
+Q-GUG-K-DFA
+
+41. Inthe above network,.the duration of
+activitiesarewrittenalong their arrows.The
+criticalpathof theactivitiesis along
+(A) 1-2-3-5-7-8
+(B) 1-2-3-6-7-8
+(C) 1-2-4-5-7-8
+(D) 1-2-3-4-5-7-8
+
+42. Flexibility matrixfor abeam elementis
+36
+6
+1
+[F]
+EI
+Whatisthe corresponding stiffness matrix
+[S]?
+36
+[S]
+IE
+(A) 63
+1
+6
+36
+
+9. EI
+(B) [S]：
+63
+6
+4
+4
+一
+9
+
+1. EI
+(C) [S]：
+二
+63
+9
+36
+
+9. I
+(D) [S]：
+二
+63
+9
+
+36. A)
+
+--- page 10 ---
+
+43. 46
+
+6. The.above figure indicates a project,network;
+thenumber at eachactivityrepresents its
+normalduration in days.The criticalpath is
+along
+(A) 1-2-3-6-7-8
+47
+(B) 1-2-4-5-7-8
+(C) 1-2-3-5-7-8
+(D) 1-2-4-6-7-8
+
+44. 4m
+1B
+5m
+TheRC slab,simply supported on all edges as
+in above figure,is subjected to a total UDL of
+48
+12 kN/m².The maximum shear force/unit
+length along the edge‘BC'is
+16 kN
+(A) 
+(B) 12 kN
+(C) 8 kN
+(D) 30 kN
+
+45. Consider.the following statements about the
+air entraining admixturein concrete:
+
+1. Improve workability
+
+2. Improve durability
+
+3. Reduce segregation duringplacing
+
+4. Decrease concretedensity
+Whichof the above statements are correct?
+(A) 1,2,3 and 4·
+(q)
+1 and 2only
+(C) 2 and3only
+(D) 3and 4only
+Q-GUG-K-DFA
+(10-
+
+46. Which one of the following is relevant to
+Activity on Node(AON)?
+(A) Dummy activities maybe many
+(B) There will be no dummy activities
+(C) It is used for quite complex project
+(P)
+It iseasier toassociate with time flow
+ofactivities
+
+47. Consider the following activities‘:
+
+1. Pouring of concrete
+
+2. Erection of formwork
+
+3. Curing of concrete
+
+4. Removalofformwork
+What is the correct sequence on a network of
+these activities?
+(A) 1-2-3-4
+(B) 2-1-4-3
+(C) 2-1-3-4
+(D) 1-3-·2-4
+
+48. A solidcircular shaftsubjected toatorque
+T produces maximum shear stress f,which
+isthe maximumprincipal value inthe
+materiai.The corresponding diameter·of the
+shaft should be
+n.f
+(A) 3. S
+16.T
+32.T
+(B) 3
+π.f
+π
+(C) 16.T.f
+16.T
+(D) n.f.
+(A) --- page 11 ---
+50kN
+
+49. A
+
+21. B
+2.5m
+2I
+10kN/m
+5m
+ThedistributionfactorsformembersAEand
+ACoftheboxsectionare
+(A) 0-5 and0.5
+(B) 0.6and 0.4
+(C) 0.25 and 0.75
+(D) 1. and zero
+50.‘A steel beam is replaced by a corresponding
+aluminiumbeamofsamecross-sectional
+shape and dimensions,and is subjected to
+same loading.The maximum bending stress
+will
+(A) Be unaltered
+(B) Increase
+(C) Decrease
+Varyinproportion totheirmodulusof
+(D) elasticity
+
+51. his
+Abuilding contractor discovers fromH
+record that in the last 200 slab castings his
+mixer machine broke down 21 times.During
+eachbreakdown,hehad topay on an average
+aboutRs.2,500for idlelabour.Astandby
+mixer machine,if hired on theday ofslab
+casting,would cost him Rs.200 per day. The
+expectedloss ismore thanthe mitigation
+expenseofhiring themixerby
+(A) Rs.151·50
+(B) Rs.241·50
+(C) Rs.262-50
+(D) Rs.283·50
+Q-GUG-K-DFA
+
+52. Consider the following statements:
+Admixturesare addedtoconcreteto
+
+1. Increase its strength.
+
+2. Reduce heat ofhydration.
+
+3. Delay the setting of cement.
+
+4. Reduce water-cementratio.
+Whichoftheabovestatementsis/arecorrect?
+(A) 1 only
+(B) 1 and 2
+(C) 2and3
+(D) 3and4
+
+53. A beam of symmetrical I-section,made of
+structuralsteelhasanoveralldepthof
+300 mm.If the flange stresses developed
+atthetopandbottomofthebeam are
+and 300 kg/cm2
+2respectively,
+1200kg/cm²
+then thedepthofneutralaxis from the top
+ofthebeamwouldbe
+(A) 250mm
+(B) 240mm
+(C) 200 mm
+(P)
+180mm
+f
+
+54. Consider the following statements:
+
+1. Strengthofconcretecubeis-inversely
+proportional towater-cementratio.
+
+2. Arich concrete mix gives ahigher
+bn
+strengththanaleanconcretemixsince
+y
+it has more cement content.
+
+3. Shrinkage cracks on concrete surface
+are due to excess water in mix.
+n
+Whichoftheabovestatementsis/arecorrect?
+(A) 1,2 and 3
+(B) 1 and 2 only
+(C) 2only
+(D) 2 and 3only
+-A)
+
+--- page 12 ---
+
+55. The loadcarrying capacity of acolumn
+58
+designed by working stress methodis 500 kN.
+Theultimate collapseloadof thecolumnis
+(A) 500kN
+(B) 662·5kN
+(C) 750kN
+(D) 1100 kN
+
+56. Consider thefollowing statements:
+
+1. The crushing strength of concrete is
+fullygovernedbywater-cementratio.
+59
+
+2. Vibrationhasnoeffectonstrength
+J0
+concrete athighwater-cementratios.
+
+3. Workabilityofconcreteisaffected
+by
+impropergradingofaggregates.
+Which of the above statements is/are correct?
+(A) 1,2 and 3
+(B) 2and3only
+(C) 2 only
+(D) 3only
+
+57. Consider the following statements regarding
+the slope of cost-time curve:
+1..It is given by difference between normal
+cost and crash cost divided by crash
+time.
+
+2. It is given by difference between crash
+costand
+normalcostdivided
+by
+60
+differencebetweencrashtime
+and
+normaltime.
+
+3. Itis givenbydifference.of crash cost
+andnormal cost divided by normal time.
+
+4. Itis given by crashcost divided by
+crash time.
+Which of the above statementsis/are correct?
+(A) 1 only
+(B) 2and3
+(C) 2 only
+(D) 3and4
+Q-GUG-K-DFA
+(12-A
+
+58. If P is the percentage of water required for
+determinationofnormal
+consistencyof
+cement，thenpercentage of water to be
+addedfordeterminationof initialsetting
+time is
+(A) 0.70P
+(B) 0·75P
+(C) 0.80 P
+(D) 0·85P
+
+59. Consider the following statements in work
+breakdownstructure:
+
+1. Itisa graphicalrepresentationofentire
+programme.
+
+2. The Top-Down approach to planning is
+adopted.
+
+3. The Down-Top approach to planning is
+adopted.
+
+4. It is suitable for complex projects.
+Whichof the above statementsis/arecorrect?
+(A) 1 only
+2and4
+(B) 
+(C) 3and4
+(D) 4 only
+
+60. Considerthefollowing statements:
+Entrainment of airin concrete is done so as to
+
+1. Increase theworkability.
+
+2. Increase the strength.
+
+3. Increase theresistance to freezing and
+thawing.
+Which of the above statementsis/are correct?
+(A) 1,2 and 3
+(B) 1 only
+(C) 1 and3only
+(D) 3only
+A}
+
+--- page 13 ---
+
+61. Consider thefollowing statements:
+
+65. 
+1. Inwork-breakdownstructure top-down
+approachis adopted.
+
+2. Bar-chart depicts interdependencies
+activities.
+
+3. Controlling canbebetter achievedin
+milestone chart.
+Which ofthe above statements are correct?
+(A) 1 and 3only
+(B) 1 and 2only
+(C) .2and3only
+
+66. (D) 1,2 and 3
+
+62. 4 kN-m
+4 kN-m
+4 kN-m
+C
+m
+2m
+A simply supported beam is loaded as in
+67
+figure.Thebending moment at C is
+(A) 4 kN-m (Sagging)
+(B) 4 kN-m (Hogging)
+(C) 8kN-m (Sagging)
+(D) Zero
+
+63. If theEulerload for a steelcolumnis10ookN
+and crushing load is 1500 kN,the Rankine
+load is equal to
+2500kN
+(A) 1500kN
+(q)
+1000kN
+(C) 600kN‘
+68
+(D) 64.
+Asimplysupportedbeamof T-sectionis
+subjectedtoauniformlydistributedload
+actingvertically downward.Its neutral axis is
+locatedat25mmfrom thetopoftheflange
+and thetotaldepthof thesectionis100mm.
+The ratioofmaximum'tensile stress to
+maximum compressive stress in the beam is
+(A) 2·0
+(B) 2·5
+(C) 3.0
+(D) 4·0
+Q-GUG-K-DFA
+(13
+
+55. A two-dimensional stress system has like
+stresses ox=100 N/mm²ando、=200N/mm²
+in two mutuailyperpendicular directions.The
+x,y co-ordinates of the centre of the Mohr's
+circle are
+(A) (0,150)
+(q)
+(150, 0)
+(C) (-50,0)
+(50,0)
+(D) 66.
+A cementbag contains 0.035 cubic meter of
+cement byvolume.Howmanybags will one
+tonne of cement comprise ?
+(A) 16
+(B) 17
+(C) 18
+(D) 20
+
+67. Consider thefollowing statements:
+
+1. Totalfloat can affect allactivitiesin the
+chain.
+
+2. Free float.canaffectonly thepreceding
+activities.
+
+3. Independentfloataffectsonlythe
+particular concernedactivity.
+Whichof the above statementsis/arecorrect?
+(A) 1 only
+(B) 1 and 2 only
+(C) 2 and3only
+(D) 1,2 and 3
+
+68. Consider thefollowing statements:
+
+1. Cambium layerisbetween sapwood and
+heartwood.
+
+2. Heartwood
+is
+otherwisetermed
+as
+deadwood.
+
+3. Timber used for construction is obtained
+fromheartwood.
+Whichofthe above statementsis/are correct?
+(A) 1,2 and 3
+(B) 2and3only
+1 and 2only
+(C) 
+(D) 2 only
+(A) --- page 14 ---
+
+69. Considerthefollowingstatements:
+
+1. The resources are considered to be
+unlimited.
+
+2. The resources are(
+consideredtobe
+limited.
+
+3. Thestarttimesof some of theactivities
+aresoshiftedwithintheiravailable
+floatsthattheuniformdemandis
+created for the resources.
+Whichof the above statements is/are correct?
+(A) 1 only
+(B) 1,2 and 3
+(C) 2and3only
+(D) 1 and 3only
+
+70. B
++25kN
+R
+-2L3L
+AprismaticbarABCis subjected to an axial
+load of 25 kN;the reactions RA and Rc will
+be
+(A) RA = -10 kN and Rc = -15 kN
+(q)
+RA = 10 kN and Rc=-35 kN
+(C) RA = -15 kN and Rc = -10 kN
+(D) RA = 15 kN and Rc = -40 kN
+
+71. The capacity of a single
+ISA 100x100x10mm as tension member
+connected by one leg only using 6 rivets of
+20mm diameter is
+(A) 333 kN
+(q)
+253kN
+238 kN
+(C) (P)
+210kN
+The allowable stress is 150 N/mm2.
+Q-GUG-K-DFA
+(14
+
+72. Consider the following statements:
+
+1. Strengthof brickmasonry isinfluenced
+be
+by typeofmortar.
+
+2. Brickmasonry with lime mortar achieves
+oe
+fullstrengthearlier thancementmortar
+masonry.
+es
+
+3. Mortar strength decides the strength of
+le
+masonry.
+is
+Whichof theabovestatementsis/are correct?
+(A) 1,2 and 3
+(B) 1'onily
+C
+(C) 1 and3only
+(D) .3only
+
+73. A single-acting reciprocating pump has a
+strokeof30 cm,speedof115rpm anda piston
+of 30cm diameter.Itdischarges.391.p.s.
+throughaheightof 15m.Theslipof the
+pumpis
+(A) 2.8%
+(B) 3·2%
+(C) 3·6%
+(D) .4.0%
+
+74. Consider thefoliowingstatementsforabeam
+of
+rectangularcross-section.anduniform
+1
+flexural rigidityEI subjected topurebending:
+二
+
+1. The bending stresses have the maximum
+magnitudeatthetopandbottomof the
+cross-section.
+
+2. Thebending stresses.vary linearly
+through thedepthofthecross-section.
+
+3. Thebending stresses varyparabolically
+through the depth ofthe cross-section.
+Which of the above statementsis/are correct?
+(A) 1,2 and 3
+(B) 1 only
+(C) 2only
+(D) 1 and 2only
+r
+
+75. If theload actingona commonly conventional
+sized RC column increases continuously from
+zero tohigher magnitudes,the magnitude of
+theuniaxialultimatemomentthatcanbe
+allowedon thecolumn
+(A) Increases
+(B) Decreases
+(C) Increases and then decreases
+(D) Remains constant
+(A) --- page 15 ---
+In'RCC beams, as the percentage areas of|81.
+
+76. tensile steel increases
+(A) Depth of neutral axis increases
+(B) Depth of neutral axis decreases
+(C) Depthofneutral axis doesnot change
+(D) Lever arm increases
+
+77. The
+eaveragecompressivestrengthofaburnt
+clay
+brick isless than 12·5 N/mm².The
+allowablerating ofefflorescenceis·
+(A) Moderate
+(B) Serious
+(C) Heavy
+(D) Zero
+
+78. Two
+beams carrying identical loads,simply
+supported,arehavingsamedepthbutbeamA
+
+82. has doublethewidthascompared to thatof
+beamB.Theratioof the strength ofbeam Ato
+thatofbeamBis
+1
+(A) 2
+1
+(B) 4
+(C) 2
+(D) 4
+
+79. Shear spanisdefinedasthezonewhere
+(A) Bending moment is zero
+(B) Shear force is zero
+(C) Shear forceisconstant
+(D) Bending momentis constant
+
+83. 
+80. If thehingedendofa proppedcantilever of
+spanLsettles by an’amount8，then the
+rotation of the hinged end will be
+(A) 8. L
+28
+(B) L
+38
+(C) 2L
+48
+(D) 3L
+Q-GUG-K-DFA
+(15-A
+
+31. Thecorrectstatementinrespect.ofa
+centrifugalpumpis
+varies
+in·direct
+(A) The
+discharge
+proportion to speed as also square of the
+diameter
+(B) The head varics as the square of the
+speedasa
+alsoofthesquareofthe
+diameter
+(C) The
+discharge
+varies
+in
+inverse
+proportionto speed as alsothe cube of
+thediameter
+(D) The power varies as the head and
+squareofthediameter
+
+82. Considerthefollowing statements:
+
+1. Brickslosetheir strengthby25%when
+soakedin water.
+
+2. Minimum crushing strengthof brick in
+buildings should be 35 kg/cm².
+
+3. The size ofmodular type bricks is
+20 cm ×10 cmx10cm including
+mortar thickness.
+Whichoftheabove statementsarecorrect?
+(A) 1,2 and 3
+(B) 1 and2only
+(C) 1 and 3 only
+(D) 2and3only
+
+83. Thelimitofproportionality in the material of
+a structural steel member,when subjected to
+simple tension,·is 280 N/mm2.The principal
+stresses in'the member are 01 = 122 N/mm2
+(Tensile)and 2 = 60 N/mm²(Compressive).
+μ=.0·3.According to maximum strain theory,
+thefactorofsafetyis
+(A) 2·5
+(B) 1·5
+(C) 2
+(D) 3.
+(A) --- page 16 ---
+
+84. P
+B
+What isthedeflectionatthehinge for the
+beam shown?
+(A) 0. P3
+(B) 3EI
+P3
+(C) 24EI
+P3
+(D) 48EI
+
+85. A belt designated as Hex bolt M 16 x 70.NL
+willhave
+(A) Diameter of16mm
+(B) Diameter of70mm
+(C) Length of 16 mm
+(D) Cross-sectional area of 16 x 70 cm2
+
+86. In the limit state method,balanced design
+of a reinforced concrete beam gives
+(A) Smallestconcrete section and maximum
+areaofreinforcement
+(B) Largest concrete section andmaximum
+areaofreinforcement
+(C) Smallestconcretesection andminimum
+areaofreinforcement
+(D) ·Largest concrete section and minimum
+areaofreinforcement
+Q-GUG-K-DFA
+(16
+
+87. 200
+200
+
+200. B
+
+200. Asquare element issubjectedtoprincipal
+stressesin·N/mma
+as in figure.The intensity
+of normal stress o,on plane BD is
+(A) 200√2
+(B) 100
+(C) 200
+(D) 0
+
+88. A
+crawler-tractorweighs9tonanda
+rubber-tyredtractorcapableofexertingthe
+samemaximumdrawbarpullweighs7.5ton.
+65%ofweightofthelatteriscarriedbythe
+twodriving wheels.Tractive coefficient for
+crawler track and rubber tyreisrespectively
+0.48and0.90.Which tractorismore suitable
+for
+use
+wheretherunningsurfaceis
+U
+concrete?
+(A) Crawler-tractor
+(B) Rubber-tyred tractor
+n
+(C) Either
+(D) Neither
+n
+
+89. The advantagein usingplywoodis that the
+(A) Tensile
+strengthisequalinall
+n
+directions
+(B) Higher
+tensilestrengthin
+longer
+direction
+n
+(C) Higher tensile
+estrength
+shorter
+direction'
+(P)
+Lower
+tensile
+strength
+in
+longer
+direction.
+-A)
+
+--- page 17 ---
+
+92. 
+90. Consider the following statements:
+If there is a state ofpure shearTatapoint
+then
+
+1. TheMohr'scircleistangentialtothe
+y-axis.
+
+2. The centre oftheMohr's circle coincides
+with the origin.
+
+3. Unlike
+principal
+1stresses
+are
+each
+numericallyequal to t.
+4.：
+Principal stresses are like.
+
+93. Whichofthe above statementsis/are correct?
+(A) 1 only
+(B) 1 and 2
+(C) 2 and3
+(D) 3and4
+2P
+
+91. 
+94. 45°
+45°
+B
+2L
+
+95. A simple plane truss acted upon by a load 2P
+at the apexAis shown.Theaxialforce in the
+memberABis
+(A) P
+(B) √2P
+√3
+(C) 2
+(D) √3P
+Q-GUG-K-DFA
+(17.-A
+
+2. A four-wheeltractorwhoseoperatingweight
+is13,000kgispulledalong ahaulroad
+havinga slope of 4%at auniform speedwith
+a rolling resistance of10kg/ton for 1% slope.
+The tension in the toe cableis 1105kg.The
+rollingresistance ofthehaulroadis
+(A) 35 kg/ton
+(B) 45kg/ton
+(C) 55 kg/ton
+(D) 65kg/ton·
+
+93. On a particular construction project,the
+contractor
+uo
+an
+average
+employed
+100 workers with 50 hours per week. The
+project lasted for 35 weeks and during this
+period,14 disabling injuries occurred. The
+injury-frequencyrate is
+(A) 6
+(q)
+7
+(C) 8
+(P)
+9
+
+94. The
+maximum
+percent
+of
+moment
+redistributionallowed inRCCbeams is
+(A) 10%
+(B) 20%
+(C) %08
+(D) 40%
+
+95. A structuralmember carryinga pull of 7o0kN
+is connected to a gusset plate using rivets of
+20mmdiameter.Ifthepullrequiredfor
+shearing the rivets,to crush the rivets and to
+tear the plateper pitchlengthare 60 kN,
+number ofrivetsrequired is
+(A) 12
+(B) 18
+(C) 20
+(D) 22. A)
+
+--- page 18 ---
+
+96. B
+Apointintwo-dimensionalstressstate
+subjected to biaxial stress is shown in figure.
+Whatis thenormalstressactingontheplane
+AB?
+(A) Zero
+(B) 
+(C) cos2 θ
+(D) sinθ.cos0
+
+97. 1·5 m
+不
+B
+mPmT
+LQLLL
+5m
+8m
+A three-hinged symmetricalarch is loaded as
+shown infigure.Which one of thefollowingis
+themagnitudeofthecorrecthorizontal
+thrust?
+
+4. P
+(A) 3
+(B) P
+(C) 3-4
+P
+(D) 3|
+P
+
+8. Q-GUG-K-DFA
+(18
+
+98. Whichoneofthefollowingstatementsis
+correct as regards tensile strength of wood?
+(A) Minimuminthedirectionparalleltothe
+grains
+(B) Maximumin thedirectionparallel to the
+grains
+(C) Maximum in the direction across the
+grains
+te
+(D) Sameinalldirections
+e.
+ne
+
+99. Consider
+the
+following
+characteristics
+·regarding timber:
+
+1. Stronger variety
+
+2. Ability to takevery smoothfinish
+
+3. Toughness
+
+4. Difficultto season
+Whichoftheabovecharacteristicsis/are
+essential for timber to be used asbeams?
+(A) 1 only
+(B) 2and.3
+(C) 3and4
+(D) 1and3
+as
+is
+al
+100.A unit of equipment costs Rs. 25 Lakh and
+hasa.lifeof5yearswithnosalvagevalue.
+Theaverage annualcost of this equipment.
+based on straight-line depreciation is
+(A) Rs.5Lakh
+(B) Rs.10 Lakh
+(C) Rs.15 Lakh
+(D) Rs.20 Lakh
+3-A)
+
+--- page 19 ---
+Directions:Each of thenexttwenty(20)items105
+consists‘oftwostatements,onelabelledasthe
+‘Assertion
+(A) 'and theotherasReason(R).Youare
+toexaminethesetwostatementscarefullyandselect
+theanswerstotheseitemsusingthecodesgiven
+below:
+Codes:
+(A) BothAandRarejndividuallytrueand
+R is the correct explanation of A
+(B) BothAandRareindividuallytruebut
+R is not the correctexplanation ofA
+(C) Ais true butRis.false
+
+106. Ais false but R is true
+(D) 101.Assertion
+(A) :A hollowcircular shaft has
+more
+power
+transmitting
+capacitythanasolidshaftof
+same
+material
+1and
+same
+weightper unitlength.
+
+107. Reason (R):
+In a circular shaft,shear stress
+developedatapointdueto
+torsion is proportional to its
+radial distance from the centre
+ofthe shaft.
+102.Assertion
+(A) :Load deflection characteristics
+ofafixedbeam subjectedto
+uniformlydistributedloadis
+10
+linear up to collapse.
+Reason (R):
+Except at the zones of plastic
+hinge,rest of the components
+are in the elasticrange.
+103.Assertion
+(A) :Lowheat cement is used in the
+constructionoflarge dams.
+Reason (R):
+Very
+high
+compressive
+strengthis achievedbylow
+10
+heatcementin28days.
+104.Assertion
+(A) :Higher strength is achieved
+when superplasticizer is added
+to cementconcrete mix.
+Reason (R):
+By addingsuperplasticizer,the
+quantityofmixingwateris
+reduced.
+Q-GUG-K-DFA
+.19-
+
+05.Assertion
+(A) :Inorder to.obtainhigher
+degreeofworkability
+in
+cement concrete,both water
+of
+contentandproportion
+cement should be increased.
+Reason (R):
+Increaseinwater-cementratio
+thestrength
+1of
+decreasest
+cement concrete;a mix with
+higher workability must have
+higher proportion of cement in
+it.
+106.Assertion
+(A) :The principle of superposition
+isvalidwheneverthestrainor
+stress tobe obtainedis directly
+proportionalto·theapplied
+loads.
+Reason(R):
+Strain energy depends on the
+product of stress and strain.
+107.Assertion
+(A) :Force method of analysis is'not
+convenient
+computer
+programming.
+Reason (R):
+Band
+width
+offlexibility
+larger
+matrix
+is
+much
+comparedtothatofstiffness
+matrix.
+108.Assertion
+(A) :The moment distribution and
+slope-deflectionmethodsof
+structural
+analysis
+are
+essentially stiffnessmethods.
+Reason (R):
+In the
+：momentdistribution
+method,the slope-deflection
+equationsaresolvedwithout
+writing themexplicitly.
+109.Assertion
+(A) :Compared
+to
+rectangular
+hollow section,circular hollow
+section possesses more plastic
+momentofresistanceover its
+yield moment.
+Reason (R):
+Circular hollowsection
+has
+highershape
+factor
+than
+rectangularhollow section.
+(A) --- page 20 ---
+110.Assertion
+(A) :Ina
+helically
+reinforced
+concrete column,the concrete
+coreissubjectedtotriaxial
+state of stress.
+Reason (R):
+Helicallyreinforced
+concrete
+columns
+are
+much
+very
+suitable
+for
+earthquake
+resistant structures.
+111.Assertion
+(A) :In the case of mild steel,the
+tensile strength(expressedas
+perunitarea)ofsmaller
+diameterbarsaremorethan
+that oflarger diameterbars.
+Reason (R):
+In thecaseofsmallerdiameter
+mild steel bars,the ratio of
+outerhardcoretototalarea
+(outer hard core + inner soft
+core)is more.
+112.Assertion
+(A) :The
+behaviour
+of
+an
+over-reinforced beam is
+more
+ductile
+than
+that
+of
+under-reinforced beam.
+Reason (R):
+Over-reinforcedbeam contains
+more steel and steel is more
+ductile than concrete.
+113.Assertion
+(A) :Activity-on-node
+network
+eliminatestheuseofdummy
+activities.
+Reason (R):
+Itis
+self-sufficient
+tasit
+contains allactivity times on
+the nodesitself.
+114.Assertion
+(A) :A‘dummy’job is assigned
+'zero'time toperform.
+Reason (R):
+It is used mainly to specify
+precedence relationship.
+115.Assertion
+(A) :The
+time-grid
+diagram
+facilitatestoreadoutthefloat
+for anyactivitybyinspecting
+thediagram.
+Reason (R):
+Inthe
+time-griddiagram,
+floats
+arerepresented
+by
+brokenhorizontallines
+as
+appropriate.
+Q-GUG-K-DFA
+{20
+
+ed
+d116.Assertion
+(A) :The probability ofcompletion
+ete
+ofa multi-pathproject at the
+ial
+expectedprojectcompletion
+duration is50%.
+ete
+ch
+Reason (R):
+Thestandarddeviatefor the
+ke
+critical path durationis zero.
+117.Assertion
+(A) :In the analysis of statically
+he
+determinateplanar trusses by
+as
+the method of joints,not more
+er
+thantwounknown bar forces
+an
+canbe determined.
+er
+Reason (R):
+There are only two equations
+of
+offorceequilibriumavailable
+ea
+oft
+foraco-planarconcurrent
+system.
+an
+118.Assertion
+(A) :A drag line is asuitable
+re
+equipment for excavating or
+of
+diggingearth anddepositingit
+on nearbybank.
+ns
+Reason (R) :
+In drag-line,there is no need of
+re
+a separatehaulingunit.
+k
+119.Assertion
+(A) :Mueller-Breslau principle is
+ny
+a mostwidely used method to
+determine
+qualitative
+it.
+influence
+lines
+in
+an
+on
+indeterminate structure.
+Reason (R):
+Thedetermination
+the
+qualitativeinfluencelines is
+ed
+often
+of
+great
+value
+in
+ascertaining themost severe
+fy
+stressesatspecifiedsectionsof
+a structure.
+m
+at
+120.Assertion
+(A) :Losses
+in
+prestress
+in
+g
+pre-tensioned beams are more
+than
+the.losses
+in
+0,
+post-tensioned beams.
+ey
+Reason (R):
+This is partiallydue tothe
+effectofelasticshortening.
+-A )
+
+--- page 21 ---
+ROUGHWORK
+(A) --- page 22 ---
+ROUGH WORK
+(A) --- page 23 ---
+ROUGHWORK
+(A) --- page 24 ---
+ROUGH WORK
+4 - A )

@@ -63,7 +63,9 @@ def _ensure_model() -> None:
 
 
 @app.cls(
-    # CPU first so deploy works without a GPU card; switch to gpu="T4" after Modal billing is added
+    # Free credits ($30/mo) apply after a payment method is on file.
+    # Until then Modal blocks GPU with: "add a payment method to use T4".
+    # Set gpu="T4" (and remove cpu/memory) once billing is linked — same free credits cover training + inference.
     cpu=4,
     memory=8192,
     timeout=60 * 15,

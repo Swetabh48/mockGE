@@ -8,11 +8,17 @@ datasource db {
 }
 
 model Paper {
-  id           String     @id @default(cuid())
-  title        String
-  tier         String
-  source       String     @default("seed")
-  difficulty   String     @default("hard")
+  id             String     @id @default(cuid())
+  title          String
+  tier           String
+  /// "ssc_cgl" | "ies_civil"
+  exam           String     @default("ssc_cgl")
+  /// "ce_paper1" | "ce_paper2" | null (IES only)
+  iesPaper       String?
+  /// PYQ calendar year (IES)
+  year           Int?
+  source         String     @default("seed")
+  difficulty     String     @default("hard")
   mode           String     @default("full_mock")
   focusSection   String?
   focusTopic     String?
@@ -21,30 +27,37 @@ model Paper {
   questions      Question[]
   attempts       Attempt[]
   destPassage    String?
+
+  @@index([exam, mode])
+  @@index([exam, year, iesPaper])
 }
 
 model Question {
-  id            String   @id @default(cuid())
-  paperId       String
-  paper         Paper    @relation(fields: [paperId], references: [id], onDelete: Cascade)
-  qIndex        Int
-  sectionKey    String
-  subject       String
-  topic         String
-  subtopic      String?
-  difficulty    String   @default("medium")
-  stemEn        String
-  stemHi        String?
-  optionA       String
-  optionB       String
-  optionC       String
-  optionD       String
-  correctOption String
-  explanation   String?
-  trick         String?
-  marks         Float    @default(2)
-  negativeMarks Float    @default(0.5)
-  source        String   @default("seed")
+  id                String   @id @default(cuid())
+  paperId           String
+  paper             Paper    @relation(fields: [paperId], references: [id], onDelete: Cascade)
+  qIndex            Int
+  sectionKey        String
+  subject           String
+  topic             String
+  subtopic          String?
+  difficulty        String   @default("medium")
+  stemEn            String
+  stemHi            String?
+  optionA           String
+  optionB           String
+  optionC           String
+  optionD           String
+  correctOption     String
+  explanation       String?
+  trick             String?
+  /// Long textbook-style solution (IES / enriched)
+  solutionDetail    String?
+  /// JSON array of citation strings from textbook RAG
+  solutionCitations String?
+  marks             Float    @default(2)
+  negativeMarks     Float    @default(0.5)
+  source            String   @default("seed")
 
   @@index([paperId, qIndex])
   @@index([paperId, sectionKey])

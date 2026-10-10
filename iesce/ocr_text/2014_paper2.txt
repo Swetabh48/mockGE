@@ -1,0 +1,1733 @@
+
+--- page 1 ---
+DONOTOPENTHISTESTBOOKLETU
+T.B.C.:B-DMHH-N-DFB
+Serial
+TESTBOC
+EEDEt
+CIVILENGI
+PAPEI
+TimeAllowed:TwoHours
+INSTRUCT
+
+1. IMMEDIATELYAFTERTHECOMMENCEMENTOF
+THISTESTBOOKLETDOESNOTHAVEANYUNP
+ETC.IFSO,GETITREPLACEDBYACOMPLETETE
+
+2. Pleasenote thatitisthecandidate'sresponsibili
+Booklet Series Code A,B,C or D carefully ar
+appropriateplacesin theOMRAnswerSheet.A
+Sheetliable forrejection.
+
+3. YouhavetoenteryourRollNumberonthe
+TestBookletintheBoxprovidedalongside.
+DONOTwriteanythingelseontheTestBooklet
+
+4. This TestBooklet contains 120 items(questions).1
+willselecttheresponsewhichyouwanttomarko
+morethanonecorrectresponse,marktherespons
+ONLYONEresponseforeachitem.
+
+5. Youhavetomark allyourresponses ONLYon th
+in the Answer Sheet.
+
+6. Allitems carry equal marks.
+
+7. Beforeyou proceed to markintheAnswer Sheet
+youhavetofillinsomeparticularsintheAnswe
+Admission Certificate.
+
+8. Afteryouhavecompletedfillinginallyourrespon
+concluded,you shouldhandover totheInvigilat
+takeawaywithyou theTestBooklet.
+
+9. SheetsforroughworkareappendedintheTest'B
+
+10. Penaltyforwronganswers:
+THEREWILLBEPENALTYFORWRONGANSWE
+(i)
+Therearefouralternativesfortheanswertoever
+has been given by the candidate,one-third(
+deducted aspenalty.
+(i)
+Ifa candidategivesmore than oneanswer,it will
+answers happens tobe correct and there will be s
+(ii)
+If a question is left blank,i.e.,no answer is giv
+question.
+DONOTOPENTHISTESTBOOKLETU
+B-DMHH-N-DFB
+(1-A
+
+E!G'EERINGSERVICES
+EXAMiAIION-2014
+TUNTILYOUAREASKEDTODOSO
+TestBookletSeries
+DOKLET
+INEERING
+ERII
+MaximumMarks:200
+CTIONS
+OFTHEEXAMINATION,YOUSHOULDCHECKTHAT
+NPRINTEDORTORNORMISSINGPAGESORITEMS,
+TESTBOOKLET.
+oilitytoencodeandfillintheRollNumberandTest
+and without any omission or discrepancy at the
+：Anyomission/discrepancywillrender theAnswer
+let.
+s).Eachitem comprisesfourresponses(answers):You
+kon theAnswerSheet.Incase,you feel that.there is
+onsewhichyou consider thebest.Inanycase,choose
+the separateAnswer Sheetprovided.Seedirections
+ettheresponsetovariousitemsintheTestBooklet,
+swerSheetasperinstructionssenttoyouwithyour
+ponsesontheAnswerSheetand theexaminationhas
+latoronlytheAnswerSheet.Youarepermittedto
+Booklet atthe end.
+WERSMARKEDBYACANDIDATE.
+everyquestion.Foreachquestionforwhichawronganswer
+d (0-33) of the marks assigned to that question will be
+willbetreatedasawronganswerevenif oneof thegiven
+besamepenaltyasabovetothatquestion.
+given by the candidate,there will be no penaltyfor that
+TUNTILYOUAREASKEDTODOSO
+-A)
+
+--- page 2 ---
+
+1. The standard
+datmosphericpressure
+is
+101·32kPa.Thelocalatmosphericpressure is
+91.52kPa.If a pressure ata flowpath is
+recorded as 22·48kPa(gauge),it is equivalent
+to
+(A) 69·04kPa (abs)
+(B) 88·84kPa (abs)
+(C) 114·0kPa (abs)
+(D) 123·0 kPa (abs)
+
+2. A rectangular pontoon has a width of 6 m,a
+lengthof 12m,andadraughtof 1.5m in
+fresh water (density = 1000 kg/m). Its
+draught insea water havingdensityof
+1025 kg/m? is
+(A) 1·04 m
+(B) 1·24 m
+(C) 1·46 m
+(D) 1·50m
+
+3. Thevelocitydistributioninalaminarflow
+u = 3·0 sin (5πy).The viscosity of the fluid is
+5poise.Whatis the shear stress at a section
+(i)y =0.05m;(ii)y=0·12 m?
+(A) 16.7 N/m² and 6·1 N/m2
+(B) 33-4 N/m² and Zero
+(C) 16·7 N/m2 and 12·3 N/m2
+(D) 16.7 N/m2 and Zero
+B-DMHH-N-DFB
+(2
+
+is
+
+4. Ahorizontalventurimeterwithinletdiameter
+is
+of30cmandthroatdiameterof15cmisused
+is
+tomeasure theflowofwater.Thereadingon
+nt
+adifferentialmanometerconnectedtothe
+inletandthe throatis20cmofmercury.If
+Ca= 0·98,the rate of flowis nearly
+(A) 12·5 l/s
+(B) 25 l/s
+(C) 125 l/s
+(D) 250l/s
+a
+
+5. In order to estimate theenergy loss in a
+in
+pipelineof1mdiameterthroughwhich
+ts
+keroseneofspecificgravity0·80 anddynamic
+of
+viscosity 0·02 poise is to be transported at the
+rate of 2 m?/s, model tests were conducted on
+a 0·1 m diameter pipe using water at 20°C.If
+theabsoluteviscosityofwaterat20°Cis
+1-00 × 10-2 poise, then the discharge required
+forthemodelpipewouldbe
+(A) 60l/s
+(B) 80l/s
+W
+(C) 120l/s
+oy
+(D) 160l/s
+is
+on
+
+6. For
+rahydraulicallyefficientrectangular
+channelof bedwidth 5 m,the hydraulic
+radius is equal to
+(A) 2.5m
+(B) 1·25 m
+(C) 5m
+(D) 2m
+2-A).
+
+--- page 3 ---
+
+7. A two-dimensionalwaterjet strikesafixed
+two-dimensionalplateat30°tothenormal to
+the plate.This causes thejet to splitinto two
+streamsinwhichtheratiooflargerdischarge
+tosmallerdischargeis
+(A) 14·0
+(B) 3-0
+(C) 2.0
+(D) 1·0
+
+8. A triangularopen channelhas avortexangle
+of90°andcarries flowatacriticaldepth of
+0·3m.The dischargein the channelis
+(A) 0·41 m3/s
+(B) 0-11'm%/s
+(C) 0.21 m%/s
+0·31 m%/s
+(D) 9.
+At a hydraulic jump,the depths at the two
+sidesare0·3mand1·4m.Theheadloss in
+thejump isnearly
+(A) 1.0m
+(B) 0.95m
+(C) 0.79m
+0.45m
+(D) 10.·Itisexpectedthatduetoextreme cold
+weather,the entire topsurface of canal
+carryingwater willbe coveredwithice sheet
+for some days.If the discharge in the canal
+weretoremainunaltered,thiscondition
+wouldleadto
+(A) No changeinthedepthofflow
+(q)
+Decreaseinthedepthofflow
+(C) Graduallydecreasingflow
+(D) Increaseinthedepthofflow
+B-DMHH-N-DFB
+(3-A
+
+11. Considerthefollowingstatementsregardinga
+graduallyvariedflowinaprismatic.open
+channel:
+
+1. Totalenergylineremainsparallelto the
+watersurface.
+
+2. Therateofenergyloss atthe sectionis
+inverselyproportionaltodwheredis
+flowdepthwithindexx.
+
+3. In analyzing the flow,the energy
+equationofflowisnotapplicable.
+
+4. Pressuredistributionateverysection
+canbe assumed tobehydrostatic.
+Whichof theabovestatements arecorrect?
+(A) 1 and 4
+(B) 2 and4
+(C) 1and2
+(D) 2and3
+
+12. In alaminarflow throughacircularpipeof
+diameter 200 mm,themaximumvelocityis
+found tobe 1 m/s.Thevelocityataradial
+distance of50 mm from the axis of thepipe
+will be
+0.50m/s
+(A) 
+(B) 0-25m/s
+0·75m/s
+(C) 
+(D) 1·25m/s
+
+--- page 4 ---
+13.A liquid of density p and bulk modulus K
+flowswithameanvelocityVinalongrigid
+pipe of diameter D.A suddenclosure of a
+valveatthedownstreamendofthepipewill
+produceamaximumwaterhammerheadof
+V√
+(A) g√K
+A
+(B) P√K
+V√K
+(C) g√p
+Vp
+(D) √gK
+14.A centrifugal pump lifts 100 l/s of a liquid
+against a net head of 150 kPa. The brake
+powerrequiredis18·0kWwhentheliquidis
+water with a specific weight of 9·8 kN/m3.
+Whatwouldbethebrakepoweriftheliquidis
+asolventhavingarelativedensityof
+0.8insteadofwater,withallotherfactors
+remainingthe same asbefore?
+(A) 14·4 kW
+(B) 18·0kW
+(C) 22.5kW
+(D) 17·2kW
+
+15. For circular cylinders,with Reynolds number
+greater than1000,how would the Strouhal
+numberbehave?
+.1
+(A) Varies as Re6
+1
+(B) Varies as Re4
+(C) Almost~0·16
+(D) Constantat0-21
+B-DMHH-N-DFB
+
+K
+
+16. A centrifugalpumphasitsimpellerof50cm
+id
+diameter atinlet,andit rotates at1200rpm.
+a
+Thetangentialvelocityof theimpeller atthe
+ill
+inletis
+(A) 16πm/s
+(q)
+10πm/s
+(C) 12πm/s
+(D) 100πm/s
+17..The following data were noted from an
+irrigation field :
+
+1. Fieldcapacity=20%
+
+2. Permanentwiltingpoint=10%
+
+3. Permissibledepletionofavailablesoil
+id
+moisture=50%
+ke
+is
+
+4. Dry unit weight of soil = 15 kN/m3
+3
+
+5. Effectiverainfall=50mm
+is
+of
+The
+enetirrigationrequirementpermetre
+depthofsoilwillbe
+rs
+(A) 75mm
+(B) 125mm
+(C) 50mm
+(D) 25mm
+
+18. In a Francis turbine, the runner blades are
+er
+radialattheinlet and thedischargeleaves
+al
+therunner radiallyattheexit.Forthis
+turbine
+(A) Therelativevelocityisradialatthe
+outlet
+(B) Theabsolutevelocity isradialat the
+outlet
+(C) Theguidevane angleis90°
+(D) Thevelocityofflowisconstant
+4÷A)
+
+--- page 5 ---
+
+19. Considerthefollowingstatements:
+
+21. 
+1. Thenormalannualrainfallof a station
+isobtainedas the arithmeticaverage of
+the successive annual rainfall in the
+last 30 years.
+
+2. The “normal rainfalls”are updated by
+deletingtheneedfulnumberofoldest
+years’data from the record and adding
+theneedfulnumberof mostrecent
+years'datato therecord.
+
+3. Thestandarddeviationcomputed for
+therainfall of thesame 30years of
+rainfall data is taken as a measure of
+22
+thevariabilityoftherainfallduring the
+self-same setofyears.
+
+4. If the observedrainfallin anyyear is
+less than the current normalannual
+rainfall,then that year is called a dry
+year.
+Which ofthe above statements are correct?
+(A) 1,2,3 and 4
+(B) 1,2 and 3 only
+(C) 2 and 4 only
+(D) 1,3 and 4 only
+23
+
+20. The double mass analysis is adopted to
+(A) .Estimate the missing rainfall data
+Obtainintensities ofrainfall atvarious
+(B) durations
+(C) Checktheconsistencyofdata
+(D) Obtain theamountof storage needed to
+maintainademandpattern
+B-DMHH-N-DFB
+(5-A
+
+21. The successive annualrainfall magnitudes at
+aplace for aperiodof 10yearsfrom 2001 to
+2010,both inclusive,are 30·3,41·0,33·5,34·0,
+33·3,36·2,33·6,30·2,35·5and36·3cm.The
+meanandmedianvaluesofthisannual
+rainfall series are,respectively
+(A) 33·8cmand34·39cm
+(B) 34·39cmand33.8cm
+(C) 34·39cmand40·2cm
+(D) 33-8cm and40.2cm
+
+22. Thepeakmagnitudeofafloodhydrograph
+during4-hr studyduration over a catchment
+is 300 m3/s.The total depth of rainfall is 6 cm;
+andtheinfiltrationlossduring the said4-hr
+periodis 2cm.A constantuniformbase flow
+of 20 m/s is premised throughout. The peak
+valueof·the
+corresponding4-hrunit
+hydrograph is
+(A) 75 m3/s
+70 m/s
+(B) 50 m%/s
+(C) 40 m3/s
+(D) 23.
+The rainfall on 5 successive days in a
+catchment was 2,7,8,4 and 3 cm.If the Φ
+indexfor thestormis3cm/day,thetotal
+directrunoffvolumegeneratedfroma
+195 km² catchment is
+(A) 19·5 M m3
+23·4 M m3
+(q)
+15-6 M m3
+(C) 
+(D) 32.5Mm3
+(A) --- page 6 ---
+24.The best estimate of runoff represented by
+57mmofrunoffdepthfromabasinare8
+2
+3300kmisnearly
+(A) 2300 cumec-days
+(B) 2225cumec-days
+(C) 2175cumec-days
+(D) 2020 cumec-days
+
+25. Theprobabilityofa10-yearflood tooccurat
+least once inthe next5years is
+(A) 35%
+(B) 41%
+(C) 60%
+(D) 65%
+
+26. Thatextremeflood thatisphysicallypossible
+inaregionfrom a severe-most combination
+includingrarecombination ofmeteorological
+andhydrologicalfactors,isdesignated asthe
+(A) Design flood
+(q)
+Standardprojectflood
+(C) Probablemaximumflood
+(D) Flash flood
+
+27. When 3·5 million m? of water was pumped out
+from an unconfined aquifer of 6·3 km2 :
+areal
+extent, the water table was observed to go
+downby.2·5m.Thespecific yieldof the
+aquiferisbestapproximated as
+(A) %78
+(B) 28%
+(C) 25%
+(D) %77
+B-DMHH-N-DFB
+(6
+
+by
+
+28. For an irrigated field having:Field capacity
+rea
+=30%，Permanent
+twiltingpoint=10%,
+Permissibledepletion ofavailablemoisture
+= 40%, Dry weight of soil = 14.70 kN/m3, Unit
+weight of water. = 98 kN/m? and Effective
+rainfall=30 mm,what is the net irrigation
+requirementpermeterdepthofsoil?
+(A) 300mm
+(B) 150mm
+(C) 120mm
+(D) 90mm
+at
+
+29. A lift irrigation scheme using a discharge of
+96 m/hris planned to raise a cropwith an
+averageof0-375m.Intensity ofirrigationis
+60%.Assuming 3600hours ofworkingof the
+tubewell for ayear,the culturable command
+areais
+(A) 96Ha
+(B) 48Ha
+ble
+(C) 144Ha
+on,
+(D) 120Ha
+ical
+
+30. Afieldmeasures40hectares.When8cumecs
+le
+ofwater wassuppliedfor6hours,30cm of
+water was stored in theroot zone.The field
+applicationefficiencyisnearly
+(A) 70%
+(B) 80%
+(C) 85%
+(D) %06
+
+31. Adirectrunoffhydrographdue toastorm
+out
+idealized intoatriangularshapehasapeak
+eal
+flow rate of 60 m3/s occurring at 25 hours
+go
+from its start.If thebase widthof this
+the
+hydrograph is 72 hours,and the catchment
+area is 777-6 km², the runoff from the storm
+is
+(A) 1cm
+(B) 2cm
+(C) 5cm
+(D) 10cm
+(6-A)
+
+--- page 7 ---
+32.'A tubewell of 30 cm diameter penetrates fully
+
+35. into an artesian aquifer. The strainer length
+is15m.Theyieldfrom thewellundera
+drawdownof3mthroughtheaquifer
+consistingofsandofeffective sizeof 0·2mm
+and·coefficientofpermeabilityof 50m/day,
+withradius ofdrawdownof150m,isnearly
+(A) 240U/s
+(q)
+120 /s
+(C) 24 I/s
+12 l/s
+(D) 36.
+33.An unconfined aquifer of porosity35%,
+permeability 40 m/day,and specific yield of
+0·15 has an area of 100 km2. If the water
+tablefallsuniformly throughouttheaquifer
+area by 0·2m during a drought,the volume of
+waterlostfromstorageis
+(A) 1.5Mm3
+(B) 3·0 Mm3
+(C) 7.0 Mm3
+8-0Mm3
+(D) 34.
+Groundwaterflowsthroughanaquiferwitha
+cross-sectionalarea of 1·0x104m2
+and
+
+37. lengthof1500m.Hydraulicheadsare300m
+and250m atthegroundwaterentry andexit
+points in the aquiferrespectively.Ground
+waterdischargeinto streamis at therate of
+1500
+m/day. The corresponding hydraulic
+conductivityof thisaquiferwill be
+(A) 3.5 m/day
+(B) 4·5m/day
+(C) 5.0m/day
+(D) 5.5m/day
+B-DMHH-N-DFB
+（7-A）
+
+35. Consider a wide rigid-boundary canalwith
+bed slope of 0·004,Manning's n =0·18,and
+depthofflow=0·88m.Theaverageboundary
+shear stress will be
+(A) 17-2 N/mm²
+(B) 18.2N/mm
+(C) 19.2 N/mm2
+(D) 16-2N/mm
+2
+
+36. If thedirectionofadvanceofastormisthe
+sameasthedirectionof theresultingrunoff
+in the drainage basin, such runoff will
+generally
+(A) Bemorethanthe‘rational’runoff
+throughashorttime
+(q)
+Resultinincreasedinfiltration through
+a shorttime
+Be
+less
+thanthe‘rationalrunoff
+(C) througha shorttime
+(D) Resultinincreased evaporation,as also
+transpiration,loss
+
+37. In aLacey regime channel:
+The bed load is.zero.
+
+1. The suspended load is zero.
+
+2. 
+3. Thebed slope isafunction of the full
+supply discharge and the silt size.
+Whichofthe above statementsis/arecorrect?
+(A) 1 and 2
+(q)
+3only
+(C) 2and3
+(D) 2only
+(A) --- page 8 ---
+38.A regime canal carries silt of median size
+0.25 mm.The Lacey's silt factor ofthis silt is
+(A) 0·66
+(B) 0.88
+(C) 0·44
+(D) 0·22
+
+39. A channel designedbyLacey's theory has8
+-velocityof 0·88m/sec.The silt factor is1·1
+Thenhydraulicmeandepthwill be
+(A) 1·95m
+(B) 1.76m
+(C) 1.63m
+(D) 1·50m
+40.At the base of a gravity dam section, the
+verticalstressatthetoewasfoundtobe
+2.4MPa.If thedownstreamfaceofthedam
+has a slope of0.707horizontal:1vertical,and
+ifthere is notailwater,the maximum
+principal stressatthetoeofthedamis
+(A) 1.7MPa
+(B) 2·4MPa
+(C) 3.6MPa
+4.8MPa
+(D) B-DMHH-N-DFB
+(8
+
+size
+
+41. Thetopwidthand thebottomwidthatriver
+is
+thalweglevelofaconcretegravitydamare
+6m and 24 m respectively.The vertical
+sectionofthedamatthethalwegalignmentis
+38m above the thalweg.Theupstreamface is
+verticalandthedepthofwateronthe
+upstreamside is36m.The moment of
+hydrostaticforceabout thetoe atthatlevelis
+(A) 77760 kN-m
+(q)
+25292kN-m
+(C) 6480kN-m
+(D) 51840kN-m
+sa
+1-1.
+
+42. Whichofthefollowingoutletsareof
+semi-modular type?
+
+1. Khanna's module
+
+2. Adjustableproportionalmodule
+
+3. Submergedpipe outlet
+
+4. Openflume outlet
+
+5. Kennedy's gauge outlet
+(A) 2,4 and 5
+(B) 1,2 and 4
+the
+be
+(C) 2,3 and 5
+am
+(D) 3,4 and 5
+and
+um
+
+43. If the channel index at anirrigation outlet is
+5/3,“setting”of an orifice type outlet in order
+to have proportionality is
+(A) 06·0
+(B) 0.67
+(C) 0·30
+(D) 0.15
+(8-A)
+
+--- page 9 ---
+
+44. The totalhardnessvalueobtainedfrom the
+46
+completeanalysisofa‘watersamplewas
+found tobe120 mg/l.If the value ofcarbonate
+hardness is 50 mg/l, the non-carbonate
+hardness and alkalinity are,respectively
+(A) 170 mg/l and 70 mg/l
+(B) 170 mg/l and50 mg/l
+(C) 70 mg/l and 50 mg/l
+(D) 50 mg/l and 70 mg/l
+
+45. Populationlevelsover 5decadesofasmall
+4
+town are given below.
+Year
+Population
+1960
+2,50,000
+1970
+2,80,000
+1980
+3,40,000
+1990
+4,20,000
+2000
+4,90,000
+The population of thetown in theyear 2020
+estimatedbyArithmeticIncreasemethodwill
+be
+(A) 5,10,000
+(q
+5,90,000
+(C) 6,10,000
+(D) 6,90,000
+B-DMHH-N-DFB
+(9-A
+
+46.The dissolved oxygen in a water sample is
+generallyestimatedbymodifiedWinkler
+method.Accordingly,approximately 200 ml
+volumeofdissolved-oxygen-fixedsolution
+shallbetitratedwith
+(A) Sodiumthiosulphatereagentusing
+solublestarchasanindicator
+(B) Sodium thiosulphate reagent using
+ferroin as anindicator
+(C) Ferrousammoniumsulphatereagent
+usingsoluble starch asanindicator
+(D) Ferrousammoniumsulphatereagent
+usingferroin asanindicator
+47.A water treatment plant treats 6000 m? of
+waterperday.Ifit consumes20kgchlorine
+per day,then the chlorine dosage wouid be
+(A) 3·00mg/l
+(B) 3.75 mg/l
+(C) 4·25 mg/l
+(D) 3·33mg/l
+
+48. When a turbid stream flows into the ocean,
+theionic contentof the water increases
+drastically. This causes coagulation and
+settlingwhichleadstoformationofdeposits
+(deltas).Such coagulation mechanism is
+called
+(A) Adsorptionandchargeneutralization
+(B) Interparticle bridging
+(C) Ioniclayercompression
+(D) Sweepcoagulation
+(A) --- page 10 ---
+49.A rapid sandfilter foratown withwater
+requirementof 1MLDistobeprovidedwith
+rate of filtration at 4000 l/hr/m²,with
+.backwashsystem.Whatwouldbethesizeof
+thefilter anditsunderdrainagesystemtothe
+nearest approximation?
+(A) 10 and 0·032 sq.m
+(B) 11 and 0.022 sq.m
+(C) 12 and 0.045 sq.m
+(D) 15 and 0.062 sq.m
+
+50. Consider thefollowing statementsinrespect
+ofinjectingchlorinebetweenrapid sandfilter
+and storage tank:
+
+1. More contacttimeisavailable.
+
+2. Chlorinedemandisreduced.
+
+3. NHClzis formedwhichismore effective
+.than residual chlorine.
+
+4. Breakpointchlorination takesplace.
+Which ofthe above statements are correct?
+(A) 1,2,3 and 4
+(B) 1,2 and 3 only
+(C) 1 and 2 only
+(D) 3 and 4 only
+
+51. Whatisthesettlingvelocityofadiscrete
+particleinawidebodyofwaterwhenthe
+relevant Reynolds number isless than
+0.5？Thediameterandspecificgravityofthe
+particle are 2 × 10-3 cm and 2·65, respectively.
+Watertemperatureis20°C.(Kinematic
+viscosity = 2 x 10-2 cm2/sec.)
+(A) 0.018cm/sec
+(B) 0-025cm/sec
+(C) 0-18cm/sec
+(D) 0.25cm/sec
+B-DMHH-N-DFB
+(10
+
+er
+
+52. If thelength dimensionofa squarefilter bed
+th
+increases to two times (while the rate of
+th
+filtration remains unchanged), the amount of
+of
+waterfilteredwouldbecome
+he
+(A) 4times
+(B) 2times
+(C) 1 time
+(D) 16 times
+ect
+
+53. If the average sewage from a city is
+er
+95x1061/day and the average 5-dayBOD is
+300mg/lagainst a standardof 75mg/day per
+capita at20°C,then thepopulation equivalent
+of the city will be
+ve
+(A) .28,500
+(B) 285x106
+(C) 3,80,000
+(D) 380×106
+
+54. As per Manual on Sewerage and Sewage
+Treatment,Central Public
+Healthand
+te
+Environmental’Engineering
+Organization,
+he
+Ministry ofUrban Development,Government
+an
+ofIndia,when a sewer connects with another
+he
+sewerhavingadifferenceof600mminlevel
+ly.
+between the water lines (peak flow levels)of
+tic
+mainline and the invertlevel of branchline,
+the connectionmay beprovidedusinga
+(A) Sideentrancemanhole
+(B) Junctionmanhole
+(C) Flushingmanhole
+(D) Drop manhole
+10-A)
+
+--- page 11 ---
+55.In an aerobic attached-culture system,the
+59
+biomasspresentatthebiofilm-medium
+surfaceinterface experiences
+(A) Aerobicandendogenousmetabolism
+(B) ·
+Anaerobic and exogenousmetabolism
+(C) Anaerobic andendogenousmetabolism
+(D) Aerobic and exogenousmetabolism
+56.A sewage sludgehas a water content of 99%.
+Whatwill be the concentration of suspended
+solids in the sludge?
+(A) 10 mg/l
+(B) 100 mg/l
+(C) 1000 mg/l
+(D) 10,000 mg/l
+
+57. Considerthefollowingstatements:
+
+1. Thequality‘ofwastewater
+is
+determinedon thebasisofDO.
+
+2. The BOD test is based on DO.
+
+3. Determination
+of
+DO
+helps
+in
+controllingcorrosion.
+Which ofthe above statements are correct?
+(A) 1,2 and 3
+(B) 1and2only
+(C) 1and3only
+6
+(D) 2and3only
+
+58. The major source of‘Carbon monoxide'in the
+urban atmosphereisdueto
+(A) Decomposition oforganics
+(B) Chemicalreaction between VOC and
+NOx
+(C) Incompletecombustionoffuel
+!
+(D) Incomplete combustionin thepresence
+ofsunlight
+B-DMHH-N-DFB
+（11
+
+59. Consider the followingstatementsrelating
+zonesof atmosphere to altitude:
+
+1. Temperaturedecreaseswithaltitudein
+troposphere.
+
+2. Speedofsounddecreaseswithaltitude
+introposphere.
+
+3. Temperatureincreaseswithaititudein
+stratosphere.
+
+4. Ozone is presentin stratosphere which
+protectspeoplefromharmfuleffectsof
+solarradiation..
+Whichof the above statements are correct?
+(A) 1,2 and 3 only
+(B) 1,2 and 4 only
+(C) 3 and 4 only
+(D) 1,2,3 and 4
+
+60. The principle involved in collection and
+samplingofparticulatematterinwhichthe
+particlesaredrawnthroughadeviceby
+deflecting them fromtheiroriginal pathsis
+called
+(A) Filtration
+(B) Electrostaticprecipitation
+(C) Impaction
+(D) Gravitationalsettling
+-A)
+
+--- page 12 ---
+61.A soil sample has a void ratio of 0·5; its
+porosity will be
+(A) 50%
+(q)
+%99
+(C) 100%
+(D) 33%
+62.A sample of sand has a volume of 1000 ml in
+its natural state.Itsminimum volume when
+compactedis 750ml.When gently poured into
+a measuring cylinder,its possible maximum
+volume is1320ml.What is therelative
+density?
+(A) 56
+(q)
+52
+(C) 58
+(D) 60
+
+63. Consider thefollowingstatements:
+
+1. Knowledgeaboutmoisture content is
+necessary to determine permeability.
+
+2. Some typical marine clay may have
+moisture content as high as 400%.
+
+3. Sand-bathmethodofmoisturecontent
+determination isnotsuitablefor soils
+containingorganic matter.
+Whichofthe above statementsarecorrect?
+(A) .1,2 and3
+(q)
+1 and 2 only
+(C) 2 and3only
+(D) 1and3only
+B-DMHH-N-DFB
+(12-
+
+ts
+64.A saturated specimen of clay was immersed in
+mercury and displaced volume was 21-8 cc.
+The weight of the sample was 32·2gm.After
+oven drying for 48hours,weight reduced to
+20.2gm while volume came down to11·6 cc.
+Theshrinkagelimit ofthe soilis
+(A) 7.9%
+(B) 8·0%
+(C) %6.8
+n
+(D) %8.6.
+n
+0
+n
+
+65. A sand sample has a bulk density of 20 kN/m3
+e
+andadegreeof saturationof 70%.If the
+specificgravityof soilgrains is2-65,thevalue
+ofcriticalhydraulicgradientfor thesoilwill
+be
+(A) 1·02
+(B) 1·05
+(C) 1·10
+.
+(D) 1·15
+is
+e
+
+66. Thevoidratio ofagivensoilAis twice.thatof
+another soilB，while theeffective size of
+it
+particles of soil A is one-third of that of soil B.
+S
+Theratioof height ofcapillaryriseofwaterin
+soilAtothatinsoilBwillbe
+(A) 0.67
+(B) 1·0
+(C) 1·5
+(D) 2.0
+2-A)
+
+--- page 13 ---
+67.Compression index developed by Casagrande
+
+70. is
+(A) C=0·009(LL+10%)
+(B) Cy=0·009 (LL-10%)
+(C) C=0·0009 (LL+10%)
+(D) C、=0-0009 (LL-10%)
+
+68. Whena structuralloadisappliedona soil
+stratum,whichofthefollowingsoiltypeswill
+havetheminimumsettlement?
+(A) Over-consolidatedclay stratum
+(B) Clayey silt stratum
+(e)
+Normallyconsolidated clay stratum
+(D) Sandy clay stratum
+
+71. 
+69. Consider thefollowingstatements:
+
+1. Thewatercontentofasoilremains
+unchanged during theentire duration of
+a‘quick’test.
+
+2. Effective stress cum shear parameters
+ofclaycanbeobtainedfromdrained
+triaxial sheartest.
+
+3. Strain-controlledshear test isa good
+option
+since
+this
+test
+procedure
+maintainsbettercontrolon therateof
+loadingthan othertests.
+Whichoftheabove statementsis/arecorrect?
+(A) 1,2 and 3
+(B) 1 only
+(C) 1and3only
+(D) 2 and3only
+B-DMHH-N-DFB
+(13-A
+
+70. Consider thefollowingstatements:
+
+1. Thestaticconepenetrationtest is
+unsuitableforlayereddepositsof sands,
+silts and clays.
+
+2. The
+results
+groundwater
+investigation
+are
+recorded
+as
+water-tablecontoursover thesite.
+
+3. Closedpiezometersareusedtomeasure
+pore waterpressurein soilshavinglow
+permeability.
+Whichofthe abovestatementsare correct?
+(A) 1,2 and 3
+(B) 1 and2only
+(C) 2 and 3 only
+(D) 1 and 3only
+
+71. Considerthefollowingstatements:
+
+1. According toTerzaghi,the average
+angleofwallfrictionmaybetaken
+equaltotwo-thirdsoftherespective
+angleofinternalfriction.
+
+2. Wallfrictionincreases theactive earth
+pressure and also decreases the passive
+earthresistanceofthesoil.
+
+3. Wallfrictiondecreasestheactiveearth
+pressure and increases the passive
+earthresistanceofthesoil.
+Whichofthe above statementsis/arecorrect?
+(A) 1,2 and 3
+(q)
+1 and 2 only
+(C) 3only
+(D) 1 and 3 only
+(A) --- page 14 ---
+
+72. Consider thefollowing statements:
+
+1. Uniformsurcharge increasesactive
+earthpressureevenas itdecreases
+passive resistance.
+
+2. Foranalyzing
+gtheconditionsat
+masonry gravity wall,application
+Coulomb'stheoryofearthpressureis
+preferred.
+
+3. Culmann'smethod is applicable to8
+stratifiedbackfill;whereas Poncelet's
+method is not.
+Whichofthe above statements arecorrect?
+(A) 1and2
+(B) 1 and 3
+(C) 2and3
+(D) 1,2 and 3
+
+73. Considerthefollowing statements:
+
+1. Inthecaseoffootingsonpurely
+cohesive soils,the benefit due to
+surchargeordepthoffoundationisonly
+marginal.
+
+2. The bearing capacity of a footingin pure
+clay may beincreasedbyincreasing ite
+size.
+
+3. Factor of safety shouldbe appliedonly
+to the netultimatebearingcapacity.
+Whichof the above statements are correct?
+(A) 1,2 and 3
+(q)
+1 and 2 only
+(C) 2and3only
+(D) 1 and 3only
+
+74. Thegrossbearing capacityofa footing is
+450 kN/m2. If the footing is 1·5 m wide and is
+atadepthof 1 mina clayeysoilwhichhas
+unit weight of 20 kN/m²,then the net bearing
+·capacity is
+(A) 410 kN/m2
+(B) 420 kN/m2
+(C) 430 kN/m2
+440 kN/m2
+(D) B-DMHH-N-DFB
+
+75. A drophammer isused todriveawooden pile.
+tive
+Thehammer weightis 25kNand its free
+ses
+fallingheightis0·8m.Thepenetrationin the
+lastblowis12mm.Whatisthenearest
+a
+approximation to theload carryingcapacity of
+of
+the pile according to the Engineering News
+is
+Formula?
+(A) 125 kN
+a
+(B) 110 kN
+et's
+(C) 3000kN
+(D) 90kN
+
+76. Considerthefollowing statements:
+
+1. Initialloadtestsandroutineloadtests
+arecarriedoutontestpilesand
+workingpiles,respectively.
+
+2. In a pile load test,the allowable load
+canbetakenequal tohalftheultimate
+rely
+loadatwhichthetotalsettlement
+to
+amountstoone-tenthofthepile
+diameter.
+nly
+
+3. In a pileloadtest,theallowableload
+ure
+canbetakenequaltotwo-thirdsofthe
+its
+totalloadwhichcauses a.plastic
+settlementof6mm.
+nly
+Whichofthe above statements are correct?
+(A) 1,2and3.
+(B) 1and2only
+(C) 1 and3only
+(D) 2and3only
+
+77. A theodolitewas setupatPand the angle of
+elevationtothetopof amobiletowerSTwas
+is
+30°.The staff reading held at a station of
+dis
+RL 110 m was 2.555 m, the telescope being
+sa
+horizontal.The horizontal distance between
+ing
+thefootofthetowerandtheinstrument
+stationis810m.TheRLof thetopof the
+toweris
+(A) 578.25m
+(q)
+579.50m
+(C) 580.25m
+(D) 582-40m
+(14-A)
+
+--- page 15 ---
+78.iThe measured radius of a circle is 80m with a
+81
+possible error of 0·05 min its diameter.The
+errorinthecomputedareawill nearlybe
+(A) +6-5 m2
+(B) - 0.65 m2
+(C) ±12.6m2
+(P)
+±8.2m2
+
+79. Thelengthofasurveylinewhenmeasured
+withachain of 20mnominallength was
+found tobe841.5m.Ifthechainusedis0·1m
+toolong，the correctlengthof themeasured
+lineis
+(A) 845.7m
+(B) 837·39m
+(C) 843.6m
+(D) 839·4m
+82
+
+80. In a cross staff survey, the perpendicular
+offsetsaretakenonrightandleftofthechain
+line AD as shown infigure-all values are in
+‘metres'.The area enclosed byABCDEFA,
+computed by trapezoidal methodis
+F (40)m
+E (30)m
+30m
+45m
+A0m
+35m
+65mD90m
+
+83. B(20)m
+C(30)m
+(A) 3650 m2
+3200 m2
+(B) 
+(C) 3475 m2
+(D) 3500 m2
+B-DMHH-N-DFB
+(15-A
+
+81. Inlevellingbetween two pointsAandB on
+the opposite sidesofariver,thelevelwasfirst
+setupnearAandthestaffreadings onAand
+B were2-645m and 2·30 m respectively.The
+level was then movednearB and setup;the
+respective staffreadings then.were 1.085m
+and1·665m onA andBrespectively.Whatis
+the true differenceoflevel betweenAandB?
+(A) AandBare atsamelevel
+(B) Ais0.5825mbelowB
+(C) Ais0·4825mbelowB
+(D) Bis0.5825mbelowA
+82:A plane,which is perpendicular to the plumb
+line through a point and is tangential to the
+level surfaceatthatpointiscalleda
+(A) .Tangentialplane
+(B) Verticalplane
+(C) Levelplane
+(D) Horizontal plane
+
+83. Themagneticbearingofalineis55°30'and
+themagneticdeclinationis4°30'east.The
+truebearingofalinewillbe
+(A) 60°
+(B) 34°30
+(C) 49°30'
+(D) 51°
+(A) --- page 16 ---
+
+84. Staffreadingonthefloorofaverandahofa
+school building is 1·815 m and staff reading
+whenheldwithbottomofstafftouchingthe
+ceiling over theverandah is2·870m.R.L.of
+the floor is 74.500m.Height of theceiling
+above flooris
+(A) 4.270m
+(q)
+4.685m
+(C) 3.955m
+(D) 4.920m
+
+85. Consider thefollowingparametersinrespect
+of RADAR principle:
+1.It is an active sensing system.
+
+2. Electromagneticradiationofwavelength
+isin centimetre range.
+
+3. It operatesinvisible region.
+4.It comprises Radio detection and ranging
+Whichof the above statements arecorrect?
+(A) 1,2 and 3
+(B) 2,3 and 4
+(C) 1, 2 and 4
+(D) 1,2,3 and 4
+
+86. Theobservationsmadeover thesamearea on
+differentdatestomonitorgroundfeatureslike
+cropgrowthiscalled
+(A) Temporalresolution
+(B) Radiometricresolution
+(C) Spatialresolution
+(D) Spectralresolution
+B-DMHH-N-DFB
+(16
+
+f
+a
+
+87. In a transit theodolite,any incidental error
+ing
+duetoeccentricityofverniers isprimarily
+the
+counteractedby
+of
+(A) Readingboththeverniers
+ing
+(B) Reading differentparts ofmain scale
+(C) Readingright andleftfaces
+(D) Takingbothright swingreadings
+88..
+In setting up the plane table at a station P,
+the correspondingpoint on theplan was not
+accurately
+centred
+above
+P.
+If
+the
+ect
+displacementofPwas50cminadirection
+perpendicular totheray,howmuch on the
+planwouldbethe consequentdisplacementof
+gth
+a pointfrom its true position if the scalewas
+1 cm=10m?
+(A) 5mm
+g.
+(q)
+1 mm
+(C) 0.5mm
+(D) 0.05mm
+
+89. Ifavehicletravelling at40kmphwas stopped
+within1·8secafter theapplicationof the
+on
+brakes,then the average skid resistance
+ike
+coefficientis
+(A) 0.63
+(B) 0-73
+(C) 0·83
+(D) 0.93
+（16-A)
+
+--- page 17 ---
+
+90. Whilealigningahillroadwitharuling
+gradient of 6%,a horizontal curve of 75 m
+radiusisencountered.The compensated
+gradientatthecurvewillbe
+(A) 1%
+(B) 2%
+(C) 3%
+(D) 5%
+
+91. Whatisthedeflectionatthesurfaceofa
+6
+flexiblepavementdue toawheelloadof
+40 kN and a tyre pressure of 0·5 MPa? The
+valueof Eforpavementandsubgradeis
+20MPa.
+(A) 15mm
+.
+(B) 11 mm
+(C) 9mm
+(D) 6mm
+9
+
+92. Inaflexiblepavement
+(A) Verticalcompressive'stressesdecrease
+withdepthofthelayer
+(q)
+The vertical compressive stress is the
+maximumatthelowestlayer
+(C) Tensile stressesget developed
+(D) Maximum stress induced byagiven
+trafficloadis dependenton thelocation
+oftheloadon thepavementsurface
+6
+
+93. Benklemanbeamdeflectionmethodisused
+for design of
+(A) Rigidoverlays on rigidpavements
+(B) Rigid overlays onflexiblepavements
+(C) Flexibleoverlaysonflexiblepavements
+(D) Flexibleoverlaysonrigidpavements
+B-DMHH-N-DFB
+(17-A
+
+94. The design speed of a traffic lane is 70kmph.
+Whatisthetheoreticalcapacity'perhour
+takingthetotalreactiontimetobe2seconds
+andaveragelengthof vehiclesas8m?
+(A) 828
+(B) 728
+(C) 628
+(D) 428
+
+95. Anelectriclocomotiverunningat60kmph on
+a curved track of 1.68 m gaugelaid at800 m
+radius should beprovidedwith superelevation
+oftherailbyanamountof
+(A) 50.5mm
+(B) 55·5mm
+(C) 59·5mm
+(D) 65.5mm
+
+96. ‘Composite Sleeper Index’is employed to
+determine
+(A) Sleeperdensityrequirement
+(B) Numberoffixturesrequiredfora
+certaintypeofsleeper
+(C) Durabilityof sleeper
+(D) Mechanicalstrengthofwoodensleeper
+wherebyitssuitabilityforuseis
+assessed
+
+97. WhichofthefollowingtypesofElastic
+fastenings can beused on all types of sleepers
+(like Wooden,Cast-Iron or Concrete) on
+Indian Railways?
+(A) Sigma clip
+(B) IRN-202 clip
+(C) LG-20Lock spike
+(D) Pandrol clip
+(A) --- page 18 ---
+98.According to.the wave action theory for creep
+ofrails,the pitch and depthof wavedepend
+upon:
+
+1. Section ofrails
+
+2. Track modulus
+
+3. Stiffnessoftrack
+
+4. Stabilityoffoundation
+
+5. Weightofthetrain
+Which of these are correct?
+(A) 1 and 2 only
+(B) 1,2 and 3
+(C) 2,3and4
+(D) 3,4 and5
+
+99. Two
+0parallelrailwaytracksaretobe
+connected by a reverse curve,both segments
+having the same radius.If the centre lines of
+the tracks are8m apart and the maximum
+adaptabledistancebetween
+1thetangent
+points is 32 m,the allowable radius for the
+curvesis
+(A) 4m
+(q)
+8m
+(C) 32m
+(D) 64 m
+100.'The steepest gradient on a 2° curve on a
+BroadGaugelinewitha stipulatedruling
+gradient of 1 in 200,given that grade
+compensation is 0·04%perdegree of curve,is
+(A) 1 in 200
+(q)
+1in 150
+(C) 1in238
+(D) 1in 283
+B-DMHH-N-DFB
+(18
+
+P
+Directions:Eachofthenexttwenty(20)items
+P
+consistsoftwostatements,onelabelledasthe
+‘Statement(I)'andtheotheras‘Statement(II).You
+aretoexaminethesetwostatementscarefullyand
+selecttheanswerstotheseitemsusingthecodes
+givenbelow:
+Codes:
+(A) Both Statement (I)and Statement (II)
+areindividually true and Statement(II)
+is
+the
+correct
+explanation
+of
+Statement (I)
+(q)
+Both Statement (I) and Statement (II)
+areindividually truebutStatement(II)
+isnotthecorrectexplanationof
+Statement (I)
+be
+ts
+(C) Statement (I)is true but Statement(II)
+of
+isfalse
+m
+(D) Statement(I)isfalsebutStatement (II)
+nt
+is true
+ne
+101.Statement (I):
+Instantaneous unit hydrograph (IUH)is used
+in theoreticalanalysisofrainfallexcess-runoff
+characteristicsofacatchment.
+Statement(II):
+For
+a
+given
+catchment, IUH, being
+independent of rainfall characteristics,is
+a
+indicative
+thecatchmentstorage
+ng
+characteristics.
+de
+102.Statement(I):
+Theoreticallyaninfinitenumberofunit
+graphs arepossible for a givenbasin.
+Statement(II):
+The
+rainfall
+duration
+andits
+areal
+distribution affectthehydrograph.
+18-A)
+
+--- page 19 ---
+103.Statement (I):
+The sharp corners in the cross-section of a
+canalarerounded.
+Statement(I1):
+The
+ecornersmaynotbecomezones
+of
+stagnation.
+104.Statement(I):
+During an epidemic ofinfectivehepatitis,the
+suppliedwaterissuper chlorinated.
+
+1. Statement(II):
+Spore-formingbacteriawhichcausethis
+diseaseareeffectivelyremovedfromwaterby
+super chlorination.
+105.Statement (I):
+When waste water is treated atan oxidation
+ditch,anaerobic sludge digester is not
+16
+required.
+Statement (II):
+Oxidationditchadmitsanextendedaeration
+processwherebysludgegetsmineralized.
+106.Statement(l):
+Dilutionofthewastewatersamplewith
+organic-free,
+oxygen-saturated
+wateri
+is
+11
+necessary tomeasure5-day20°CBODvalues
+greater than 7mg/l.
+Statement(II):
+The saturationfor oxygeninwaterat20°Cis
+approximately9mg/l.
+B-DMHH-N-DFB
+(19-A
+
+107.Statement (I):
+Therate of biomassproduction will always be
+lowerthantherateoffoodutilizationina
+biologicalsystemhavingamixedcultureof
+micro-organisms.
+Statement(II):
+Catabolismconvertspartof the foodinto
+wasteproducts.
+108.Statement (I):
+Electrostatic precipitators (ESP)can remove
+particlesof sub-micron size.
+Statement (II):
+Due tohigh voltage supply,ESPs attract any
+charged particle.
+109.Statement (I):
+A semi-logplotis usedto represent the grain
+sizedistribution ofasoil sample.
+Statement(II):
+In a semi-logplot,a wide range of grain sizes
+canbeaccommodated.
+110.Statement (I):
+Clays exhibit more hygroscopicitythan sands.
+Statement (II):
+Clays are colloidal and consequently their
+specific surfaceisveryhigh.
+-A)
+
+--- page 20 ---
+111.Statement (I):
+The zero-airvoid curve is non-linear.
+Statement(II):
+The drydensityat100%saturationis a
+non-linearfunctionofvoidratio.
+112.Statement (l):
+In a consolidation test,pressure on the soil
+specimen is doubled at each step.
+Statement (II):
+Itisintendedthatthe soilalwaysremainsin
+a normally consolidated condition.
+113.Statement(I):
+For a cantilever retaining wall,Rankine's
+theoryofearthpressuremaybeused.
+Statement (II):
+Fora retainingwallwith smoothvertical
+back,Rankine's theory is appropriate.
+114.Statement (l):
+Microwavebandsarecomposedofradiation
+with wavelength between 1 mm and1 m.
+Statement(Il):
+Microwavesarecapableofpenetrating
+throughtheatmosphereunder almostall
+conditions.
+115.Statement (I):
+Multistageimagingreferstoviewingagiven
+areainseveralnarrowbands.
+Statement (II):
+Multistage imaging isalso called spatial
+resolution.
+B-DMHH-N-DFB
+(20
+
+116.Statement (1):
+Spectralreflectancecurvesdescribethe
+spectralresponseofatarget.
+Statement(II):
+a
+EveryobjectontheEarthhasitsunique
+spectralreflectance.
+
+117. Statement (I):
+bil
+Theregions of the electromagnetic spectrum
+in which theatmosphere is transparent are
+calledatmosphericwindows.
+Statement(II):
+in
+The atmosphere is practically transparent in
+thevisibleregionoftheelectromagnetic
+spectrum.
+e's
+118.Statement (I):
+Scatteringismoreinlower wavelengthsthan
+inhigherwavelengths.
+cal
+Statement(II):
+Scatteringeffectdecreasesthesignalvalue.
+119.Statement (I):
+Theprocessbywhichthegeometryof an
+on
+imageareaismadeplanimetriciscalled
+rectification.
+Statement(II):
+It is the mostprecisegeometric correction.
+ng
+all
+120.Statement (I):
+Theeffectiveheadofaturbo-machineisequal
+to:Grosshead‘minusthe head loss in
+penstockand thevelocityheadattheturbine
+en
+inlet.
+Statement (II):
+Aturbo-machinebecomessusceptibleto
+cavitation ifpressure fallsbelow the vapour
+ial
+pressure oftheliquid.
+20-A)
+
+--- page 21 ---
+OUGHWORK
+(A) --- page 22 ---
+RROUGHWORK
+(22 -A)
+
+--- page 23 ---
+DUGH WORK
+(A) --- page 24 ---
+RROUGHWORK
+(24 -A)

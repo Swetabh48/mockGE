@@ -38,6 +38,8 @@ type Props = {
   tier: ExamTier;
   focusSection?: SectionKey;
   mode?: string | null;
+  exam?: string | null;
+  iesPaper?: string | null;
   questions: ExamQuestion[];
   attemptId: string;
 };
@@ -59,6 +61,8 @@ export function ExamCBT({
   tier,
   focusSection,
   mode,
+  exam,
+  iesPaper,
   questions,
   attemptId,
 }: Props) {
@@ -69,8 +73,10 @@ export function ExamCBT({
         questionCount: questions.length,
         mode,
         title: paperTitle,
+        exam,
+        iesPaper,
       }),
-    [tier, focusSection, mode, questions.length, paperTitle],
+    [tier, focusSection, mode, exam, iesPaper, questions.length, paperTitle],
   );
   const untimed = Boolean(blueprint.untimed);
   const [timerGroupIndex, setTimerGroupIndex] = useState(0);

@@ -1,0 +1,1744 @@
+
+--- page 1 ---
+Engineering
+gSen
+DO
+NOT OPEN THIS TEST BOOKLET UI
+T.B.C.:B-FRF-M-BUB
+Serial No.
+TESTBOC
+CIVILENGINEERIN
+TimeAllowed:TwoHours
+INSTRUCTI
+
+1. IMMEDIATELYAFTERTHECOMMENCEMEN
+CHECKTHATTHISTESTBOOKLETDOESN
+MISSINGPAGESORITEMS,ETC.IFSO,GETITR
+
+2. PLEASENOTETHATITISTHECANDIDAT
+FILLINTHEROLLNUMBERANDTEST
+CAREFULLYANDWITHOUTANYOMISSION
+PLACESINTHEOMRANSWERSHEET.ANY
+THEANSWERSHEETLIABLEFORREJEC
+
+3. You have to enter your Roll Number ont
+BookletintheBoxprovidedalongside.DONOTwrite
+elseon the TestBooklet.
+
+4. ThisTest Booklet contains120 items (questions).
+Youwillselecttheresponsewhichyouwanttom
+there is more than one correct response,mark the
+case,chooseONLYONEresponseforeachitem.
+
+5. Youhave tomarkyourresponsesONLYon the se
+in theAnswerSheet.
+
+6. Allitemscarryequal marks.
+
+7. Beforeyouproceedtomarkin theAnswerSheetth
+youhavetofillinsomeparticularsintheAnswer
+Admission Certificate.
+
+8. Afteryouhavecompletedfiilinginallyour
+examinationhasconcluded,youshouldhandovert
+permittedtotakeawaywithyou theTestBooklet.
+
+9. Sheetsforroughworkare appendedin the Test B
+10.Penalty forwronganswers:
+THEREWILLBEPENALTYFORWRONGANS
+(i)There are four alternatives for the answer to
+wrong answer has beengiven bythe candid
+questionwillbedeductedaspenalty.
+（ii)lfacandidate givesmore than one answer,it
+thegiven answershappenstobecorrectandther
+（ii)If a question is left blank,i.e.noanswe
+nopenaltyfor that question.
+DONOT OPENTHIS TEST BOOKLET UI
+
+envicesExamination-2013
+UNTILYOUAREASKEDTODOSO
+TestBookletSeries
+OKLET
+INGPAPER-II
+MaximumMarks:200
+TIONS
+ENTOFTHEEXAMINATION,YOUSHOULD
+NOTHAVEANYUNPRINTEDORTORNOR
+TREPLACEDBYACOMPLETETESTBOOKLET.
+ATE'SRESPONSIBILITYTOENCODEAND
+TBOOKLETSERIESCODEA,B,CORD
+ONORDISCREPANCYATTHEAPPROPRIATE
+YOMISSION/DISCREPANCYWILLRENDER
+CTION.
+theTest
+ite anything
+).Each item comprises four responses(answers).
+mark on the Answer Sheet.ln case,you feel that
+heresponsewhichyou consider thebest.In any
+m.
+separate Answer Sheet provided.See directions
+theresponse tovariousitemsin theTestBooklet,
+erSheetasperinstructionssenttoyouwithyour
+ourresponses ontheAnswerSheetandthe
+rtotheInvigilatoronlytheAnswerSheet.Youare
+et.
+Booklet at the end.
+NSWERSMARKEDBYACANDIDATE.
+toeveryquestion.Foreach questionforwhicha
+didate,one-thirdof the marks assigned to that
+itwillbetreatedaswronganswerevenifoneof
+herewillbesamepenalty as above tothatquestion.
+weris given bythe candidate,there will be
+UNTILYOUARE ASKEDTODOSO
+
+--- page 2 ---
+
+1. Theabsolutepressure atapoint2.5m
+belowtheclearwater surfaceismeasured
+as125.703kN/m².Iftheatmospheric
+pressure is taken as101.325kN/m²,the
+gauge pressureinkN/m²at thispointwould
+be:
+(A) 113.514
+(B) 24.378
+(C) 45.401
+(D) 56.757
+
+2. FlowmeasurementswithaPrandtl-Pitot
+tubeshowed thatthetipreadingsvaried
+onlyacrosstheflowwhiletheside-opening
+readingsvariedonlyin thedirection of
+flow.The typeof flow is:
+(A) Uniformirrotational
+(B) Uniform rotational
+(C) Non-uniform irrotational
+(D) Non-uniform rotational
+
+3. Anopencylindricaltank75cmdiameter
+and1.5mhighcontainswaterupto
+1.2m depth.If the cylinder is rotated about
+its verticalaxis,whatis the maximum
+angular velocity （in radiansper second)
+thatcanbeattained without spillingany
+water?
+(A) 7.55
+(B) 8.08
+(C) 9.15
+(D) 10.02
+
+4. X-componentofvelocityin atwodimensionalincompressibleflowisgiven
+byu=2y²+6xy.IftheY-componentof
+velocityviszero aty=0,theexpression
+forY-component ofvelocityisgiven by:
+(A) v=3y²+f(y)
+(B) v=3y²+f(x)
+(C) v=-3y²+f（y)
+（d).v=-3y²+f（x)
+
+5. Consider the following statements:
+Euler'sequationofmotion
+
+1. can be derived from Navier-Stokes
+equations.
+
+2. refers toenergybalance.
+
+3. developsinto Bernoulli'sequation
+under appropriateconditions.
+
+4. isapplicabletorotationalaswell as
+irrotationalflows.
+Whichofthese statementsare correct?
+(A) 1,2,3and4
+(B) 1and2only
+(C) 1and3only
+L
+3and4only
+(D) 6.
+In1in50modelofa spillway,discharge
+1
+is3m²/sec.Find the corresponding
+discharge in the prototype in m/sec.
+(A) 1061
+(B) 7500
+(C) 53033
+(D) 375000
+2
+(Contd.)
+
+--- page 3 ---
+
+7. Foraccurateflowmeasurementinopen
+channels,an arrangementfor aerationunder
+thenappe isnecessarywhen theweir used
+is:
+(A) Contractedrectangular
+(B) Suppressed rectangular
+(C) Submergedcontractedrectangular
+Triangular
+
+8. Atadistanceof20cmfromtheaxisof
+awhirlpool inanideal liquid,thevelocity
+is10m/s.Ataradiusof50cm,whatwill
+be the depressionof the free surface of
+theliquidbelowthatataverylarge
+distance？（Take1/g=0.102s²/m）
+(A) 0.408m
+(B) 0.612m
+(C) 0.816m
+(D) 1.224m
+
+9. Theaveragedragcoefficientforalaminar
+boundarylayerovera flatplatewas
+obtainedas0.018.Ifallotherfactors
+remainunchanged,and lengthoftheplate
+isincreasedby4timesitsoriginalvalue,
+thisaveragedragcoefficientwouldchange
+to:
+(A) 0.0036
+(B) 0.0056
+(C) 0.008
+0.009
+(D) 10.Ajet of oil of relativedensity 0.8andof
+area 0.02m²issues at 10 m/s.Ifit strikes
+normallyon a stationaryplate,theforce
+exerted on theplateis:
+(A) 1906N
+(B) 15606N
+(C) 1600N
+(D) 19581N
+
+11.Awallshearstressof40Paexists ina
+laminarflowina12cm diameterpipe.
+Atadistanceof2cmfrom thewall,what
+will be the shear stress?
+(A) 22.2Pa
+(B) 24.0Pa
+(C) 26.7Pa
+(D) 28.0Pa
+12.Amodelofaboatisbuilttoa scaleof
+1/100.Itexperiences aresistance of
+0.10Nwhensimulatingaspeedof5m/s
+of theprototype.Wateristhefluid in both
+the cases.Neglecting frictional forces,
+correspondingresistanceintheprototype
+is:
+(A) 1000kN
+(B) 100kN
+(C) 10kN
+1kN
+(D) 13.Theperformance ofahydraulic structure
+duringa floodhasbeeninvestigatedin a
+1/25modelbasedonFroudelawof
+similarity.Afloodwavepassingthrough
+the model in 2hrs.corresponds toa
+prototypeperiodof:
+(A) 50hr
+(B) 12.5hr
+(C) 10hr
+(D) 0.4hr
+14.A1:25modelofanavalshipistowed
+atavelocityof1.2m/stodetermineeach
+ofthetwocomponentsofthetotaldrag
+thatmaybe experienced by theprototype.
+The wave-making dragofthemodel is
+dulyestimated tobe0.37kgf.Whatwould
+be thewavemakingdragontheprototype
+ship?
+(A) 1250kgf
+(B) 1875kgf
+(C) 3750kgf
+(D) 4625kgf
+(Contd.)
+
+--- page 4 ---
+15.Avery small sphericalparticleof sand
+settlesina columnofviscousliquid.If
+theReynoldsnumber correspondingtoits
+terminalvelocity is 0.25,the drag
+coefficientofthesandparticleis:
+256
+(A) 
+(B) 128
+(C) 96
+(D) 64
+16.Aturbinedevelops7000kWpowerunder
+aheadof25mat145rpm.Calculatethe
+specificspeedof turbine andstatethetype
+of turbine.
+(A) 485,Pelton
+(B) 217,Francis
+(C) 217,Pelton
+(D) 485,Francis
+17.When small sphere fallsfreelyin Stokes
+range throughawatercolumn,whichof
+the following statements are correct?
+
+1. Viscosity,surface tension and
+gravitationalforces acton thesphere.
+
+2. There is no turbulence possiblein
+thewakeof thefalling sphere.
+
+3. Drag coefficient,C=R/24,where
+R is Reynolds number.
+
+4. Proximityoftheboundarymoderates
+the dragand lift coefficients.
+(A) 1and2
+(B) 2and3
+(C) 3and4
+(D) 2and4
+4
+
+18.The Bernoulli's equation is applicable
+:0
+(A) Both steadyandunsteadyflows
+(B) Real fluids
+(C) Allfluidsandflowsalongastream
+tube
+(D) Steadyflowofideal fluidsalonga
+stream tube
+19.Ariverwhose dischargeis10cumecsis
+tobestudiedbya1:100scalemodelin
+alaboratory.The discharge required in
+themodel is:
+(A) 0.5m/s
+(B) 10m²/s
+(C) 1m/s
+(D) 5m²/s
+20.Arectangular channel carriesauniform
+flowwithaFroudenumberof2.83.The
+ratioofcriticaldepthtonormaldepthof
+thisflowis:
+(A) 1.68
+2.83
+(B) 
+(C) 2.00
+(D) 4.75
+21.Atthe samemean velocityofflow,the
+ratioofheadlossperunitlengthfora
+sewerpipe running full to that for the
+same pipe flowing half-full is:
+(A) 2.0
+(B) 1.67
+(C) 1.0
+(D) 0.67
+(Contd.)
+
+--- page 5 ---
+22.Whichof thefollowingequations areused
+forthederivation of thedifferential
+equationforwatersurfaceprofileinan
+open channel?
+
+1. Continuity equation
+
+2. Energy equation
+
+3. Momentumequation
+1,2and3
+(A) 
+(B) 1and3only
+(C) 2and3only
+(D) 1and2only
+
+23. Whenflowiscritical throughopen
+channels,whichofthefollowingstatements
+are correct?
+
+1. The specificenergy isminimum for
+a given discharge.
+
+2. Thedischargeismaximumfor agiven
+specific energy.
+
+3. The specificforceisminimumfora
+given discharge.
+
+4. Froudenumberof theflowisequal
+to unity.
+(A) 1,2and3only
+(B) 1,2and4only
+(C) 1,2,3and4
+(D) 2,3and4only
+24.Amongweirsused inopenflowmetrology,
+criticaldepthoftheflowistherelevant
+criterion in:
+(A) Broad-crested weir
+(B) Cippolettiweir
+(C) Parabolic weir
+(D) Sharp-crested weir
+5
+
+25.The loss ofhead in a pipe carrying
+turbulent flowvaries:
+(A) Inverselyas the square ofthevelocity
+offlow
+(B) Inverselyasthesquareof thediameter
+ofpipe
+(C) Directly as the square of thevelocity
+offlow
+P
+Directlyasthevelocityofflow
+26.Consider the following statements
+regardinglaminarflowthroughacircular
+pipe:
+
+1. The friction factor is constant.
+
+2. Thefrictionfactordepends upon the
+pipe roughness.
+
+3. The frictionfactorvariesinversely
+with theReynoldsnumberofflow.
+
+4. Thevelocity distribution isparabolic.
+Whichofthesestatements are correct？
+(A) 1and3
+(B) 3and4
+(C) 2and3
+(D) 2and4
+27.It is proposed to increase the discharge
+by20%incircular pipecarryingoilin
+laminarregime.Ifallotherfactorsremain
+unchanged,powerconsumptiontomaintain
+themodifiedflowrelativetotheoriginal
+flowwould increaseby:
+10%
+(A) 
+(B) 20%
+(C) 44%
+(D) 52%
+(Contd.)
+
+--- page 6 ---
+28.In a pipe network:
+(A) The algebraic sum of discharges
+aroundeachelementarycircuitmust
+bezero
+(B) Thehead at each node must be the
+same
+(C) The algebraic sumofthe drop in
+piezometrichead around each
+elementarycircuitiszero
+(D) The piezometric head loss in each
+lineofeachcircuitisthe same
+29.Ina pipeline1920mlong,thevelocityof
+propagationofpressurewaveis960m/s.
+Rapidclosureofa downstreamvalvewill
+entail,themaximumtimefortheclosure
+is:
+(A) 8s
+(B) 6s
+(C) 4s
+(D) 2s
+30.Acentrifugalpumpdeliversamanometric
+headof12mwhenpumpingaliquidof
+relative density 0.8.Ifallother factors
+remain the same but the liquid hasa
+relativedensityof1.2,thenewmanometric
+headwould be:
+(A) 8m
+(B) 10m
+(C) 12m
+(D) 18m
+
+31.Consider thefollowing statements:
+TomaximizetheNetPositiveSuctionHead
+Availablefora reciprocatingpump,one
+must:
+
+1. Reduce thesuctionpipefriction loss.
+
+2. Increase theambientpressureatthe
+supplyreservoir.
+
+3. Increase thepump speed.
+
+4. Increase the static suction head.
+Whichof these statementsarecorrect？
+(A) 1and2
+(B) 2.and3
+(C) 3and4
+1and4
+(D) 32.Ahydraulicram utilizesasupplyunder
+4.0mhead,anddelivers toaneffective
+headof20mabovetheunit.Theratioof
+waterwasted to thewaterdeliveredis15.
+Theefficiencyof thepump,withneglecting
+frictional losses in the pipes,is:
+(A) 17.5%
+(B) 20.0%
+28.6%
+(C) 
+(D) 33.3%
+Whichofthefollowingstatementsare
+
+33. correct?
+
+1. Frictionand pressure drag depend
+upon the shapeand position of
+immersedbody.
+
+2. Ifa thin plate iskept parallel to the
+direction offlow,then the pressure
+drag is zero.
+
+3. Ifa thinplateiskeptperpendicular
+tothemovingfluid,thenfriction drag
+iszero.
+(A) 1and2only
+(B) 1and3only
+(C) 2and3only
+(D) 1,2and3
+(Contd.)
+6
+
+--- page 7 ---
+34.In all reaction turbines,for maximum
+efficiency,the velocity of:
+（a)Swirl atoutlet must bezero
+(B) Flowatentrancemustbezero
+(C) Swirlatentrancemustbe zero
+(D) Flowatoutletmustbezero
+35.Aturbinedevelops2516kWat240rpm
+The torqueintheshaftis approximately:
+(A) 400kN.m
+(B) 3336kN.m
+(C) 1000kN.m
+(D) 100kN.m
+36.AKaplan turbinehas arunnerofdiameter
+4.0m.Thediameterof thehubis1.6m.
+Ifthevelocityofflowandtheswirlvelocity
+attheinletsideof thebladeat thehub
+are 6.0m/s and 10.0 m/s,respectively,
+theflowandswirlvelocitiesattheinlet
+sideofthe tip are,respectively：
+(A) 15.0m/sand10.0m/s
+(B) 6.0m/sand25.0m/s
+(C) 6.0m/sand4.0m/s
+(D) 2.5m/sand10.0m/s
+37.Whichof the following statements are
+correct?
+
+1. A fine sprinkle ofprecipitation of
+small andratheruniformwater drops
+withalldropdiametersbelow0.10mm
+is called as drizzle.
+
+2. Theprecipitationofliquidwaterwith
+everydropdiameterlessthan0.5mm
+is known as rain.
+
+3. Precipitationintheformofballsor
+irregularlumps oficeeachover
+5mmindiameteriscalledhail.
+
+4. Dewis
+formed
+directlyby
+condensationon thegroundmainly
+during night when the surface has
+beencooled by outgoingradiation.
+(A) 1and2
+(B) 2and3
+(c）3and4
+(D) 1and4
+
+38.The doublemass curve technique isused:
+(A) To find the average rainfall over a
+numberofyears
+(B) Toestimate themissingrainfall data
+(C) To check theconsistency of rain gauge
+records
+(D) Tofindtheminimumnumberofrain
+gaugesrequired ina basin
+39.Thetheoryof synthetichydrographbased
+onfloodroutingtechniquesisbasedon
+the principle that rainfall impulse (net
+stormrain)ismodified bythefactors:
+
+1. Thetimeoftraveloftheflowvolume
+inchannelandoverland flow
+
+2. Storage
+
+3. Both translation andstorage
+(A) 1and2only
+(B) 1,2and 3
+(C) 1and3only
+(D) 2and3only
+40.1
+Itisproposedtodesign a causeway along
+avillageroad.Thereturnperiodforthe
+annualmaximumfloodofagiven
+magnitudewasfoundtobe5years.The
+probabilitythatthisfloodmagnitudewill
+beexceeded atleast once during next
+2years is:
+(A) 0.8
+(B) 0.5
+(C) 0.45
+(D) 0.36
+41.Wading technique is used:
+(A) Todeterminevelocityofseawaves
+duringTsunami
+(B) Todeterminethicknessofcanal lining
+in alluvial soils
+(C) Tomeasure thevolume of dredging
+material in harbours
+(D) Todeterminevelocityofflowin
+shallowstreams
+(Contd.)
+
+--- page 8 ---
+42.Amean annualrunoff2m/sfrom a
+catchmentofarea 10 km²represents an
+effectiverainfallofnearly:
+(A) 530cm
+(B) 590cm
+(C) 630cm
+(D) 658cm
+43.Steep rise in the flow-mass curve during
+a certain periodindicates:
+(A) Very high evaporation losses during
+thatperiod
+(B) Flash floods duringthatperiod
+(C) Sudden spurt in irrigation demand
+duringthatperiod
+(D) Suddenriseindemandforwater to
+meet hydropowergeneration
+44.A rice crop is tobe irrigated ina field
+covering an areaof2400ha,theduty and
+baseperiodofrice aregiven as860ha/
+cumecand 120daysrespectively.The
+volumeofwaterrequiredinthefieldis
+nearly:
+（a)500ha-m
+(B) 1400ha-m
+(C) 2000ha—m
+(D) 2880ha-m
+45.Inanirrigationproject,in a certainyear,
+70%and46%oftheculturablecommand
+area in Kharif and Rabi,respectively,
+remainedwithoutwaterandrestofthe
+areagotirrigationwater.Theintensityof
+irrigationinthatyear for theproject
+was:
+(A) 116%
+(B) 84%
+(C) 42%
+(D) 58%
+8
+
+46.Thegrosscommand areaforadistributory
+is 5000 hectares,80%ofwhich is
+culturable irrigable.The intensity of
+irrigationforRabiis50%;andforKharif
+is30%.The average duty at theheadof
+thedistributoryis2000hectares/cumec
+forRabiseasonand900hectares/cumec
+forKharifseason.The dischargerequired
+at theheadofthedistributoryfrom average
+demand considerationsis:
+(A) 1.00 cumecs
+1.33cumecs
+(B) 
+(C) 2.33cumecs
+(D) 3.33cumecs
+47.Due tocontinuouspumpingfor7hrsfrom
+acatchmentof25ha,havingporosity of
+30%and specificretention of 10%,
+groundwaterleveldroppedby1m.The
+corresponding change in storage is:
+(A) 7.5ha—m
+(B) 0.75ha-m
+(C) 1.87ha—m
+(D) 0.187ha-m
+48.As recommended bySichardt,theradius
+ofinfluence is:
+(A) Inverselyproportionaltodrawdown
+(B) Linearlyproportionaltodrawdown
+(C) Independentofdrawdown
+(P)
+）Proportionaltosquarerootof
+drawdown
+(Contd.)
+8
+
+--- page 9 ---
+49.Considerthefollowingstatements:
+
+1. Aregime channel will have side
+slopes ofvalue 0.5H:1V.
+
+2. Lacey'sregimeformulaisapplicable
+toregime channels with sediment
+concentrationmorethan5000ppm.
+
+3. For a Lacey regime channel the
+Manning roughness coefficient is
+estimatedbyStrickler'sformula.
+
+4. Themeanvelocityina Laceychannel is
+proportional toR23whereR=hydraulic
+radius.
+Whichofthesestatements arecorrect？
+（a)1and2
+(B) 1and4
+(C) 2and3
+(D) 3and4
+50.Theminimumsizeofgravel thatwillnot
+movein thebedofawiderectangular
+channelofdepth0.8mandlongitudinal
+slope0.0041is:
+(A) 11mm
+(B) 23mm
+(C) 36mm
+(D) 57mm
+51.The flip bucket energy dissipator fora
+spillway is suitablewhere:
+
+1. The tailwaterdepthislow.
+
+2. Therockon thedownstreamisfragile
+andiserodible.
+
+3. Therockon thedownstreamisgood
+andnon-erodible.
+(A) 1,2and3
+(B) 1and2only
+(C) 2and3only
+(D) 1and3only
+9
+
+52.Consider thefollowing statements:
+
+1. Groynesareconstructedprojecting
+fromthebankinto theriver atthe
+banktobeprotectedfromflood.
+
+2. Repellinggroyneprojectsdownstream
+intotheriver-flowfromthepointof
+itsorigin from thebank.
+
+3. Attractinggroyneprojectsupstream
+intotheriverfromthepointofits
+originfrom thebank.
+
+4. Perpendiculargroyneprojectsnormal
+totheriver-flowfromthepointof
+itsoriginfrom thebank.
+Whichof these statements are correct？
+(A) 1and4
+(B) 1and2
+(C) 2and3
+(D) 3and4
+53.Thedissolvedoxygeninawater sample
+isgenerallyestimatedbymodifiedWinkler
+method.Thewater sampleis taken in a
+300mlBODbottleandthedissolved
+oxygen is fixedbyadding:
+(A) 1mlofconc.H,SOfollowedby
+additionof1mlofMnSOreagent
+and contents mixed thoroughly
+thereafterwaitingfor5-10minutes,
+and then1mlofalkali-iodide-azide
+reagentisadded
+(B) 1mlofalkali-iodide-azidereagent
+followedbyadditionof1mlofconc.
+HSOand then the contentsmixed
+thoroughly,thereafter waiting for
+5-10minutes,1mlofMnSOreagent
+isadded
+1mlofMnSOfollowedbyaddition
+(C) of1mlofalkali-iodide-azidereagents
+and then the contents mixed
+thoroughly,thereafter waiting for
+5-10minutesandthen1mlofconc.
+H,SO,is added
+(D) 1mlofconc.ofH,SOfollowedby
+additionof1mlofalkali-iodide-azide
+reagentand then thecontentsmixed
+thoroughly,thereafter waiting for
+5-10minutesandthen1mlofMnSO
+reagentisadded
+(Contd.)
+
+--- page 10 ---
+54.Considerthefollowingstatements:
+
+1. Typhoid feveris caused byviral
+infection.
+
+2. Infectious hepatitis is caused by
+bacterialinfection.
+
+3. Choleraiscaused bybacteria
+
+4. Amoebicdysenteryis causedby
+protozoalinfection.
+Whichofthesestatementsare correct？
+（a)1,2,3and4
+(B) 1,2and3only
+(C) 3and4only
+（d）2and3only
+55.Whichofthefollowingstatements arethe
+importantcharacteristicsofaslowsand
+filter?
+
+1. Cleaningoffilterisdonebyscraping
+and sandremoval.
+
+2. Lackofpretreatment.
+
+3. Greaterefficiencyofbacterialremoval
+ascomparedtorapidsandfilter.
+
+4. Efficientin colour,tasteand odour
+removal.
+(A) 1,2,3and4
+(B) 1,2and 4only
+(C) 2,3and4only
+(D) 1,2and3only
+56.Whichofthereasonsgivenbelowfavour
+theuseofcastironpipeforcitywater
+supply?
+
+1. Strongintension;andpipeoflarge
+diameter（up to6m)can bemade
+
+2. Easytomakejoints
+
+3. Durable
+
+4. Corrosion-resistant
+(A) 1,2,3and4
+(B) 2,3and4only
+1,2and4only
+(C) 
+(D) 1,3and4only
+10
+
+57.The self-cleansing velocity in a sewer
+depends on:
+
+1. BOD(soluble)
+
+2. Slopeof the sewer
+
+3. Ratioofdepthofflowsewageto
+sewer diameterratio
+(A) 1,2and3
+1and2only
+(B) 
+(C) 2and3only
+（d）1and3only
+58.One sewer hasa dia.of 300mm and
+anotheronehasadia.of600mm.When
+both run half-full,what will be the ratio
+ofvelocitiesin the twopipesif theslope
+ofboth pipesis the same?
+(A) 1
+(B) 2
+(C) 
+(D) 59.IftheslopeofsewerAis1/100and that
+ofsewerBis1/400,thevelocityofflow
+inthetwosewerswillhavearatioof
+(size of both the sewers being same):
+1
+(A) 12
+(B) 1
+(C) (2)
+(D) (Contd.)
+10
+
+--- page 11 ---
+60.What is thecorrect sequence of the
+following treatmentunits employedin a
+conventional sewage treatmentplant?
+
+1. Screen chamber
+
+2. Primarysettlingtank
+
+3. Trickling filter
+
+4. Gritchamber
+
+5. Secondarysettling tank
+(A) 5,4,2,3and1
+(B) 1,4,2,3and5
+(C) 5,2,3,4and1
+(D) 1,4,3,2and5
+61.Whichofthefollowingparametersare
+employed in thedesign of trickling
+filter?
+
+1. Hydraulicloadingrate
+
+2. Organic loadingrate
+
+3. Detention time
+
+4. Weir loadingrate
+(A) 1,2,3and4
+(B) 1and2only
+(C) 2and3only
+(D) 3and4only
+62.In activated sludge process,1mld (by
+volume)of secondary sludge has to be
+returned to keep the required MLSS
+concentration in the aeration tank.This
+sludgehasawatercontentof99%.Ifthe
+sludge water content isreduced to98%,
+whatvolumeofthesludgewill beneeded
+to be recycled?
+(A) 0.25mld
+(B) 0.5mld
+(C) 0.75mld
+(D) 1.00mld
+11
+
+63.Considerthefollowing statements:
+
+1. Greasedata isameasureofeffectiveness ofprimary settling tanks.
+
+2. Volatile aciddataprovideinformation
+concerning anaerobicdegradationof
+organic matter.
+
+3. Totaland volatile solids data are
+indispensable in the design and
+operationofsludgedigestion,vacuum
+filter and incineration units.
+
+4. Ammonia andorganicnitrogen data
+arehelpfulincontrollingaerobic
+treatmentcosts toaminimum.
+Which ofthese statements arecorrect？
+（a)1,2,3and4
+(B) 1,2and3only
+(C) 1,2and 4only
+（d)2,3and4only
+64.Consider thefollowing statementsinregard
+to anelectrostaticprecipitator:
+
+1. Powerrequirementissmall compared
+to other devices.
+
+2. Immunetovariableparticulate
+loadings andflowrates.
+
+3. 99+percentefficiencyisobtainable.
+Very small particlescanbecollected,
+wet or dry.
+
+4. Canhandleboth gases andmists at
+highvolumeofflow.
+Whichofthesestatementsare correct?
+(A) 1,2,3and4
+(B) 1,3and 4only
+(C) 1,2and3only
+（d)2,3and4only
+(Contd.)
+
+--- page 12 ---
+65.Consider the followingstatements:
+
+1. Noisepollution can bereduced using
+double-glass windowpanes.
+
+2. Glass absorbs the noise.
+
+3. The air trapped in the double-glass
+system actsasaninsulator and
+reduces the noise.
+
+4. Thenoisetotally reflectsbackdue
+tothetwolayersofglass.
+Whichofthesestatementsarecorrect？
+（a)1,2,3and4
+(B) 1,2and3only
+（c）1and3only
+（d)2and4only
+66.Considerthefollowingstatements:
+
+1. Soundis a form of mechanicalenergy
+from a vibrating substance,
+transmitted by a cyclic series of
+compressionsandrarefactions of the
+moleculesofthematerial through
+which it passes.
+
+2. Inapure tone,the wavepattern of
+the alternatingpositive andnegative
+soundpressureisofideal sinusoidal
+form with fixed wave length,
+frequency andamplitude.
+
+3. Thespeedoftransmissionofsound
+isa function ofthe transmitting
+medium andits temperature.
+
+4. The audiblerangeof200to25000Hz
+is considerednormal foryoung adults.
+Whichofthesestatements arecorrectin
+respectofsound transmission？
+（a)1,2,3and4
+(B) 1,2and4only
+(C) 1,2and3only
+（d）2,3and4only
+
+67.Consider thefollowing statements:
+
+1. Activityisapropertytypicalofclay
+soils.
+
+2. Anactivityvalueof 7inaclaysoil
+isindicativeofthepresenceof
+montmorillonitemineral.
+
+3. An activityvalueof7inaclaysoil
+isindicativeofthepresence ofillite
+mineral.
+Whichof these statements are correct？
+（a)1,2and3
+(B) 1and2only
+(C) 1and3only
+2and3only
+68.Inawet soilmass air,occupiesone-fourth
+ofitsvolumeandwateroccupiesonehalfofitsvolume.Thevoidratioofthis
+soil is:
+(A) 1
+(B) 2
+(C) 3
+(D) 4
+69:Whichoneofthefollowingstatementsis
+correct?
+(A) Grain size is the primary criterion
+for classification ofcourse,as well
+asfine-grained soil
+(B) Grain size is theprimary criterion
+for classification ofcoarse-grained
+soils
+(C) Plasticity curve classifies coarsegrained soils
+(D) Plasticity characteristics relate to
+classification ofcoarse-grainedsoils
+12
+(Contd.)
+
+--- page 13 ---
+70.Consider thefollowing statements:
+1.Aconspicuousbreakin the continuity
+ofa grain size distribution curve
+indicatesamixtureofsoilfromtwo
+different layers.
+
+2. A steepgrainsizedistributioncurve
+indicatesprevalenceofnearlyuniform
+grain size.
+
+3. Aflat grain size distribution curve
+indicates certain range ofmissing
+grain sizes.
+Whichofthesestatementsarecorrect？
+(A) 1,2and3
+(B) 2and3only
+(C) 1and3only
+（d)1and2only
+71.Consider thefollowing statements:
+
+1. Swellingisgreater and shrinkage is
+lessforclaycompactedon the drysideofoptimum.
+
+2. Clayscompactedon the dry-side of
+optimum arecharacterizedbylarger
+strength.
+
+3. Anincreaseinorganiccontentofclay
+soilscausesanincreasein optimum
+moisture contentvalue.
+Which ofthese statements arecorrect？
+(A) 1,2and3
+(B) 1and2only
+(C) 1and3only
+(D) 2and3only
+13
+
+72.Consider thefollowingstatements:
+
+1. Quantityofseepageineachflow
+channelofaflow-netisindependent
+ofthesizeoffield.
+
+2. Drop in head between adjacent
+equipotential lines ofaflow-net is
+dependent onupstream head.
+
+3. Withincreaseinthelengthofaflow
+path,thecorrespondingexitgradient
+will decrease.
+Whichofthesestatementsarecorrect?
+(A) 1,2and3
+(B) 1and2only
+1and3only
+(C) （d)2and3only
+73.Considerthefollowingstatements:
+
+1. Presence ofmoistureinsanddoesnot
+affectthemagnitudeoffriction angle.
+
+2. Moisture introduces capillary effect
+ina sandy soil leadingtoapparent
+increase inangleofintermalfriction.
+
+3. Moisture introduces capillaryeffect
+ina sandysoil leadingtodevelopment
+ofapparentcohesion.
+
+4. Thecapillaryfilmisbrokenbydrying
+orsubmergenceleading tolossin the
+apparentcohesion.
+Which of these statements are correct？
+(A) 1,2,3and4
+(B) 2and3only
+(C) 2and4only
+（d）3and4only
+3
+(Contd.)
+
+--- page 14 ---
+74.Consider thefollowing statements:
+1.Cohesion-less soils experience
+relativelyquickercompressionunder
+load.
+
+2. Clays compacted dry-of-optimum
+compress more rapidly.
+
+3. Clayscompactedwet-of-optimum
+consolidate more under low stress
+range.
+Whichof these statementsarecorrect？
+(A) 1,2and3
+(B) 1and2only
+(C) 1and3only
+（d）2and3only
+75.Consider thefollowing statements:
+
+1. The maximum possible overconsolidationratioofnormally
+consolidatedsoil isunity.
+
+2. The compressibility ofafielddeposit
+isslightly greater than that shown
+bya laboratorysample
+
+3. In.Terzaghi's theory of onedimensional consolidation,only
+hydrodynamic lag is considered
+whereasplasticlag is ignored.
+Which of these statements are correct？
+(A) 1,2and3
+(B) 1and2only
+(C) 1and3only
+(d）2and3only
+14
+
+76.Consider thefollowingstatements:
+
+1. Brittlebehaviour of soils can be
+obtainedwhen thesoil isheavilyoverconsolidatedclay.
+
+2. Remoulded cohesive clays showa
+tendencytowardsprogressivefailure.
+
+3. Undisturbedsensitiveclaysshowa
+tendency towardsprogressivefailure.
+Whichof these statements arecorrect?
+（a)1,2and3
+(B) 1and3only
+(C) 1and2only
+(D) 2and3only
+77.Aconcentratedloadof50kNactson the
+surfaceofground.Theincreaseinvertical
+stressdirectlybelowtheloadatadepth
+of4mwillbe(Valueofinfluencefactor
+is0.48):
+(A) 1.5kN/m²
+15kN/m²
+(B) 
+(C) 150kN/m²
+0.15kN/m²
+(D) 78.Consider the following statements:
+
+1. The bulb ofpressure under stripfooting forms in the length-wise
+direction.
+
+2. Thebulbofpressureundera stripfootingformsin the width-wise
+direction.
+
+3. Contactpressureat theedges ofa
+rigid footingon saturated clay is
+theoreticallyinfinite.
+Whichofthesestatements arecorrect？
+（a)1,2and3
+(B) 2and3only
+(C) 1and2only
+(D) 1and3only
+(Contd.)
+
+--- page 15 ---
+79.Consider the following statements：
+
+1. Undisturbedsamplesmaybe obtained
+with thehelpofaugers.
+
+2. Auger drilling is mosteffective in
+clayey soils.
+
+3. Hollow stem augers are sometimes
+used to drill holes in silty sand.
+Whichofthese statementsarecorrect?
+（a)1,2and3
+(q)
+1and2only
+(C) 2and3only
+(D) 1and3only
+80.A singlepile,50cmindiameter and16m
+long,is driveninclayhaving an average
+unconfined compressivestrength of
+100kN/m².The ultimate load carrying
+capacityofthepile,neglectingendbearing
+ifany,and assuming shear mobilization
+of0.75around thepile,isnearly:
+(A) 840kN
+(B) 900kN
+(C) 940KN
+1000kN
+(D) 81.Consider thefollowing statements:
+
+1. If thesoil isnot blackin colour,itis
+unlikelytobeaswellingsoil.
+
+2. The swelling pressure ofa finegrained soildependson itsinitial
+watercontentanddensity.
+
+3. The swelling pressure ofa finegrained soil dependson the nature
+of thepore fluid.
+Whichofthese statementsarecorrect？
+（a)1,2and3
+(B) 1and2only
+(C) 1and3only
+（d）2and3only
+15
+
+82.Whichoneofthefollowingstatementsis
+correct?
+（a)In a retrograde vernier,（n-1)
+divisionsontheprimaryscaleare
+dividedintondivisionsonthevernier
+scale.
+(B) Adoublevernier consistsof two
+simple verniers placedend-to-end
+formingonescalewith thezeroin
+the centre.
+(C) In an extended vernier,（2n+1)
+primarydivisions aredividedinton
+divisionson thevernier.
+(D) Inadirectvernier,（n+1)primary
+divisions aredividedinto n equal
+divisions on the vernier scale.
+83.The length ofa linemeasuredwith a
+30mchainwasfoundtobe734.6m.It
+wasafterwardsfoundthatthechainwas
+0.05m toolong.The truelengthof the
+line was:
+(A) 630.82m
+(B) 680.82m
+735.82m
+(C) 
+(D) 780.92m
+84.Followingoffsetsweretakenfrom asurvey
+linetoahedge:
+Distance（inmeters)05|1015|20|30|40
+Offsets(inmeters)3|45.55
+644.5
+Theareabetweensurveylineandthehedge
+is(by trapezoidalmethod):
+(A) 185.5.m²
+(B) 187.5m²
+(C) 189.5m²
+(D) 289.5m²
+15
+(Contd.)
+
+--- page 16 ---
+85.ThebearingoflineABis150°and the
+angleABCis124°.BearingoflineBC
+is:
+(A) 94°
+(B) 98°
+(C) 198°
+(D) 90°
+86.The following observations were taken
+duringtestingofadumpylevel:
+Staffreadingon
+Instrumentat
+P
+Q
+P
+1.475m
+2.205m
+1.440
+2.060m
+Q
+m
+The collimation error in the instrument
+was:
+(A) +0.055m
+(B) +0.005m
+-0.055m
+(C) 
+(D) -0.005m
+87.R.L.ofa floor level is 200.490m.Staff
+reading on theflooris1.695m.Reading
+onthestaff heldupsidedown againstthe
+bottomoftheroofis3.305m.Heightof
+the ceiling is:
+(A) 3.5m
+(B) 4.0m
+(C) 5.0m
+6.0m
+(D) 16
+
+88.Whichof thefollowing terms relatedto
+levellingare correctlydefined？
+1.Lineof
+Line joining the intercollimation
+sectionofthecrosshairs
+tothe optical centreof
+the objectglass and its
+continuation
+2.Back-sight
+Firststaffreading taken
+after the level is set up
+3.Fore-sight
+Last staffreading prior
+to shifting oflevel,or
+termination of the
+processoflevelling
+4.Height of
+Heightof centre of teleinstrument
+scope above theground
+where the level is setup
+(A) 1,2,3and4
+(B) 1,2and4only
+(C) 1,2and3only
+(D) 2,3and 4only
+89.TwostationsPand Qareon the opposite
+banksofariver.Followingobservations
+were takeninreciprocallevelling.
+Staffreading at
+Instrument near
+P
+Q
+P
+1.400
+3.500
+Q
+0.600
+2.200
+R.L.ofPis200.000 m,and thenR.L.of
+Qis nearly:
+(A) 199.3
+(B) 201.7
+(C) 200.0
+(D) 198.2
+6
+(Contd.)
+
+--- page 17 ---
+90.Whichofthefollowingsetof terms does
+94
+notrelatetooperationofa theodolite？
+(A) Transitingandinverting
+(B) Faceleft andfaceright
+(C) Right swing and left swing
+(D) Gauging and sounding
+91.Under theNagpurRoad Plan,which of
+thefollowingareNOTrelevantinplanning
+95
+the road developmentprogrammeina
+backwarddistrict?
+
+1. Existing agriculture drainage network
+ofdrain canals.
+
+2. Existingnumber ofPanchayatunions.
+
+3. Existinglength ofmud-trackroads.
+
+4. Numberofvillageswithpopulation
+of10000 and above.
+(A) 1,2,3and4
+(B) 1,2and3only
+96
+(C) 1,2and4only
+2,3and4only
+(D) 92.The earth pressure behind a bridge
+abutment is:
+(A) Active
+(B) Passive
+Atrest
+(C) 97
+(D) Constantalwaysandeverywhere
+93.Thepurpose ofcheckrail is:
+(A) Toaid theflangeof theoppositewheel
+passing through the crossing to steer
+clear of the nose
+(B) Toavoidderailmentperse
+Tohelpcontrol therunning speed
+(D) Tominimizethelayingcostoflong
+distancesoftrades
+17
+
+94.A45kgrailon BGtracksinIndian
+conditionsisexpectedtocarryapproximate
+axleloadsof:
+(A) 21t
+(B) 22t
+(C) 23t
+(D) 24t
+95.Trafficcapacity is the:
+(A) Abilityofroadwaytoaccommodate
+trafficvolumeintermsofvehicles/hr
+(B) Numberofvehiclesoccupyingaunit
+lengthofroadwayat agiveninstant
+expressedasvehicles/km
+?
+Capacityoflanetoaccommodatethe
+vehicleswidthwise(across theroad)
+(D) Maximum attainablespeedofvehicles
+96.For abituminous carriageway surface
+having2%camberanddesignspeedof
+100kmph,Radiusbeyondwhich superelevation is not essential is nearly:
+(A) 1100m
+(B) 1500m
+(C) 1800m
+(D) 2200m
+97.Fishplates are used in rail joints to:
+
+1. Maintain thecontinuityofrails
+
+2. Providefor any expansion or
+contraction
+
+3. Transfertheloadto theballast
+
+4. Maintain correct alignment
+1,2,3and4
+(A) (q)
+1,2and3only
+(C) 2,3and4only
+（d)1,2and4only
+(Contd.)
+
+--- page 18 ---
+98.For a railway track in hilly terrain,the
+typeofgradientprovidedis:
+(A) Pulling gradient
+(B) Momentumgradient
+(C) Helper gradient
+(D) Minimumgradient
+99.A road passes through a cut with
+imperviousstrataatadepthof1.25m
+from the sub-grade level.To intercept
+seepage flow,alongitudinalpipe drain in
+trenchfilledwithfiltermaterial andclay
+seal isconstructed.Whatwill be the
+required depthof the trench？
+(A) 2.5m
+(B) 1.5m
+(C) 1.25m
+0.5m
+(D) 100.Whatis the value of the resultant
+retardationinm/s²whenalongitudinal
+frictioncoefficientof0.4isallowedfor
+stopping thevehicleonroad？
+(A) 0.98
+1.95
+(B) 
+(C) 2.93
+(D) 3.93
+101.Therateofsuper-elevationforahorizontal
+curveofradius500minanational
+highwayforadesignspeedof100kmph
+is:
+0.04
+(A) 
+(B) 0.063
+(C) 0.07
+(D) 0.70
+
+102.The corrected modulus of sub-grade
+reactionfor standard diameter plate is
+6.0kg/cm'.Whatwouldbe themodulus
+ofsub-gradereaction ofthe soil when
+testedwitha30cmdiameterplate？
+(A) 15kg/cm²
+(B) 25kg/cm²
+(C) 30kg/cm3
+(D) 60kg/cm²
+Directions:
+EachofthenextEIGHTEEN(18)items
+consists of two statements,onelabeled as the
+Statement(I)'and theother as‘Statement(II)
+Youaretoexamine these twostatements
+carefullyandselecttheanswerstotheseitems
+using thecodesgivenbelow:
+Codes:
+(A) Both Statement(l)and Statement(Il)are
+individually true andStatement(Il)isthe
+correctexplanationofStatement(I)
+
+6. BothStatement(I)and Statement(II)are
+individually true but Statement （II)
+isNoTthecorrectexplanationof
+Statement (I)
+(C) Statement(I)is truebutStatement(Il)is
+false
+(D) Statement (I)isfalsebutStatement(Il)is
+true
+:Astemperaturein103.Statement (I)
+creases,viscosityofair
+decreases.
+Statement(II)
+:Astemperatureincreases,activityofthe
+airmoleculesincreases.
+18
+(Contd.)
+
+--- page 19 ---
+104.Statement (I)
+:Fluid pressureisa
+scalar quantity.
+Statement(Il):Fluid thrust always
+acts downwards.
+105.Statement (1)
+:Theintegrationof
+differential form of
+Euler's equation of
+motionyields
+to
+Bernoulli's equation.
+Statement(II)
+:Euler'sequationis
+based on the assumption ofconservation
+ofmass.
+:A tennisball with a
+106.Statement (l)
+rough surface can be
+madetocurvemore
+markedlythan the one
+witha smooth surface.
+Statement(Il):Circulationisincreased
+in thecaseof arough
+ball.
+107.Statement (I)
+:Arectangular bridge
+pier experiences lateral
+force during flood
+flow.
+Statement(Il):Thebridgepier sheds
+vortices alternately
+fromitseithersideinto
+thewakeflow.
+19
+
+108.Statement (I)
+:Gravityisadeterminant in estimating
+pipeflowmagnitudes.
+Statement(I)
+:The term‘gappears
+explicitlyin DarcyWeisbachformulafor
+pipe flow resistance.
+109.Statement (1)
+：Aneconomical channel
+sectiongivesmaximum
+discharge foragiven
+cross-sectional area.
+Statement (II)
+：An economical channel
+section has smooth
+surface with reduced
+friction.
+110.Statement (1)
+:In thecaseofan open
+channel flow,for a
+hydraulicallyefficient
+section,the hydraulic
+radius is equal to50%
+ofdepthofflowinthe
+channel.
+Statement(II)
+Wettedperimeter is
+minimum
+for
+a
+hydraulically efficient
+sectionof anopen
+channel.
+111.Statement (I)
+：Condensationofwater
+vapour into droplets
+precedes the precipitation process.
+Statement(II)
+:Formation ofprecipitationdroplets
+iS
+predictedon thepresence ofcondensation
+nuclei.
+(Contd.)
+
+--- page 20 ---
+112.Statement (I)
+:Rapidsandfilters
+consisting of carefully
+sievedsandontopof
+a bedofgravel will
+only filter particles
+larger than its pore
+size.
+Statement(I)
+）:Inaddition to straining
+adsorption,continued
+flocculation
+and
+sedimentation in the
+pore spaces help in
+particle
+removal
+mechanism.
+113.Statement (1)
+:Suspended aswell as
+colloidal particulates
+are removed from
+waterbyadditionof
+25%alum dosage.
+Statement(I)
+:The optimum dosage
+ofalumisdetermined
+by performing the‘Jar
+test'.
+114.Statement (1)
+：Inarectangularbaffled
+channel,it is easy to
+alter the Gvalue.
+Statement(II)
+:Inarectangularbaffled
+channel,the baffles are
+rigidly built and so
+cannotundergo any
+change.
+
+115.Statement(I)
+:Plasticmediaof25to
+100 mm size are
+employedinsuper-rate
+trickling filters for
+treatment ofwastewater havingavery
+high BOD.
+Statement (II)
+Plasticmediahave
+high specific surface
+area,high void space
+lowweight.
+and
+Hydraulicloadingrate
+and organic loading
+rateare30to90m/d/m²
+and1000to2000g/d/m²
+respectively,which are
+much higher than in
+stone media trickling
+filter.
+116.Statement (I):The cross-section ofa
+grit
+channelis
+designedforauniform
+velocityatallflow
+rates.
+Statement (I)
+:A U-type of crosssection maintains a
+uniform velocityat all
+flowrates.
+117.Statement (l)
+:Waterwith heavy algal
+growthsoften haspH
+values as high as9
+to10.
+Statement(II)
+：Non-utilizationofthe
+bicarbonateionasa
+carbon sourcebyalgae
+can result in substantial
+accumulationof OH
+ions.
+20
+(Contd.)
+
+--- page 21 ---
+118.Statement (l)
+：For aerobic composting
+ofrefuse,it is
+mandatory tomaintain
+theC/Nratiobetween
+50and60.
+Statement (II)
+C/Nratioisone ofthe
+important factors in
+composting.It is an
+important constituent
+aslossofnitrogen is
+tobeprevented and
+maximumproportion
+of the nitrogen in
+compost is to be
+preserved.
+119.Statement (1)
+Environment'includes
+abiotic andbiotic
+parameters.
+Statement (I)
+Abioticparameters
+include algae,bacteria,
+animals;and biotic
+parameters are air,
+water and soil.
+21
+
+120.Statement (I):The actualpayload,
+in
+particularly
+passenger aircraft,is
+normallylessthanthe
+maximumstructural
+payloadeven when the
+aircraft is completely
+full.
+Statement (Il):There are limitations
+in theuseofspace
+when passengersare
+carriedin an aircraft.
+
+--- page 22 ---
+ROUGHWORK
+22
+·
+
+--- page 23 ---
+OUGHWORK
+
+--- page 24 ---
+ROUGH WORK
+24

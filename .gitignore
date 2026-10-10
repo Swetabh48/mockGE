@@ -53,3 +53,30 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# IES Civil large binaries / local corpora
+iesce/pdfs/
+*.pdf
+!docs/**/*.pdf
+data/ies_textbooks/*
+!data/ies_textbooks/README.md
+!data/ies_textbooks/_starter_ce_notes.txt
+data/ies_textbook_index/chunks.jsonl
+
+# Local / editor / agent tooling (never publish)
+.cursor/
+.claude/
+.codex/
+.github/copilot*
+AGENTS.md
+CLAUDE.md
+.agent/
+.agents/
+*.cursorrules
+.cursorignore
+.cursorindexingignore
+
+# Transient deploy / OCR scratch logs
+data/free_resources/modal_deploy_log.txt
+data/free_resources/modal_gpu_deploy.txt
+scripts/_tmp_*.py

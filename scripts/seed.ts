@@ -10,6 +10,8 @@ import {
   DEST_PASSAGES,
 } from "../src/lib/exam/questionBank";
 import { PRACTICE_SYLLABUS } from "../src/lib/exam/taxonomy";
+import { buildIesDemoPaper, buildIesPracticeSet } from "../src/lib/exam/iesQuestionBank";
+import { IES_SYLLABUS } from "../src/lib/exam/iesTaxonomy";
 
 const connectionString = process.env.DATABASE_URL;
 if (!connectionString) {
@@ -35,6 +37,7 @@ async function seed() {
             ? `Tier-I PYQ-Style Hard Mock ${i}`
             : `Tier-I Full Mock ${i} (Hard · 4×15 min)`,
         tier: "tier1",
+        exam: "ssc_cgl",
         mode: i === 2 ? "pyq" : "full_mock",
         source: i === 2 ? "pyq_style" : "seed",
         difficulty: "hard",
@@ -50,6 +53,7 @@ async function seed() {
       data: {
         title: `Tier-II Paper-I Hard Mock ${i}`,
         tier: "tier2",
+        exam: "ssc_cgl",
         mode: "full_mock",
         source: i === 2 ? "pyq_style" : "seed",
         difficulty: "hard",
@@ -74,6 +78,7 @@ async function seed() {
         data: {
           title: `${s.title} — Section Drill ${setNo} (25 Q · 15 min)`,
           tier: "practice",
+          exam: "ssc_cgl",
           mode: "practice",
           focusSection: s.key,
           source: "seed",
@@ -94,6 +99,7 @@ async function seed() {
           data: {
             title: `${subject.title} · ${topic.title} · ${sub.title} (10 Q)`,
             tier: "practice",
+            exam: "ssc_cgl",
             mode: "topic_practice",
             focusSection: subject.key,
             focusTopic: topic.id,
@@ -107,6 +113,67 @@ async function seed() {
       console.log(`Seeded topic drills: ${subject.key}/${topic.id}`);
     }
   }
+
+  // —— IES Civil ——
+  for (const paper of ["ce_paper1", "ce_paper2"] as const) {
+    const questions = buildIesDemoPaper(paper, 1, 30);
+    const label = paper === "ce_paper1" ? "Paper-I" : "Paper-II";
+    await prisma.paper.create({
+      data: {
+        title: `IES Civil ${label} Demo Mock (30 Q · 3h pattern)`,
+        tier: paper === "ce_paper1" ? "ies_paper1" : "ies_paper2",
+        exam: "ies_civil",
+        iesPaper: paper,
+        year: 2024,
+        mode: "full_mock",
+        source: "seed",
+        difficulty: "hard",
+        questions: { create: questions },
+      },
+    });
+    console.log(`Seeded IES ${label} mock`);
+  }
+
+  // Demo PYQ year packs (placeholder until PDF import)
+  for (const year of [2020, 2022]) {
+    for (const paper of ["ce_paper1", "ce_paper2"] as const) {
+      const questions = buildIesDemoPaper(paper, year, 40);
+      const label = paper === "ce_paper1" ? "Paper-I" : "Paper-II";
+      await prisma.paper.create({
+        data: {
+          title: `ESE ${year} Civil ${label} (PYQ-style · 3 hours)`,
+          tier: paper === "ce_paper1" ? "ies_paper1" : "ies_paper2",
+          exam: "ies_civil",
+          iesPaper: paper,
+          year,
+          mode: "pyq",
+          source: "official_pyq_demo",
+          difficulty: "hard",
+          questions: { create: questions },
+        },
+      });
+    }
+    console.log(`Seeded IES PYQ year ${year}`);
+  }
+
+  for (const sub of IES_SYLLABUS.slice(0, 6)) {
+    const questions = buildIesPracticeSet(sub.key, 1, 10);
+    await prisma.paper.create({
+      data: {
+        title: `IES · ${sub.title} drill (10 Q)`,
+        tier: "practice",
+        exam: "ies_civil",
+        iesPaper: sub.paper === "both" ? "ce_paper1" : sub.paper,
+        mode: "topic_practice",
+        focusSection: sub.key,
+        focusTopic: sub.topics[0]?.id,
+        source: "seed",
+        difficulty: "hard",
+        questions: { create: questions },
+      },
+    });
+  }
+  console.log("Seeded IES practice drills");
 
   console.log("Seed complete");
 }

@@ -1,19 +1,20 @@
 # mockGE
 
-SSC CGL practice platform by **Swetabh48**.
+SSC CGL + **UPSC ESE / IES Civil** practice platform by **Swetabh48**.
 
 Live: [https://mockge.vercel.app](https://mockge.vercel.app)
 
-Next.js + Prisma (Postgres). CBT-style full mocks, topic practice with solutions & exam tricks, and a Formulas & Tricks revision section.
+Next.js + Prisma (Postgres). CBT-style full mocks, PYQ retakes, topic practice with textbook-style solutions, and revision notes.
 
 ## What’s included
 
-| Area | What you get |
-| --- | --- |
-| **Test** | Tier-I / Tier-II style mocks, PYQ-style papers, DEST practice |
-| **Practice** | Untimed topic drills (stopwatch from 00:00), fresh sets on demand |
-| **Revise** | Topic-wise formulas, worked examples, exam shortcuts, video links |
-| **Results** | Score breakdown, strengths/weaknesses, step-by-step solutions |
+| Exam | Area | What you get |
+| --- | --- | --- |
+| **SSC CGL** | Test | Tier-I / Tier-II mocks, PYQ-style, DEST |
+| **SSC CGL** | Practice / Revise | Untimed drills, formulas & tricks |
+| **IES Civil** | PYQ | CE Paper-I + Paper-II, **3 hours each** (full day = 6h) |
+| **IES Civil** | New Mocks | Gemini framing + `mockge-ies-civil` domain model |
+| **IES Civil** | Solutions | Textbook RAG + detailed explanations on the result page |
 
 ## How practice questions are generated
 
@@ -44,9 +45,29 @@ Open [http://localhost:3000](http://localhost:3000).
 | Variable | Purpose |
 | --- | --- |
 | `DATABASE_URL` | Postgres connection string |
-| `OLLAMA_BASE_URL` | Model API base (local Ollama or Modal HTTPS URL) |
-| `OLLAMA_MODEL` | Model name (default `mockge-ssc`) |
+| `OLLAMA_BASE_URL` | SSC model API base (local Ollama or Modal HTTPS URL) |
+| `OLLAMA_MODEL` | SSC model name (default `mockge-ssc`) |
 | `OLLAMA_API_KEY` | Optional bearer token for a protected endpoint |
+| `GEMINI_API_KEY` | Google Gemini for IES question framing + textbook solutions |
+| `GEMINI_MODEL` | Gemini model id (default `gemini-3.8-flash`) |
+| `OLLAMA_IES_BASE_URL` | IES model API base (Modal or local) |
+| `OLLAMA_IES_MODEL` | IES model name (default `mockge-ies-civil`) |
+
+### IES Civil PYQs + training
+
+```bash
+npm run ies:download          # fetch CE Paper-I/II PDFs → iesce/pdfs/
+npm run ies:import            # parse → data/ies_civil_official.json
+npm run ies:seed              # load official PYQs into Postgres
+npm run ies:corpus            # build data/ies_model_corpus.jsonl
+npm run ies:textbooks         # chunk data/ies_textbooks/ for RAG solutions
+
+# Cloud GPU train + serve (Modal; GPU needs billing linked)
+modal run infra/train_mockge_ies.py
+modal deploy infra/serve_mockge_ies_ollama.py
+```
+
+Dashboard switch: **SSC CGL | IES Civil**. IES PYQ tab lists years with Start (3h) / Full day (6h).
 
 ### Optional: local model
 

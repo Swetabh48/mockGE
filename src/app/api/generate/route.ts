@@ -30,6 +30,8 @@ export async function POST(request: Request) {
           ? `SSC CGL Tier-I Mock ${n}`
           : `SSC CGL Tier-II Paper-I Mock ${n}`,
       tier,
+      exam: "ssc_cgl",
+      mode: "full_mock",
       source: "seed",
       difficulty: "standard",
       destPassage: tier === "tier2" ? DEST_PASSAGES[n % DEST_PASSAGES.length] : null,

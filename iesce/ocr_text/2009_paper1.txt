@@ -1,0 +1,1983 @@
+
+--- page 1 ---
+DONOTOPENTHISTESTBOOKLET
+T.B.C.:O-FTF-J-DFA
+Serial No.
+18821
+TEST BO
+CIVILENGI
+Paper
+TimeAllowed:TwoHours
+INSTRUC
+
+1. IMMEDIATELYAFTERTHECOMMENCEM
+CHECKTHATTHISTESTBOOKLETDOE
+ORMISSINGPAGESORITEMS,ETC.IF
+TESTBOOKLET.
+
+2. ENCODECLEARLYTHETESTBOOKLET
+BEINTHEAPPROPRIATEPLACEINTH
+
+3. YouhavetoenteryourRollNumberon t
+Booklet in the Box provided alongside.D
+writeanythingelseontheTestBooklet.
+
+4. This TestBookletcontains120items(que：
+(answers).Youwillselecttheresponsewhic
+caseyoufeelthatthereismorethanoneco
+consider thebest.In any case,choose ONL
+
+5. YouhavetomarkallyourresponsesONLY
+directionsin theAnswerSheet.
+
+6. Allitems carry equal marks.
+
+7. Beforeyouproceed tomarkin theAnswerS
+Booklet,youhave tofill in some particulars
+toyouwithyourAdmissionCertificate.
+
+8. After youhave completed filling inallyo
+examinationhasconcluded,youshouldhand
+Youarepermittedtotakeawaywithyouthe
+
+9. Sheetsforroughworkare appendedin theT
+
+10. Penalty for wrong answers:
+THEREWILLBEPENALTYFORWRONG
+INTHEOBJECTIVETYPEQUESTIONPA
+(i)
+Therearefouralternativesfortheansv
+whichawronganswerhasbeengivenby
+assignedtothatquestionwillbededuct
+(ii)
+Ifacandidategivesmore thanoneansw
+ifoneof thegivenanswershappens to
+abovetothatquestion.
+(ii)If a question is left blank,ie.,noanswe
+penaltyfor thatquestion.
+DONOTOPEN THISTESTBOOKLET
+
+eran an g,...
+Bngineering Service Examination.
+TUNTILYOUAREASKEDTODOSO
+TestBookletSeries
+OOKLET
+GINEERING
+er-I
+MaximumMarks:200
+ICTIONS
+MENTOFTHEEXAMINATION,YOUSHOULD
+DESNOTHAVEANYUNPRINTEDORTORN
+IFSO,GETITREPLACEDBYACOMPLETE
+ETSERIESA,B,CORDASTHECASEMAY
+THEANSWERSHEET.
+theTest
+DONOT
+uestions).Eachitem comprisesfourresponses
+hichyouwanttomarkontheAnswerSheet.In
+correctresponse,mark theresponse which you
+NLYONEresponseforeachitem.
+YontheseparateAnswerSheetprovided.See
+Sheettheresponse tovarious itemsin theTest
+arsintheAnswerSheetasperinstructionssent
+yourresponses on theAnswer Sheetand the
+idovertotheInvigilatoronlytheAnswerSheet.
+theTestBooklet.
+eTestBookletattheend.
+NGANSWERSMARKEDBYACANDIDATE
+PAPERS.
+uswertoeveryquestion.Foreachquestionfor
+by the candidate,one-third (0·33)of the marks
+uctedaspenalty.
+swer, it will be treated as a wrong answer even
+to be. correct and there will be same penalty as
+wer is given by thecandidate,therewillbe no
+TUNTHLYOUAREASKEDTODOSO
+
+--- page 2 ---
+
+1. Whatistheratiooftheelasticmodulusof
+structuraltimberinlongitudinaldirectionto
+thatin thetransversedirection?
+(A) 1/2 to 1
+(B) 1/10 to1/20
+1to2
+(C) 
+(D) 10 to20
+
+2. Whatisthemodulusofelasticityofstandard
+timber(GroupB)in(MN/cm2)?
+(A) 0.5 to 1.0
+(B) 1·0 to1·25
+(C) 1·25 to1·5
+(D) 1·5 to 1.75
+
+3. Whatis the treatmentformaking timberfireresistant?
+(A) ASCUtreatment
+(q)
+Abel'sprocess
+(C) Creosoting
+(D) Tarring
+
+4. How is the process of treatment of wood
+using a preservativesolution andforcingair
+in at a pressure designated ?
+(A) Rupingprocess
+(B) Lawri process
+(C) Full cell process
+(D) Empty cell process
+
+5. Modularbricksareofnominalsize
+20x10x10cmand20%ofthevolumeislost
+inmortarbetweenjoints.Thenwhatis the
+numberof modular bricksrequired per cubic
+meterofbrickwork?
+(A) 520
+(B) 500
+(C) 485
+(D) 470
+
+6. Inordertoachieveasafecompressive
+strengthof 20kg/cm²inabrickmasonry,
+whatshouldbethesuitablerangeof
+crushingstrengthofbricks?
+35kg/cm²to70kg/cm²
+（a)
+(B) 70kg/cm²to105kg/cm²
+105kg/cm²to125kg/cm²
+(C) 
+(D) Morethan125kg/cm²
+
+7. Whatistherequirementofwater(expressed
+as%ofcementw/w)forthecompletionof
+chemicalreactionsin the processof
+hydrationofOPC?
+(A) 10to15%
+(q)
+15 to20%
+(C) 20 to25%
+25 to30%
+(D) 8.
+Which factors comprise maturity of
+concrete?
+(A) Compressive strengthand flexural
+strengthofconcrete
+(B) Cementcontentper cubicmetreand
+compressivestrengthofconcrete
+(C) Curingage and curing temperature of
+concrete
+(D) Age and aggregate content per cubic
+metreofconcrete
+
+9. Whatis theminimumvalueofindividual
+testresults (in N/mm²) for compressive
+strengthcompliancerequirementfor
+concreteM20aspercodalprovision?
+(A) fck-1
+(q)
+fck-3
+(C) fck-4
+(p)
+fk-5
+2°
+(Contd.)
+
+--- page 3 ---
+10.Forwhatreasonis it takenthat the nominal
+maximumsizeofaggregatemaybeaslarge
+as possible ?
+(A) Larger the maximum size of aggregate,
+morethecement required andsohigher
+the strength.
+(B) Larger themaximumsizeof aggregate,
+smalleristhecementrequirementfor
+aparticularwater cementratioandso
+more economical themix.
+?
+Larger themaximum size ofaggregate,
+lesser are the voids inthemix and
+hence alsolesser the cementrequired.
+(D) Larger the maximum size ofaggregate,
+morethesurfaceareaandbetter the
+bondbetween aggregates and cement,
+andsohigher thestrength
+11.Whatis therepresentativegeometricmean
+size of an aggregate sample if its fineness
+modulusis3·0?
+(A) 150 μm
+300μm
+(B) 
+(C) 600 μm
+(D) 12 μm
+12.A square steelbar of 50mm side and 5 m
+longissubjected toaloadwhereuponit
+absorbs a strain energy of 100J.What is its
+modulus ofresilience?
+1
+(A) Nmm/mm3
+125
+(q)
+125mm/Nmm
+1
+(C) Nmm/mm3
+100
+(D) 100mm²/Nmm
+3
+0
+
+13.What is theratioofflexuralstrength(fcr)
+tothecharacteristiccompressivestrengthof
+concrete(fck)forM25gradeconcrete?
+80-0
+(A) 
+(B) 0·11
+(C) 0-14
+0·17
+(D) 14.
+Whichofthefollowingtestscomparesthe
+dynamicmodulusofelasticityofsamples
+ofconcrete?
+(A) Compressiontest
+(B) Ultrasonicpulsevelocitytest
+(C) Split test
+(D) Tension test
+Whichoneofthefollowingiscorrect
+
+15. regardingthemosteffectiverequirements
+ofdurabilityinconcrete?
+Providingreinforcementnear the
+(A) exposed concretesurface.
+(B) Applyingaprotectivecoatingtothe
+exposedconcretesurface.
+(C) Restricting theminimum cement
+contentandthemaximumwater
+cementratioand the typeofcement.
+(D) Compactingtheconcretetoagreater
+degree.
+16.Asolidmetalbarofuniformsectional
+areathroughoutitslengthhangsvertically
+from its upper end. Details of the bar are :
+length=6m,material density=8x10-sN/
+mm²andE=2x10sN/mm².Whatwillbe
+thetotalelongationofthebarinmm?
+288
+(A) 104
+48
+(B) 104
+144
+(C) 104
+72
+(D) 104
+(Contd.)
+3
+
+--- page 4 ---
+17.Acircularrodofdiameter30mmandlength
+200mmis subjectedto a tensileforce.The
+extensioninrod is0.09 mm and change in
+diameteris0.0045mm.Whatisthe
+Poisson'sratioofthematerialof therod?
+(A) 0·30
+(B) 0·32
+(C) 0·33
+(D) 0·35
+18.1
+Fora materialhavingmodulusofelasticity
+equal to208GPa andPoisson'sratioequal
+to 0·3,what is the modulus of rigidity?
+(A) 74.0GPa
+(B) 80·0GPa
+(C) 100.0GPa
+(D) 128·5GPa
+
+19. Whatwouldbetheshapeofthefailure
+surfaceofastandardcastironspecimen
+subjectedtotorque?
+(A) Cup and cone shape at the centre.
+(B) Planesurfaceperpendiculartotheaxis
+ofthespecimen.
+?
+Pyramid typewedge-shaped surface
+perpendicular to the axis of the
+specimen.
+(D) Helicoidalsurfaceat45°tothe axisof
+the specimen.
+20.Given Eas theYoung'smodulus ofelasticity
+ofamaterial,whatcanbe theminimum
+valueofitsbulkmodulusofelasticity?
+E
+(A) 2
+(B) E3
+E
+(C) 4. E
+(D) 5
+4
+
+21. Ata point in a piece of stressed material the
+stresses are:
+x=αkN/m²tensile(normal)
+=x=βkN/m²(shearing).
+AX
+Although thevalues ofαandβarenot
+knownyet theprincipal stresses are equal
+to each other being (5 kN/m²).What is the
+radiusofMohr'scircie?
+(A) 2·5+(α+β)
+(α+β)
+(B) 2·5+
+2
+(C) 0
+(D) 2·5
+
+22. WhatistheradiusofMohr'scircleincase
+ofbi-axialstate ofstress?
+(A) Half the sum of thetwoprincipal
+stresses.
+(B) Halfthedifferenceofthetwoprincipal
+stresses.
+(C) Differenceofthetwoprincipal
+stresses.
+(D) Sum ofthetwoprincipalstresses.
+23.A circular column ofextermal diameter D,
+andinternaldiameterd,carries aneccentric
+loadsuchthattensionisdevelopednowhere.
+Whatshallbethediameterofthecore?
+D²+d2
+(A) 8d
+D²-d2
+(B) 8d
+D² +d2
+(C) 4d
+D² -d2
+(D) 4d
+(Contd.)
+
+--- page 5 ---
+24.Amildsteelbarofsquarecrosssection
+25mmx25 mm is1m long.It is
+subjectedtobi-axialstresso=480N/mm²
+(Tension)
+ando=400N/mm²
+(Compression).E=2x10N/mm²,μ=0·3,
+whatistheelongationofthebarinmminx
+direction?
+(A) 1·0
+(q)
+1·5
+(C) 2·0
+(p)
+3·0
+
+25. 21MN/m2
+56MN/m2
+=21MN/m²
+Figure showsastateofplanestress.If the
+minimumprincipalstressis--7MN/m²then
+whatisthevalueofo?
+(A) 30MN/m²
+(B) 68MN/m²
+(C) 98MN/m²
+(D) 105MN/m²
+5
+
+26.Thedetailsof theprincipalstressesat
+acertainpointinasteelmemberareas
+follows :
+Major principal stress o,=180N/mm²
+(Tensile)
+Majorprincipalstress Ois
+(Compressive)
+Iftheuniaxial tensileyieldstressis
+240N/mm²,according tomaximum
+shearstresstheory,whatwouldbethevalue
+ofo,in N/mm²whichyieldingwill
+commence?
+(A) 120tension
+(B) 90 tension
+(C) 80compression
+(D) 60 compression
+27.Anelementofastructureissubjectedtotwo
+Principal stresses , and 2
+,= 200 N/mm² (Tensile),
+O, is Compressive.
+Theyieldstressbothinsimpletensionand
+compressionforthematerialis240N/mm².
+Poisson's ratio μ =0·25;what is the value
+ofo,in N/mm² asper maximum normal
+straintheoryatwhichtheyieldofthe
+materialwillcommence?
+(A) 240
+(q)
+200
+(C) 180
+(D) 160
+(Contd.)
+
+--- page 6 ---
+28.A structural beam subjected to sagging
+bendinghas across-sectionwhich is an
+unsymmetricalI-section.Theoverall depth
+ofthebeam is300mm.The flange stresses
+in thebeam are:
+=200N/mm²
+=50N/mm²
+bottom
+Whatistheheightinmmoftheneutralaxis
+abovethebottomflange?
+(A) 240mm
+(B) 60mm
+(C) 180mm
+(D) 120mm
+
+29. 4kN
+8kN.m
+A
+C
+6m
+A simplysupportedbeamABisloaded as
+shownin thefigure above.What is theSF
+inkNin theportionACofthebeam?
+(A) 2
+(B) 4
+(C) 0
+(p)
+6
+
+30. 4 kN.m
+4kN.m
+B
+A
+AsimplysupportedbeamABofspan4m
+is subjected toterminalcouplesasshown
+in the figure above.If EI is in kN.m²,what
+is themagnitudeofthecentraldeflectionof
+thebeam in metres?
+4
+(A) EI
+8
+(B) EI
+2
+(C) EI
+16
+(D) EI
+31.Atimberbeamis100mmwideand150mm
+deep.The beam is simply supported and
+carriesacentral concentratedloadW.Ifthe
+maximum stressinshearis2N/mm²,what
+wouldbethecorrespondingloadWonthe
+beam?
+(A) 20kN
+(B) 30 kN
+(C) 40kN
+(D) 25 kN
+6
+(Contd.)
+。
+
+--- page 7 ---
+
+32. h
+Asquaresection asshown in thefigure
+aboveissubjected tobendingmomentM.
+Whatisthemaximumbendingstress?
+12M
+（a)
+bl
+h3
+6M
+(B) Obc=
+b
+h3
+9M"
+(C) bt
+2h3
+9M
+(P）
+b1
+h3
+33.A 40 mm diameter shaft is subjected to a
+twisting momentM.If shear stress
+developedinshaftis5N/mm²,whatis the
+value of the twisting moment?
+(A) 628.8Nm
+(B) 328.4Nm
+(C) 62.8Nm
+(D) 30-4Nm
+7
+
+34.Torsion applied to a circular shaftresults
+inatwistof1°overalengthof1m.
+The maximum shear stress induced is
+120N/mm²and themodulusofrigidityof
+theshaftmaterialis0.8x105N/mm².What
+istheradiusoftheshaft?
+300
+(A) π
+180
+(B) π
+90
+(C) 270
+(D) T
+
+35. 10 kN
+B
+2m
+E
+D
+2m
+2.m—→
+Theabovefigure showsapin-jointedframe.
+Whatare theforcesinmembersBE,CDand
+ED?
+(A) 10kN,5kN.and5kN
+(@)
+10kN,5kNandZero
+(C) 5kN,10kNandZero
+(D) 5kN,5 kN and Zero
+7
+(Contd.)
+D
+
+--- page 8 ---
+
+36. A mild steel rod tapers uniformly from
+30mmdiameterto12mmdiameter
+ina lengthof 300mm.The rod is
+subjectedtoanaxial loadof 12kN.
+E=2x10N/mm².Whatis theextensionof
+therod in mm?
+4π
+(A) 5
+2
+(B) Si
+(C) 5
+1
+(D) 5π
+37.Asquare beamlaidflat is then rotated
+insuchawaythatoneofitsdiagonal
+becomeshorizontal.Howisitsmoment
+capacity affected?
+(A) Increasesby 41·4%
+(B) Increasesby29·27%
+(C) Decreasesby29.27%
+(D) Decreases by 41·4%
+8
+
+30kN
+
+38. Hinge
+B
+C
+D
+m
+m
+1m
+Whichoneofthefollowingisthe
+correctbendingmomentdiagramfor a
+proppedcantileverbeamshowninfigure
+above?
+30kNm
+(A) B
+C
+D
+A
+30kNm
+(B) 15 kNm
+B
+C
+D
+A
+30kNm
+15kNm
+(C) B
+C
+D
+A
+30kNm
+30kNm
+(D) A
+C
+D
+15.kNm
+(Contd.)
+
+--- page 9 ---
+
+39. Consider thefollowingstatementswith
+respect to the abovefigureofa typical
+articulatedframe:
+
+1. The-frameisinternallydeterminateand
+externallyindeterminate.
+
+2. Theframeisinternallyindeterminate
+andexternallydeterminate.
+
+3. The frameisinternallyaswellas
+externallydeterminate.
+
+4. Theframeisinternallyaswellas
+externallyindeterminate.
+Whichoftheabovestatementsis/are
+correct?
+(A) 1only
+(B) 1and2
+(C) 3 only
+(D) 3 and 4
+9
+
+40. m
+8
+m
+m
+20kN 20 kN 20 kN 20 kN 20 kN
+6@6=36m
+What is.theforceinmember1for the
+structureshowninfigure above?
+(A) 30kN
+60kN
+(q)
+(C) 75 kN
+(D) 80kN
+
+41. B
+C
+10 kN/m
+4m
+A
+D
+5m
+WhatisthevalueofverticalreactionatA
+fortheframeshowninfigure above?
+(A) 0
+(B) 10 kN
+(C) 16kN
+(D) 20kN
+(Contd.)
+
+--- page 10 ---
+
+42. m
+B
+45°
+W
+TwobarsAOandBOareofuniformarea
+‘A'and arehinged at O.What is the vertical
+deflectionatOwhenelasticmodulusis
+uniformlyE?
+WL
+(A) 2AE
+WL2
+(B) AE
+WL
+(C) AE
+W2L
+(D) AE
+43.Afixedendbeam ofuniform cross-section
+isloadeduniformlythroughoutthespan.
+Whatistheproportionof thebending
+momentatthecentretotheendmoment
+consideringonlyelasticconditions?
+(A) 1:1
+(B) 1:2
+1 :4
+(C) 
+(D) 2:3
+10
+
+44. 10kN
+10 kN
+W
+2m
+4m
+R
+R
+Abeamofuniformflexuralrigiditysupports
+a set ofloads asshowninfigure above.What
+is thevalueofWif themagnitudesof
+bendingmoment atmidspanand atsupport
+ofthebeam arenumericallyequal?
+(A) 20 kN
+(B) 40 kN
+(C) 60kN
+(D) 80kN
+
+45. wkN/m
+A
+EI
+EI
+WhatisthereactiononthepinCforabeam
+as shown in the figure above?
+3
+(A) WIkN
+8
+
+1. WIkN
+(B) 2
+1
+(C) WIkN
+4
+3
+(D) WIkN
+16
+10
+(Contd.)
+
+--- page 11 ---
+
+46. M
+E1
+EI
+A
+Whatistherotationofthememberat Cfor
+aframe asshowninfigure above?
+ML'
+(A) 3E1
+ML
+(B) 4EI
+ML
+(C) 6EI
+ML
+(D) 12EI
+
+47. A
+Whatis themomentatAforaframeas
+shown in figure above?Eachmember
+indicated indarklineshasverylarge
+momentofinertia.
+PL
+(A) 2. PL
+(B) 4. PL
+(C) 8. PL
+(D) 16
+
+48. W
+B
+What is the bending moment at the end B
+fortheguidedbeam asshowninthefigure
+aboveconsideringthebeamtobeheld
+rigidlyatBagainstrotation and tosupport
+aloadw?
+(A) Zero
+WI
+(B) 4. W1
+(C) 2
+(D) WI
+
+49. 10
+2mB
+D
+6
+m
+A
+Whatisthevalueofoforthebeamshown
+infigure above?
+(A) Zero
+15
+(B) anticlockwise
+EI
+30
+(C) anticlockwise
+EI
+30
+(D) clockwise
+EI
+11
+(Contd.)
+
+--- page 12 ---
+
+50. 2m米
+2m-
+—2m
+Abeamofuniformsectionfixedatbothends
+andof span6 mis acteduponby two
+concentratedloadsof6teachasshownin
+figure above.Whatis thefixed endmoment
+ateachend?
+(A) 6tm
+(q)
+8 tm
+(C) 10 tm
+(D) 12 tm
+
+51. B
+C
+Flexibilitymatrixofthebeamshownabove
+is:
+1
+1
+2
+8
+3EI
+2
+8
+△
+units,whatis the
+reactionatB?
+(A) 0.75△
+(B) 3·0△
+(C) 6.0△
+(D) 24.0△
+12
+。
+
+52. A
+B
+2m
+TTTTTT
+2m
+!
+4m
+Whatistheordinateofinfluenceline atB
+for reaction R, in above figure ?
+(A) 0·5
+(q)
+0.4
+(C) 0-2
+(D) Zero
+
+53. EI
+E1
+Whatisthevalueofflexibilitycoefficient
+f,forthecontinuousbeamshowninfigure
+above?
+13
+(A) 3EI
+13
+(B) 2EI
+13
+(C) 8EI
+[3
+(D) 1-2EI
+2
+(Contd.)
+
+--- page 13 ---
+54.What isthe areaofinfluencelinediagram
+S
+for thereactionat the hinged endofa uniform
+propped cantileverbeam of spanL ?
+L
+(A) 8. L
+(B) 2. L
+(C) 4
+3L
+(D) 8
+
+55. 不
+6m
+6×6=36m
+Whatisthemaximumordinatefor
+influencelinefortheforceinthemember
+markedx?
+(A) 1·0
+(B) 1·33
+(C) 1·50
+(D) 2·50
+
+56. L/4
+Aproppedcantileverbeamofuniform
+moment capacity M。is shown in figure
+above.WhatisthecollapseloadW?
+12
+(A) Mo
+L
+8
+(B) Mo
+L
+
+6. Mo
+(C) L
+3
+(D) Mo
+L
+13
+
+57. W
+Mp
+C
+2Mp
+
+2. Whatisthecollapseloadintermsof
+M, and I for the beam shown in figure
+above?
+Mp
+(A) 1
+5Mp
+(q)
+1
+10Mp
+(C) 1
+20Mp
+(D) 1
+58.Aprismaticbeam (shape factor,S)fixed at
+bothendscarriesUDLthroughoutthespan.
+Whatistheratioofcollapseloadtoyield
+peol
+
+4. S
+(A) 3
+3
+(B) 一
+S
+4
+5-3
+S
+(C) 
+(D) 35. S
+(Contd.)
+
+--- page 14 ---
+
+59. 100mm
+本
+20mm
+米
+100mm
+→20mmk
+Whatisthedistancebetweenelastic
+neutralaxisandplasticneutralaxisfor
+thecross-section as shownin figure
+above?
+(A) .60 mm
+(B) 50mm
+(C) 40mm
+(D) 20mm
+60..Steel ofyieldstrength 400MPahas
+beenusedina structure.Whatisthe
+valueofthe'maximumallowabletensile
+strength ?
+(A) 240MPa
+(B) 200MPa
+120MPa
+(C) 
+(D) 96MPa
+
+61.Whichoneof thefollowinggraphs
+represents the compressive strength(o)
+versus slendernessratio(2)?
+(A) 入
+→
+C
+(B) or
+D
+e
+Obc
+↑
+←
+(C) Ob
+as
+↑
+ne
+le
+(D) abc
+↑
+14
+(Contd.)
+
+--- page 15 ---
+62.Asteelplate is 300mmwide and 10 mm
+thick.Arivetofnominaldiameterof16mm
+isdrivenintoit.Whatis thenetsectional
+areaoftheplate?
+(A) 2600mm²
+(B) 2760mm²
+(C) 2830mm²
+(D) 2840mm²
+
+63. 60mm
+>P
+50mm
+WhatisthesafeloadPthatcanbe
+transmittedbythefillet-weldedjointshown
+infigureaboveifthesafeallowableshear
+stressin thefillet-weldis108MPa?
+(A) 60kN
+(B) 66kN
+(C) 77kN
+(D) 81kN
+64.Acantileversteelbeamof3mspan
+carriesauniformlydistributedloadof
+20kN/m inclusive ofself-weight.The
+beamcomprisesofISLB200@198N/m,
+flange=100mmx7·3mm;web thickness=
+5.4 mm;I=1696.6cm;1=115·4 cm*.
+Whatis themaximumbending stress in the
+beam?
+(A) 132.62N/mm²
+(B) 530·47N/mm²
+(C) 1949.74N/mm²
+3899.48N/mm²
+(D) 15
+
+65.A tension member consists of two angles
+placedbacktoback.Forwhichoneofthe
+followingconfigurations,will theload
+carryingcapacityofthetensionmemberbe
+maximum?
+(A) Gussetplateisinbetweenthetwo
+anglesand tackingrivets areprovided
+(B) Gussetplateisinbetweenthetwo
+anglesand no tacking rivetsare
+provided
+(C) Gussetplateis on one sideof thetwo
+anglesandtackingrivets areprovided
+(D) Gussetplateisonone sideof the two
+anglesandnotackingrivetsare
+provided
+66.For a weldedplate girder with vertical
+stiffeners,whatis themaximum depth of
+webprovisionableindesignwhenthe
+thicknessofthewebplateis5mm?
+(A) 425mm
+(B) 1000 mm
+1250mm
+(C) 
+(D) 2000mm
+67.A symmetricplategirder is ofI section of
+depthD.TheflangeplatesareofareaA
+each and thewebplateis of area A.What
+is theplasticsectionmodulusoftheabove
+sectionprovisionablefordesign?
+(A) 
+(B) 
+(C) +
+(D) 12
+(Contd.)
+
+--- page 16 ---
+68.AnISMB300beamhasmodulusofsection
+of600x10mm².Platesof200mm×10mm
+areaddedbyweldingthemoneoneach
+flangetohavetotaldepthofsectionas
+320mm.Whatis thesectionmodulusof
+theplatedsection?
+(A) 462×10²mm²
+(B) 550×10²mm²
+(C) 710×10²mm²
+(p)
+1220×10²mm3
+69.Acolumnbearing trussin anopen
+industrialshedis6mheightbetweenits
+ownbaseandthebottomofthetruss.
+Whatistheeffectiveheightofthe
+columntakenforcalculationof
+compressivestrength?
+(A) 4.8m
+6.0m
+(q)
+(C) 7·2m
+(P)
+9.0m
+70.Whichoneofthefollowingvalues
+represents themaximumslenderness
+ratioofanyconnectionmemberwhich
+normallyactsasatieinarooftruss
+but can be subjected to possible reversal
+ofstressesfromtheactionofwindor
+seismic force?
+(A) 150
+(q)
+200
+(C) 250
+350
+(D) 71.Consider thefollowingstatements:
+
+1. Whenwindloadistheprimaryload,
+noincreaseinthe allowablestressesis
+provided forin members orfasteners.
+
+2. Due towindloadactingalongwith
+dead and live loads,increase in
+allowablestressupto33·33%canbe
+provided for.
+
+3. Due to wind load acting along with
+deadload,increaseinallowablestress
+of25%infoundationboltscanbe
+provided for.
+Whichoftheabovestatementsis/are
+correct'?
+(A) 1,2 and 3
+(q)
+1 only
+(C) 2 and 3
+(D) 3 only
+
+72. MC100 [y~= 40 mm,Yy=15 mm]
+B
+E
+SectionYY
+Whatistheslendernessratiotobe
+consideredindesignformemberBCin the
+structureshownabove?
+(A) 75
+(B) 150
+(C) 100
+(D) 200
+16
+(Contd.)
+
+--- page 17 ---
+73.A simply supportedbeam ofuniform crosssection has span‘L'and is loaded by a
+point load‘P'at its mid-span.What is the
+length of the elastoplastic zone of the plastic
+hinge ?
+L
+(A) 3
+2L
+(B) 3. L
+(C) 2
+3L
+(D) 4
+
+74. 400mm
+木
+100mm
+业
+500mm
+100
+mm
+InaT-section shown infigure above,what
+is the distance of plastic neutral axis as
+measureddownfromtop?
+100mm
+(A) (q)
+150mm
+(C) 200mm
+(D) 300mm
+17
+。
+
+75.Considerthefollowing statements:
+Torsionalrestraintinabeamcanbe achieved
+by providing:
+
+1. Web or flange cleats at the end
+connections.
+
+2. Externalsupport to theendofthe
+compressionflange.
+
+3. Bearingstiffnessactinginconjunction
+withthebearingofthebeam.
+Whichoftheabovestatementsis/are
+correct ?
+(A) 1only
+(B) 1 and2only
+(C) 2 and3only
+(D) 1,2 and 3
+
+76. 6P
+B
+C
+2Mp
+Mp
+Mp
+m
+mmm
+A
+D
+k1
+一业
+At thepoint ofcollapse,what is thevalue
+ofhorizontal thrustatpointAintheloaded
+frame shown in figure ?
+(A) 3P
+(B) 2P
+1·5P
+(C) 
+(D) P
+7
+(Contd.)
+
+--- page 18 ---
+77.In limit state design method,the momentof
+resistanceforabalancedsectionusingM20
+gradeconcreteandHYSDsteelofgrade
+Fe415 is given by Muuim = Kbd2, what is the
+valueof'K'?
+(A) 2.98
+(B) 2·76
+(C) 1·19
+(D) 0·89
+
+78. Pu/ fckbD
+0-8
+0·2
+0·2
+0·3
+M
+ckbD2
+A RCcolumn ofsquare cross-section
+(400x400mm²)hasitscolumnloadmomentinteractiondiagramasshownin
+figure above.Whatisthemaximum uniaxial
+eccentricityatwhichafactoredload
+P=640kN canbe applied safely?(Take
+fck=20MPa)
+(A) 300mm
+(B) 400mm
+(C) 600mm
+(D) 800mm
+18
+
+79.Howis thedeflectioninRCbeams
+controlledasperIS456?
+(A) By usinglarge aspect ratio
+(B) By usingsmall modular ratio
+(C) By controllingspan/depthratio
+(D) )·Bymoderatingwater-cementratio
+80.Atwhat stress does thefirstflexural crack
+appearinRCCbeams madeof M25grade
+concrete?
+(A) 3.0MPa
+(B) 3·5MPa
+(C) 4.0MPa
+(D) 4.5MPa
+81.Whatistheadoptablemaximumspacing
+betweenverticalstirrupsinanRCCbeam
+ofrectangularcross-sectionhaving an
+effectivedepthof300mm?
+(A) 300 mm
+(B) 275mm
+·
+(C) 250mm
+(D) 225mm
+
+82. 400mm
+O
+O
+K250mmA simply supported RCbeam having
+clearspan5mandsupportwidth300mm
+has the cross-section as shown in figure.
+Whatistheeffectivespanofthebeamas
+perIS456?
+(A) 5300mm
+(B) 5400mm
+(C) 5200mm
+(D) 5150mm
+18
+(Contd.)
+
+--- page 19 ---
+83.Consider thefollowingstatementsdealing
+8
+withflexuralreinforcementtobeterminated
+in the tension zone:
+
+1. The shearatthecut-offpointnot to
+exceedtwo-thirdof theotherwise
+permittedvalue.
+
+2. Shearreinforcementisprovidedalong
+eachterminatedbaroverlappingthreefourthoftheappropriatedistancefrom
+the cut-offpoint.
+
+3. For 36mm and smaller bars,the
+continuingbars shallprovidedouble
+the arearequiredforflexure at the cutoffand sheardoes notexceed threefourthofthepermittedvalue.
+Whichoftheabovestatementsis/are
+correct?
+1,2and 3
+(A) 
+(B) 1 and2only
+(C) 2and3only
+(D) 3only
+
+84. MatchList-IwithList-Ilandselectthe
+correct answer usingthe codegivenbelow
+thelists:
+List-II
+List-1
+(A) IS-875
+1.Earthquake resistant
+design
+(B) IS-1343
+2.Loads
+(C) IS-1893
+
+3. Liquid storage
+structure
+(D) IS-3370
+4.Prestressedconcrete
+Code :
+A
+B
+C
+D
+3
+1
+4
+2
+(A) 
+(B) 2
+1
+4
+3
+(C) 3
+4
+1
+2
+(D) 2
+4
+1
+3
+19
+
+85.Whatis themodularratiotobeusedinthe
+analysisofRCbeamsusingworkingstress
+method if thegradeof concreteisM20?
+(A) 18.6
+(B) 13·3
+(C) 9.9
+6·5
+(D) 86.
+Consideringmodular ratio as 13,grade of
+concrete asM20 andgradeof steelas 415,
+whatistheratioofbalanceddepthofneutral
+axisasperworkingstressmethodtothe
+balanceddepthofneutralaxisasperlimit
+statemethod?
+12
+(A) 7
+11
+(q)
+3
+7
+(C) 12
+3
+(D) 11
+87.Whatistheanchoragevalue ofa
+standardhookofareinforcementbarof
+diameterD?
+(A) 4D
+(B) 8D
+(C) 12D
+(D) 16D
+(Contd.)
+6
+
+--- page 20 ---
+88.Howis thebase-levelbendingmomentofa
+cantilever retaining wallexpressed asa
+function ofitsheight H?
+(A) H'
+(B) H2
+(C) H3
+(D) H4
+89.Match List-Iwith List-II and select the
+correctanswerusingthecodegivenbelow
+the lists :
+List-I
+List-Il
+(A) At end support,for
+1.0.5
+imposed load (not
+fixed)
+(B) At inside support,
+2.0·55
+next inner to end
+support, for imposed
+load (fixed)
+C
+At end support, for
+3.0.60
+dead load and (fixed)
+imposed load
+(D) Atallother interior
+4.0.45
+supports(other than
+at‘B'),for imposed
+load (fixed)
+5.0.4
+Code:
+A
+B
+C
+D
+(A) 5
+3
+2
+4
+4
+2
+5
+(B) 1
+(C) 一
+2
+3
+4
+(D) 5
+3
+2
+1
+
+90.MatchList-I with List-II and select the
+a
+correct answer usingthecodegivenbelow
+a
+the lists:
+List-I
+List-Il
+(A) Momentand
+1.Durability
+shearcoefficients
+(B) Fire resistance
+
+2. Stability
+(C) Sliding
+
+3. Analysis of
+structure
+(D) Span to depth
+
+4. Deflection
+ratioofbeam
+limits
+Code :
+B
+A
+C
+D
+(A) 4
+2
+1
+3
+(q)
+3
+2
+1
+4
+(C) 4
+1
+2
+3
+(D) .
+3
+1
+2
+4
+91.Match List-IwithList-II and select the
+correctanswerusingthecodegivenbelow
+the lists :
+List-I
+List-Il
+Vu
+(A) 1.Modulusofrupture
+pq
+(B) 0.7 √fck
+
+2. Development length
+(C) 5000 √fck
+3.Nominal
+shear
+stress
+ps
+(D) 4.
+Hook
+anchorage
+4tB
+value
+
+5. Modulusofconcrete
+Code :
+A
+B
+C
+D
+(A) 3
+1
+5
+2
+(B) 2
+1
+4
+3
+(C) 3
+5
+1
+4
+(D) 2
+4
+1
+3
+20
+(Contd.)
+。
+
+--- page 21 ---
+92.Consider thefollowing statements:
+The shearresistanceofstructural concrete
+membersmaybeimprovedby:
+
+1. Axial prestressing.
+
+2. Verticalprestressing.
+
+3. Inclined prestressing.
+Whichoftheabovestatementsis/are
+correct?
+(A) 1 only
+(B) 1 and2only
+(C) 2 and3only
+(D) 1,2and 3
+
+93. 30kN/m (including selfweight)
+P =
+=200mm
+1000 kN
+10m
+Whatisthenetdownwardloadtobe
+consideredfortheanalysisoftheprestressed
+concretebeamprovidedwithaparabolic
+cable as shown in the figure ?
+(A) 12kN/m
+(q)
+13kN/m
+(C) 14kN/m
+(D) 15kN/m
+
+94.Whatshallbe themaximumareaof
+reinforcement (i)in compression and(ii)in
+tension tobe provided in an RCbeam,
+respectively,as per IS456?
+(A) 0.08%and2%
+(B) 2%and 4%
+(C) 4%and 2%
+(D) 4% and 4%
+95.Consider thefollowingstatementsfor
+minimumreinforcement tobeprovidedin
+awallasaratioofverticalreinforcementto
+gross concretearea:
+
+1. 0.0012for deformed bars.
+
+2. 0.0015forallothertypesofbars.
+
+3. 0.0012forweldedwirefabricwith
+wiresnot 1argerthan16mmin
+diameter.
+Whichoftheabovestatementsis/are
+correct?
+(A) 1,2and3
+(B) 1 only
+(C) 2 and 3 only
+3 only
+(D) 96.An equipment costs Rs.25 Lakhs with an
+estimatedsalvagevalueofRs.SLakhsafter
+5yearsofusefullife.Whatisthe
+approximateequated annualcostforuseof
+theequipment?
+(A) Rs.4 Lakhs
+(q)
+Rs.10Lakhs
+(C) Rs.13Lakhs
+(D) Rs.17Lakhs
+21
+(Contd.)
+。
+
+--- page 22 ---
+97.Consider the following parameters:
+
+1. The stability of the footing.
+
+2. Thestrength of theboom.
+
+3. The counterweight.
+
+4. Size of aggregates.
+Whichoftheaboveparametersgovernsthe
+loadcapacityofacrane?
+(A) 1 only
+(q)
+1, 2 and 3
+(C) 2 and 3 only
+(D) 2,3and 4
+98.Apreliminary survey indicates that 20%of
+thetimeofagangofworkersisspent
+idly.Whatisthetotalnumberof
+observationsrequiredtodeterminethe
+proportionofidletimewith95%confidence
+limit?Criticalvalueatthislevelof
+confidence is 1·96.
+(A) 236observations
+246observations
+(q)
+(C) 256observations
+(D) 266observations
+99.An enginewas tested at localatmospheric
+pressureof73cmofmercuryandlocal
+temperatureof 10°C,andwasfoundto
+developX,units ofpower.If it was later
+workedatconditionsof75cmofmercury
+aslocalatmosphericpressure and atlocal
+temperature of 16°C,what proportion ofX,
+willit thendevelop?
+1
+(A) nearly
+timesmore
+60
+1
+(B) nearly
+60
+timesless
+1
+(C) nearly
+timesmore
+50
+1
+(D) nearly
+timesless
+50
+22
+。
+
+100.Considerthefollowingequipments:
+
+1. Drag line
+Power shovel
+
+2. 
+3. Hoe
+
+4. Crawlerdozer
+Whichof theabovemaybeusedfor
+excavationofmaterialsandloadingthem
+into trucks?
+(A) 1,2 and3
+(q)
+1 and2only
+2 and3only
+(C) 
+(D) 2, 3 and 4
+101.Apower shovel isfittedwithan engine of
+150f.w.h.p.It operates on full load for
+6minutesfollowedby8minutesofidling
+at one-thirdpower.Its hourlyutilization is
+for3 cycles.What is its utilization factor?
+(A) 0·398
+(q)
+0.433
+(C) 0·467
+(D) 0·528
+102.A construction equipment has a useful
+lifeof4yrsafterwhichitistobereplaced
+bya newone.If the interestrate is 6%,
+whatisthenearestvalueofthesinkingfund
+factor?
+(A) 0·023
+0·23
+(B) 
+(C) 0-17
+(D) 0·31
+2
+(Contd.)
+
+--- page 23 ---
+103.Considerthefollowingstatements:
+
+1. Thereisnolargedifferencein
+speedbetweenwheeledtractorsand
+crawlers.
+
+2. Theoperatingcostofcrawlersis
+generallymore thanfor wheeled
+tractors.
+
+3. Both,viz,wheeled tractors as well as
+crawlers,needtobemountedon
+trailersforlong distance hauls.
+
+4. Wheeled tractorsmayoccasionally
+suffer slipswhereas crawlers do not.
+Whichoftheabovestatementsis/areNOT
+correct ?
+(A) 1 only
+(q)
+1 and 2
+(C) 1 and 3
+3 and 4
+(D) 104.A 1.75m²capacity tractorloader has a
+forwardloadedspeedof240m/min,
+returningunloadedspeedof300m/min and
+operates'at80%of the specified speed.It
+haulsearthoveradistanceof60mwith
+fixed time per tripbeing25 seconds.What
+isitseffective cycle time?
+(A) 54·25 seconds
+(q)
+55·50 seconds
+56.75seconds
+(C) 58-75 seconds
+(D) 23
+
+105. 8-12
+12-18
+@10
+@5
+18-25
+@7
+14-18
+@：
+0-8
+10-12
+20-22
+A
+（B
+@12
+@6
+13-15
+@4
+@7
+9-14
+16-17
+@6
+@8
+Thescheduleddurations,bytheconvention
+‘after/at the endofindicateddaynumber'
+and the costperdayof duration,of each
+activityareshowninthenetworkabove.
+Whatarethecostsincurredondaynumbers
+13and 17?
+(A) 14 and 20
+(B) 11 and18
+(C) 14 and 21
+(D) 11 and 21
+106.A 1·6 m² capacity tractorloader works at a
+sitewith aneffectiveper-round-trip time of
+64seconds.Effectivedeliveryofexcavated
+materialis90%.Ifutilizationis50minutes
+per hour working,what will be the
+productivity in a 4-hour shift?
+253 m²
+(A) 262 m3
+(B) 270 m3
+(C) 282m²
+(D) 23
+(Contd.)
+。
+
+--- page 24 ---
+
+107. Howmanylinks are deletablein theA-O-N
+networkshownabove?
+(A) None
+(B) One
+(C) Two
+(D) Three
+108.Whatisthedurationbywhichthe
+completiontimeofanyactivitycanbe
+delayedwithout affectingthestartofanyof
+thesucceedingactivities?
+(A) Interferingfloat
+(B) Free float
+(C) Independentfloat
+Totalfloat
+(D) 24
+
+109.Consider the accompanying A-O-N
+diagram:
+B
+E
+WhichoneofthefollowingA-O-A
+diagrams correctly represents thisA-O-N
+diagram?
+(A) 
+(B) 
+(C) 
+(D) 24
+(Contd.)
+
+--- page 25 ---
+110.MatchList-IwithList-IIandselect the
+correctanswerusingthecodegivenbelow
+the lists :
+List-I
+List-Il
+(Equipment)
+(Category)
+(A) Derrickcrane
+
+1. Excavating
+equipment
+(B) Hoe
+
+2. Hauling
+equipment
+(C) Clamshell
+3.Hoisting
+equipment
+4.Verticallifting
+(D) Dumper Truck
+equipment
+Code:
+D
+A
+B
+C
+(A) 2
+4
+3
+(B) 3
+1
+4
+2
+(C) 2
+4
+1
+3
+(D) 3
+4
+2
+111.Whichoneofthefollowingis
+associatedwitha criticalactivityina
+A-O-Anetwork?
+(A) Maximumfloat
+(B) Minimum float
+(C) Zero float
+(D) Free float
+25
+
+112.Auniform seriesofincomeis availablein
+perpetuity, which will yield an amount of
+Rs.4,000/-at the end ofeach4-yearperiod.
+Sinking fund (deposit) factor, @ 8% p.a.,
+fordiscrete compounding,is0-222.Forthe
+sameinterestrate,whatwillbe the
+capitalizedequivalentincome‘now'?
+(A) Rs.11,100
+(B) Rs.12,500
+(C) Rs.14,285
+(D) Rs.16,000
+
+113. 8.8,844.5.6
+D
+E
+R
+4,6.8
+
+2. Whatistheporportionalvariation;andwhat
+is:the‘range’of project duration:the
+networkasshownwiththeindicated
+probabilistic a,m,b durations of the
+respectiveactivities?
+1
+(A) ,28to42
+15
+1
+(B) 1
+(C) 12, 28 to 42
+1
+(D) 12, 30 to 45
+(Contd.)
+25
+
+--- page 26 ---
+114.Whichoneof thefollowingrelatesto
+determination of critical pathinPERT?
+(A) Eventoriented slack
+(B) Activityorientedfloat
+(C) Eventorientedfloat
+(D) Activityorientedslack
+Directions:
+Eachof the next Six(06)items consists
+of two statements,one labelled as the
+‘Assertion
+(A) 'andtheotheras
+‘Reason(R)'.You are toexamine these
+twostatementscarefullyandselectthe
+answers to these items using the codes
+given below :
+Codes :
+(A) BothA andRareindividuallytrue
+andRis thecorrectexplanationof
+A
+(B) BothA andR areindividually true
+butRisnotthecorrectexplanation
+ofA
+A is true but R is false
+(D) AisfalsebutR istrue
+115.Assertion
+(A) :The rate of hydration is
+faster in finer cements.
+Reason (R):The surface area finer
+cementismore in case
+offiner cement.
+116.Assertion
+(A) :Strength of concrete is
+reduced
+due
+to
+segregation.
+Reason (R)
+:Reducingtheworkability
+ofconcretemixresults
+in segregation.
+26
+。
+
+117.Assertion
+(A) : The lower the difference
+between the minimum
+strengthand the mean
+strengthofaconcrete
+mix,the lower the
+cement content tobe
+used.
+Reason (R)
+The
+method
+for
+controlling the difference
+between the minimum
+strength
+handthemean
+strength
+is
+quality
+control.
+118.Assertion
+(A) :Shearing force may be
+definedastherateof
+change
+ofloading
+moment.
+Reason (R)
+:Shearing
+forceata
+section is the aigebraic
+sumof theforcestothe
+leftof the section.
+119.Assertion
+(A) :The provision of lateral
+reinforcement in RCC
+columns
+is
+not
+mandatory.
+Reason (R)
+：Thelateral reinforcement
+inRCCcolumns helps in
+preventing
+possible
+bulking of longitudinal
+reinforcement.
+120.Assertion
+(A) :Method
+1ofmoment
+distributionis classifiable
+as a force method.
+Reason (R)
+:Themethodconsistsof
+computingendmoments
+duetoendrotationofthe
+member.
+
+--- page 27 ---
+ROUGH WORK
+27
+
+--- page 28 ---
+DUGHWORK

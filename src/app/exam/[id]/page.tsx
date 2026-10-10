@@ -22,6 +22,8 @@ export default async function ExamInstructionsPage({
       questionCount: paper._count.questions,
       mode: paper.mode,
       title: paper.title,
+      exam: paper.exam,
+      iesPaper: paper.iesPaper,
     },
   );
 

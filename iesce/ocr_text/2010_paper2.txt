@@ -1,0 +1,2076 @@
+
+--- page 1 ---
+Servi'ces
+Engineenng
+DONOTOPENTHISTESTBOOKLETUNT
+T.B.C.:Q-GUG-K-DFB
+Serial No 018741.
+TEST BOO
+CIVILENGINE
+PAPERI
+TimeAllowed:TwoHours
+INSTRUCTI
+IMMEDLATELYAFTERTHECOMMENCEMEN
+
+1. CHECKTHAT THIS TESTBOOKLETDOESN
+ORMISSING PAGES OR ITEMS ETC.IFSO
+TEST BOOKLET.
+
+2. ENCODECLEARLYTHE TEST BOOKLET SEI
+BEINTHEAPPROPRIATEPLACEIN THEAN
+
+3. Youhave toenteryourRollNumber on the
+TestBookletintheBoxprovidedalongside.
+DONOTwriteanythingelseontheTestBookl
+
+4. .This Test Booklet contains 120 items （questi
+(answers).You willselect the response whichy
+caseyoufeelthatthcreismorethanone_corre
+consider thebest.Inany case,choose ONLYON
+
+5. Youhavetomarkallyour responsesONLYor
+directions in the Answer Sheet.
+
+6. All items carry'equal marks.
+
+7. Beforeyouproceed tomarkin theAnswer Shee
+Booklet,you have to fillin some particulars in t
+youwithyourAdmissionCertificate.
+
+8. After youhave completedfillingin_allyour
+examinationhasconcluded,you shouldhand ove
+You arepermitted to takeawaywithyou theTes
+
+9. Sheets for rough work are appended in the Test
+
+10. Penaltyforwronganswers:
+THERE WILLBE PENALTY FORWRONG ANSV
+OBJECTIVETYPEQUESTIONPAPERS
+(i)
+Therc arc four alternatives for the answer to evo
+answer has been givenby the candidate,one-th
+willbedeductcd aspenalty.
+(ii)
+Ifa candidate gives more than one answer,it w
+the given answers happens to be correct and the
+If a question is left blank,i.e,no answer is give
+(iii)
+that question.
+DONOTOPENTHISTESTBOOKLETUN
+
+Examinatiam，2010.
+2:0
+Engincering ServiceExamination,
+NTILYOUAREASKEDTODOSO
+TestBookletSeries
+OKLET
+EERING
+ⅡI
+MaximumMarks:200
+TIONS
+ENTOFTHEEXAMINATION,YOUSHOULD
+NOTHAVEANYUNPRINTEDORTORN
+SO,GETITREPLACEDBYACOMPLETE
+SERIESA,B,C,ORDAS THE CASEMAY
+ANSWERSHEET.
+oklet.
+stions).Eachitemcomprises fourresponses
+you want tomark ontheAnswer Sheet.In
+orrectresponse,mark theresponse whichyou
+ONEresponseforeachitem.
+on the separate Answer Sheet provided.See
+heettheresponsetovariousitemsintheTest
+ntheAnswerSheetasperinstructions sent to
+urresponsesontheAnswerSheetandthe
+overtotheInvigilatoronlytheAnswerSheet.
+TestBooklet.
+stBookletatthe end.
+NSWERSMARKEDBYACANDIDATEIN'THE
+every question.For cachquestion forwhich a wrong
+-third(0-33)of thcmarksassigned to that question
+twillbe treated asawrong answer evenif one of
+there will be same penalty as above to that question.
+givenby thecandidate,therewillbcnopenaltyfor
+UNTILYOUAREASKEDTODOSO
+
+--- page 2 ---
+
+1. Match"ListI"with'List
+II,andselect:the
+2
+correctaniswer using thecodegivenbelow
+the lists :
+ListI
+ListII
+Velocity
+(Types offlow)
+distribution)
+(A) 1.Couette
+(B) 2.Ideal fluid
+
+3. 3.Poiseuille
+(D) 4.Turbulent
+Code:
+A
+(B) C
+D
+(A) -1
+3
+4
+2
+(B) 2
+3
+4
+1
+(C) 1
+4
+3
+2
+(D) 2
+4
+3
+
+1. Q-GUG-K-DFB
+(2-
+
+2. Anunconfinedaquiferofporosity30%and
+permeability35m/dayandspecificyieldof
+0.20 has an area of 100 km2. If the water
+.table fallsby0.25mduring adrought,the
+volume of water lost fromstorage,in
+million cubic metres,is
+(A) 2·0
+(B) 5·0
+(C) 1·0
+(D) 4·0
+
+3. Consider thefollowingstatements:
+
+1. High water training‘is undertaken to
+protect against damage due to floods.
+
+2. Lowwater trainingisundertakento
+provide sufficient depthfor navigation.
+
+3. Mean water training is undertaken to
+provideefficientdisposalofsediment
+load.
+Whichoftheabovestatementsis/are
+correct？·
+(A) 1 and 2 only
+(B) 1,2 and.3
+(C) 2 and3only
+(D) 2only
+(A) --- page 3 ---
+t
+
+6. Shear stress
++Rateofsheardeformation
+MatchListIwithListIIand selectthe correct
+answer using the code givenbelow thelists:
+List1
+ListII
+(Curve
+(Natureof
+identification
+fluid)
+infigure)
+(A) Curve A
+
+1. Newtonian
+(B) Curve B
+
+2. Dilatant
+(C) Curve C
+
+3. Ideal Bingham
+plastic
+
+7. (D) Curve D
+4.Pseudo-plastic
+Code :
+A
+B
+C
+D
+(A) 3
+4
+1
+2
+(B) 2
+4
+1
+3
+(C) 3
+1
+4
+2
+2
+(D) 1
+4
+3
+
+5. Shallow ponds in which dissolved oxygen is
+present at all depths are called
+(A) Aerobiclagoons
+(B) Aerobic ponds
+(C) Facultativelagoons
+(D) Facultativeponds
+Q-GUG-K-DFB
+(3-
+
+6. Consider thefollowingstatements：
+
+1. Each year,black cotton soil appreciably
+shrinks during dry season and swells
+during rainy season.·This alternate
+cycle of shrinking and swelling causes
+severe stresses in structures supported
+directlyby suchsoil.
+
+2. Black cotton soil containspredominantly
+a clay mineralcalledkaolinite,which is
+responsibleforcausing
+appreciable
+shrinking and swelling.
+3..Shrinking and swelling of black cotton
+soilsareobservedonlyuptoacertain
+depthbelowthegroundlevel.Below
+thatlevel,there is neither shrinking nor
+swelling.
+Which of the above statements is/are correct?
+(A) 1,2 and 3
+.
+(B) 3only
+(C) 2 and 3 only
+(D) 1 and3only
+
+7. Consider thefollowing statements:
+Thefunction ofa'launchingapronat theend
+ofdownstreamimpervious apron of aweiris
+
+1. To protect thedownstream pile from the
+scour.holes progressing in the upstream
+direction.
+
+2. When the scour holes are formed,to
+provide for the‘stones of the·falling
+apron to settle down in the holesand
+cover them.
+
+3. To provide relief of the uplift pressure
+atthe downstream end.
+
+4. To
+0provideextralengthforproper
+formation ofhydraulic jump.
+Whichofthe above statements is/are correct?
+(A) 1,2,3and 4
+(B) 3only
+(C) 2only
+(D) 1·and 2 only
+A}
+
+--- page 4 ---
+
+8. F.S.
+10
+au
+The two sides of a trapezoidal channelare
+lined with cement plaster,nw= 0·012,while
+the earthen bed has-n,= 0-025,the area is
+11
+divided into three parts as in thefigure.
+Consider thefollowing assumptions tofind
+thedischarge throughthis section:
+
+1. The average velocity is the same for all
+the 3 parts.
+
+2. Discharge is the same in all the 3 parts.
+
+3. Bed slope is the same for all the
+3 parts.
+
+4. Hydraulicmean radius is the same for
+all the 3 parts.
+Which of the above assumptions are correct?
+12
+(A) ·1and 3
+(B) 1 and 4
+(C) 2 and3
+(D) 2 and4
+
+9. Consider thefollowing statements:
+13
+
+1. Adifferentialfreeswellvalueof 40%
+indicatesa soilwithahighdegreeof
+expansiveness.
+
+2. A
+swelling
+pressureoflessthan
+20 kN/m2 is not of much consequence.
+
+3. The swelling pressure is aunique
+parameter for a swelling soiland is not
+influenced by other factors.
+Whichof the above statements is/are correct?
+(A) 1,2 and 3
+(B) 1 and 2 only
+(C) 2 and3only
+(P)
+1 only
+Q-GUG-K-DFB
+(4-A
+
+10. Heavy scour at theheadand shank of guide
+bankscanleadtounderminingofthestone
+pitchingandconsequentfailureoftheguide
+bank.This situation is avoidedbyproviding
+(A) Spurs
+(B) Verticalcutoffs
+(C) Marginal bunds
+(D) Launching apron
+
+11. Noisepollutionin aroad-sidebuildingcanbe
+reduced by
+(A) providing a ditch around thebuilding
+andfillingitwithwater
+(B) providing asteelmesharoundthe
+building
+(C) providingathick bush‘around the
+building
+(D) planting tall trees around the building
+andfencingthemwithbarbedwires
+
+12. A submerged pipe outlet is an example of
+(A) Semi-modularoutlet
+(B) Non-modular outlet
+(C) Rigid module
+(D) Adjustableproportional module
+
+13. A ski-jumpbucketis generally used as an
+energy dissipator when thetailwater
+(A) i
+is greater than 1·1 times the required
+conjugatedepthfortheformationof
+hydraulic jump; and the river bed rock
+is'good'
+(B) depthislesser thanthedepth required
+for the jump formation; and the bed of
+the river channel is composed of‘sound’
+rock
+(C) depthis equalto the depthrequired for
+the jump formation,and the river bed
+rockis‘good’
+depthis1·3timestherequired for the
+(D) jumpformation'andtheriverbedis
+composedof‘weak'rock
+(A) --- page 5 ---
+
+14. The wave height,in metres,generated on the18.
+surfaceofareservoir,havingafetchlength
+F=30km,due to wind blowing on the surface
+of thereservoir at avelocityof30km/hr,is
+(A) 0.26m
+(q)
+0.96 m
+(C) 0.52m
+(D) 1·2m
+
+15. Consider.the following devicesaslikelyto
+concern with water hammer phenomenon in
+theirdesign/operation:
+
+19. 
+1. Hydraulicram
+
+2. Hydraulic accumulator
+
+3. Penstock
+
+4. Surge tank
+
+5. Draft tube
+Which
+1oftheabovedevicesis/areso
+concerned?
+(A) 1,2,3,4and 5
+(B) 1, 3 and 4 only
+(C) 2 and 3only
+(D) 3 only
+
+16. Consider the following statements:
+of
+
+1. Westergaard's
+theory
+stress
+distribution is more appropriate for soil
+depositswhichexhibitlargclateral
+strain.
+
+2. Newmark's influence chartcanbe used
+
+20. forthedeterminationofverticalstress
+under any.slope ofaloadedarea.
+Whichofthe above statementsis/arecorrect?
+(A) 1 only
+(B) 2only
+(C) Both1 and 2
+(P)
+Neither 1nor 2
+
+17. Themaximumheightofalowgravitydam of
+elementaryprofilemadeofconcreteofrelative
+density2·5andsafeallowablestressof
+foundation
+material3.87MPawithout
+consideringuplift force is about.
+(A) 113 m
+(B) 217m
+(C) 279m
+(D) 325m
+Q-GUG-K-DFB
+(5-A
+
+8. In the facultative pond systems, the aerobic
+zonemay getextended downwardsdue to
+(A) calmwatersalongwithweak sunlight
+(B) mixingby wind action along with weak
+sunlight
+(C) mixingbywindactionalongwith
+penetrationby sunlight
+(D) calmwatersalongwithpenetrationby
+sunlight
+
+9. Consider thefollowing statements:
+
+1. Theyieldof aretainingwallrequired to
+reach plastic equilibrium in active case
+is more than that in positive case.
+
+2. Culman's
+graphical
+method
+is
+a
+simplified version of the more general
+trialwedgemethod.
+
+3. For a masonry gravity retaining wall
+Coulomb's theoryof earth pressure is
+preferred for designing.
+Which of the above statements is/are correct?
+(A) 1,2 and 3
+(B) 1and2only
+(C) 2and3only
+(D) 3only
+
+20. 2
+4⑧
+3⑧
+Asluice inlet in adam withstreamlined
+entrance is shown in figure.If cavitation is
+expected to occur,it will first appear at the
+point
+(A) 1
+(B) 2
+(C) 3
+(D) 4. A)
+
+--- page 6 ---
+
+21. A homogeneous earthdam is 43mhighwith1
+3 m as freeboardanda30m longhorizontal
+filteratthedownstreamend.Theflownet
+drawninthedamsectionconsistsof5flow
+channels and 15potential drops.If the dam is
+500mlongandthepermeabilityofthe
+material of the dam isuniformly3x 10-3m/s,
+thetotaldischargepermeating through the
+bodyof the dam will be
+(A) 0-0004 m3/s
+(B) 0.0036m/s
+(C) 0.0039m3/s
+(P)
+0.20 m/s
+
+22. Withabitrateof50bpsandacycletime of
+30 seconds the totalinformation content of a
+navigation data setis
+(A) 80bits
+(q)
+20bits
+(C) 100 bits
+(D) 1500 bits
+
+23. Inapipenetworkof municipalwater supply，
+a parallel pipe is sometimes installed over a
+portion of thepipemainlyfor
+(A) reducing water hammer pressure
+(q)
+decreasingthepumpingpower need
+(C) increasing
+theheadavailableatthe
+node
+(D) increasing the discharge
+
+24. Thedischarge required for Rabi and Kharif
+crops are 0.4 m3/s and 0·3 m3/s respectively.
+The capacity and time factors are 0.8and0.5
+respectivelyateachseason.Thedesign
+discharge of thedistributary atitsheadis
+(A) 0.8 m3/s
+(B) 0.16 m3/s
+(C) 1.0 m/s
+(D) 1·24 m3/s
+
+25. In an aerobic attached-culture system,the
+biomassat thebiofilm-medium.surface
+interfaceexperiences
+(A) Aerobicandendogenousmetabolism
+(B) Anaerobic and endogenous metabolism
+(C) Anaerobic and exogenousmetabolism
+(D) Aerobicandexogenousmetabolism
+Q-GUG-K-DFB
+(6—
+
+26. Calibrationofacurrentmeterforusein
+channel flowmeasurementis doneina
+(A) Wind tunnel
+(B) Water tunnel
+(C) Towing tank
+(D) Flume
+
+27. Considerableloss of shear strength due to
+shock or disturbance is exhibited by
+(A) Under-consolidated clays
+(B) Normally consolidated clays
+(C) Over-consolidatedclays
+(D) Organic soil
+
+28. Consider the following statements:
+In aerial photogrammetry the‘filter’isplaced
+infrontofthelensto
+
+1. reduce the effect of atmospherichaze.
+
+2. protect the lens from dust.
+
+3. provide uniform light distribution over
+the format.
+Which ofthe above statementsis/are correct?
+(A) 1 and2only
+(B) 2only
+(C) 1 and 3only
+(D) 1,2 and 3
+
+29. Apartially open sluicegateis suddenlyraised
+to its full opening.The resulting surge waves
+atthegate are
+(A) apositivewave travels towardsthegate
+from the upstream side while a negative
+wave travels downstream from thegate
+(B) apositive wave travels from the gate
+ontotheupstreamsidewhileapositive
+wave travels downstream from thegate
+(C) a negative wave travels from the gate
+onto theupstreamsidewhileapositive
+wave travels downstream from thegate
+(D) anegativewavetravelstowardsthe
+gate from theupstream side whereas a
+positivewavetravels downstreamfrom
+the gate
+(A) --- page 7 ---
+
+30. Consider thefollowing statements:
+
+33. Apparent cohesion insands is exhibited
+mainlydueto
+Reduction in density.
+
+1. 
+2. Increase in density.
+
+3. Capillary moisture inpores.
+Which
+of,theabove statements is/are
+correct?
+(A) 1,2 and 3
+(B) 1 and 3only
+
+34. (C) 2 and3only
+(D) 2 only
+
+31. Acatchmentofarea20ohahasarunoff
+coefficient 0.5.Astormof durationlarger
+thanthetimeofconcentrationofthe
+catchmentand'ofintensity3·6cm/hcauses
+apeak discharge(m/s)of
+(A) 5
+
+35. (B) 10
+(C) 100
+(D) 360
+
+32. Consider the following statements:
+The
+coefficientof permeabilitykdepends
+upon
+
+1. Void ratio of the soil.
+36
+
+2. Duration of flow.
+
+3. Equivalent diameter of the soil grains.
+
+4. Shapeof theparticle.
+Which of the above statements are correct?
+(A) 1,2,3 and 4
+(B) 2 and 3 only
+(C) 1,3 and 4 only
+(D) 3 and 4only
+(7-A
+Q-GUG-K-DFB
+
+33.Aculvertis designed for a flaodmagnitude
+of return period 100years and has expected
+life of 20 years.The risk in this hydrologic
+design is
+(A) 1-0-9920
+(B) 1-0.0120
+(C) 1 - 0.0920
+(D) 1- 0-1020
+
+34. A soilhas discharge velocity of
+5 × 10-7 m/s and a void ratio of 0.50. Its
+seepage velocitywill be
+(A) .15 × 10-7 m/s
+(B) 10 × 10-7 m/s
+(C) 20 × 10-7 m/s
+(D) 30 × 10-7m/s
+
+35. Zigzag deposition andmovementof sand oni
+sea beach js called
+(A) Littoraldrift
+(B) Beach drift
+(C) Trough action
+(D) Sedimentation
+
+36. “Iso-centre’is the point
+(A) inwhich the tiltedaxis of the camera
+meetstheverticalphotograph
+(B) inwhichthebisector ofthe angleoftilt
+meetstheverticalphotograph
+(C) in air space,thelocation of the optical
+centre of thelensof the camera atthe
+timeofexposure
+(D) where theperpendicularfrom thenodal
+pointmeetsthephotograph
+(A) --- page 8 ---
+
+37. Consider thefollowing statements:
+
+1. The hydraulichead ata point in the
+soilincludespiezometrichead as well as
+datum head.
+
+2. Piping in soil occurs when effective
+pressure becomes equal to zero.
+
+3. Piping in soil occurs when soil is highly
+porous.
+Whichof the above statementsis/are correct?
+(A) 1, 2 and 3
+(B) 1 and2only
+4
+(C) 2 and3only
+(D) 2 only
+
+38. Acatchmentconsistsof30%areawithrunoff
+coefficient0-40with theremaining70%area
+withrunoffcoefficient0.60.Theequivalent
+runoff coefficientwillbe
+(A) 0·48
+(B) 0.54
+(C) 0-63
+(D) 0.76
+
+39. Ombrometer(pluviometer)isused to measure
+(A) Soilmoisture stress of aplant
+43
+(B) Rainfall depth
+(C) Leafarea
+(D) Rootzone depth
+40..Secondary clarifier ofan activated sludge
+processmustbedesignedforefluent
+clarification and solids thickening,both of
+whichrelatedirectlytothe
+44
+(A) Surface area
+(B) Transportvelocityduetosludge
+withdrawal
+(C) Gravity settling of solids relativeto the
+water
+(D) Underflow solidsconcentration
+Q-GUG-K-DFB
+(8-A
+
+41. Adirect-runoffhydrographdueto
+an
+isolated storm was triangular inshapewith
+a base of 80 h and peak of 200 m/s. If the
+catchment area is 1440 km²，the effective.
+rainfallof the storm is
+(A) 20 cm
+-
+(B) 10 cm
+(C) 5cm
+(D) 2 cm
+
+42. Consider the following statements:
+
+1. Poorly graded or uniform sands compact
+to low dry unit weights.
+
+2. Heavyclayswithhigh plasticityhave
+verylowmaximum dryunitweight.
+
+3. In clay soils,the maximum dry weight
+tends to decrease as plasticity increases.
+Whichof the above statementsis/are correct?
+(A) 1,2 and 3
+(B) 1 and2only
+(C) 2 and3only
+(D) 3only
+
+43. Thedeclinationofacelestialbodyis thearc
+of thedeclinationcircleinterceptedbetween
+that body and the
+(A) Primevertical through.thatbody
+(B) Azimuthofthebody
+.
+(C) Equinoxes of theEarth
+(D) Equatorof theEarth
+
+44. Theshapeoftherecessionlirmbofa
+hydrograph depends on
+(A) Basin as wellas storm characteristics
+(B) Storm characteristicsonly
+(C) Basin characteristics only
+(D) Base flow only
+(A) --- page 9 ---
+If L is the perimeter of a closed traverse,D
+48
+
+45. isthe closing error indeparture,the
+correctionfor thedeparture of a.traverseside
+of length l,according to Bowditch rule,is
+(A) .·△D
+L
+2
+△D
+(B) L
+LL
+(C) △D
+D
+1
+(D) L
+4
+
+46. Consider the following statements:
+
+1. In clay soils,the maximum dry weight
+tends to decrease as plasticity increases.
+
+2. In clay soils,the maximum dry unit
+weight tends toincrease as plasticity
+increases.
+
+3. Heavy clays withhigh plasticity have
+the minimum dry unit weight and high
+OMC.
+Which of the above statements are correct?
+(A) 1,2 and 3
+(B) 1 and 2 only
+(C) 2 and 3'only
+(D) 1 and 3 only
+
+47. Which
+noneofthefollowingtrafficsignal
+systems is useful when there is continuous
+operationofgroupofvehiclesalong the main
+road?
+(A) Simultaneous system
+(B) Aiternate system
+(C) Simple progressive system
+(D) Flexibleprogressivesystem
+Q-GUG-K-DFB
+
+48. In accordance to‘Gauss rule',weights to be
+assignedare proportional to
+(A) 1/(Sumofthe‘residual
+errors
+of
+observations)
+(B) 1/(Sumof thesquare of theresidual
+crrorsofobservations)
+(C) Sumof thesquarerootsof theresidual
+errorsofobservations
+(D) Sumof thecube roots.of theresidual
+errorsofobservations
+
+49. In. a wet soil mass, air occupies one-sixth of
+its volume and water occupies one-thirdof
+its volume.The voidratio of the soilis
+(A) 0·25
+(B) 0·50
+(C) 0.75
+(D) 1·0
+
+50. Consider the following statementsregarding
+specific energyofthe flow in·an open
+channel:
+
+1. There is only one specific energy curve
+for a given channel.
+
+2. Alternatedepthsarethedepths of.flow
+atwhich the specific energy is the same.
+
+3. Criticalflowoccurs whenthe specific
+energy is minimum for the flow rate.
+Which of the above statements is/are correct?
+(A) 1only
+(B) 1 and 2 only
+(C) 2 and 3 only
+(D) 1,2 and 3
+A
+
+--- page 10 ---
+
+51. B
+
+54. Oxygen
+consumed
+A
+>Time
+The above figure shows B.O.D.curve when
+
+55. the experimentwas conducted at 20°C.If the
+experiment is conducted at 30°C,then the
+portionAB of the curve
+(A) shifts to the left
+(B) shifts to the right
+(C) remains unchanged
+(D) shrinks
+
+52. An S-curvehydrographhas been obtained for
+catchments of 270km²from a3-hour unit
+hydrograph.The equilibrium discharge (m3/s)
+for.the S-curveis
+(A) 750
+(B) 277-8
+
+56. (C) 250
+(D) 187
+
+53. Consider thefollowingstatements:
+Ina sewage treatmentprocess
+
+1. Detention time required for anaerobic
+decomposition is more as compared to
+thatfor aerobicdecomposition.
+
+2. Anaerobic
+decomposition
+is
+more
+energy-consuming
+compared
+to
+aerobic decomposition.
+
+3. Anaerobic decomposition
+isa
+more
+sensitiveprocess as compared to aerobic
+decomposition.
+Whichof the above statements is/are correct?
+(A) 1,2 and 3
+(B) 2 only
+(C) ·
+3only
+(D) 1 and 3 only
+Q-GUG-K-DFB
+10-A
+
+54. Altimetrymaybedepictedmost accuratelyby
+(A) Hachures
+(B) Relief shading
+(C) Layer tinting
+(D) Contour lines
+
+55. Consider thefollowingstatements:
+
+1. Peat and muck are organic soils.
+
+2. Peat isan inorganic soil whereas·muck
+is an organic soil.
+
+3. Indurated clay is a type of clay which
+does
+not
+soften
+underprolonged
+wetting.
+Whichofthe above statementsis/arecorrect?
+(A) 1,2 and 3
+(q)
+2 only
+(C) 3only
+(D) 1 and 3only
+
+66. Consider thefollowing statementswhich'are
+related tothe phenomenon of.cavitation in
+fluid flow:
+
+1. Cavitation occurs when localvelocityis
+decreased.
+SO
+that
+local
+pressure
+increases to ahigh degree.
+
+2. Cavitationoccurs if elevation ishigh
+thereby decreasing ambient pressure.
+
+3. Cavitationoccursif localvelocityis
+increased so that the local pressure
+decreases.
+
+4. Cavitation
+1isdependenton
+vapour
+pressure of the fluid.
+Which ofthe above statementsare correct?
+(A) 1,2 and 3
+(B) 1,2 and 4
+(C) 1,3 and 4
+(D) ·2,3and 4
+(A) --- page 11 ---
+57.In a liquid-gas system,when the water is58
+dispersed in air,the absorption of gas is
+representedby
+Liquid
+Film
+Bulk
+Bulk
+(A) Liquid
+Gas
+C>Ct
+Gas
+Film
+Gas
+Film
+Bulk
+
+5. Liquid
+Bulk
+(q)
+>
+Gas
+Liquid
+Film
+Liquid
+Film
+Bulk
+Bulk
+(C) Liquid
+Gas
+'>
+Gas
+Film
+
+6. Gas
+Film
+Bulk
+Liquid
+Bulk
+(D) C>Cs
+Gas
+Liquid
+Film
+Q-GUG-K-DFB
+
+Thecoefficientofvariationoftherainfall
+
+58. for six rain gauge stations in'catchments
+was found tobe 29.54%.The optimum
+number of stations in the catchments for an
+admissible10%errorintheestimationof
+the meanrainfallwillbe
+(A) 3
+(B) 6
+(C) 6
+(D) 12
+
+59. Aspecimen of clayey siltcontains 70%silt
+sizeparticles.Its liquidlimit=40and
+plastic limit = 20.In liquid limit test,at
+moisture content of 30%，required number
+ofblows
+was
+50.Itsplasticity
+index,
+activity
+and
+consistency
+index
+will
+respectively be
+(A) 20,0.67 and 0.5
+(B) 20,1·5 and 20
+(C) 30,1·5 and 0.72
+(D) 20,0.286and0.38
+
+60. Thedifferencebetweentheapparentsolar
+time and mean solar time is known as
+(A) Real time
+(B) Average time
+(C) Equation of time
+(D) Sidereal time
+(A) --- page 12 ---
+
+61. Consider the following statements.about|64
+theodolites:
+
+1. Transittheodoliteisatheodolite
+in
+which the telescope can be transited.
+
+2. EDMIisatheodolitefittedwith
+a
+micrometer formeasurements.
+
+3. Adouble reading theodolite isonein
+whichdiametricallyoppositesegmentsof
+thegraduatedcirclearebrought into
+view and thereadings areaveraged.
+Whichof the above statements are correct?
+(A) 1,2 and 3
+(B) 1 and 3 only
+(C) 1 and 2only
+(D) 2 and3only
+
+65. 
+62. Consider thefollowing statements:
+
+1. Sensitivityofanaturalsoil.deposit
+cannot beless than 1·0.
+
+2. A saturatedloose sand depositliquefies
+whenwater flows through'it inupward
+
+66. direction
+under
+critical
+hydraulic
+gradient.
+
+3. A quick clay has veryhigh sensitivity.
+Which of the above statements are correct?
+(A) 1,2 and 3
+(B) 1 and2only
+(C) 1 and3only
+(D) 2 and 3only
+
+67. 
+63. Theterminalvelocityofasmallsphere
+settlingin aviscousfluidvariesas the
+(A) inverse square ofthediameter
+(q)
+inverseofthediameter
+(C) firstpowerofitsdiameter
+(P)
+inverseofthefluidviscosity
+Q-GUG-K-DFB
+{12-A
+
+64. Consider thefollowing statements:
+
+1. At shrinkage limit,the soil remains
+fully saturated.
+
+2. The shear strength of all soils at liquid
+limit is the same.
+
+3. The shear strength of all soils at plastic
+limit is the same.
+Whichofthe abovestatementsis/are correct?
+(A) 1,2 and 3
+(B) 1 and 2 only
+(C) 2 and 3only
+(D) 1 only
+
+65. Refraction erroris theleastincaseof
+(A) Stadiatacheometry
+(B) Tangential tacheometry
+(C) Subtensebar tacheometry
+(D) Omnimeters
+
+66. In all reaction turbines,maximum efficiency
+isobtainedifthe
+(A) Guide vane angle is 90°
+(B) Blade angleis 90°attheinlet
+(C) Blade angleis90°atthe outlet
+(D) Angleoftheabsolutevelocityvectorat
+the outletis 90°
+
+67. Liquefactionoffoundationsoilduring
+an
+earthquakeshallnotbethereasonfor
+crackingof
+(A) only floors in the building
+(B) walls and roof inthe building
+(C) beams and columns in the building
+(D) only balcony in the building
+A
+
+--- page 13 ---
+
+68. Consider the following statements:
+
+70. In a water supply system
+
+1. Drain valvesare providedatelevated,
+orhigher,points to remove accumulated
+air.
+
+2. Refluxvalveallowsflowin onedirection
+only.
+
+3. Drainvalvesareprovidedatlowpoints
+to remove silt and other deposits.
+Which of the above statementsis/are correct?
+(A) 1,2 and 3
+(B) 2only
+(C) 71.
+2 and 3only
+(D) 3only
+
+69. MatchListIwithListIIandselectthe correct
+answerusing the codegivenbelow thelists:
+ListI
+List II
+(Method/
+(Typeofsurvey)
+Instrument)
+(A) Traffic volume.
+
+1. Workspotinterview
+study
+method
+
+72. Speed and
+(B) 2.
+Doppler radar
+delaystudy
+.C.
+Spot-speed
+
+3. Floating car method
+study·
+(D) Multiple
+Automaticvehicle
+character
+counter and
+studies
+classifier
+
+5. Electronicdetector
+Code:
+A
+B
+C
+D
+(A) 5
+3
+2
+4
+(B) 1
+3
+2
+5
+(C) 5
+2
+3
+4
+(P)
+1
+2
+3
+
+4. Q-GUG-K-DFB
+(13-A)
+
+Consider thefollowing statements:
+
+1. Theminimum value of group index for
+a soil can be taken as zero.
+
+2. The maximum possible value of group
+index for a soil is twenty.
+Which of the above statements is/are correct?
+(A) Both1and2
+(B) 1 only
+(C) 2only
+(D) Neither1nor2
+A light-house isvisible just above thehorizon
+ata certainstation atthe sealevel.Distance
+betweenthestationand thelight-house is
+60km.Theheightof the light-house is
+(A) 243.5m
+(B) 4·0 m
+(C) 287.5m
+(D) .
+5·4m
+Consider thefollowing statements:
+The disadvantagesofemploying steelpipesin
+conveyance and distribution ofwater are,they
+
+1. cannot
+withstand
+high
+negative
+pressures
+or
+vacuums
+thatmay
+be
+created
+in
+them，
+especially
+the
+combined
+effects
+of
+vacuum
+and
+external loads ofbackfill and traffic.
+
+2. areeasilyaffectedbyacidicoralkaline
+waters andevenatmospheric agencies
+may produce adverse effects on them.
+
+3. cannotbeusedfor highpressures.
+(Generally not used for pressures above
+7kg/cm²)
+Whichofthe abovestatementsis/are correct?
+(A) 1,2 and 3
+(B) 1 and 2 only
+(C) 2 and 3only
+(D) 1 only
+(A) --- page 14 ---
+
+73. Consider thefollowingstatements:
+Themomentofmomentumequation influid
+dynamics canbe used
+
+1. Tofind thetorque exerted onsprinklers
+by water.
+
+2. Todetermine
+the
+force
+inaflow
+passage,
+when
+stream
+changes
+direction/magnitude.
+Which of the above statements is/are correct?
+(A) 1 only
+(B) 2 only
+(C) Both 1 and 2
+(D) Neither1nor2
+
+74. Garret'sdiagrams are used to
+(A) separatebase flowfromtotalrunoff
+(B) correct inconsistencyin rainfall data
+(C) determinereservoir capacity
+(D) design channels
+
+75. Consider thefollowingstatements:
+The critical value of Reynolds number at
+whichtheboundarylayerchangesfrom
+laminar toturbulent depends upon
+
+1. Turbulence in ambientflow.
+
+2. Surface roughness.
+Whichof the above statementsis/are correct?
+(A) Neither 1 nor 2
+(B) 1only
+(C) 2only
+(D) Both 1 and 2
+
+76. Ina
+transit
+theodolite，errordue
+to
+eccentricity of verniers iseliminatedby
+reading
+(A) both verniers
+(B) bothright swing and left swing
+(C) rightandleftfaces
+(D) differentpartsofmain scale
+Q-GUG-K-DFB
+( ·14
+
+77. An airplane is cruising ata speedof800km/h
+id
+atanaltitudewhere the air temperatureis
+0°C.TheflightMach number at this speed is
+nearly
+rs
+(A) 1·3
+(B) 0.67
+M
+es
+(C) 0·25
+(D) 2.4
+
+78. Light reflectingdevicesusedtoguidethe
+driver along the proper alignment are'called
+(A) Rumble strips
+(B) Delineators
+(C) Attenuators
+(D) Litter bin
+
+79. Consider the following statements:
+In reciprocating pumps,the air vessels are
+used
+
+1. To get continuous supply of liquid at a
+uniform rate.
+
+2. To save the power required to drive the
+pump.
+at
+
+3. To run at much higher speed without
+m
+anydangerofseparation.
+Whichof the above statements are correct?
+(A) 1 and 2only
+(B) 1 and 3only
+？
+(C) 1,2 and 3
+(D) 2 and3only
+
+80. Consider the following statements:
+
+1. For a well graded sand,the coefficient
+ofcurvature shouldliebetween1and3.
+
+2. Asoilhaving uniformitycoefficient
+to
+smaller thanabout2.0isconsidered
+by
+uniform.
+Whichof the above statementsis/are correct?
+(A) Both1 and 2
+(B) Neither1nor2
+(C) 1 only
+(D) 2 only
+4 -A)
+
+--- page 15 ---
+
+81. The·correctsequenceof treatmentof typical|85.
+turbid surface water is
+(A) Flocculation,Coagulation,
+Sedimentation,Filtration
+(B) Flocculation,
+Coagulation,
+Filtration,
+Sedimentation
+(C) Coagulation,Flocculation,
+Filtration,
+Sedimentation
+(D) Coagulation,Flocculation,
+Sedimentation,Filtration
+
+82. Consider thefollowing statements:
+
+1. Mica isa clay mineral.
+
+2. Theshapeofclayparticleisusually
+flaky.
+
+3. A particle of kaolinite is.electrically
+charged.
+Whichof the above statementsis/are correct?
+(A) 1,2 and 3
+
+86. (B) 1 and 3 only
+(C) 2'and3only
+(D) 2only
+
+83. If
+super-elevationisnotprovidedona
+horizontalcurve of a highway,then onwhich
+portion of the road,are pot holes likely to
+develop?
+(A) Outeredgeofroad
+(B) Inner edgeofroad
+(C) Centre of road
+.(P)
+Shoulderofroad
+
+84. Consider thefollowingstatements:
+The appropriate method(s)for removal
+1of
+fluoridesfrom water comprise
+
+1. Additionofalumandlimefollowedby
+clarification.
+
+2. Passing
+throughbedsofactivated
+alumina.
+Which of the above statements is/are correct?
+(A) Neither1nor2
+(B) Both 1 and 2
+(C) 1 only
+(D) 2only
+Q-GUG-K-DFB
+(15-A)
+
+Consider thefollowingstatements:
+
+1. Pumps in series operation can be the
+head to increase.
+
+2. Pumps in series operation increase the
+flow rate.
+
+3. Pumps
+inparallel
+Ioperationincrease
+the flow rate.
+
+4. Pumps in'parallel operation can be the
+head to increase.
+Which of the above statements are.correct?
+(A) 1 and 3
+(B) 1 and 2
+(C) 2and3
+(D) 3and4
+Consider the followingpairs in the context of
+a theodolite:
+
+1. Plunging
+;The
+process
+of
+turning the
+telescopeover
+its
+supporting axis
+through 180°in
+a
+vertical plane.
+
+2. Face left
+Whenthevertical
+circle of the
+theodoliteison the
+leftoftheobserver
+while.taking
+the
+reading.
+
+3. Telescope.
+It implies “bubble
+normal
+up'and face of the
+vertical circleleft.
+
+4. Swinging
+Itimplies turning
+the telescope
+thetelescope
+ina
+vertical plane.
+Which.of these pairs arecorrectlymatched in
+case of theodolite?
+(A) 1,2 and 4
+(B) 1,3 and 4
+(C) 2,3 and 4
+(D) 1,2 and 3
+
+--- page 16 ---
+
+87. In an open cylindrical tank filled with water,
+a holeismade atthemid-point at thebottom.
+Thespiralmotion ofthe outgoingwater is
+(A) Rotational
+(B) Irrotational
+(C) Forced vortex
+(D) Turbulent
+
+88. For setting out right angles,the instrument
+used is
+(A) Optical square
+(q)
+Abney level
+(C) Alidade
+(D) Ceylonghattracer
+
+89. >R
+Q
+MatchListIwithListIIandselect the correct
+answer using the codegivenbelow thelists:
+ListI
+ListII
+(Nameofcurve)
+(Curveinfigure)
+(A) Equipotential
+1.PQ
+line
+(B) Pathline
+
+2. PR
+(C) Streakline
+
+3. PS
+(D) Streamline
+
+4. PT
+Code:
+A
+B
+C
+D
+(A) 2
+3
+
+1. 4
+(B) 4
+1
+3
+2
+(C) 2
+1
+3
+4
+(D) 4
+3
+1
+
+2. Q-GUG-K-DFB
+(16
+
+90. r，
+Consider the.following in the context of
+n.
+variations in magnetic declination:
+
+1. Secular
+
+2. Diurnal
+
+3. Annual
+
+4. Regular
+Whichof these arerelevant?
+nt
+(A) 1,2 and 3
+(q)
+1,2 and 4
+(C) 2and3only
+(D) 3and4.only
+
+91. Full
+amount
+tof
+super-elevation
+on.a
+horizontal curve is provided at the
+(A) beginningof thetransition.curve
+(B) centre of the circularcurve
+(C) endof the transition curve
+ct
+(D) centre of the transition curve
+
+92. For a homologous.model of a pump built to
+a scale ratio of 1 : 2, fluid and speed being
+the same in model and prototype,the ratio
+ofmodelpowertoprototypepoweris
+1
+(A) 2.82
+1
+(B) 1
+(C) 8
+1
+(D) 32
+6-A)
+
+--- page 17 ---
+93..
+Consider thefollowingstatements:
+
+95. In water treatment,theaddition ofchlorine
+inactivatesthe cellsofpathogenicbacteria
+through
+
+1. Penetrationofthechlorine
+species
+through the cellwalls.
+
+2. Suffocation of the cells.
+
+3. Reactionofthe chlorine specieswith the
+enzyme system of the cells.
+
+96. Which of the above statements are correct?
+(A) 1,2 and 3
+(B) 1 and 2only
+(C) 2 and 3only
+(D) 1 and 3 only
+
+94. MatchList Iwith List IIand select the
+correct answer using the code given below
+the lists:
+ListI
+ListIl
+(MeasuringDevice)
+(SoilParameter)
+(A) Pycnometer
+1.Compressibility
+(B) Hydrometer
+2.Permeability
+(C) Oedometer
+3.Specific gravity
+(D) Permeameter
+4.Particle size
+analysis
+
+97. Code:
+A
+B
+C
+D
+(A) 2
+4
+1
+3
+(B) 3
+
+1. 4
+2
+(C) 2
+1
+4
+3
+(D) 3
+4
+1
+
+2. Q-GUG-K-DFB
+(17-A
+
+5. Errorduetoinclinationoflineofcollimation
+inlevellingacrossarivercanbeeliminated by
+(A) Reversion
+(B) Reciprocal ranging
+(C) Reciprocal levelling
+(D) Keeping levelin middle
+
+6. Consider thefollowing statements:
+
+1. A streamline is animaginary line within
+theflowforwhichthenormalatany
+pointrelates to theacceleration at that
+point.
+
+2. Convective acceleration is the change in
+velocitywithrespectto distanceonly.
+3..
+Temporal
+acceleration
+expresses
+variationofvelocitywithrespecttotime
+only.
+
+4. Both
+convective
+acceleration
+and
+temporalaccelerationcan coexist.
+Which of these statements are correctrelated
+to fluid kinematics?
+(A) 1, 2, 3 and 4
+(B) 1,2 and 3 only
+(C) 2 and3only
+(D) 2,3 and 4 only
+
+7. A centrifugalpump will start delivering the
+liquid only when
+(A) Manometer head is greater than total
+head
+(B) Headdevelopedtendstoexceedthe
+manometrichead
+(C) Head developed in a centrifugal pump is
+due to pressure head only
+(D) Headdevelopedisnegligible
+(A) --- page 18 ---
+
+98. Consider thefollowing:
+
+1. Line ranger
+
+2. Reciprocal ranging
+
+3. Random linemethod
+
+4. Optical square
+Whichof thesearethecorrectmethodsof
+ranging employedtosolve the problem of
+vision obstructedbutwith chainingfree?
+(A) 1,2,3 and 4
+(B) 2 and3only
+(C) 2 and 4only
+(D) 3and4only
+
+99. In awater treatment,the optimum time of
+flocculation is usually given as 30 minutes.In
+case thetimeof flocculationisincreased
+beyond this value,then the flocs will
+(A) becomeheavyandsettledown
+in
+flocculation itself
+(B) entrapairandwill
+floatin
+the
+sedimentation tank
+(C) break up anddefeat the purpose of
+flocculation
+(D) stick to the paddles
+
+100. MatchListIwithListIIandselectthecorrect
+answerusing the code givenbelow thelists:
+ListI
+List II
+(Deposit)
+(Soil structure)
+1.Flocculated
+(A) Coarse grained
+soil
+(B) Silt deposit
+
+2. Cohesive matrix
+(C) Clay deposit
+
+3. Honeycomb
+(D) Composite soil
+
+4. Single-grained
+Code :
+A
+B
+C
+D
+(A) 2
+3
+1
+4
+(B) 4
+3
+1
+2
+(C) 2
+1
+3
+4
+(D) 4
+.1
+3
+
+2. Q-GUG-K-DFB
+(18
+
+Directions:Eachofthenexttwenty(20)items
+consistsoftwostatements,onelabelledasthe
+‘Assertion
+(A) 'and the other asReason (R)
+Youaretoexaminethesetwostatements
+carefullyandselecttheanswerstotheseitems
+using the codesgivenbelow:
++
+Codes:
+(A) BothAandRareindividually true and
+R is the correct explanation of A
+(B) BothAandR areindividuallytruebut
+Ris not the correctexplanation ofA
+(C) A is true butRis false
+(D) Ais false but R is true
+101.Assertion
+(A) :Energy
+dissipation
+hydraulic jump
+ismainly
+e
+caused by thelarge eddies in
+turbulence.
+Reason (R):1
+Large
+eeddiestransportthe
+fluid over large distances,thus
+causingthemixingeffectof
+turbulence.
+t
+102.Assertion
+(A) :An economical channel section
+givesmaximum dischargefor a
+given cross-sectional area.
+Reason (R):
+An economicalchannel section
+has smooth surface forreduced
+friction.
+103.Assertion
+(A) :The possibility of piping failure
+in earth dams ismore ifblack
+cotton soil is the foundation
+material.
+Reason (R):
+The highly expansive black
+cotton
+soilsarethemost
+commonsoilswhereverBasalt
+rock is present.
+-A)
+
+--- page 19 ---
+104.Assertion
+(A) ':The movement of twoblocks of108.
+woodweltedwithhotglue
+requiresgreaterandgreater
+effort as the glue is drying up.
+Reason (R):
+Viscosityofliquids
+6varies
+inverselywith temperature.
+109
+105.Assertion
+(A) :In theborder strip method of
+irrigation,the size of the strip
+depends on soil characteristics,
+slopeofthe
+land
+and
+discharge.
+
+110. Reason (R):Border strip
+methodisa
+controlled type of subsurface
+irrigation method.
+111
+106.Assertion
+(A) :Reynolds number of a fluid
+flowis
+indicative
+ofthe
+relative
+dominance
+of‘the
+effects ofmomentum transfer
+between adjacent layers of the
+flow over theviscous stresses.
+
+112. Reason (R):For flowat high Reynolds
+numbers,the velocity profile is
+logarithmic.
+107.Assertion
+(A) :A seepage passing through the
+113
+bodyof anearth damaffects
+theweightofdam.
+Reason (R):
+The
+specific
+weight
+of
+submerged
+soil
+is
+not
+dependenton the porosityof
+soil.
+Q-GUG-K-DFB
+(19 -A
+
+08.Assertion
+(A) :In a strainer type tube well
+strainer pipes are surrounded
+by wire mesh.
+Reason (R):
+Thispreventsthefineparticles
+from entering the well pipe.
+09.Assertion
+(A) :Break
+point
+chlorination
+ensuresaresidualoffree
+availablechlorine.
+Reason(R):
+Asuper high'chlorine dose
+inactivates the pathogens in a
+very short time.
+10.Assertion
+(A) :Flow net is dependent on the
+permeabilityofsoilthrough
+which flowis takingplace.
+Reason(R):The flow net is usefulin
+findingthe discharge.
+11.Assertion
+(A) :Atthe
+same
+voidsratio
+desiccatedclayisstronger
+than saturated clay.
+Reason (R):
+Desiccation impacts (induces)
+pre-compressive forces in the
+soil structure.
+12.Assertion
+(A) :Lining acanal is always
+beneficialand economical.
+Reason(R):
+The seepage losses are greatly
+reducedandextra water is
+available forirrigation.
+13.Assertion
+(A) :Worn out (smooth)tyres offer
+higher friction factors on dry
+pavements than newtyres
+withtreads wellintact.
+Reason (R):
+Reducedpneumaticpressureis
+heldintubes which carry
+smoothtyresover them.
+(A) --- page 20 ---
+114.Assertion
+(A) :In plane table
+photogrammetry，the areas to
+bemappedaretakenfrom
+eitherendofabaseline.
+Reason (R):
+Thepositionofthedetailpoint
+with reference to the base line
+is obtained by intersection of
+rays drawn toitfrom each end
+of the base.
+115.Assertion
+(A) :Tie bars are used in cement
+concrete
+slabs
+across
+the
+.·longitudinaljoints.
+Reason (R):Tie bars are designed to act as
+load transfer devices.
+116.Assertion
+(A) :Traffic‘Smog.islikely to occur
+in.regions
+wherevehicle
+mileage isconsiderable and
+thereisalowincidenceof
+sunlight.
+Reason (R):Traffic‘Smog'is caused by the
+reaction of oxides ofnitrogen
+and someof thehydrocarbons
+in presence of bright sunlight.
+117.Assertion
+(A) :In an intersection design,the
+relative speedis dependent on
+the
+absolute
+speed
+of
+intersecting vehicles and the
+anglesbetweenthem.
+Reason (R):
+When the angle ofmergingis
+small, the relative speed will
+be high.
+Q-GUG-K-DFB
+(20
+
+118.Assertion
+(A) :The pandrol clip is a fit and
+forgettypeoffasteningand is
+made from silicone
+manganese spring steel bar
+andheattreated.
+Reason (R):The pandrol clip has a point
+contact and causes indentation
+on the rail due to heavy toe
+load and small contact area.
+t
+119.Assertion
+(A) :In the overall design and
+layout of a harbour (or port),
+differentiation
+is
+made
+between
+'entrance'
+and
+‘channel’depths.
+Reason (R):The‘scend’(or pitching)of a
+vesselmaybelarger at the
+entrancetothechannelthan
+within the channel.
+120.Assertion
+(A) :The paved area adjacent to the
+terminal building andhangers
+used
+for
+loading
+and
+unloading,
+servicing
+and
+parking ofaircraft is called as
+apron.
+f
+Reason(R):
+The size ofthe apron depends
+on the size and number of gate
+positions and the way the gate
+positions are arranged.
+-A}
+
+--- page 21 ---
+UGHWORK
+
+--- page 22 ---
+ROUGH WORK
+2 -A)
+
+--- page 23 ---
+OUGHWORK
+A）
+
+--- page 24 ---
+ROUGHWORK
+24-A)

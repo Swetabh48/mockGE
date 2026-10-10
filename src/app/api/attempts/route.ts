@@ -62,6 +62,7 @@ export async function POST(request: Request) {
     const blueprint = getBlueprint(
       paper.tier as ExamTier,
       (paper.focusSection as SectionKey) || undefined,
+      { exam: paper.exam, iesPaper: paper.iesPaper, mode: paper.mode },
     );
     const firstSection = blueprint.sections[0]?.key ?? "reasoning";
 
@@ -207,6 +208,12 @@ export async function POST(request: Request) {
     const blueprint = getBlueprint(
       fresh.tier as ExamTier,
       (fresh.paper.focusSection as SectionKey) || undefined,
+      {
+        exam: fresh.paper.exam,
+        iesPaper: fresh.paper.iesPaper,
+        mode: fresh.paper.mode,
+        questionCount: fresh.paper.questions.length,
+      },
     );
     const duration = blueprint.timerGroups.reduce((s, g) => s + g.durationSeconds, 0);
     const qIndexById = Object.fromEntries(

@@ -1,0 +1,2184 @@
+
+--- page 1 ---
+DONOTOPENTHISTESTBOOKLETU
+T.B.C.:O-FTF-J-DFB
+Serial No. 16357
+TEST BOC
+CIVILENGIN
+PaperTimeAllowed:TwoHours
+INSTRUC
+1.IMMEDIATELYAFTERTHECOMMENCEME
+CHECKTHATTHISTESTBOOKLETDOES
+MISSING PAGESORITEMS,ETC.IFSO,G
+BOOKLET.
+2.ENCODECLEARLYTHETESTBOOKLETSE
+INTHEAPPROPRIATEPLACEINTHEANS
+3.You have toenteryourRollNumberon the
+BookletintheBoxprovidedalongside.DO
+writeanythingelseontheTestBooklet.
+4.This TestBookletcontains120items(quest
+(answers).Youwillselecttheresponsewhic
+Incaseyoufeelthatthereismorethan one
+you consider the best.In any case,choose
+5.You have tomark allyourresponsesONLY
+SeedirectionsintheAnswerSheet.
+6.All items carry equal marks.
+7.Beforeyouproceed to markin theAnswer S
+TestBooklet,youhavetofillinsomeparticul
+senttoyouwithyourAdmissionCertificate
+8.Afteryou havecompletedfilling inallyour
+examination hasconcluded,you should ha
+Sheet.Youarepermittedtotakeawaywith
+9.Sheetsfor roughwork are appended in the
+10.Penaltyforwronganswers:
+THEREWILLBEPENALTYFORWRONGANS
+OBJECTIVETYPEQUESTIONPAPERS.
+(i)Therearefouralternativesfor theansw
+whichawronganswerhasbeengiven
+marksassignedtothatquestionwillbe
+(i)Ifacandidategivesmorethanoneanswe
+ifone of thegiven answershappens tob
+abovetothatquestion.
+(ii)Ifaquestionisleftblank,i.e.,noansw
+nopenaltyforthatquestion.
+DONOTOPENTHISTESTBOOKLETU
+
+！q，
+EnginecringServiceExamination.
+UNTILYOUAREASKEDTODOSO
+TestBooklet Serles
+A
+DOKLET
+INEERING
+r-I
+Maximum Marks:200
+CTIONS
+MENTOFTHEEXAMINATION,YOUSHOULD
+SNOTHAVEANYUNPRINTEDORTORNOR
+GETITREPLACEDBYACOMPLETETEST
+SERIESA,B,CORDASTHECASEMAYBE
+NSWERSHEET.
+theTest
+DONOT
+estions).Each iterm comprises fourresponses
+nichyouwanttomarkontheAnswerSheet.
+necorrectresponse,marktheresponsewhich
+seONLYONEresponseforeachitem.
+VLYontheseparateAnswerSheetprovided.
+rSheettheresponsestovariousitemsinthe
+cularsintheAnswerSheetasperinstructions
+ate.
+ourresponsesontheAnswerSheetandthe
+handovertotheInvigilatoronlytheAnswer
+ithyoutheTestBooklet.
+theTestBookletattheend.
+NSWERSMARKEDBYACANDIDATEINTHE
+swertoeveryquestion.Foreachquestionfor
+enbythecandidate,one-third(0·33)ofthe
+bedeductedaspenalty.
+wer,itwillbetreatedasawronganswereven
+becorrectandtherewillbesamepenaltyas
+swer is given by the candidate，there will be
+UNTILYOUAREASKEDTODOSO
+
+--- page 2 ---
+Frce
+surface
+B
+E
+Considertheabovefigurerelating
+tobuoyancyinwater.Whatwillbe
+the downward force upon the top of
+thebodyABCDEF?
+(A) Theweightoftheliquidcolumn
+ABCHG
+(B) Theweightoftheliquidcolumn
+DEFGH
+(C) The
+weightoftheliquid
+columnABCHG-theweightof
+theliquidcolumnDEFGH
+(D) Theweightoftheliquid
+columnABCHG+ theweightof
+theliquidcolumnDEFGH
+2.Considerthefollowing statements
+in
+respect
+of
+two-dimensional
+incompressibleflowwithvelocity
+componentsu andvinx and
+directionsrespectively:
+
+1. The
+continuityequation
+is
+du
+au
+xe
+ay
+
+2. Theaccelerationin x-direction
+du
+au
+ne
+isax
+dt
+ax
+he
+
+3. Theconditionofirrotationality
+is
+au
+ax
+dy
+
+4. The equationofa streamline is
+udy=-vdx
+O-FTF-J-DFB/10A
+
+Whichoftheabovestatementsare
+correct?
+(A) 2 and3only
+(B) 1 and 2 only
+(C) 1,2 and 3
+3and4
+(D) 3.Consider the following:
+
+1. Force on pipe bends and
+transitions
+
+2. Jetpropulsion
+
+3. Flow velocitiesinopen channel
+
+4. Vortexflow
+Which
+of
+the
+above
+admit
+employingthemomentofmomentum equation?
+(A) 1 and2only
+(B) 1,2 and 3
+(C) 1 and3only
+(D) 2,3 and 4
+4.Consider the following statements:
+
+1. Shear'stress is maximumat
+the centre line.
+
+2. Maximumvelocity is3/2 times
+theaveragevelocity.
+
+3. Dischargevaries inversely with
+the coefficient ofviscosity.
+
+4. Slopeofhydraulicgradientline
+increaseslinearlywiththe
+velocityofflow.
+Whichoftheabovestatementsare
+correctinconnectionwithasteady
+laminarflowthroughacircular
+pipe?
+1,3 and 4
+(A) 
+(B) 3 and 4only
+(0)
+1 and 3only
+(D) 2 and 4
+2
+
+--- page 3 ---
+5.Consider the following statements:
+Cavitationgenerallyresultsfrom a
+combinationofseveralinfluences
+
+1. by
+reduction
+of
+pressure
+intensitybelow alimitingvalue
+
+2. byincreaseineitherelevation
+or thevelocityofflow
+
+3. byreduction ofpressureload
+in the system
+
+4. by decrease in the velocity
+offlow
+Whichoftheabovestatements
+arecorrect?
+(A) 1,2 and 3
+(B) 1
+1and2only
+(C) 2 and 3only
+(D) 3and4
+6.Consider thefollowingfactors:
+
+1. The change in the shape and
+sizeofthechannelcrosssection
+
+2. The changein the slope of the
+channel
+
+3. Thepresenceofobstruction
+
+4. The change in the frictional
+forcesattheboundaries
+Whichoftheabovefactorswould
+causeagraduallyvariedflow?
+(A) 1,2,3 and 4
+(B) 1,2 and 3only
+(C) 2and.4only
+(D) 3 and4only
+O-FTF-J-DFB/10A
+3
+
+7.The power transmitted through a
+pipelineismaximumwhenthe
+headlostdue tofriction in thepipe
+is equal to
+(A) ）the total supplyhead
+(B) half of the total supplyhead
+(C) one-thirdofthetotalsupply
+head
+(D) one-fourthof the total supply
+head
+8.Consider the following with respect
+totheapplicationoftheNavierStokes equations:
+
+1. Laminarflow in circularpipes
+
+2. Laminarflow
+between
+concentricrotatingcylinders
+
+3. Laminar
+unidirectional
+flow
+between
+stationaryparallel
+plates
+
+4. Laminar
+unidirectionalflow
+between parallel plates having
+relative motion
+Whichoftheaboveis/arecorrect?
+(A) 1 only
+(B) 2and 3only
+(C) 3and4only
+(D) 1,2,3 and 4
+[ P. T. O.
+
+--- page 4 ---
+9.In a siphon system employed for
+carryingwaterfromareservoirA
+atahigherelevationtoanother
+reservoirB atlowerelevation,both
+being separatedby a higher hill,
+whatwillbethepressureatthe
+'Summit'(S)?
+(A) Equaltothe pressure atthe
+water surfaceofreservoirA
+(B) Higher than the pressure at
+thewatersurfaceofreservoirA
+(C) Equal tothepressureat the
+watersurfaceofreservoirB
+(D) Less than thepressure atboth
+A and B above
+10.Match List-I with List-II and select
+the correct answer using the code
+given below theLists:
+List-I
+List-II
+(A) Rehbock
+1.Sutro weir
+formula
+(B) Francis
+
+2. Rectangular
+formula
+suppressed
+weir
+(C) A special
+
+3. Rectangular
+trapezoidal
+side-contracted
+weir
+weir
+(D) Linear propor4.Cippolletti weir
+tionalweir
+Code:
+(A) A
+B
+C
+D
+1
+3
+4
+2
+(B) A
+B
+C
+D
+2
+4
+3
+1
+(C) A
+B
+C
+D
+1
+4
+3
+2
+(D) A
+B
+C
+D
+2
+3
+4
+
+1. O-FTF-J-DFB/10A
+
+11.While selecting a centrifugal pump
+A
+foryourrequirementofheadand
+dischargeonthebasisofits
+performance characteristics,which
+oneof thefollowingcriteria istobe
+adopted?
+(A) Head,discharge and efficiency
+(B) Head and discharge only
+(C) Discharge only
+e
+(D) Head only
+12.Consider the following statements:
+t
+Thefunctionoftheimpellerina
+centrifugalpump isto
+
+1. convert the pressure energy
+intohydraulicenergy
+
+2. convert the hydraulic energy
+intomechanicalenergy
+
+3. convert the mechanical energy
+intohydraulicenergy
+
+4. transform mostofthe kinetic
+energiestopressureenergy
+Whichoftheabovestatements
+is/are correct?
+(A) 1 only
+(B) 3only
+(C) 1,2 and 3
+(D) 2,3 and 4
+
+--- page 5 ---
+13.A centrifugal pump gives maximum
+efficiencywhenitsimpellerblades
+are
+(A) bent forward
+(B) bent backward
+(C) straight
+(D) wave-shaped
+14.Match List-I with List-II and select
+the correct answer using the code
+given below the Lists :
+List-I
+List-I
+(Component)
+(Function)
+(A) Spiral casing
+1.Toallowflowof
+water through it to
+produce a torque
+for the rotation of
+therunner
+(B) Stay ring
+2.Todirectthewater
+on the runner at
+an appropriate
+angle
+(C) Guide vane
+3.To distribute the
+flow over the
+peripheryof the
+runner
+(D) Runner
+4.Toactascolumn
+helping to support
+the electrical
+generator above
+the turbine
+Code:
+(A) A
+B
+C
+D
+3
+2
+4
+1
+(B) A
+B
+C
+D
+1
+2
+4
+3
+(C) A
+B
+C
+D
+3
+4
+2
+1
+(D) A
+B
+C
+D
+1
+4
+2
+
+3. O-FTF-J-DFB/10A
+5
+
+15.By which one of the following,a
+smallquantityofwatermaybe
+lifted to a great height?
+(A) Hydraulicram
+(B) Hydraulic crane
+(C) Hydraulic lift
+(D) Hydraulic coupling
+16.WhatisHydrologicalCycle?
+(A) Processes
+involved
+in
+the
+transferofmoisture from sea
+to land
+(B) Processes
+involved
+in
+the
+transfer ofmoisture from sea
+back to sea again
+(C) Processes
+involved
+in
+the
+transfer
+of
+water
+from
+snowmeltinmountainstosea
+(D) Processes
+involved
+in
+the
+transfer ofmoisture from sea
+toland andbackto sea again
+17.Consider the followingwith respect
+to a‘double-mass curve':
+
+1. Plotofaccumulatedrainfall
+with respect totwochronological orders
+
+2. Plotforestimatingmultiple
+missingrainfalldata
+
+3. Plot for checking the consistencyoftherainfalldata
+
+4. Plotofaccumulatedannual
+rainfall
+1ofastation
+VS.
+accumulatedrainfallofagroup
+of stations
+Whichof theabovearecorrect?
+(A) 1 and3
+(B) 2and3
+(C) 3and4
+(D) 1and4
+[P.T.O.
+
+--- page 6 ---
+18.Generally
+to
+estimate
+PMP,
+Pm =42.16D0.47s is used (Pm is
+maximum depth of precipitation,
+D=duration).What are the units of
+Pm
+and Din the equation?
+(A) mm,sec
+(B) cm,sec
+(0)
+mm,hr
+cm,hr
+(D) 19.Atriangular directrunoffhydrograph
+due toa stormhasa timebaseof
+60hr andapeak flow of 30m3/s
+occurringat20hrfromthestart.
+If the catchment area is 300 km2,
+what istherainfallexcessinthe
+storm?
+(A) 50mm
+(B) 20mm
+10.8mm
+(0)
+(D) 8·3mm
+20.A 3 hr unit hydrograph U, of a
+catchment of area 235 km2 is in
+theformofatrianglewithpeak
+discharge 30 m?/s.Another 3 hr
+unithydrograph U2is alsotriangular
+inshape and has the same base
+width as U,,but has a peak flow of
+90 m3 /s. What is the catchment
+areaofU2?
+(A) 117.5 km2
+(B) 235 km2
+(C) 470 km2
+(D) 705 km2
+O-FTF-J-DFB/10A
+
+21.Consider the following chemical
+emulsions:
+
+1. Methylalcohol
+
+2. Cetylalcohol
+
+3. Stearylalcohol
+
+4. Kerosene
+Which
+ofthe
+abovechemical
+emulsions is/areusedtominimize
+thelossofwaterthroughthe
+process ofevaporation?
+(A) 1 only
+(B) 1 and 4
+(C) 2and4
+(D) 2and 3
+22.Acatchmentareaof 60 ha hasa
+runoffcoefficientof0.40.Ifastorm
+ofintensity3cm/handduration
+longer thanthe time ofconcentration occurs in the catchment,
+thenwhatis thepeakdischarge?
+(A) 2.0 m3 /s
+(B) 3.5 m²/s
+4.5 m²/s
+(C) 
+(D) 2.5m3/s
+6
+
+--- page 7 ---
+23.Thelanduseofanareaandthe
+correspondingrunoffcoefficients
+are as follows:
+"S
+Landuse
+Area
+Runoff
+No.
+(ha)
+coefficient
+
+1. Roads
+10
+0·70
+
+2. Lawn
+20
+0·10
+
+3. Residential area
+50
+0·30
+
+4. Industrialarea
+20
+0·80
+Whatisthe equivalentrunoff
+coefficient?
+(A) 0·15
+(B) 0·36
+(0)
+0·40
+(D) 0·51
+24.The
+head
+onasharp-crested
+rectangularweirofheight1·6m
+and
+crestlength
+1·2
+m
+was
+incorrectlyobservedtobe0-13m
+whenitwasactually0.15m.What
+was thepercentageerror inthe
+computedvalueofflowrate?
+(A) 0·5%
+(B) 1·0%
+(0)
+2·0%
+(D) 1·5%
+O-FTF-J-DFB/10A
+7
+
+25.Consider the following with respect
+tomeasurementofstreamflow
+during flood:
+
+1. Timing ofthetravelof floats
+released in thestream
+
+2. Use
+of
+weirformula
+for
+spillwaysprovidedonadam
+
+3. Calculationofflow througha
+contractedopeningatabridge
+
+4. Usinga current-meter
+Whichoftheaboveis/arereliable
+and accurate?
+(A) 1
+(B) 4only
+(0)
+3and4
+(D) 2and3
+26.Under which one of the following
+categoriesistheriverGanga
+classified in thereach through UP
+and Bihar?
+(A) Straight river
+(B) Meanderingriver
+(C) Braided river
+(D) Deltaic river
+[ P. T. O.
+
+--- page 8 ---
+27.Whichofthefollowingcategories
+bestdescribes theHirakudreservoir?
+(@)Reservoirforirrigationand
+power
+(B) Reservoir for flood control,
+power and irrigation
+(C) Reservoirforirrigationand
+watersupply
+(D) Reservoirfor recreationand
+fishery
+28.Duringaparticularstageofthe
+growth of a crop,consumptive use
+ofwateris2·8mm/day.If the
+amountofwateravailableinthe
+soilis25%of80mmdepthof
+water,whatisthefrequencyof
+irrigation?
+(A) 9 days
+(B) 13 days
+(C) 21 days
+(D) 25days
+O-FTF-J-DFB/10A
+
+S
+29.Consider the following statements:
+Irrigation waterhas tobe supplied
+tothecropswhenthemoisture
+1
+level falls
+
+1. belowfieldcapacity
+
+2. to wilting point
+
+3. belowwiltingpoint
+Whichoftheabovestatements
+is/are correct?
+(A) 1
+(B) 2 only
+(C) 3 only
+(D) 2and3
+e
+30.A groundwater basin consists of
+10 km2
+area
+ofplains.
+The
+f
+maximum
+groundwater
+table
+of
+fluctuationhasbeenobserved tobe
+1·5m.Consider specificyieldofthe
+basin as10%.Whatistheavailable
+groundwaterstoragein1
+million
+cubic metres?
+(A) 1·0
+(B) 1·5
+(C) 2-5
+(D) 2.0
+8
+
+--- page 9 ---
+31.In a canal irrigation project,76% of
+the culturable command area (CCA)
+remainedwithoutwater during
+Kharifseason;and58%ofCCA
+remainedwithout
+water
+during
+Rabi season in a particular year.
+Restof theareasgotirrigatedin
+each croprespectively.Whatis the
+intensityofirrigationfor theproject
+in thatyear?
+(A) 134%
+(A) 76%
+66%
+(C) 
+(D) 58%
+32.Whatisthe criticalcombinationof
+verticalandhorizontalearthquake
+accelerationstobeconsideredfor
+checkingthestabilityofagravity
+damin reservoir fullcondition?
+(A) Vertically
+upward
+and
+horizontallydownstream
+Vertically
+and
+(B) upward
+horizontallyupstream
+(C) Vertically
+downward
+and
+horizontallyupstream
+(D) Vertically
+downward
+and
+horizontallydownstream
+O-FTF-J-DFB/10A
+6
+
+33.Whatistheheightofwavewhich is
+likely tobegeneratedbyawindof
+80km/hrinareservoirhavinga
+fetchof50km?
+(A) 0·5 m
+(B) 1·0 m
+(0)
+2.0m
+(D) 3.0m
+34.Consider thefollowing statements:
+
+1. Givingequal
+weightagesto
+horizontaland vertical creeps
+fordesignofweir foundations
+isone of the drawbacks of
+Kennedy's theory.
+
+2. Khosla's theory of design of
+foundationsfor weirs isbased
+on potential theory.
+
+3. Pipingproblem canbereduced
+by increasing thelength of floor.
+
+4. In
+Lane's
+weighted
+creep
+theory, horizontal
+creepis
+given lessweightage compared
+to vertical creep.
+Whichoftheabovestatements
+is/are correct?
+(A) 1
+(B) 2,3 and 4
+(C) 2 and 4only
+(D) 3 and 4only
+[P.T.O.
+
+--- page 10 ---
+35.Consider the following statements
+relatedtoundersluices provided
+in diversion.weirs on permeable
+foundations:
+
+1. They are fullygate-controlled
+andhavecrestatthesame
+levelastheweircrestwhenno
+siltexcludersare provided.
+
+2. Theyscourthesiltdeposited
+ontheriverbedin thepockets
+upstreamof the canalhead
+regulator.
+
+3. It is not necessary toprovide
+endpilelineonthedownstream
+endof the undersluice floor.
+
+4. Thedischargecapacityof the
+undersluiceis10-15%of the
+maximum flood or twotimes
+themaximum dischargeofthe
+offtakingcanalormaximum
+winter discharge,whichever is
+the highest.
+Whichoftheabovestatements
+is/are correct?
+(A) 1
+(B) 2 and 4only
+(C) 2,3 and 4
+(D) 3 and 4only
+36.Whatisthemostimportantdesign
+parameterusedin
+designinga
+continuous
+flow
+rectangular
+sedimentationtankforremovalof
+discrete particles?
+(A) Length of the tank
+(B) Surfaceoverflowrate
+(C) Depth of the tank
+(D) Temperatureofthewater tobe
+treated
+O-FTF-J-DFB/10A
+1
+
+37.Effluentfromawastewater treatment
+plant (flow rate = 8640 m²/d,
+temperature=25°C)isdischarged
+toa surface stream (flow rate =
+1·2m²/s,temperature =1
+15°C).
+Whatisthetemperatureofthe
+stream after mixing?
+(A) 10°℃
+(B) 15.77°C
+(C) 20℃
+(D) 24·99°℃
+38.Match List-I withList-IIand select
+the correctanswer using the code
+given below the Lists:
+List-I
+List-II
+(Typeofimpurity)
+(Harmcaused)
+(A) Excess of
+、1.
+Brackish water
+nitrates
+(B) Excess of
+
+2. Goiter
+fluorides
+(C) Lack ofiodides
+
+3. Fragile bones
+(D) Excess of
+
+4. Blue babies
+chlorides
+Code:
+(A) A
+B
+C
+D
+4
+2
+3
+
+1. (B) A
+B
+C
+D
+1
+2
+3
+4
+(C) A
+
+8. C
+D
+4
+3
+2
+
+1. A
+(D) B
+C
+D
+1
+3
+4
+2
+10
+
+--- page 11 ---
+39.The concentration of OH ion in a
+watersampleismeasuredas
+17mg/Lat25°C.Whatis thepHof
+thewatersample?
+(A) 10
+(B) 11
+(C) 12
+(D) 13
+40.Whichcombinationofsurfacewater
+qualityparameterswillindicate
+sweepcoagulationasthepreferred
+mechanism of coagulation?
+(A) High turbidity—lowalkalinity
+(B) Highturbidity—highalkalinity
+(C) Low turbidity—highalkalinity
+(D) Low turbidity—lowalkalinity
+41.Whichone ofthefollowingprocesses
+of
+water
+softening
+requires
+recarbonation?
+(A) Lime-soda ash process
+(B) Hydrogen-cation
+exchanger
+process
+(C) Sodium-cation
+exchanger
+process
+(D) Demineralization
+O-FTF-J-DFB/10A
+11
+
+42.MatchList-IwithList-IIand select
+the correctanswerusing thecode
+givenbelow theLists:
+List-I
+List-II
+(Water/Wastewater
+(Operatingproblem)
+treatment)
+(A) Trickling filter
+1.Negative head
+(B) Activated
+2.Fly-breeding
+sludge process
+(C) Rapid gravity
+3.Sludge bulking
+filter
+(D) Anaerobic
+4.pH reduction
+sludge digester
+Code :
+(A) A
+B
+C
+D
+4
+3
+1
+
+2. A
+B
+C
+D
+(B) 1.
+4
+2
+(C) A
+B
+C
+D
+4
+1
+2
+(D) A
+B
+C
+D
+2
+1
+3
+4
+43.Consider thefollowingtreatment
+processunitsinawatertreatment
+plant:
+
+1. Coagulation
+
+2. Disinfection
+
+3. Sedimentation
+
+4. Filtration
+Which isthecorrectsequenceof
+processunitsinthewater
+the
+treatmentplant?
+(A) 2-4-3-1
+(B) 1-43-2
+(C) 2-3-4-1
+(D) 1-3-42
+[P.T.O.
+
+--- page 12 ---
+44.Which one ofthefollowing tests
+of
+water/wastewater
+employs
+ErichromeBlackT as an indicator?
+(A) Hardness
+(B) COD
+(C) Residualchlorine
+(D) DO
+45.Which of thefollowing pollutants
+aregenerallynotremovedina
+sewage treatmentplant?
+(A) Inorganic suspended solids
+(B) Dissolved organic solids
+(C) Oilandgrease
+(D) Dissolved inorganic solids
+46.Whatisthetheoretical
+1oxygen
+demand
+of
+300mg/L
+glucose
+solution?
+(A) 300 mg/L
+(B) 320mg/L
+(C) 350mg/L
+(D) 400 mg/L
+O-FTF-J-DFB/10A
+12
+
+47.Which one of the following types of
+samplesisrelevantlyemployedfor
+thedesignofwastewatertreatment
+plant?
+(A) Grab sample
+(B) Composite sample
+(C) Integratedsample
+(D) Anysample
+48.A
+drain
+carrying
+sewage
+of
+BOD=200mg/Landflowrate of
+50m3/sjoinsariver
+whose
+upstream BODis 8 mg/L and flow
+rate is 500 m3/s. Assume immediateandcompletemixingofdrain
+with
+the
+river.Whatis
+the
+estimateddownstreamBODofthe
+river flow?
+(A) 20.4mg/L
+(B) 25·4mg/L
+(C) 104.4mg/L
+(D) 70.4mg/L
+49.A 12·5mL sample of treatedwaste-
+;waterrequires187·5mLofodor-free
+distilledwater toreducetheodor to
+a level thatisjustperceptible.What
+is the thresholdodornumber(TON)
+for thewastewatersample?
+(A) 0·07
+1·07
+(B) 
+(C) 15
+(D) 16
+12
+
+--- page 13 ---
+50.Which
+oneofthefollowing
+parameters isnotincludedin the
+routinecharacterizationofsolid
+wasteforitsphysicalcomposition?
+(A) Moisture content
+(B) Density
+Particle size analysis
+(C) 
+(D) Energy value
+51.Which one of the following toxic
+gases has physiological action as
+asphyxiant?
+(A) SO2
+(B) NO2
+(C) Cl2
+(D) co
+52.Assuming annual travel for each
+vehicletobe20000km,whatis the
+quantityofNOxproducedfrom
+500o0vehicleswithemissionrate
+of2·0g/km/vehicle?
+(A) 1800 tonnes
+(B) 1900 tonnes
+(C) 2000 tonnes
+(D) 2100 tonnes
+O-FTF-J-DFB/10A
+13
+
+53.Whataretheairpollutants
+responsiblefor acidrainwithinand
+downwindareasofmajorindustrial
+emissions?
+(A) Hydrogen sulfide and oxides of
+nitrogen
+(B) Sulfurdioxideandoxidesof
+nitrogen
+(C) Carbon dioxideand hydrogen
+sulfide
+(D) Methane andhydrogensulfide
+54.Consider thefollowing airpollutants:
+
+1. NOx
+
+2. PAN
+
+3. CO2
+
+4. co
+Whichoftheaboveairpollutants
+is/are present in an autoexhaust
+gas?
+(A) 1 only
+(B) 1and2
+(C) 2and3
+(D) 1,3 and 4
+[ P. T. O.
+
+--- page 14 ---
+55.Consider the following properties for
+clays X and Y:
+Sl.
+Properties
+Clay x
+Clay
+No.
+(%)
+(%)
+
+1. Liquid limit
+42
+56
+
+2. Plastic limit
+20
+34
+
+3. Naturalwater
+content
+30
+
+50. Which
+of
+the
+clays,
+X
+or
+Y,
+experienceslargersettlementunder
+identical loads;is more plastic;and
+is softer in consistency?
+(A) X,Yand X
+(B) Y,X and x
+(C) Y,X and Y
+(D) X,X and Y
+56.A clay sample,originally 26 mm
+thick at a voidratioof 1·22,was
+subjectedtoacompressiveload.
+Aftertheclaysamplewascompletely
+consolidated，its thickness was
+measured tobe 24mm.Whatis the
+final void ratio?
+(A) 1·322
+(B) 1·421
+(C) 1·311
+(p)
+1·050
+57.For asandysoil withsoilgrains
+sphericalin shape anduniform in
+size，what is the theoreticalvoid
+ratio?
+(A) 0·61
+(B) 0·71
+(0)
+0·91
+(D) 0.81
+O-FTF-J-DFB/10A
+
+58.A soil has liquid limit = 35,plastic
+limit=20,shrinkage limit=10and
+naturalmoisture content=25%.
+Whatwillbeitsliquidityindex,
+plasticityindexandshrinkageindex?
+(A) 0·67,15and 25
+(B) 0·33,15 and 10
+(C) 0.67,25 and 15
+r
+(D) 0·33,20 and 15
+59.A cohesive soil yields a maximum
+dry density of 16 kN/m3 during a
+standardProctor Compaction test.
+If the specific gravity is 2·65,what
+wouldbeitsvoidratio?
+(A) 0.552
+(B) 0·624
+(C) 0·712
+(D) 0-583
+60.Consider the following:
+Increasein shear strength and
+bearing capacity
+
+2. Increase in slope stability
+
+3. Decrease in settlement of soil
+
+4. Decreasein permeability
+·Whichoftheabovewithrespectto
+compactionofsoilis/arecorrect?
+(A) 1 only
+(B) 1 and 2 only
+(C) 2 and3only
+(D) 1,2,3 and 4
+14
+
+--- page 15 ---
+61.Forasheetpilewallconstructed
+inasoilhaving effectivegrain
+size=O·1mm,thedifferenceofthe
+upstreamanddownstreamwater
+leveisis3m.If theflownetdrawn
+fortheproblemyields2astheratio
+ofnumberofheaddropstonumber
+offlow channels，then'what is
+thedischargeinunit ofm/s/m
+lengthof sheetpile wall?
+(A) 3·0 x 10-4
+(B) 3·0 x 10-2
+(0)
+1·5 × 10-4
+(D) 1·5 x 10-2
+62.Consider thefollowing statements:
+
+1. Quicksandisaspecialvariety
+of sand.
+
+2. Quicksandisnotamaterial
+but a hydraulic condition.
+
+3. In nature,quicksand condition
+isobservedusuallyincoarse
+silt or fine sand.
+Whichoftheabovestatementsare
+correct?
+(A) 1,2and 3
+(B) 1and2only
+(C) 2 and 3only
+(D) 1 and3only
+63.Ina6m thickstratumoffinesand
+having
+submerged
+density
+of
+11 kN/m3,
+quicksandcondition
+occurredatadepthof4.2mof
+excavation.whatisthedepth
+ofloweringofgroundwatertable
+requiredformaking anexcavation
+5 mdeep?Takedensityofwater
+as 10 kN/m3.
+(A) 3.85m
+(B) 1.68m
+(C) 1·1 m
+(D) 0.897m
+O-FTF-J-DFB/10A
+15
+
+64.Consider the following statements:
+
+1. Permeabilityofasoildecreases
+as theeffective stress actingon
+the soil increases.
+
+2. Thepresence oforganicmatter
+in
+thesoil
+increases
+its
+permeability.
+
+3. Entrappedairdecreases
+the
+permeabilityofa soil.
+Whichoftheabovestatements
+is/are correct?
+(A) 1 only
+(B) 1and2
+(C) and3
+(D) 1 and 3
+65.A 1 m thick layer of saturated clay,
+drained at both faces，settles by
+10cm inoneyear.Ifa thinlayerof
+pervious soil is introduced inthe
+middleofthislayer,then whatwill
+betheperiodduringwhichthe
+settlement
+of
+10cm
+will
+1be
+completed?
+(A) 4 years
+(B) 0.5year
+(C) 0·25year
+(D) 2 years
+66.Whichoneofthefollowingconditions
+isvalidincaseofunconfined
+compression test in comparison to
+triaxial test?
+(A) Minor principal stress=0
+(B) Minor principal stress=0·5x
+majorprincipalstress
+(C) Minor principal stress = major
+principalstress
+(D) Major principal stress = 3 x
+minor principal stress
+5
+[ P. T. O.
+
+--- page 16 ---
+67.'In an unconfined compression test
+onstiffclay,ifthefailureplane
+madeanangleof52°tothe
+horizontal,whatwould bethe angle
+of shearing resistance?
+(A) 16°
+(B) 14°
+(C) 12°
+(D) 13°
+68.On which ofthefollowing soils is the
+standard penetration test useful?
+
+1. Cohesionless soils
+
+2. Medium clays
+
+3. Gravelly soils
+
+4. Very stiff clays
+Selectthecorrectanswerusingthe
+codegivenbelow:
+Code:
+(A) 1 only
+(B) 1
+and3
+(C) 1
+and2
+(D) 3
+and4
+69.Consider the following statements:
+
+1. Standard penetration test(SPT)
+isconductedbypushing a
+coneintosoilattherateof
+2 cm/s.
+
+2. Standard
+penetration
+test
+results
+are
+unreliable
+in
+deposits
+containing
+large
+number ofboulders.
+
+3. Dutch
+cone
+is
+a
+static
+penetrometer.
+Which
+of
+ftheabovestatements
+is/are correct?
+(A) 1
+only
+(B) 1
+and2
+(C) 2and3
+(D) 3 only
+O-FTF-J-DFB/10A
+1
+
+70.Whatistheintensityofactiveearth
+pressure at a depth of 10·0 m in dry
+sandwithanangleofshearing
+resistanceof30°andunitweightof
+18 kN/m3?
+(A) 50 kN/m3
+(B) 60 kN/m 3
+(C) 70 kN/m3
+(D) 80 kN/m3
+71.Whenaverticalfaceexcavationwas
+made in a clayey silt,having density
+of 20 kN/m3, it failed at a depth
+ofexcavationof4m.Whatisthe
+cohesive strength(in kN/m²)of the
+soil,if its angle of internal friction
+.was30°？
+(A) 23·1
+(B) 20·0
+(C) 11·6
+(D) 10·2
+72.IfanSPr testgavetheaverageblow
+countof32infinesandbelowwater
+table，then what is the corrected
+valueofblowcount?
+(A) 22·1
+(B) 23·5
+(C) 24·2
+(D) 24.8
+73.Consider the following statements:
+
+1. The soilobtainedfrom wash
+boring.
+is
+a
+representative
+sample.
+
+2. Recoveryratiowillbehigh
+during drilling in sound rock.
+
+3. Hollow
+stem
+augers
+are
+sometimesused to drill holes
+in silty sand.
+Whichoftheabovestatements
+is/are correct?
+(A) 1 only
+(B) 1 and 2
+(o)
+2and3
+(D) 3only
+16
+
+--- page 17 ---
+74.The standardpenetrationresistance
+valueobtainedinadeepdepositof
+sandatadepthof6.0mwas28.
+sandis
+The
+unitweightof
+18·0 kN/m3.What is the corrected
+valueofnumberofblowsfor
+overburden pressure?
+(A) 60
+(B) 57
+59
+55
+(C) 
+(D) 75.Thenetultimatebearingcapacity of
+apurelycohesive soil
+(A) dependsonthewidthofthe
+footingandisindependentof
+the depth of the footing
+(B) dependsonthewidthaswell
+as thedepth of thefooting
+(C) depends on the depth,but is
+independent of the width,of
+the footing
+(D) isindependentofboththe
+widthandthedepthofthe
+footing
+76.Asoilhasalowallowablebearing
+capacity.The soildeposit contains
+compressibleloess.Afoundationis
+tobeprovidedforastructure
+carryingaheavyload.Whichoneof
+thefollowingfoundationtypesisto
+beadopted?
+(A) Strap footing
+(B) Continuous footing
+(C) Raftfoundation
+(D) Combinedspreadfoundation
+
+77. Consider thefollowingstatements:
+Increasingwidthoffootingresults
+in
+
+1. increaseinsettlement
+ofa
+consolidatingclaylayer
+
+2. increaseinbearingcapacityof
+sandy soils
+
+3. decrease in bearing capacity of
+clays
+，
+O-FTF-J-DFB/10A
+
+17. Whichoftheabovestatements
+is/are correct?
+(A) 1 only
+(B) 1 and2 only
+(C) 2and 3only
+(D) 1,2and 3
+78.Consider the following statements
+withrespecttoananchoredsheet
+pile wall :
+
+1. Failure occurs due tobulging.
+
+2. Failure occurs due torotation.
+
+3. Largeyieldisobservedabove
+theanchorrod.
+Largeyieldisobservedbelow
+
+4. theanchorrodandabovethe
+dredge line.
+Whichoftheabovestatements
+is/are correct?
+(A) 1 only
+(B) 2and3
+(C) 1and4
+(D) 3and4
+79.Consider the following statements:
+
+1. Underreamedpilesareprecast
+piles
+with
+one
+Or
+more
+underreams in eachpile.
+
+2. Theratioofpileshaftsizeto
+bulbsizeinanunderreamed
+pilemaybe0·33to0.50.
+
+3. In amultibulbunderreamed
+pile,theload-carryingcapacity
+isafunctionoftheareaof
+cross-section of thelowestbulb.
+Whichoftheabovestatements
+is/are correct?
+(A) 1 only
+(B) 1 and 2only
+(C) 2 and 3only
+(D) 1,2 and 3
+[P.T.O.
+
+--- page 18 ---
+80.Consider thefollowing statements:
+
+1. Underreamed
+piles
+are
+designed as bearing piles.
+
+2. Inmultiple-bulbunderreamed
+piles,thebulbs are spaced at
+1.5to20timesthediameterof
+the underream,the centre of
+the firstunderream being at a
+minimum depthof1.75m.
+
+3. The
+lengthoftraditional
+underreamedpileranges from
+3mto4m.
+Whichoftheabovestatements
+is/are correct?
+(A) 2
+and3
+(B) and2
+(C) 2 only
+(D) 1 and 3
+81.Consider thefollowing clay minerals:
+
+1. Kaolinite
+
+2. Montmorillonite
+
+3. Illite
+Whatisthecorrectsequenceinan
+increasingorderof theirplasticity
+index?
+(A) 1-2-3
+(B) 3-2-1
+(0)
+1-3-2
+(D) 3-1-2
+82.Whichoneof thefollowingconditions
+requires geodetic surveying?
+(A) Horizontal curve ranging
+(B) Verticalcurveranging
+(C) Surveyofacountry
+(D) Reconnaissance survey
+O-FTF-J-DFB/10A
+
+83.Whichofthefollowingcoordinate
+re
+systemsisthemostconvenientway
+tospecifythepositionofthestaron
+celestial sphere?
+ed
+at
+of
+(A) Latitudeandlongitude
+of
+(B) Altitudeandazimuth
+a
+(0)
+Declination and right ascension
+al
+(D) Declinationandhourangle
+m
+84.Consider thefollowingequipments:
+ts
+
+1. Tacheometer
+
+2. Odometer
+
+3. Passometer
+
+4. Perambulator
+Whichoftheaboveequipmentscan
+beemployed for measurement of
+horizontal distance?
+(A) 1and2only
+(B) and3only
+(o)
+2and3only
+n
+(D) 1,2,3and 4
+ty
+85.Consider thefollowing statements:
+In surveying operations, the word
+‘reciprocal’canbeassociatedwith
+
+1. ranging
+
+2. levelling
+
+3. contouring
+Which
+of
+theabovestatements
+ns
+is/are correct?
+(A) 1 only
+(B) 1 and 2 only
+(C) 2 and 3 only
+(D) 1,2 and 3
+18
+
+--- page 19 ---
+86.Whichof the following sightswill be
+applicableforachangepoint?
+(A) Back sight
+(B) Intermediatesightandfore
+sight
+(C) Fore sight
+(D) Back sightand fore sight
+87.The whole circlebearings of lines OP
+and0Qare18°15'and335°45'
+respectively.what isthe valueof
+theincludedangleQOP?
+(A) 307°30'
+(B) .42°30'
+(C) 354°00'
+(D) 177°00'
+88.Whichoneofthefollowinglinear
+methods of settingouta circular
+curve needsreference ofthe centre
+ofthecurve?
+(A) Offsetfrom chordproduced
+(B) Radial offset
+(C) Perpendicular offset
+(D) Successive bisection of arcs
+O-FTF-J-DFB/10A
+19
+
+89.Consider thefollowing statements:
+Reciprocallevelling isamethodof
+levelling adoptedwhen
+
+1. thedifferenceoflevelsbetween
+twopointsataconsiderable
+distance
+is
+to
+be
+apart
+determinedwithgreatprecision
+
+2. itisnotpossible tosetup the
+levelmidway
+between
+two
+points asin the case ofadeep
+valleyorariver
+
+3. error duetoimproper centering
+oflevelistobeeliminated
+Whichoftheabovestatements
+is/are correct?
+(A) 1only
+1 and2
+(B) 
+(C) 2
+and3
+(D) 1
+and3
+90.Consider the following statements:
+Errorseliminatedbytakingboth
+face observationsare thosedue to
+
+1. horizontal
+axis
+not
+being
+perpendiculartothevertical
+axis
+
+2. non-parallelism of theaxis of
+telescopelevelandline
+of
+collimation
+
+3. imperfect
+adjustment
+of
+verticalcirclevernier
+Whichoftheabovestatements
+are correct?
+(A) 1,2 and 3
+(B) 1and2only
+(C) 2 and 3 only
+(D) 1 and3only
+[P.T.O.
+
+--- page 20 ---
+91.Ifeveryoneof the threeanglesofa
+trianglehas aprobableerror of±1",
+thenwhatwillbetheprobableerror
+inthe sum of the so-measured
+internalanglesof thetriangle?
+±1"
+(A) ±3"
+(B) 
+(C) ±9"
+(D) ±√3"
+92.Howmany sidereal days aretherein
+a solaryear?
+(A) 365·2840
+(B) 366·2422
+(C) 360·2500
+(p)
+365·0000
+93.Consider the following statements:
+A sidereal year can be defined as
+thetimeinterval
+
+1. between twosuccessive transits
+ofthe
+sun
+through
+the
+meridianofanyofthefixed
+stars
+
+2. between two successive vernal
+equinoxes
+
+3. between
+two
+successive
+passages of the sun through
+perigee
+Whichoftheabovestatements
+is/are correct?
+(A) 3 only
+(B) 1and2
+(0)
+2 and 3
+(D) 1only
+O-FTF-J~DFB/10A
+
+94.Whichone ofthefollowingmethods
+of computingareaassumesthatthe
+shortlengthsoftheboundary
+between the ordinatesareparabolic
+arcs?
+(A) Averageordinaterule
+(B) Middleordinaterule
+(C) Simpson's rule
+(D) Trapezoidal rule
+95.which one of the following errors
+is
+moresevereinplane-table
+surveying?
+(A) Defective sighting
+(B) Defectiveorientation
+(C) Movementofboardbetween
+sights
+(D) Non-horizontality
+of
+board
+whenpointssightedareat
+largedifferences
+oftheir
+elevation
+96.Which oneof the following testsis
+performedinthelaboratoryto
+determinetheextentofweathering
+ofaggregatesforroadworks?
+(A) Soundness test
+(B) Crushing test
+(C) Impact test
+(D) Abrasion test
+20
+
+--- page 21 ---
+97.Whichoneofthefollowinggeometric
+featuresrequires themagnitudesof
+weavingangleandweavingdistance
+for its design?
+(A) Rotary design
+(B) Right-angle intersection
+Roundabout
+(C) 
+(D) Grade-separated junction
+98.Whichoneof thefollowingmethods
+isusedinthedesignof rigid
+pavements?
+(A) CBR method
+(B) Groupindexmethod
+Westergaard'smethod
+(C) 
+(D) McLeod's method
+99.Inwhichoneofthefollowingyards,
+arereception,sorting and dispatch
+ofrailwaywagonsdone?
+(A) Locoyard
+(B) Marshallingyard
+Goods yard
+(o)
+(D) Passenger yard
+100.Which one of thefollowing isnot a
+desirablepropertyof thesubgrade
+soilasahighwaymaterial?
+(A) Stability
+(B) Ease of compaction
+(C) Good drainage
+(D) Bitumen adhesion
+O-FTF-J-DFB/10A
+21
+
+101.Hotbitumen is sprayedover freshly
+constructed
+bituminoussurface
+followedbyspreadingof6·3mm
+coarseaggregatesandrolled.which
+oneofthefollowingisindicatedby
+thistype ofconstruction?
+(A) Surface dressing
+(B) Gravel-bitumen mix
+(C) Liquid seal coat
+(D) Seal coat
+102.Radiusofrelative stiffness ofcement
+concretepavementdoesnotdepend
+uponwhichoneofthefollowing?
+(A) Modulusofsubgradereaction
+(B) Wheelload
+(C) Modulusofelasticityofcement
+concrete
+Poisson's ratioofconcrete
+(D) 103.For conditions obtaining in India,at
+whichlocationinacementconcrete
+pavementwill thecombined stresses
+duetotrafficwheelloadand
+temperature have tobe critically
+checkedduringdesign?
+(A) Cormer
+(B) Corner and interior
+(C) Corner andedge
+(D) Corner,edge and interior
+[P.T.O.
+
+--- page 22 ---
+104.Whichoneofthefollowing setsof
+factorsisrelatedtodesignof
+thickness
+rigid
+pavement
+by
+Westergaardmethod?
+(A) CBR value and stiffness index
+of soil
+(B) Deflectionfactorandtraffic
+index
+(C) Swelling
+index
+and
+bulk
+modulus
+(D) Radius ofrelativestiffnessand
+modulusofsubgradereaction
+105.Consider thefollowinginrelation to
+group index ofsoil:
+
+1. Liquid limit
+
+2. Sandyloam
+
+3. Plasticity index
+
+4. Percent passing 75 microns
+sieve
+Whichoftheaboveis/areused
+forestimating thegroupindex?
+(A) 1only
+(B) 1and 2
+(C) 2and3
+(D) 1,3 and 4
+O-FTF-J-DFB/10A
+
+106.Whichsetoftrafficstudiesis
+neededforfunctionaldesignaswell
+as for‘highway capacity’design?
+(A) Originanddestinationstudies
+(B) Parking andaccident studies
+(C) Speedandvolume studies
+(D) Axleloadstudies
+107.Whichoneofthefollowing traffic
+surveyschemesismostrelevant
+whendecidingonlocatingmajor
+‘routes'in a city?
+(A) Trafficvolumesurvey
+(B) Originanddestination survey
+(C) Speed survey
+(D) Trafficcapacity survey
+108.Which
+oneofthe
+following
+equipments is useful in determining
+spot speed in traffic engineering?
+(A) Endoscope
+(B) Periscope
+(0)
+Radar
+(D) Tachometer
+22
+
+--- page 23 ---
+
+11. Directions:
+Eachofthefollowingtwelve(12)items
+consists oftwo statements,onelabelled as
+‘Assertion
+(A) 'and the other as Reason (R).
+Youaretoexaminethesetwostatements
+carefullyandselecttheanswerstothese
+items using the code givenbelow:
+Code:
+1
+(A) BothAandRareindividually
+trueandRisthecorrect
+explanationofA
+(B) BothAandRareindividually
+truebutR isnot the correct
+explanationofA
+(C) Ais true but R is false
+A isfalsebutR is true
+(D) 109.Assertion
+(A) :
+If a cylindrical body is placed in a
+fluid stream andisrotated,then a
+liftforceisproducedon thebody.
+Reason (R) :
+Rotationofthecylinderdisturbs
+thesymmetricalpatternwhichin
+turnaltersthepressuredistribution on the body.
+
+110. Assertion
+(A) :
+The drag force on a sphere is more
+inlaminarflowthaninturbulent
+flow.
+Reason (R) :
+Cp of a sphere is more inlaminar
+flowthaninturbulentflow.
+O-FTF-J-DFB/10A
+23
+
+111.Assertion
+(A) :
+Total energy of flow decreases in
+thedirectionofflow.
+Reason (R) :
+The specific energy may decrease,
+increase or remain constant.
+112.Assertion
+(A) :
+For
+a
+hydraulically
+efficient
+channel,the hydraulic radius is
+equaltohalfthedepthofflow.
+Reason (R) :
+Ahydraulicallyefficientchannel
+has the minimum perimeter for a
+given area of flow.
+113.Assertion
+(A) :
+Therateofbiomassproduction
+willbealwayslowerthantherate
+offoodutilizationinabiological
+system havinga mixed cultureof
+microorganism.
+Reason (R) :
+Catabolismconvertspartofthe
+foodinto wasteproducts.
+114.Assertion
+(A) :
+Thesolutionofathree-point
+problemin plane-table surveying
+isaided byLehmann's rules.
+Reason (R) :
+The
+applicationofLehmann's
+rulesreduces the triangleoferror
+andisacontrolledtrial-and-error
+technique.
+[ P. T. O.
+
+--- page 24 ---
+115.Assertion
+(A) :
+Remote sensing ismostly quantitative in nature.
+Reason (R):
+Remote
+sensinginvolves
+the
+subjectiveinterpretationofthe
+imagery.
+116.Assertion
+(A) :
+In
+water-bound
+macadam
+construction,grade 1 has better
+loaddispersion characteristics as
+compared togradeIllaggregates.
+Reason (R):
+Theplasticityindexofthebinding
+materialshouldbeless than6%.
+117.Assertion
+(A) :
+Dowelbarsareprovidedat
+expansion joints and sometimes
+alsoatcontractionjointsin cement
+concrete slabs.
+Reason (R) :
+Longitudinaljoints incement
+concretepavementsareconstructedwith tiebars.
+O-FTF-J-DFB/10A
+
+118.Assertion
+(A) :
+Whenaturnoutistakenofffroma
+curved track,it is called gauntlet
+track.
+Reason (R):
+le
+le
+Whenaturnoutfromacurved
+track turns awayinthe opposite
+direction,the curves are said to be
+of contrary flexure.
+119.Assertion
+(A) :
+n
+er
+S
+In case of airports,the innermost
+portion of approach zone,where
+anyobstruction istobecritically
+viewed,isknownas the clear zone.
+Reason (R):
+g
+The areaofairport,other than the
+approach zone,which is used for
+turning of aircrafts,is called the
+turning zone.
+t
+120.Assertion
+(A) :
+S
+t
+Helipadsareusuallylocatedin
+closeproximityto traffic-generating
+areas.
+Reason (R):
+Ahelicopter cannot ascendor
+descendexactlyvertically.
+24
+
+--- page 25 ---
+OUGHWORK
+[P.T.O.
+
+--- page 26 ---
+RROUGHWORK
+26
+
+--- page 27 ---
+UGHWORK
+JS-19*

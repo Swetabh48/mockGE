@@ -2,9 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "mockGE · SSC CGL Practice",
+  title: "mockGE · SSC CGL & IES Civil",
   description:
-    "Computer-based mock tests for SSC Combined Graduate Level Examination — Tier-I and Tier-II Paper-I.",
+    "CBT mocks for SSC CGL and UPSC ESE/IES Civil Engineering — PYQs, full papers, and textbook solutions.",
+  icons: {
+    icon: "/icon",
+  },
 };
 
 export default function RootLayout({

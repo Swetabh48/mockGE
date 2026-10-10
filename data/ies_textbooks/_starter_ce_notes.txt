@@ -1,0 +1,17 @@
+Solid Mechanics. Axial stress σ = P/A. Strain ε = δ/L. Hooke: σ = Eε. Bending σ = My/I.
+Shear τ = VQ/(Ib). Torsion τ/r = T/J = Gθ/L. Euler Pcr = π²EI/Le².
+
+Fluid Mechanics. Continuity AV = const. Bernoulli p/ρg + v²/2g + z. Darcy hf = fLV²/(2gD).
+Laminar circular pipe: umax = 2 Vavg. Reynolds Re = ρVD/μ.
+
+Geotech. e = Vv/Vs; n = e/(1+e); S = wG/e. Saturated e = wG. Darcy q = kiA.
+Terzaghi qult = cNc + γDf Nq + 0.5 γ B Nγ. Tv = Cv t / Hdr².
+
+Environmental. BOD5 = L0(1-e^{-kt}). COD ≥ BOD. Overflow rate = Q/A for settling tanks.
+
+Transportation. SSD = vt + v²/(2gf). Superelevation e = V²/(gR) within IRC limits.
+
+Surveying. Rise/fall: if FS > BS then fall. HI = RL + BS; RL = HI − FS.
+
+RCC IS 456. Max concrete strain in flexure 0.0035. Partial factors 1.5 (DL+LL), 1.15 steel.
+OPC initial setting ≥ 30 min, final ≤ 600 min.

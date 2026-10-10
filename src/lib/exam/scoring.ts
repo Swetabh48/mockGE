@@ -64,6 +64,21 @@ const SECTION_LABELS: Record<string, string> = {
   english: "English",
   maths: "Mathematical Abilities",
   computer: "Computer Knowledge",
+  ies_ce: "Civil Engineering",
+  building_materials: "Building Materials",
+  solid_mechanics: "Solid Mechanics",
+  structural_analysis: "Structural Analysis",
+  design_steel: "Steel Design",
+  design_concrete: "Concrete Design",
+  construction_mgmt: "Construction Mgmt",
+  geotech: "Geotechnical",
+  fluid_mechanics: "Fluid Mechanics",
+  hydrology: "Hydrology",
+  irrigation: "Irrigation",
+  environmental: "Environmental",
+  transportation: "Transportation",
+  surveying: "Surveying",
+  engineering_mechanics: "Engineering Mechanics",
 };
 
 export function evaluateAttempt(

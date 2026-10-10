@@ -6,6 +6,7 @@ import {
   enrichExplanationFromQuestion,
   enrichTrickFromQuestion,
 } from "@/lib/exam/enrichSolution";
+import { enrichIesSolutionSync } from "@/lib/exam/enrichIesSolution";
 import { inferTopicFromStem, verifiedSolutionNotesAsync } from "@/lib/exam/validateMcq";
 
 export default async function ReportPage({
@@ -59,6 +60,32 @@ export default async function ReportPage({
         explanation: verified?.explanation || q.explanation,
         trick: verified?.trick || q.trick,
       };
+      const isIes = attempt.paper.exam === "ies_civil";
+      let solutionDetail = q.solutionDetail;
+      let solutionCitations: string[] | null = null;
+      if (isIes) {
+        solutionDetail =
+          q.solutionDetail ||
+          enrichIesSolutionSync({
+            stem: q.stemEn,
+            optionA: q.optionA,
+            optionB: q.optionB,
+            optionC: q.optionC,
+            optionD: q.optionD,
+            correctOption,
+            subject: q.subject,
+            topic,
+            explanation: verified?.explanation || q.explanation,
+            solutionDetail: q.solutionDetail,
+          });
+        try {
+          solutionCitations = q.solutionCitations
+            ? (JSON.parse(q.solutionCitations) as string[])
+            : null;
+        } catch {
+          solutionCitations = null;
+        }
+      }
       return {
         id: q.id,
         qIndex: q.qIndex,
@@ -72,8 +99,12 @@ export default async function ReportPage({
         optionC: q.optionC,
         optionD: q.optionD,
         correctOption,
-        explanation: enrichExplanationFromQuestion(ctx),
-        trick: enrichTrickFromQuestion(ctx),
+        explanation: isIes
+          ? verified?.explanation || q.explanation || null
+          : enrichExplanationFromQuestion(ctx),
+        trick: isIes ? q.trick || null : enrichTrickFromQuestion(ctx),
+        solutionDetail,
+        solutionCitations,
         selected: a?.selected ?? null,
         timeSpentMs: a?.timeSpentMs ?? 0,
         changeCount: a?.changeCount ?? 0,
