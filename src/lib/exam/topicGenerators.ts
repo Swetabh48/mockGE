@@ -637,12 +637,16 @@ function buildQuantTopic(
       return quantSpeed(setNo, sub, count);
     case "ratio":
       return quantRatio(setNo, sub, count);
+    case "average":
+      return quantRatio(setNo, "average", count);
     case "number-system":
       return quantNumber(setNo, sub, count);
     case "algebra":
       return quantAlgebra(setNo, sub, count);
     case "geometry":
       return quantGeometry(setNo, sub, count);
+    case "mensuration":
+      return quantGeometry(setNo, "mensuration", count);
     case "trigo":
       return quantTrigo(setNo, sub, count);
     case "di":

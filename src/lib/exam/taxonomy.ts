@@ -59,26 +59,32 @@ export const PRACTICE_SYLLABUS: PracticeSubject[] = [
       },
       {
         id: "ratio",
-        title: "Ratio, Proportion & Average",
+        title: "Ratio & Proportion",
         subtopics: [
           { id: "ratio", title: "Ratio & partnership" },
-          { id: "average", title: "Averages" },
+          { id: "mixture", title: "Mixtures & alligation" },
         ],
+      },
+      {
+        id: "average",
+        title: "Averages",
+        subtopics: [{ id: "average", title: "Averages" }],
       },
       {
         id: "time-work",
         title: "Time & Work",
         subtopics: [
-          { id: "pipes", title: "Pipes & cisterns" },
           { id: "work", title: "Work & wages" },
+          { id: "pipes", title: "Pipes & cisterns" },
         ],
       },
       {
         id: "speed",
-        title: "Time, Speed & Distance",
+        title: "Speed, Distance & Time",
         subtopics: [
           { id: "trains", title: "Trains" },
           { id: "boats", title: "Boats & streams" },
+          { id: "basic", title: "Basic SDT" },
         ],
       },
       {
@@ -87,15 +93,24 @@ export const PRACTICE_SYLLABUS: PracticeSubject[] = [
         subtopics: [
           { id: "identities", title: "Identities" },
           { id: "equations", title: "Linear / quadratic" },
+          { id: "surds", title: "Surds & indices" },
         ],
       },
       {
         id: "geometry",
-        title: "Geometry & Mensuration",
+        title: "Geometry",
         subtopics: [
           { id: "triangles", title: "Triangles" },
           { id: "circles", title: "Circles" },
-          { id: "mensuration", title: "3D mensuration" },
+          { id: "lines", title: "Lines & angles" },
+        ],
+      },
+      {
+        id: "mensuration",
+        title: "Mensuration",
+        subtopics: [
+          { id: "2d", title: "2D mensuration" },
+          { id: "3d", title: "3D mensuration" },
         ],
       },
       {

@@ -8,80 +8,23 @@ import {
 } from "@/lib/exam/taxonomy";
 import {
   generateUniqueTopicSet,
-  inventSectionWithModel,
   ollamaAvailable,
   stemFingerprint,
 } from "@/lib/exam/modelGenerate";
+import {
+  materializePaper,
+  sampleSection,
+  sampleTopic,
+  type BankRow,
+} from "@/lib/exam/bankSample";
+import { buildTopicPractice, buildSectionPractice } from "@/lib/exam/questionBank";
+import { validateAndRepairMcqAsync } from "@/lib/exam/validateMcq";
 import type { SeedQuestion } from "@/lib/exam/questionBank";
 
 export const maxDuration = 300;
 
-function toSeed(
-  q: {
-    stemEn: string;
-    optionA: string;
-    optionB: string;
-    optionC: string;
-    optionD: string;
-    correctOption: string;
-    explanation: string;
-    trick: string;
-    topic?: string;
-    subtopic?: string;
-  },
-  i: number,
-  sectionKey: string,
-  subject: string,
-  topic: string,
-  subtopic?: string,
-): SeedQuestion {
-  return {
-    qIndex: i + 1,
-    sectionKey,
-    subject,
-    topic: q.topic || topic,
-    subtopic: q.subtopic || subtopic,
-    difficulty: "hard",
-    stemEn: q.stemEn,
-    optionA: q.optionA,
-    optionB: q.optionB,
-    optionC: q.optionC,
-    optionD: q.optionD,
-    correctOption: q.correctOption,
-    explanation: q.explanation,
-    trick: q.trick,
-    marks: 2,
-    negativeMarks: 0.5,
-    source: "model",
-  };
-}
-
-async function loadBanned(opts?: {
-  focusTopic?: string | null;
-  focusSection?: string | null;
-}) {
-  const prior = await prisma.question.findMany({
-    where: {
-      paper: {
-        tier: "practice",
-        ...(opts?.focusTopic ? { focusTopic: opts.focusTopic } : {}),
-        ...(opts?.focusSection ? { focusSection: opts.focusSection } : {}),
-      },
-    },
-    orderBy: { id: "desc" },
-    take: 120,
-    select: { stemEn: true },
-  });
-  const bannedStems = prior.map((q) => q.stemEn);
-  return {
-    bannedStems,
-    bannedFingerprints: new Set(bannedStems.map(stemFingerprint)),
-  };
-}
-
 /**
- * Practice Generate = model invent only (mockge-ssc on Modal).
- * Never pads with static banks / PDF-like stems. If the model cannot invent, fail clearly.
+ * Practice Generate: bank-first. Invent+verify only to top up thin topics.
  */
 export async function POST(request: Request) {
   try {
@@ -94,7 +37,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         error: aborted
-          ? "Cloud model request was aborted (cold start). Click Generate again."
+          ? "Request aborted. Click Generate again."
           : e instanceof Error
             ? e.message
             : "Generate failed",
@@ -104,13 +47,97 @@ export async function POST(request: Request) {
   }
 }
 
+function seedToBankish(q: SeedQuestion, topicId: string): BankRow {
+  return {
+    id: `tmp-${stemFingerprint(q.stemEn)}`,
+    sectionKey: q.sectionKey,
+    topicId,
+    subtopicId: null,
+    subject: q.subject,
+    topic: q.topic,
+    subtopic: q.subtopic ?? null,
+    difficulty: q.difficulty,
+    stemEn: q.stemEn,
+    optionA: q.optionA,
+    optionB: q.optionB,
+    optionC: q.optionC,
+    optionD: q.optionD,
+    correctOption: q.correctOption,
+    explanation: q.explanation,
+    trick: q.trick ?? null,
+    source: q.source,
+    fingerprint: stemFingerprint(q.stemEn),
+  };
+}
+
+async function inventTopicTopUp(args: {
+  subjectTitle: string;
+  topicTitle: string;
+  subtopicTitle?: string;
+  topicId: string;
+  sectionKey: string;
+  need: number;
+  banned: Set<string>;
+}): Promise<BankRow[]> {
+  if (args.need <= 0) return [];
+  const modelUp = await ollamaAvailable();
+  if (!modelUp) return [];
+
+  try {
+    const invented = await generateUniqueTopicSet({
+      subjectTitle: args.subjectTitle,
+      topicTitle: args.topicTitle,
+      subtopicTitle: args.subtopicTitle,
+      need: args.need,
+      bannedFingerprints: args.banned,
+      bannedStems: [],
+      maxAttempts: 4,
+      deadlineMs: Date.now() + 120_000,
+    });
+    const out: BankRow[] = [];
+    for (const q of invented) {
+      const repaired = await validateAndRepairMcqAsync({
+        ...q,
+        topic: args.topicTitle,
+        subtopic: args.subtopicTitle,
+      });
+      if (!repaired) continue;
+      const fp = stemFingerprint(repaired.stemEn);
+      if (args.banned.has(fp)) continue;
+      args.banned.add(fp);
+      out.push({
+        id: `invent-${fp}`,
+        sectionKey: args.sectionKey,
+        topicId: args.topicId,
+        subtopicId: null,
+        subject: args.subjectTitle,
+        topic: repaired.topic || args.topicTitle,
+        subtopic: repaired.subtopic || args.subtopicTitle || null,
+        difficulty: "hard",
+        stemEn: repaired.stemEn,
+        optionA: repaired.optionA,
+        optionB: repaired.optionB,
+        optionC: repaired.optionC,
+        optionD: repaired.optionD,
+        correctOption: repaired.correctOption,
+        explanation: repaired.explanation,
+        trick: repaired.trick,
+        source: "model",
+        fingerprint: fp,
+      });
+    }
+    return out;
+  } catch {
+    return [];
+  }
+}
+
 async function handleGenerate(request: Request) {
   const body = (await request.json().catch(() => ({}))) as {
     kind?: "section" | "topic";
     subject?: PracticeSubjectKey;
     topicId?: string;
     subtopicId?: string;
-    count?: number;
   };
 
   const kind = body.kind ?? "section";
@@ -130,188 +157,142 @@ async function handleGenerate(request: Request) {
     },
   });
 
-  const modelUp = await ollamaAvailable();
-  if (!modelUp) {
-    return NextResponse.json(
-      {
-        error:
-          "Cloud model (mockge-ssc) did not respond. Wait 20 seconds for Modal to wake, then Generate again.",
-        modelOnline: false,
-        model: false,
+  const prior = await prisma.question.findMany({
+    where: {
+      paper: {
+        tier: "practice",
+        focusSection: subjectKey,
+        ...(kind === "topic" && body.topicId ? { focusTopic: body.topicId } : {}),
       },
-      { status: 503 },
-    );
-  }
+    },
+    orderBy: { id: "desc" },
+    take: 150,
+    select: { stemEn: true },
+  });
+  const banned = new Set(prior.map((q) => stemFingerprint(q.stemEn)));
 
-  // ---------- TOPIC DRILL ----------
+  // ---------- TOPIC ----------
   if (kind === "topic") {
     const topic = body.topicId ? findTopic(subjectKey, body.topicId) : subject.topics[0];
     if (!topic) {
       return NextResponse.json({ error: "Unknown topic" }, { status: 400 });
     }
     const sub =
-      topic.subtopics.find((s) => s.id === body.subtopicId) ?? topic.subtopics[0]!;
-    const { bannedStems, bannedFingerprints } = await loadBanned({
-      focusTopic: topic.id,
-      focusSection: subjectKey,
-    });
+      topic.subtopics.find((s) => s.id === body.subtopicId) ?? topic.subtopics[0];
     const need = 10;
 
-    let invented;
-    try {
-      invented = await generateUniqueTopicSet({
+    let rows = await sampleTopic(topic.id, need, banned, Date.now());
+    for (const r of rows) banned.add(r.fingerprint);
+
+    if (rows.length < need) {
+      const invent = await inventTopicTopUp({
         subjectTitle: subject.title,
         topicTitle: topic.title,
-        subtopicTitle: sub.title,
-        need,
-        bannedFingerprints,
-        bannedStems,
-        maxAttempts: 8,
-        deadlineMs: Date.now() + 280_000,
+        subtopicTitle: sub?.title,
+        topicId: topic.id,
+        sectionKey: subjectKey,
+        need: need - rows.length,
+        banned,
       });
-    } catch (e) {
-      const aborted = e instanceof Error && /abort/i.test(e.name + e.message);
+      rows = [...rows, ...invent];
+    }
+
+    if (rows.length < need) {
+      const algo = buildTopicPractice(
+        subjectKey,
+        topic.title,
+        sub?.title,
+        existing * 7919 + Date.now() % 100000,
+        topic.id,
+      );
+      for (const q of algo) {
+        if (rows.length >= need) break;
+        const fp = stemFingerprint(q.stemEn);
+        if (banned.has(fp)) continue;
+        banned.add(fp);
+        rows.push(seedToBankish({ ...q, topic: topic.title, subtopic: sub?.title }, topic.id));
+      }
+    }
+
+    if (rows.length < 5) {
       return NextResponse.json(
         {
-          error: aborted
-            ? "Cloud model was still waking (request aborted). Click Generate again — the second try is usually fast."
-            : e instanceof Error
-              ? e.message
-              : "Model invent failed",
-          modelOnline: true,
-          model: false,
+          error: `Not enough bank questions for ${topic.title} (${rows.length}). Run db seed bank.`,
+          bankShort: true,
         },
         { status: 503 },
       );
     }
 
-    if (invented.length < 8) {
-      return NextResponse.json(
-        {
-          error:
-            invented.length === 0
-              ? "Cloud model timed out inventing questions. Wait a few seconds and click Generate again (cold start)."
-              : `Model only invented ${invented.length} new questions. Retry Generate.`,
-          modelOnline: true,
-          model: false,
-          invented: invented.length,
-        },
-        { status: 503 },
-      );
-    }
-
-    const questions = invented.map((q, i) =>
-      toSeed(q, i, subjectKey, subject.title, topic.title, sub.title),
-    );
-    const source = questions.length >= need ? "model" : "model";
-
-    const paper = await prisma.paper.create({
-      data: {
-        title: `${subject.title} · ${topic.title} · ${sub.title} (${questions.length} new Q)`,
-        tier: "practice",
-        mode: "topic_practice",
-        focusSection: subjectKey,
-        focusTopic: topic.id,
-        focusSubtopic: sub.id,
-        source,
-        difficulty: "hard",
-        questions: {
-          create: questions.slice(0, need).map((q, i) => ({ ...q, qIndex: i + 1 })),
-        },
-      },
+    const paper = await materializePaper({
+      title: `${subject.title} · ${topic.title}${sub ? ` · ${sub.title}` : ""} (${rows.length} Q)`,
+      mode: "topic_practice",
+      focusSection: subjectKey,
+      focusTopic: topic.id,
+      focusSubtopic: sub?.id,
+      source: rows.every((r) => r.source.startsWith("bank") || r.source === "generator")
+        ? "bank"
+        : "bank+fill",
+      rows: rows.slice(0, need),
     });
 
     return NextResponse.json({
-      paperId: paper.id,
-      questionCount: Math.min(need, questions.length),
+      paperId: paper.paperId,
+      questionCount: paper.questionCount,
       title: paper.title,
-      source,
-      model: true,
+      source: "bank",
+      model: false,
       modelOnline: true,
       unique: true,
-      bannedPrior: bannedStems.length,
+      fromBank: true,
     });
   }
 
-  // ---------- SECTION DRILL (model invent only) ----------
-  const need = 15;
-  const { bannedStems, bannedFingerprints } = await loadBanned({
+  // ---------- SECTION ----------
+  const need = 25;
+  let rows = await sampleSection(subjectKey, need, banned, Date.now());
+  for (const r of rows) banned.add(r.fingerprint);
+
+  if (rows.length < need) {
+    const pad = buildSectionPractice(subjectKey, existing * 1301 + (Date.now() % 50000));
+    for (const q of pad) {
+      if (rows.length >= need) break;
+      const fp = stemFingerprint(q.stemEn);
+      if (banned.has(fp)) continue;
+      banned.add(fp);
+      rows.push(
+        seedToBankish(q, subject.topics[0]?.id ?? subjectKey),
+      );
+    }
+  }
+
+  if (rows.length < 10) {
+    return NextResponse.json(
+      {
+        error: `Bank short for ${subject.title} (${rows.length} Q). Run seed bank.`,
+        bankShort: true,
+      },
+      { status: 503 },
+    );
+  }
+
+  const paper = await materializePaper({
+    title: `${subject.title} — ${Math.min(need, rows.length)} new questions`,
+    mode: "practice",
     focusSection: subjectKey,
-  });
-
-  const topicSpecs = subject.topics.map((t) => ({
-    title: t.title,
-    subtopic: t.subtopics[0]?.title,
-  }));
-
-  let invented;
-  try {
-    invented = await inventSectionWithModel({
-      subjectTitle: subject.title,
-      topics: topicSpecs,
-      need,
-      bannedFingerprints,
-      bannedStems,
-      deadlineMs: Date.now() + 280_000,
-    });
-  } catch (e) {
-    const aborted = e instanceof Error && /abort/i.test(e.name + e.message);
-    return NextResponse.json(
-      {
-        error: aborted
-          ? "Cloud model was still waking (request aborted). Click Generate again — the second try is usually fast."
-          : e instanceof Error
-            ? e.message
-            : "Model invent failed",
-        modelOnline: true,
-        model: false,
-      },
-      { status: 503 },
-    );
-  }
-
-  if (invented.length < 10) {
-    return NextResponse.json(
-      {
-        error:
-          invented.length === 0
-            ? "Cloud model timed out inventing questions. Wait a few seconds and click Generate again (cold start)."
-            : `Model only invented ${invented.length} new questions. Retry Generate.`,
-        modelOnline: true,
-        model: false,
-        invented: invented.length,
-      },
-      { status: 503 },
-    );
-  }
-
-  const questions = invented.map((q, i) =>
-    toSeed(q, i, subjectKey, subject.title, q.topic, q.subtopic),
-  );
-
-  const paper = await prisma.paper.create({
-    data: {
-      title: `${subject.title} — ${questions.length} new questions`,
-      tier: "practice",
-      mode: "practice",
-      focusSection: subjectKey,
-      source: "model",
-      difficulty: "hard",
-      questions: {
-        create: questions.map((q, i) => ({ ...q, qIndex: i + 1 })),
-      },
-    },
+    source: "bank",
+    rows: rows.slice(0, need),
   });
 
   return NextResponse.json({
-    paperId: paper.id,
-    questionCount: questions.length,
+    paperId: paper.paperId,
+    questionCount: paper.questionCount,
     title: paper.title,
-    source: "model",
-    model: true,
+    source: "bank",
+    model: false,
     modelOnline: true,
     unique: true,
-    bannedPrior: bannedStems.length,
+    fromBank: true,
     syllabusTopics: PRACTICE_SYLLABUS.find((s) => s.key === subjectKey)?.topics.length,
   });
 }

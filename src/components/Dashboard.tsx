@@ -87,6 +87,26 @@ export function Dashboard() {
   const [generating, setGenerating] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [dayPackHint, setDayPackHint] = useState<string | null>(null);
+  const [guestId, setGuestId] = useState<string>("");
+  const [dailyPack, setDailyPack] = useState<{
+    paperId: string;
+    title: string;
+    questionCount: number;
+    date: string;
+  } | null>(null);
+  const [bankByTopic, setBankByTopic] = useState<Record<string, number>>({});
+  const [bankTotal, setBankTotal] = useState(0);
+
+  function ensureGuestId(): string {
+    if (typeof window === "undefined") return "guest-ssr";
+    const key = "mockge_guest_id";
+    let id = localStorage.getItem(key);
+    if (!id || id.length < 8) {
+      id = `g_${crypto.randomUUID().replace(/-/g, "").slice(0, 16)}`;
+      localStorage.setItem(key, id);
+    }
+    return id;
+  }
 
   async function load() {
     const examParam = exam === "ies_civil" ? "?exam=ies_civil" : "?exam=ssc_cgl";
@@ -100,10 +120,42 @@ export function Dashboard() {
     setStatus(s);
   }
 
+  async function loadDailyAndBank(gid: string) {
+    try {
+      const [dailyRes, statsRes] = await Promise.all([
+        fetch("/api/practice/daily", { headers: { "x-guest-id": gid } }),
+        fetch("/api/practice/bank-stats"),
+      ]);
+      const daily = await readApiJson(dailyRes);
+      const stats = await readApiJson(statsRes);
+      if (dailyRes.ok && daily.paperId) {
+        setDailyPack({
+          paperId: String(daily.paperId),
+          title: String(daily.title || "Daily 100"),
+          questionCount: Number(daily.questionCount || 100),
+          date: String(daily.date || ""),
+        });
+      } else if (daily.error) {
+        setDayPackHint(String(daily.error));
+      }
+      setBankTotal(Number(stats.total || 0));
+      setBankByTopic((stats.byTopic as Record<string, number>) || {});
+    } catch {
+      /* bank may be empty before seed */
+    }
+  }
+
   useEffect(() => {
+    const gid = ensureGuestId();
+    setGuestId(gid);
     void load();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [exam]);
+
+  useEffect(() => {
+    if (exam !== "ssc_cgl" || area !== "practice" || !guestId) return;
+    void loadDailyAndBank(guestId);
+  }, [exam, area, guestId]);
 
   async function generateHardMock() {
     setGenerating(true);
@@ -156,7 +208,7 @@ export function Dashboard() {
   async function generateUnlimitedPractice() {
     setGenerating(true);
     setMessage(
-      "mockge-ssc inventing new questions… first click after idle can take ~2 minutes. Keep this tab open.",
+      "Sampling practice set from the SSC bank…",
     );
     try {
       let requestBody: {
@@ -178,10 +230,11 @@ export function Dashboard() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(requestBody),
       });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Failed");
+      const data = await readApiJson(res);
+      if (!res.ok) throw new Error(String(data.error || "Failed"));
       setMessage(`Ready: ${data.title}. Open it from the list below.`);
       await load();
+      if (guestId) void loadDailyAndBank(guestId);
     } catch (e) {
       setMessage(failMessage(e));
     } finally {
@@ -461,6 +514,7 @@ export function Dashboard() {
                         }`}
                       >
                         {t.title}
+                        {bankByTopic[t.id] != null ? ` (${bankByTopic[t.id]})` : ""}
                       </button>
                     ))}
                   </div>
@@ -492,7 +546,7 @@ export function Dashboard() {
                     testTab === "tier2" &&
                     "Paper-I with sectional session timing and DEST practice."}
                   {area === "practice" &&
-                    "Book-style practice: no timer. Generate unlimited fresh sets anytime."}
+                    `Book-style practice: no timer.${bankTotal ? ` Bank: ${bankTotal} Q.` : ""} Generate fresh sets from the bank anytime.`}
                 </p>
               </div>
               {area === "test" && testTab === "mocks" && (
@@ -517,9 +571,7 @@ export function Dashboard() {
                           setPracticeSubject(sk);
                           void (async () => {
                             setGenerating(true);
-                            setMessage(
-                              "mockge-ssc inventing new questions… first click after idle can take ~2 minutes. Keep this tab open.",
-                            );
+                            setMessage("Sampling section set from the SSC bank…");
                             try {
                               const res = await fetch("/api/practice/generate", {
                                 method: "POST",
@@ -559,12 +611,37 @@ export function Dashboard() {
             {message && (
               <p className="border border-[#c5ccd6] bg-white px-4 py-2 text-sm">{message}</p>
             )}
+            {area === "practice" && dayPackHint && !dailyPack && (
+              <p className="border border-[#c5ccd6] bg-white px-4 py-2 text-sm text-[#5a6577]">
+                {dayPackHint}
+              </p>
+            )}
+
+            {area === "practice" && dailyPack && (
+              <ul className="mb-3 divide-y divide-[#e2e6eb] border border-[#c5ccd6] bg-white">
+                <li className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
+                  <div>
+                    <div className="font-medium">{dailyPack.title}</div>
+                    <div className="text-xs text-[#5a6577]">
+                      {dailyPack.questionCount} questions · daily pack · 25×4 sections · no timer
+                    </div>
+                  </div>
+                  <Link
+                    href={`/exam/${dailyPack.paperId}`}
+                    className="bg-[#1e3a5f] px-4 py-1.5 text-sm text-white hover:bg-[#152a45]"
+                  >
+                    Start
+                  </Link>
+                </li>
+              </ul>
+            )}
 
             <PaperTable
               papers={sscFiltered}
+              bankByTopic={area === "practice" ? bankByTopic : undefined}
               emptyHint={
                 area === "practice"
-                  ? "No practice papers yet. Run npm run db:seed."
+                  ? "No practice papers yet. Use Daily 100 or Generate more questions."
                   : "No papers in this section. Run npm run db:seed."
               }
             />
@@ -863,43 +940,51 @@ function PaperTable({
   papers,
   emptyHint,
   meta,
+  bankByTopic,
 }: {
   papers: Paper[];
   emptyHint: string;
   meta?: string;
+  bankByTopic?: Record<string, number>;
 }) {
   if (papers.length === 0) {
     return <p className="text-sm text-[#5a6577]">{emptyHint}</p>;
   }
   return (
     <ul className="divide-y divide-[#e2e6eb] border border-[#c5ccd6] bg-white">
-      {papers.map((p) => (
-        <li key={p.id} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
-          <div>
-            <div className="font-medium">{p.title}</div>
-            <div className="text-xs text-[#5a6577]">
-              {p.questionCount} questions · {p.difficulty}
-              {meta
-                ? ` · ${meta}`
-                : p.mode === "topic_practice"
-                  ? " · topic drill · no timer · solutions + tricks"
-                  : p.mode === "practice"
-                    ? " · no timer · book-style"
-                    : p.tier === "tier1"
-                      ? " · sectional 15×4"
-                      : p.tier?.startsWith("ies_")
-                        ? " · 3 hours"
-                        : ""}
+      {papers.map((p) => {
+        const inBank =
+          p.focusTopic && bankByTopic?.[p.focusTopic] != null
+            ? ` · ${bankByTopic[p.focusTopic]} in bank`
+            : "";
+        return (
+          <li key={p.id} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
+            <div>
+              <div className="font-medium">{p.title}</div>
+              <div className="text-xs text-[#5a6577]">
+                {p.questionCount} questions · {p.difficulty}
+                {meta
+                  ? ` · ${meta}`
+                  : p.mode === "topic_practice"
+                    ? ` · topic drill · no timer · solutions + tricks${inBank}`
+                    : p.mode === "practice"
+                      ? " · no timer · book-style"
+                      : p.tier === "tier1"
+                        ? " · sectional 15×4"
+                        : p.tier?.startsWith("ies_")
+                          ? " · 3 hours"
+                          : ""}
+              </div>
             </div>
-          </div>
-          <Link
-            href={`/exam/${p.id}`}
-            className="bg-[#1e3a5f] px-4 py-1.5 text-sm text-white hover:bg-[#152a45]"
-          >
-            Start
-          </Link>
-        </li>
-      ))}
+            <Link
+              href={`/exam/${p.id}`}
+              className="bg-[#1e3a5f] px-4 py-1.5 text-sm text-white hover:bg-[#152a45]"
+            >
+              Start
+            </Link>
+          </li>
+        );
+      })}
     </ul>
   );
 }

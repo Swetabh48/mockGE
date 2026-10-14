@@ -101,3 +101,48 @@ model AnswerEvent {
   @@unique([attemptId, questionId])
   @@index([attemptId])
 }
+
+/// LeetCode-style reusable SSC MCQ bank (not nested under a Paper until sampled).
+model BankQuestion {
+  id            String   @id @default(cuid())
+  sectionKey    String
+  topicId       String
+  subtopicId    String?
+  subject       String
+  topic         String
+  subtopic      String?
+  difficulty    String   @default("medium")
+  stemEn        String
+  optionA       String
+  optionB       String
+  optionC       String
+  optionD       String
+  correctOption String
+  explanation   String?
+  trick         String?
+  source        String   @default("generator")
+  fingerprint   String   @unique
+  verified      Boolean  @default(false)
+  quality       Int      @default(1)
+  createdAt     DateTime @default(now())
+
+  @@index([sectionKey, topicId])
+  @@index([sectionKey])
+  @@index([topicId])
+}
+
+/// One Daily 100 pack per guest per calendar day.
+model DailyPack {
+  id        String   @id @default(cuid())
+  guestId   String
+  /// YYYY-MM-DD (UTC)
+  date      String
+  paperId   String
+  /// Optional future auth user
+  userId    String?
+  createdAt DateTime @default(now())
+
+  @@unique([guestId, date])
+  @@index([date])
+  @@index([userId])
+}

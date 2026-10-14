@@ -14,6 +14,7 @@
     "lint": "eslint",
     "db:push": "prisma db push",
     "db:seed": "tsx scripts/seed.ts",
+    "db:seed-bank": "tsx scripts/seed_ssc_bank.ts",
     "import:sscgl": "python scripts/import_sscgl_pdfs.py",
     "corpus:build": "python scripts/build_model_corpus.py",
     "ies:download": "python scripts/download_ies_ce_papers.py",
