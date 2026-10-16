@@ -382,9 +382,64 @@ export function practiceBlueprint(
   };
 }
 
+/** Daily 100 / mixed bank packs: all four Tier-I sections visible (no timer lock). */
+export function dailyPracticeBlueprint(opts?: {
+  questionCount?: number;
+  title?: string;
+}): ExamBlueprint {
+  const n = opts?.questionCount ?? 100;
+  const per = Math.max(1, Math.round(n / 4));
+  const title = opts?.title ?? "Daily 100";
+  const keys: SectionKey[] = ["reasoning", "ga", "quant", "english"];
+  const labels: Record<SectionKey, string> = {
+    reasoning: "Reasoning",
+    ga: "General Awareness",
+    quant: "Quantitative Aptitude",
+    english: "English",
+    maths: "Mathematics",
+    computer: "Computer",
+    dest: "DEST",
+    ies_ce: "IES CE",
+  };
+  return {
+    tier: "practice",
+    title,
+    totalQuestions: n,
+    maxScore: n * 2,
+    hasDest: false,
+    destDurationSeconds: 0,
+    destTargetKeystrokes: 0,
+    destPassAccuracy: 0,
+    untimed: true,
+    sections: keys.map((key) => ({
+      key,
+      label: labels[key],
+      questionCount: per,
+      marksPerQuestion: 2,
+      negativeMarks: 0.5,
+      timerGroup: "practice",
+    })),
+    timerGroups: [
+      {
+        id: "practice",
+        label: "Daily 100 · stopwatch from 00:00",
+        durationSeconds: 0,
+        sectionKeys: keys,
+        autoClose: false,
+      },
+    ],
+    instructions: [
+      "Daily 100: 25 Reasoning + 25 GA + 25 Quant + 25 English (SSC Tier-I order).",
+      "Stopwatch from 00:00 — no sectional lock. Jump freely across sections.",
+      "Each correct: +2. Each wrong: −0.50 (score feedback only).",
+      "Submit when done — Result shows solution + exam trick per question.",
+    ],
+  };
+}
+
 export function getBlueprint(
   tier: ExamTier | string,
-  focusSection?: SectionKey,
+  focusSection?: SectionKey | string,
   opts?: {
     questionCount?: number;
     mode?: string | null;
@@ -421,11 +476,35 @@ export function getBlueprint(
     });
   }
 
+  const isDaily =
+    focusSection === "daily" ||
+    opts?.mode === "daily" ||
+    /^Daily\s*100/i.test(opts?.title ?? "");
+
+  if (
+    (tier === "practice" ||
+      opts?.mode === "topic_practice" ||
+      opts?.mode === "practice" ||
+      opts?.mode === "daily") &&
+    isDaily
+  ) {
+    return dailyPracticeBlueprint({
+      questionCount: opts?.questionCount,
+      title: opts?.title,
+    });
+  }
+
   if (
     (tier === "practice" ||
       opts?.mode === "topic_practice" ||
       opts?.mode === "practice") &&
-    focusSection
+    focusSection &&
+    (focusSection === "reasoning" ||
+      focusSection === "ga" ||
+      focusSection === "quant" ||
+      focusSection === "english" ||
+      focusSection === "maths" ||
+      focusSection === "computer")
   ) {
     return practiceBlueprint(focusSection, {
       questionCount: opts?.questionCount,

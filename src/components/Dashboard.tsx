@@ -69,7 +69,7 @@ async function readApiJson(res: Response): Promise<Record<string, unknown>> {
   }
 }
 
-type Area = "test" | "practice";
+type Area = "test" | "practice" | "profile";
 type TestTab = "mocks" | "pyq" | "tier2";
 type IesTab = "pyq" | "mocks" | "practice" | "revise";
 
@@ -288,11 +288,19 @@ export function Dashboard() {
       return papers.filter((p) => p.tier === "tier2");
     }
     if (practiceSubject === "section") {
-      return papers.filter((p) => p.mode === "practice" && !p.focusTopic);
+      return papers.filter(
+        (p) =>
+          (p.mode === "practice" || p.mode === "daily") &&
+          !p.focusTopic &&
+          p.focusSection !== "daily" &&
+          p.source !== "daily_bank",
+      );
     }
     if (!practiceTopic) {
       return papers.filter(
-        (p) => p.mode === "topic_practice" && p.focusSection === practiceSubject,
+        (p) =>
+          p.mode === "topic_practice" &&
+          p.focusSection === practiceSubject,
       );
     }
     return papers.filter(
@@ -400,6 +408,7 @@ export function Dashboard() {
                 [
                   { id: "test" as const, label: "Test", blurb: "Mocks · PYQ · Tier-II" },
                   { id: "practice" as const, label: "Practice", blurb: "Topics · stopwatch" },
+                  { id: "profile" as const, label: "Profile", blurb: "Guest · progress" },
                 ] as const
               ).map((a) => (
                 <button
@@ -430,7 +439,43 @@ export function Dashboard() {
               </Link>
             </div>
 
-            {area === "test" ? (
+            {area === "profile" ? (
+              <section className="space-y-4 border border-[#c5ccd6] bg-white p-6">
+                <div>
+                  <h2 className="font-display text-2xl text-[#1e3a5f]">Profile</h2>
+                  <p className="text-sm text-[#5a6577]">
+                    Guest progress for this browser. Login / Oliveboard sync comes later — we do not
+                    pull paid course MCQs from Oliveboard.
+                  </p>
+                </div>
+                <dl className="grid gap-3 text-sm sm:grid-cols-2">
+                  <div className="border border-[#e2e6eb] px-4 py-3">
+                    <dt className="text-xs uppercase tracking-wide text-[#8a93a3]">Guest id</dt>
+                    <dd className="mt-1 font-mono text-[#1a1f2b]">{guestId || "—"}</dd>
+                  </div>
+                  <div className="border border-[#e2e6eb] px-4 py-3">
+                    <dt className="text-xs uppercase tracking-wide text-[#8a93a3]">SSC bank</dt>
+                    <dd className="mt-1 text-[#1a1f2b]">{bankTotal} questions</dd>
+                  </div>
+                  <div className="border border-[#e2e6eb] px-4 py-3">
+                    <dt className="text-xs uppercase tracking-wide text-[#8a93a3]">Daily 100</dt>
+                    <dd className="mt-1 text-[#1a1f2b]">
+                      {dailyPack
+                        ? `${dailyPack.title} · ${dailyPack.questionCount} Q`
+                        : "Not loaded yet — open Practice"}
+                    </dd>
+                  </div>
+                  <div className="border border-[#e2e6eb] px-4 py-3">
+                    <dt className="text-xs uppercase tracking-wide text-[#8a93a3]">Attempts</dt>
+                    <dd className="mt-1 text-[#1a1f2b]">{attempts.length} recorded</dd>
+                  </div>
+                </dl>
+                <p className="text-xs text-[#8a93a3]">
+                  Tip: In Practice, open a subject (e.g. Reasoning) → pick a topic chip → Generate more
+                  questions. Daily 100 is only on the Section drills home and mixes all four sections.
+                </p>
+              </section>
+            ) : area === "test" ? (
               <nav className="flex flex-wrap gap-2 border-b border-[#c5ccd6] pb-3">
                 {(
                   [
@@ -522,6 +567,8 @@ export function Dashboard() {
               </div>
             )}
 
+            {area !== "profile" && (
+            <>
             <section className="flex flex-wrap items-center justify-between gap-3">
               <div>
                 <h2 className="font-display text-2xl text-[#1e3a5f]">
@@ -533,7 +580,9 @@ export function Dashboard() {
                         : "Tier-II"
                     : practiceSubject === "section"
                       ? "Section drills"
-                      : (subjectMeta?.title ?? "Practice")}
+                      : practiceTopic
+                        ? `${subjectMeta?.title ?? ""} · ${subjectMeta?.topics.find((t) => t.id === practiceTopic)?.title ?? practiceTopic}`
+                        : (subjectMeta?.title ?? "Practice")}
                 </h2>
                 <p className="text-sm text-[#5a6577]">
                   {area === "test" &&
@@ -546,7 +595,16 @@ export function Dashboard() {
                     testTab === "tier2" &&
                     "Paper-I with sectional session timing and DEST practice."}
                   {area === "practice" &&
-                    `Book-style practice: no timer.${bankTotal ? ` Bank: ${bankTotal} Q.` : ""} Generate fresh sets from the bank anytime.`}
+                    practiceSubject === "section" &&
+                    `Daily 100 mixes all 4 sections. Or generate a single-section 25-Q set.${bankTotal ? ` Bank: ${bankTotal} Q.` : ""}`}
+                  {area === "practice" &&
+                    practiceSubject !== "section" &&
+                    practiceTopic &&
+                    `Topic drill only — questions locked to this topic (not Quant / not Daily 100). Click Generate more questions.`}
+                  {area === "practice" &&
+                    practiceSubject !== "section" &&
+                    !practiceTopic &&
+                    `Pick a topic chip, then Generate more questions for a locked set.${bankTotal ? ` Bank: ${bankTotal} Q.` : ""}`}
                 </p>
               </div>
               {area === "test" && testTab === "mocks" && (
@@ -611,19 +669,19 @@ export function Dashboard() {
             {message && (
               <p className="border border-[#c5ccd6] bg-white px-4 py-2 text-sm">{message}</p>
             )}
-            {area === "practice" && dayPackHint && !dailyPack && (
+            {area === "practice" && practiceSubject === "section" && dayPackHint && !dailyPack && (
               <p className="border border-[#c5ccd6] bg-white px-4 py-2 text-sm text-[#5a6577]">
                 {dayPackHint}
               </p>
             )}
 
-            {area === "practice" && dailyPack && (
+            {area === "practice" && practiceSubject === "section" && dailyPack && (
               <ul className="mb-3 divide-y divide-[#e2e6eb] border border-[#c5ccd6] bg-white">
                 <li className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
                   <div>
                     <div className="font-medium">{dailyPack.title}</div>
                     <div className="text-xs text-[#5a6577]">
-                      {dailyPack.questionCount} questions · daily pack · 25×4 sections · no timer
+                      {dailyPack.questionCount} questions · Reasoning→GA→Quant→English · 25×4 · no timer
                     </div>
                   </div>
                   <Link
@@ -641,10 +699,14 @@ export function Dashboard() {
               bankByTopic={area === "practice" ? bankByTopic : undefined}
               emptyHint={
                 area === "practice"
-                  ? "No practice papers yet. Use Daily 100 or Generate more questions."
+                  ? practiceTopic
+                    ? "No sets for this topic yet. Click Generate more questions."
+                    : "No practice papers yet. Use Daily 100 (Section drills) or Generate more questions."
                   : "No papers in this section. Run npm run db:seed."
               }
             />
+            </>
+            )}
           </>
         ) : (
           /* —— IES Civil —— */

@@ -92,15 +92,19 @@ function pickNovel(
   return out;
 }
 
-/** Sample N questions for one taxonomy topicId. */
+/** Sample N questions for one taxonomy topicId (optionally locked to section). */
 export async function sampleTopic(
   topicId: string,
   n: number,
   bannedFingerprints: Set<string> = new Set(),
   salt = Date.now(),
+  sectionKey?: PracticeSubjectKey,
 ): Promise<BankRow[]> {
-  const pool = await fetchPool({ topicId, take: 3000 });
-  return pickNovel(pool, n, bannedFingerprints, salt);
+  const pool = await fetchPool({ topicId, sectionKey, take: 3000 });
+  const locked = sectionKey
+    ? pool.filter((q) => q.sectionKey === sectionKey && q.topicId === topicId)
+    : pool.filter((q) => q.topicId === topicId);
+  return pickNovel(locked, n, bannedFingerprints, salt);
 }
 
 /** Sample N questions for a section, round-robin across topics. */
@@ -124,8 +128,9 @@ export async function sampleSection(
   for (const t of topics) {
     if (out.length >= n) break;
     const need = Math.min(per, n - out.length);
-    const batch = await sampleTopic(t.id, need, banned, salt + i * 97);
+    const batch = await sampleTopic(t.id, need, banned, salt + i * 97, sectionKey);
     for (const q of batch) {
+      if (q.sectionKey !== sectionKey) continue;
       banned.add(q.fingerprint);
       out.push(q);
       if (out.length >= n) break;
@@ -134,23 +139,25 @@ export async function sampleSection(
   }
   if (out.length < n) {
     const pool = await fetchPool({ sectionKey, take: 3000 });
-    const more = pickNovel(pool, n - out.length, banned, salt + 999);
+    const same = pool.filter((q) => q.sectionKey === sectionKey);
+    const more = pickNovel(same, n - out.length, banned, salt + 999);
     out.push(...more);
   }
   return out.slice(0, n);
 }
 
-/** 25 Quant + 25 Reasoning + 25 English + 25 GA. */
+/** 25 Reasoning + 25 GA + 25 Quant + 25 English (SSC Tier-I order). */
 export async function sampleDaily100(
   bannedFingerprints: Set<string> = new Set(),
   salt = Date.now(),
 ): Promise<BankRow[]> {
-  const sections: PracticeSubjectKey[] = ["quant", "reasoning", "english", "ga"];
+  const sections: PracticeSubjectKey[] = ["reasoning", "ga", "quant", "english"];
   const banned = new Set(bannedFingerprints);
   const out: BankRow[] = [];
   for (let i = 0; i < sections.length; i++) {
     const batch = await sampleSection(sections[i]!, 25, banned, salt + i * 1009);
     for (const q of batch) {
+      if (q.sectionKey !== sections[i]) continue;
       banned.add(q.fingerprint);
       out.push(q);
     }

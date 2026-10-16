@@ -63,6 +63,50 @@ function pack(
   });
 }
 
+const ANALOGY_PAIRS: Array<{
+  stem: string;
+  answer: string;
+  wrongs: [string, string, string];
+  explanation: string;
+}> = [
+  { stem: "Book : Reading :: Fork : ?", answer: "Eating", wrongs: ["Drawing", "Writing", "Cooking"], explanation: "Object–use: book for reading, fork for eating." },
+  { stem: "Doctor : Hospital :: Teacher : ?", answer: "School", wrongs: ["Clinic", "Office", "Library"], explanation: "Profession–workplace pair." },
+  { stem: "Pen : Write :: Knife : ?", answer: "Cut", wrongs: ["Sharp", "Blade", "Food"], explanation: "Tool–function analogy." },
+  { stem: "Eyes : See :: Ears : ?", answer: "Hear", wrongs: ["Sound", "Listen", "Noise"], explanation: "Organ–sense analogy." },
+  { stem: "Bird : Nest :: Bee : ?", answer: "Hive", wrongs: ["Honey", "Flower", "Wax"], explanation: "Animal–dwelling." },
+  { stem: "Hot : Cold :: Day : ?", answer: "Night", wrongs: ["Dark", "Evening", "Sun"], explanation: "Antonym pair." },
+  { stem: "Cap : Head :: Glove : ?", answer: "Hand", wrongs: ["Finger", "Arm", "Cloth"], explanation: "Covering–body part." },
+  { stem: "Author : Book :: Composer : ?", answer: "Song", wrongs: ["Music", "Piano", "Orchestra"], explanation: "Creator–creation." },
+  { stem: "Fish : Water :: Bird : ?", answer: "Air", wrongs: ["Sky", "Nest", "Wing"], explanation: "Creature–medium." },
+  { stem: "Circle : Circumference :: Square : ?", answer: "Perimeter", wrongs: ["Area", "Diagonal", "Side"], explanation: "Shape–boundary measure." },
+  { stem: "Lion : Cub :: Dog : ?", answer: "Puppy", wrongs: ["Kitten", "Calf", "Foal"], explanation: "Adult–young." },
+  { stem: "Painting : Artist :: Symphony : ?", answer: "Composer", wrongs: ["Conductor", "Violin", "Audience"], explanation: "Work–creator." },
+  { stem: "Scissors : Cut :: Needle : ?", answer: "Sew", wrongs: ["Cloth", "Thread", "Sharp"], explanation: "Tool–action." },
+  { stem: "India : Rupee :: Japan : ?", answer: "Yen", wrongs: ["Yuan", "Won", "Dollar"], explanation: "Country–currency." },
+  { stem: "Knee : Leg :: Elbow : ?", answer: "Arm", wrongs: ["Hand", "Joint", "Bone"], explanation: "Joint–limb." },
+  { stem: "Odd one out: Apple, Mango, Carrot, Guava — which does not belong?", answer: "Carrot", wrongs: ["Apple", "Mango", "Guava"], explanation: "Carrot is a vegetable; others are fruits (classification)." },
+  { stem: "Odd one out: Rose, Lily, Lotus, Mango — which does not belong?", answer: "Mango", wrongs: ["Rose", "Lily", "Lotus"], explanation: "Mango is a fruit; others are flowers." },
+  { stem: "Odd one out: Mercury, Venus, Mars, Moon — which does not belong?", answer: "Moon", wrongs: ["Mercury", "Venus", "Mars"], explanation: "Moon is a satellite; others are planets." },
+  { stem: "3 : 9 :: 4 : ?", answer: "16", wrongs: ["12", "8", "20"], explanation: "n : n² pattern." },
+  { stem: "5 : 25 :: 7 : ?", answer: "49", wrongs: ["35", "42", "56"], explanation: "n : n² pattern." },
+];
+
+const BLOOD_ITEMS: Raw[] = [
+  { topic: "", stem: "A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?", answer: "Uncle", wrongs: ["Father", "Brother", "Cousin"], explanation: "A is brother of C, so uncle of D." },
+  { topic: "", stem: "P is the mother of Q. Q is the sister of R. R is the father of S. How is P related to S?", answer: "Grandmother", wrongs: ["Mother", "Aunt", "Sister"], explanation: "P is mother of R, hence grandmother of S." },
+  { topic: "", stem: "X is Y's wife. Y is Z's father. Z is W's brother. How is X related to W?", answer: "Mother", wrongs: ["Sister", "Aunt", "Grandmother"], explanation: "X is mother of Z and W." },
+  { topic: "", stem: "Pointing to a man, a woman said: 'His mother is the only daughter of my mother.' How is the woman related to the man?", answer: "Mother", wrongs: ["Sister", "Aunt", "Grandmother"], explanation: "Only daughter of her mother is herself; she is his mother." },
+  { topic: "", stem: "A + B means A is father of B. A − B means A is sister of B. If P + Q − R, how is P related to R?", answer: "Father", wrongs: ["Uncle", "Brother", "Grandfather"], explanation: "P father of Q; Q sister of R ⇒ P father of R." },
+];
+
+const SYLLOGISM_ITEMS: Raw[] = [
+  { topic: "", stem: "Statements: All pens are books. Some books are tables. Conclusions: I. Some pens are tables. II. Some books are pens. Which follows?", answer: "Only II", wrongs: ["Only I", "Both", "Neither"], explanation: "All pens are books ⇒ some books are pens. I is not definite." },
+  { topic: "", stem: "Statements: All cats are dogs. All dogs are animals. Conclusions: I. All cats are animals. II. Some animals are cats. Which follows?", answer: "Both", wrongs: ["Only I", "Only II", "Neither"], explanation: "Chain: cats ⊂ dogs ⊂ animals; both follow." },
+  { topic: "", stem: "Statements: Some A are B. No B is C. Conclusions: I. Some A are not C. II. No A is C. Which follows?", answer: "Only I", wrongs: ["Only II", "Both", "Neither"], explanation: "Some A that are B cannot be C; II is not definite." },
+  { topic: "", stem: "Statements: No flower is leaf. All leaves are green. Conclusions: I. No flower is green. II. Some green are not flowers. Which follows?", answer: "Only II", wrongs: ["Only I", "Both", "Neither"], explanation: "Leaves (green) are not flowers ⇒ some green are not flowers. I not definite." },
+  { topic: "", stem: "Statements: All students are learners. Some learners are teachers. Conclusions: I. Some students are teachers. II. All learners are students. Which follows?", answer: "Neither", wrongs: ["Only I", "Only II", "Both"], explanation: "Neither conclusion is forced." },
+];
+
 function reasoningBatch(topicId: string, topicTitle: string, setNo: number, count: number): SeedQuestion[] {
   const out: Raw[] = [];
   for (let i = 0; i < count; i++) {
@@ -71,87 +115,159 @@ function reasoningBatch(topicId: string, topicTitle: string, setNo: number, coun
     const b = a + 1 + (s % 5);
     const c = b + 2 + (s % 3);
     if (topicId === "series" || /series/i.test(topicTitle)) {
-      const n4 = c + (c - b);
-      out.push({
-        topic: topicTitle,
-        subtopic: "Number series",
-        stem: `Find the next number: ${a}, ${b}, ${c}, ${c + (c - b)}, ?`,
-        answer: String(n4 + (c - b)),
-        wrongs: [String(n4 + 1), String(n4 - 1), String(n4 + a)],
-        explanation: `Common difference ${c - b}. Next after ${n4} is ${n4 + (c - b)}.`,
-      });
+      const patterns: Raw[] = [
+        {
+          topic: topicTitle,
+          subtopic: "Number series",
+          stem: `Find the next number: ${a}, ${b}, ${c}, ${c + (c - b)}, ?`,
+          answer: String(c + 2 * (c - b)),
+          wrongs: [String(c + (c - b) + 1), String(c + (c - b) - 1), String(c + a)],
+          explanation: `AP with difference ${c - b}.`,
+        },
+        {
+          topic: topicTitle,
+          subtopic: "Number series",
+          stem: `Find the missing term: ${a}, ${a * 2}, ${a * 4}, ${a * 8}, ?`,
+          answer: String(a * 16),
+          wrongs: [String(a * 10), String(a * 12), String(a * 14)],
+          explanation: "Each term ×2.",
+        },
+        {
+          topic: topicTitle,
+          subtopic: "Letter series",
+          stem: `Next letters: ${String.fromCharCode(65 + (s % 10))}${String.fromCharCode(66 + (s % 10))}, ${String.fromCharCode(67 + (s % 10))}${String.fromCharCode(68 + (s % 10))}, ${String.fromCharCode(69 + (s % 10))}${String.fromCharCode(70 + (s % 10))}, ?`,
+          answer: `${String.fromCharCode(71 + (s % 10))}${String.fromCharCode(72 + (s % 10))}`,
+          wrongs: [
+            `${String.fromCharCode(70 + (s % 10))}${String.fromCharCode(71 + (s % 10))}`,
+            `${String.fromCharCode(72 + (s % 10))}${String.fromCharCode(73 + (s % 10))}`,
+            `${String.fromCharCode(69 + (s % 10))}${String.fromCharCode(71 + (s % 10))}`,
+          ],
+          explanation: "Consecutive letter pairs advancing by 2.",
+        },
+      ];
+      out.push(patterns[i % patterns.length]!);
     } else if (topicId === "coding" || /cod/i.test(topicTitle)) {
       const ch = String.fromCharCode(65 + (s % 20));
-      const next = String.fromCharCode(ch.charCodeAt(0) + 1);
-      out.push({
-        topic: topicTitle,
-        subtopic: "Letter coding",
-        stem: `If in a certain code ${ch} is written as ${next}, how is the next letter after ${ch} coded the same way?`,
-        answer: String.fromCharCode(next.charCodeAt(0) + 1),
-        wrongs: [ch, next, String.fromCharCode(ch.charCodeAt(0) + 2)],
-        explanation: `Pattern is +1 on the letter. ${ch}→${next}, so next→${String.fromCharCode(next.charCodeAt(0) + 1)}.`,
-      });
+      const shift = 1 + (s % 3);
+      const next = String.fromCharCode(ch.charCodeAt(0) + shift);
+      const word = ["CAT", "DOG", "BAT", "SUN", "MAP"][s % 5]!;
+      const coded = word
+        .split("")
+        .map((c) => String.fromCharCode(((c.charCodeAt(0) - 65 + shift) % 26) + 65))
+        .join("");
+      if (i % 2 === 0) {
+        out.push({
+          topic: topicTitle,
+          subtopic: "Letter coding",
+          stem: `If ${ch} is coded as ${next} (+${shift}), how is the next letter after ${ch} coded the same way?`,
+          answer: String.fromCharCode(next.charCodeAt(0) + 1),
+          wrongs: [ch, next, String.fromCharCode(ch.charCodeAt(0) + 2)],
+          explanation: `Same +${shift} rule on the following letter.`,
+        });
+      } else {
+        out.push({
+          topic: topicTitle,
+          subtopic: "Word coding",
+          stem: `If each letter is shifted +${shift}, ${word} becomes?`,
+          answer: coded,
+          wrongs: [
+            word.split("").reverse().join(""),
+            word,
+            String.fromCharCode(((word.charCodeAt(0) - 65 + shift + 1) % 26) + 65) + word.slice(1),
+          ],
+          explanation: `Caesar +${shift} on each letter.`,
+        });
+      }
     } else if (topicId === "blood" || /blood/i.test(topicTitle)) {
-      out.push({
-        topic: topicTitle,
-        subtopic: "Family tree",
-        stem: `A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?`,
-        answer: "Uncle",
-        wrongs: ["Father", "Brother", "Cousin"],
-        explanation: "A is brother of C (via B), so A is uncle of D.",
-      });
+      const item = BLOOD_ITEMS[i % BLOOD_ITEMS.length]!;
+      out.push({ ...item, topic: topicTitle, subtopic: "Family tree", stem: `${item.stem} [#${setNo}-${i + 1}]` });
     } else if (topicId === "direction" || /direction/i.test(topicTitle)) {
       const km = 3 + (s % 8);
-      out.push({
-        topic: topicTitle,
-        subtopic: "Path tracing",
-        stem: `A man walks ${km} km east, then ${km} km north, then ${km} km west. How far is he from the start?`,
-        answer: `${km} km north`,
-        wrongs: [`${km} km east`, `${2 * km} km north`, "At start"],
-        explanation: `East and west cancel; net ${km} km north.`,
-      });
+      const variants: Raw[] = [
+        {
+          topic: topicTitle,
+          subtopic: "Path tracing",
+          stem: `A man walks ${km} km east, then ${km} km north, then ${km} km west. How far is he from the start?`,
+          answer: `${km} km north`,
+          wrongs: [`${km} km east`, `${2 * km} km north`, "At start"],
+          explanation: `East/west cancel; net ${km} km north.`,
+        },
+        {
+          topic: topicTitle,
+          subtopic: "Path tracing",
+          stem: `Ravi walks ${km} km south, then ${km + 2} km east, then ${km} km north. How far from start?`,
+          answer: `${km + 2} km east`,
+          wrongs: [`${km} km south`, `${2 * km} km east`, "At start"],
+          explanation: "South/north cancel; net east remains.",
+        },
+        {
+          topic: topicTitle,
+          subtopic: "Facing",
+          stem: `A person facing east turns left, then right, then right again. Which direction is he facing now?`,
+          answer: "South",
+          wrongs: ["West", "North", "East"],
+          explanation: "East → left=North → right=East → right=South.",
+        },
+      ];
+      out.push(variants[i % variants.length]!);
     } else if (topicId === "syllogism" || /syllog/i.test(topicTitle)) {
-      out.push({
-        topic: topicTitle,
-        subtopic: "Statements",
-        stem: `Statements: All pens are books. Some books are tables. Conclusions: I. Some pens are tables. II. Some books are pens. Which follows?`,
-        answer: "Only II",
-        wrongs: ["Only I", "Both", "Neither"],
-        explanation: "All pens are books ⇒ some books are pens (II). I is not definite.",
-      });
+      const item = SYLLOGISM_ITEMS[i % SYLLOGISM_ITEMS.length]!;
+      out.push({ ...item, topic: topicTitle, subtopic: "Statements", stem: `${item.stem} [#${setNo}-${i + 1}]` });
     } else if (topicId === "puzzle" || /seat|puzzle/i.test(topicTitle)) {
+      const variants: Raw[] = [
+        {
+          topic: topicTitle,
+          subtopic: "Linear seating",
+          stem: `Five friends A, B, C, D, E sit in a row facing north. A is second to the left of C. E is at one end. B is immediate right of A. Who sits in the middle? [#${setNo}-${i + 1}]`,
+          answer: "B",
+          wrongs: ["A", "C", "D"],
+          explanation: "Order E-A-B-C-D; middle is B.",
+        },
+        {
+          topic: topicTitle,
+          subtopic: "Floor",
+          stem: `A, B, C, D live on floors 1–4 (1 lowest). C lives on floor 3. D does not live on floor 1. B lives immediately above A. Who lives on floor 2? [#${setNo}-${i + 1}]`,
+          answer: "B",
+          wrongs: ["A", "C", "D"],
+          explanation: "C=3; D=4; A=1 and B=2.",
+        },
+        {
+          topic: topicTitle,
+          subtopic: "Scheduling",
+          stem: `Five exams Mon–Fri: Maths, Eng, Sci, Hist, Geo. Maths is on Wednesday. Eng is immediately before Sci. Hist is on Friday. Geo is not on Monday. Which is on Tuesday? [#${setNo}-${i + 1}]`,
+          answer: "Sci",
+          wrongs: ["Eng", "Geo", "Hist"],
+          explanation: "Mon Eng, Tue Sci, Wed Maths, Thu Geo, Fri Hist.",
+        },
+      ];
+      out.push(variants[i % variants.length]!);
+    } else if (topicId === "nonverbal" || /non.?verbal|mirror/i.test(topicTitle)) {
+      const mirror = ["b", "d", "p", "q"][s % 4]!;
+      const map: Record<string, string> = { b: "d", d: "b", p: "q", q: "p" };
+      const ans = map[mirror]!;
+      const wrongPool = ["b", "d", "p", "q", "o", "n"].filter((x) => x !== ans && x !== mirror);
       out.push({
         topic: topicTitle,
-        subtopic: "Linear seating",
-        stem: `Five friends A, B, C, D, E sit in a row facing north. A is second to the left of C. E is at one end. B is immediate right of A. Who sits in the middle?`,
-        answer: "B",
-        wrongs: ["A", "C", "D"],
-        explanation: "Typical valid order E-A-B-C-D (or mirror); middle is B.",
+        subtopic: "Mirror",
+        stem: `In a plane mirror, the letter '${mirror}' (lowercase) appears most like which option? [#${setNo}-${i + 1}]`,
+        answer: ans,
+        wrongs: [wrongPool[0]!, wrongPool[1]!, wrongPool[2]!],
+        explanation: "Vertical-axis mirror swaps left/right bowls of these letters.",
       });
     } else {
+      // analogy / classification (default for analogy topicId)
+      const pair = ANALOGY_PAIRS[(s + i) % ANALOGY_PAIRS.length]!;
       out.push({
         topic: topicTitle,
-        subtopic: "Analogy",
-        stem: `Book : Reading :: Fork : ?`,
-        answer: "Eating",
-        wrongs: ["Drawing", "Writing", "Cooking"],
-        explanation: "Book is used for reading; fork is used for eating.",
+        subtopic: /classif/i.test(pair.stem) ? "Classification" : "Analogy",
+        stem: `${pair.stem} [#${setNo}-${i + 1}]`,
+        answer: pair.answer,
+        wrongs: pair.wrongs,
+        explanation: pair.explanation,
       });
     }
   }
-  // Vary stems slightly by setNo so fingerprints differ
-  return pack(
-    out.map((r, i) => ({
-      ...r,
-      stem: `${r.stem} (Set ${setNo}-${i + 1})`.replace(
-        /\(Set \d+-\d+\)$/,
-        `(variant ${setNo * 10 + i})`,
-      ),
-    })),
-    "reasoning",
-    "General Intelligence & Reasoning",
-    setNo,
-  );
+  return pack(out, "reasoning", "General Intelligence & Reasoning", setNo);
 }
 
 function englishBatch(topicId: string, topicTitle: string, setNo: number, count: number): SeedQuestion[] {

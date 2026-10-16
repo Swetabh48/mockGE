@@ -36,7 +36,7 @@ type Props = {
   paperId: string;
   paperTitle: string;
   tier: ExamTier;
-  focusSection?: SectionKey;
+  focusSection?: SectionKey | string;
   mode?: string | null;
   exam?: string | null;
   iesPaper?: string | null;

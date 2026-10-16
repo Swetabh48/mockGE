@@ -77,7 +77,7 @@ async function handle(request: Request) {
 
     const paper = await materializePaper({
       title: `Daily 100 — ${date}`,
-      mode: "practice",
+      mode: "daily",
       focusSection: "daily",
       source: "daily_bank",
       rows,

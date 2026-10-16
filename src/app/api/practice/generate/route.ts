@@ -181,7 +181,9 @@ async function handleGenerate(request: Request) {
       topic.subtopics.find((s) => s.id === body.subtopicId) ?? topic.subtopics[0];
     const need = 10;
 
-    let rows = await sampleTopic(topic.id, need, banned, Date.now());
+    let rows = (
+      await sampleTopic(topic.id, need, banned, Date.now(), subjectKey)
+    ).filter((r) => r.sectionKey === subjectKey && r.topicId === topic.id);
     for (const r of rows) banned.add(r.fingerprint);
 
     if (rows.length < need) {
@@ -250,7 +252,9 @@ async function handleGenerate(request: Request) {
 
   // ---------- SECTION ----------
   const need = 25;
-  let rows = await sampleSection(subjectKey, need, banned, Date.now());
+  let rows = (await sampleSection(subjectKey, need, banned, Date.now())).filter(
+    (r) => r.sectionKey === subjectKey,
+  );
   for (const r of rows) banned.add(r.fingerprint);
 
   if (rows.length < need) {
