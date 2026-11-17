@@ -1,0 +1,214 @@
+{
+ "papers": [
+  {
+   "id": "epfo-e01",
+   "number": 1,
+   "band": "easy",
+   "title": "APFC Mock 01 · Easy",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-e02",
+   "number": 2,
+   "band": "easy",
+   "title": "APFC Mock 02 · Easy",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-e03",
+   "number": 3,
+   "band": "easy",
+   "title": "APFC Mock 03 · Easy",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-e04",
+   "number": 4,
+   "band": "easy",
+   "title": "APFC Mock 04 · Easy",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-e05",
+   "number": 5,
+   "band": "easy",
+   "title": "APFC Mock 05 · Easy",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-e06",
+   "number": 6,
+   "band": "easy",
+   "title": "APFC Mock 06 · Easy",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-e07",
+   "number": 7,
+   "band": "easy",
+   "title": "APFC Mock 07 · Easy",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-e08",
+   "number": 8,
+   "band": "easy",
+   "title": "APFC Mock 08 · Easy",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-e09",
+   "number": 9,
+   "band": "easy",
+   "title": "APFC Mock 09 · Easy",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-e10",
+   "number": 10,
+   "band": "easy",
+   "title": "APFC Mock 10 · Easy",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-m01",
+   "number": 11,
+   "band": "medium",
+   "title": "APFC Mock 11 · Medium",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-m02",
+   "number": 12,
+   "band": "medium",
+   "title": "APFC Mock 12 · Medium",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-m03",
+   "number": 13,
+   "band": "medium",
+   "title": "APFC Mock 13 · Medium",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-m04",
+   "number": 14,
+   "band": "medium",
+   "title": "APFC Mock 14 · Medium",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-m05",
+   "number": 15,
+   "band": "medium",
+   "title": "APFC Mock 15 · Medium",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-m06",
+   "number": 16,
+   "band": "medium",
+   "title": "APFC Mock 16 · Medium",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-m07",
+   "number": 17,
+   "band": "medium",
+   "title": "APFC Mock 17 · Medium",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-m08",
+   "number": 18,
+   "band": "medium",
+   "title": "APFC Mock 18 · Medium",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-m09",
+   "number": 19,
+   "band": "medium",
+   "title": "APFC Mock 19 · Medium",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-m10",
+   "number": 20,
+   "band": "medium",
+   "title": "APFC Mock 20 · Medium",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-h01",
+   "number": 21,
+   "band": "hard",
+   "title": "APFC Mock 21 · Hard",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-h02",
+   "number": 22,
+   "band": "hard",
+   "title": "APFC Mock 22 · Hard",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-h03",
+   "number": 23,
+   "band": "hard",
+   "title": "APFC Mock 23 · Hard",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-h04",
+   "number": 24,
+   "band": "hard",
+   "title": "APFC Mock 24 · Hard",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-h05",
+   "number": 25,
+   "band": "hard",
+   "title": "APFC Mock 25 · Hard",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-h06",
+   "number": 26,
+   "band": "hard",
+   "title": "APFC Mock 26 · Hard",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-h07",
+   "number": 27,
+   "band": "hard",
+   "title": "APFC Mock 27 · Hard",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-h08",
+   "number": 28,
+   "band": "hard",
+   "title": "APFC Mock 28 · Hard",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-h09",
+   "number": 29,
+   "band": "hard",
+   "title": "APFC Mock 29 · Hard",
+   "questionCount": 120
+  },
+  {
+   "id": "epfo-h10",
+   "number": 30,
+   "band": "hard",
+   "title": "APFC Mock 30 · Hard",
+   "questionCount": 120
+  }
+ ]
+}

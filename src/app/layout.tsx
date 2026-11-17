@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "mockGE · SSC CGL & IES Civil",
+  title: "mockGE · SSC CGL, IES Civil & EPFO APFC",
   description:
-    "CBT mocks for SSC CGL and UPSC ESE/IES Civil Engineering — PYQs, full papers, and textbook solutions.",
+    "CBT mocks for SSC CGL, UPSC ESE/IES Civil Engineering and UPSC EPFO APFC — PYQs, full papers, OMR practice and detailed solutions.",
   icons: {
     icon: "/icon",
   },

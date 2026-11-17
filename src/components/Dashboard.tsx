@@ -6,8 +6,9 @@ import { PRACTICE_SYLLABUS, type PracticeSubjectKey } from "@/lib/exam/taxonomy"
 import { IES_SYLLABUS, type IesSubjectKey } from "@/lib/exam/iesTaxonomy";
 import { IES_REVISE_NOTES } from "@/lib/exam/iesReviseNotes";
 import { IES_CE_DAY } from "@/lib/exam/blueprints";
+import { EpfoHome } from "@/components/epfo/EpfoHome";
 
-type ExamProduct = "ssc_cgl" | "ies_civil";
+export type ExamProduct = "ssc_cgl" | "ies_civil" | "epfo_apfc";
 
 type Paper = {
   id: string;
@@ -73,8 +74,8 @@ type Area = "test" | "practice" | "profile";
 type TestTab = "mocks" | "pyq" | "tier2";
 type IesTab = "pyq" | "mocks" | "practice" | "revise";
 
-export function Dashboard() {
-  const [exam, setExam] = useState<ExamProduct>("ssc_cgl");
+export function Dashboard({ initialExam = "ssc_cgl" }: { initialExam?: ExamProduct }) {
+  const [exam, setExam] = useState<ExamProduct>(initialExam);
   const [papers, setPapers] = useState<Paper[]>([]);
   const [attempts, setAttempts] = useState<Attempt[]>([]);
   const [status, setStatus] = useState<Status | null>(null);
@@ -148,6 +149,7 @@ export function Dashboard() {
   useEffect(() => {
     const gid = ensureGuestId();
     setGuestId(gid);
+    if (exam === "epfo_apfc") return;
     void load();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [exam]);
@@ -341,19 +343,21 @@ export function Dashboard() {
   return (
     <div className="min-h-screen bg-[#eef1f4] text-[#1a1f2b]">
       <header className="border-b border-[#c5ccd6] bg-[#1e3a5f] text-white">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-end justify-between gap-4 px-6 py-10">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-end justify-between gap-4 px-4 py-10 sm:px-6">
           <div>
             <p className="text-xs uppercase tracking-[0.22em] text-slate-300">
-              {exam === "ssc_cgl" ? "SSC CGL 2026 pattern" : "UPSC ESE / IES Civil"}
+              {exam === "ssc_cgl" ? "SSC CGL 2026 pattern" : exam === "epfo_apfc" ? "UPSC EPFO · Assistant Provident Fund Commissioner" : "UPSC ESE / IES Civil"}
             </p>
             <h1 className="font-display mt-2 text-4xl tracking-tight sm:text-5xl">mockGE</h1>
             <p className="mt-3 max-w-xl text-sm text-slate-200">
               {exam === "ssc_cgl"
                 ? "Test = full mocks & PYQ. Practice = untimed drills with solutions. Revise = formulas & tricks."
-                : "PYQ retake (3h + 3h day). New mocks via Gemini + IES model. Textbook-style solutions."}
+                : exam === "epfo_apfc"
+                  ? "30 original APFC mocks (10 easy · 10 medium · 10 hard). Online CBT or offline with printable OMR, instant analysis and PDF solutions."
+                  : "PYQ retake (3h + 3h day). New mocks via Gemini + IES model. Textbook-style solutions."}
             </p>
           </div>
-          <div className="flex flex-col items-end gap-2 text-xs text-slate-200">
+          <div className={`flex flex-col items-end gap-2 text-xs text-slate-200 ${exam === "epfo_apfc" ? "hidden" : ""}`}>
             <Link
               href={exam === "ies_civil" ? "/revise/ies" : "/revise"}
               className="border border-white/40 px-3 py-1.5 text-sm text-white hover:bg-white/10"
@@ -370,13 +374,14 @@ export function Dashboard() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl space-y-8 px-6 py-8">
+      <main className="mx-auto max-w-6xl space-y-8 px-4 py-8 sm:px-6">
         {/* Exam product switch */}
         <div className="flex flex-wrap gap-2">
           {(
             [
               { id: "ssc_cgl" as const, label: "SSC CGL", blurb: "Tier-I · Tier-II · Practice" },
               { id: "ies_civil" as const, label: "IES Civil", blurb: "PYQ · Mocks · 3h×2" },
+              { id: "epfo_apfc" as const, label: "EPFO APFC", blurb: "30 mocks · OMR · 2h" },
             ] as const
           ).map((e) => (
             <button
@@ -387,7 +392,7 @@ export function Dashboard() {
                 setMessage(null);
                 setDayPackHint(null);
               }}
-              className={`min-w-[10rem] border px-4 py-3 text-left ${
+              className={`min-w-[9rem] flex-1 border px-4 py-3 text-left sm:flex-none ${
                 exam === e.id
                   ? "border-[#c45c26] bg-[#c45c26] text-white"
                   : "border-[#c5ccd6] bg-white text-[#1a1f2b] hover:border-[#c45c26]"
@@ -401,7 +406,9 @@ export function Dashboard() {
           ))}
         </div>
 
-        {exam === "ssc_cgl" ? (
+        {exam === "epfo_apfc" ? (
+          <EpfoHome />
+        ) : exam === "ssc_cgl" ? (
           <>
             <div className="flex flex-wrap gap-2">
               {(
@@ -954,6 +961,7 @@ export function Dashboard() {
           </>
         )}
 
+        {exam !== "epfo_apfc" && (
         <section>
           <h2 className="font-display mb-3 text-xl text-[#1e3a5f]">Recent attempts</h2>
           {attempts.length === 0 ? (
@@ -993,6 +1001,7 @@ export function Dashboard() {
             </div>
           )}
         </section>
+        )}
       </main>
     </div>
   );

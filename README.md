@@ -1,6 +1,6 @@
 # mockGE
 
-SSC CGL + **UPSC ESE / IES Civil** practice platform by **Swetabh48**.
+SSC CGL + **UPSC ESE / IES Civil** + **UPSC EPFO APFC** practice platform by **Swetabh48**.
 
 Live: [https://mockge.vercel.app](https://mockge.vercel.app)
 
@@ -15,6 +15,8 @@ Next.js + Prisma (Postgres). CBT-style full mocks, PYQ retakes, topic practice w
 | **IES Civil** | PYQ | CE Paper-I + Paper-II, **3 hours each** (full day = 6h) |
 | **IES Civil** | New Mocks | Gemini framing + `mockge-ies-civil` domain model |
 | **IES Civil** | Solutions | Textbook RAG + detailed explanations on the result page |
+| **EPFO APFC** | 30 mocks | 10 easy · 10 medium · 10 hard; 120 Q · 2 h · 300 marks · −⅓ |
+| **EPFO APFC** | Online / Offline | CBT on any device (iPad-friendly) or print paper + OMR, then upload a photo for scoring |
 
 ## How practice questions are generated
 
@@ -86,6 +88,28 @@ npm run import:sscgl
 ```bash
 npm run corpus:build   # rebuild data/model_corpus.jsonl from imported PYQs
 ```
+
+## EPFO APFC mocks
+
+Dashboard switch: **SSC CGL | IES Civil | EPFO APFC** (or open `/?exam=epfo`). Each paper lives at `/epfo/<id>`
+(`epfo-e01…e10`, `epfo-m01…m10`, `epfo-h01…h10`) and needs no database — papers are static JSON in `public/epfo/`.
+
+- **Online:** 120-question CBT with a single 2-hour timer, palette, mark-for-review, autosave (survives reload/sleep).
+- **Offline:** view or download the question booklet (PDF), download the printable OMR sheet (PDF), press *Start test*;
+  when time is up either upload a photo of the filled OMR (read in the browser, then confirmed by the candidate) or just review solutions.
+- **Results:** score with one-third negative marking, section/topic analysis, "where to improve", full solutions, PDF download.
+- Attempts are stored in the browser (`localStorage`); nothing is sent to a server.
+- The mail button opens a prefilled email to request new papers.
+
+Content is original. Bank items live in `src/lib/epfo/bank/*.ts` (hand-written), numeric aptitude, accounting,
+social-security and economy questions are computed by `src/lib/epfo/gen/*` (exact keys + worked solutions).
+
+```bash
+npm run epfo:build   # rebuild public/epfo/papers/*.json (fails if any section is short or a stem repeats)
+```
+
+The build is deterministic, uses every bank item at most once across the 30 papers, balances answer letters
+(30 a/b/c/d per paper) and reports near-duplicate stems.
 
 ## Cloud model (production inference)
 

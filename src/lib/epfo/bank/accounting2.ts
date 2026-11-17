@@ -1,0 +1,124 @@
+import { Bank } from "./dsl";
+
+/** Depreciation, final accounts, partnership, companies, NPOs, standards, cost, audit, ratios. */
+const b = new Bank("accounting2");
+
+b.t("Depreciation");
+b.q(1, "Depreciation is best described as:", ["Allocation of the depreciable amount of an asset over its useful life", "A process of valuation of assets at market price", "Creation of a fund for replacing assets", "A cash outflow every year"], "Depreciation is an allocation of cost, a non-cash expense; it is not a valuation process.");
+b.q(1, "Under the Straight Line Method, the amount of depreciation each year is:", ["Constant", "Decreasing", "Increasing", "Zero after the first year"], "SLM charges an equal amount annually.");
+b.q(2, "Under the Written Down Value method, depreciation is charged on:", ["The reducing book value at a fixed rate", "The original cost every year", "The scrap value", "The market value"], "WDV gives higher depreciation in early years and is accepted under the Income Tax Act.");
+b.q(2, "Which depreciation method can never reduce the asset's book value to zero?", ["Written Down Value method", "Straight Line Method", "Sum-of-years'-digits method", "Units of production method"], "A fixed percentage of a declining balance never reaches zero.");
+b.q(2, "Depletion is a method of charging the cost of:", ["Wasting assets such as mines and quarries", "Intangible assets", "Buildings", "Inventory"], "Depletion is based on the quantity extracted.");
+b.q(2, "Amortisation refers to the systematic write-off of:", ["Intangible assets such as patents and goodwill (where applicable)", "Machinery", "Land", "Debtors"], "Depreciation applies to tangible fixed assets; amortisation to intangibles.");
+b.q(1, "Which of the following assets is generally NOT depreciated?", ["Freehold land", "Buildings", "Machinery", "Vehicles"], "Land has an indefinite useful life.");
+b.q(3, "When a provision for depreciation (accumulated depreciation) account is maintained, the asset account shows:", ["The asset at original cost", "The asset at written down value", "The asset at market value", "The asset at scrap value"], "Accumulated depreciation is shown as a deduction in the balance sheet.");
+b.q(3, "Which accounting standard governs Property, Plant and Equipment for companies following Ind AS?", ["Ind AS 16", "Ind AS 2", "Ind AS 7", "Ind AS 38"], "Ind AS 16 corresponds to AS 10 (PPE); Ind AS 2 is inventories, Ind AS 7 cash flows and Ind AS 38 intangibles.");
+b.q(2, "The Companies Act, 2013 prescribes useful lives of assets for depreciation in:", ["Schedule II", "Schedule III", "Schedule I", "Schedule VII"], "Schedule II deals with useful lives; Schedule III with the format of financial statements; Schedule VII with CSR activities.");
+
+b.t("Final Accounts");
+b.q(1, "The Trading Account is prepared to ascertain:", ["Gross profit or gross loss", "Net profit", "Financial position", "Cash balance"], "It records sales, purchases, opening/closing stock and direct expenses.");
+b.q(2, "Which of the following is debited to the Trading Account?", ["Carriage inwards", "Carriage outwards", "Office rent", "Bad debts"], "Carriage inwards is a direct expense; carriage outwards is a selling expense in the P&L account.");
+b.q(2, "Closing stock appearing in the trial balance (after adjustment through purchases) is shown:", ["Only in the balance sheet", "In both the trading account and the balance sheet", "Only in the trading account", "In the profit and loss account"], "If closing stock is already in the trial balance, it has been adjusted and goes only to the balance sheet.");
+b.q(2, "Closing stock given as an adjustment outside the trial balance is shown:", ["On the credit side of the trading account and as an asset in the balance sheet", "Only in the balance sheet", "Only in the trading account", "In the P&L appropriation account"], "Every adjustment has a double effect.");
+b.q(2, "Provision for doubtful debts is created on the basis of:", ["Conservatism, to provide for anticipated losses", "Consistency", "Materiality", "Entity concept"], "It is shown as a deduction from debtors and charged to P&L.");
+b.q(2, "A provision for discount on debtors is usually calculated on:", ["Debtors after deducting bad debts and provision for doubtful debts", "Gross debtors", "Sales", "Creditors"], "Discount is expected only from good debtors.");
+b.q(3, "Goods sent on 'sale or return' basis and not yet approved by the customer at the year-end should be:", ["Included in closing stock at cost, and the sale reversed", "Treated as sales", "Ignored", "Shown as debtors"], "The sale is not complete until approval; goods remain the seller's stock.");
+b.q(2, "Outstanding expenses are shown in the balance sheet as:", ["Current liabilities", "Current assets", "Fixed assets", "Capital"], "They are amounts due but not paid.");
+b.q(2, "Prepaid expenses are shown in the balance sheet as:", ["Current assets", "Current liabilities", "Reserves", "Intangible assets"], "They represent future benefit already paid for.");
+b.q(2, "Net profit is transferred to the:", ["Capital account (sole proprietor)", "Trading account", "Suspense account", "Cash account"], "In a sole proprietorship, net profit increases capital.");
+b.q(2, "Under Schedule III of the Companies Act, 2013, the balance sheet is presented in the:", ["Vertical form", "Horizontal (T) form", "Columnar cash book form", "Ledger form"], "Schedule III prescribes vertical formats for the balance sheet and statement of profit and loss.");
+b.q(3, "Under Schedule III, an asset expected to be realised within the company's normal operating cycle or within 12 months is classified as:", ["Current asset", "Non-current asset", "Intangible asset", "Contingent asset"], "Classification follows the operating cycle or 12-month criterion.");
+
+b.t("Capital & Revenue");
+b.q(1, "Expenditure incurred to acquire a fixed asset is:", ["Capital expenditure", "Revenue expenditure", "Deferred revenue expenditure", "Contingent expenditure"], "It provides benefits over several years and is shown in the balance sheet.");
+b.q(2, "Which of the following is revenue expenditure?", ["Routine repairs of machinery", "Purchase of land", "Construction of a building", "Installation charges of a new plant"], "Routine repairs maintain earning capacity and are charged to P&L.");
+b.q(2, "Heavy advertising expenditure on launching a new product, whose benefit lasts several years, may be treated as:", ["Deferred revenue expenditure (written off over years, as permitted)", "Capital expenditure on a tangible asset", "Revenue receipt", "Capital receipt"], "Large non-recurring revenue expenditure with long-lasting benefits was traditionally deferred; current standards generally expense such costs.");
+b.q(2, "Sale of an old fixed asset is a:", ["Capital receipt", "Revenue receipt", "Revenue expenditure", "Capital expenditure"], "Any profit/loss on sale goes to the P&L account.");
+b.q(2, "Interest received on investments is a:", ["Revenue receipt", "Capital receipt", "Capital expenditure", "Liability"], "Recurring income from normal operations or investments is revenue.");
+b.q(3, "Legal expenses incurred to defend the title of land owned by the business are:", ["Revenue expenditure", "Capital expenditure", "Capital receipt", "Deferred revenue expenditure"], "Defending existing title maintains (does not enhance) the asset; legal costs of acquiring land would be capital.");
+
+b.t("Bank Reconciliation");
+b.q(1, "A Bank Reconciliation Statement is prepared by:", ["The account holder (business)", "The bank", "The auditor", "The RBI"], "It reconciles the cash book balance with the pass book balance.");
+b.q(2, "A debit balance in the pass book indicates:", ["An overdraft", "A favourable balance", "Excess deposit", "Interest earned"], "In the pass book the bank records the customer's deposits as credits; a debit balance means overdraft.");
+b.q(2, "Which of the following causes the pass book balance to be higher than the cash book balance?", ["Cheques issued but not yet presented for payment", "Cheques deposited but not yet collected", "Bank charges debited by the bank", "A dishonoured cheque not recorded in the cash book"], "The cash book has already reduced the balance, but the bank has not yet paid.");
+b.q(2, "Interest credited by the bank but not yet recorded in the cash book makes the:", ["Pass book balance higher than the cash book balance", "Cash book balance higher", "Two balances equal", "Pass book show an overdraft"], "The bank has credited the account; the business will record it after seeing the statement.");
+
+b.t("Partnership Accounts");
+b.q(1, "In the absence of a partnership deed, profits are shared among partners:", ["Equally", "In the ratio of capitals", "In the ratio of time devoted", "As decided by the senior partner"], "Section 13 of the Indian Partnership Act, 1932 provides equal sharing.");
+b.q(2, "In the absence of an agreement, interest on a partner's loan to the firm is allowed at:", ["6% per annum", "12% per annum", "No interest", "Bank rate"], "Section 13(d) of the Partnership Act provides 6% p.a. on advances beyond capital.");
+b.q(2, "In the absence of a partnership deed, interest on partners' capital is:", ["Not allowed", "Allowed at 6%", "Allowed at 12%", "Allowed at the bank rate"], "No interest on capital unless agreed.");
+b.q(2, "Under the 'fixed capital method', drawings, interest and salary of partners are recorded in:", ["Partners' current accounts", "Partners' capital accounts", "Profit and loss account only", "Cash book only"], "Capital accounts remain fixed; current accounts carry the adjustments.");
+b.q(2, "The ratio in which old partners surrender their share of profit in favour of a new partner is the:", ["Sacrificing ratio", "Gaining ratio", "New profit-sharing ratio", "Capital ratio"], "Sacrificing ratio = old ratio − new ratio.");
+b.q(2, "On retirement of a partner, the remaining partners compensate the retiring partner for goodwill in the:", ["Gaining ratio", "Sacrificing ratio", "Old ratio", "Capital ratio"], "Gaining ratio = new ratio − old ratio of continuing partners.");
+b.q(3, "The rule in Garner v. Murray deals with:", ["Sharing the capital deficiency of an insolvent partner among solvent partners", "Valuation of goodwill", "Admission of a minor", "Interest on drawings"], "Solvent partners bear the deficiency in the ratio of their capitals just before dissolution (not profit ratio).");
+b.q(2, "The account opened on admission or retirement to record changes in the values of assets and liabilities is the:", ["Revaluation account (profit and loss adjustment account)", "Realisation account", "Appropriation account", "Suspense account"], "Revaluation profit/loss is shared by old partners in the old ratio.");
+b.q(2, "On dissolution of a firm, assets are sold and liabilities paid through the:", ["Realisation account", "Revaluation account", "Profit and loss appropriation account", "Memorandum revaluation account"], "The realisation account shows profit or loss on realisation.");
+b.q(1, "The maximum number of partners in a partnership firm under the Companies (Miscellaneous) Rules, 2014 is:", ["50", "20", "10", "100"], "The Companies Act, 2013 empowers rules; the limit is 50 partners.");
+b.q(2, "A Limited Liability Partnership in India is governed by the:", ["LLP Act, 2008", "Indian Partnership Act, 1932", "Companies Act, 1956", "Societies Registration Act, 1860"], "An LLP is a body corporate with separate legal entity and limited liability.");
+
+b.t("Company Accounts");
+b.q(1, "Shares issued at a price higher than their face value are said to be issued at a:", ["Premium", "Discount", "Par", "Forfeit"], "Securities premium is credited to Securities Premium A/c.");
+b.q(2, "The Securities Premium account can be used for all of the following EXCEPT:", ["Paying dividends", "Issuing fully paid bonus shares", "Writing off preliminary expenses", "Buy-back of shares"], "Section 52 of the Companies Act lists permitted uses; dividend cannot be paid from securities premium.");
+b.q(2, "Under Section 53 of the Companies Act, 2013, a company generally cannot issue shares at a:", ["Discount (except sweat equity shares)", "Premium", "Par", "Price fixed by the board"], "Issue at a discount is void except for sweat equity shares.");
+b.q(2, "When shares are forfeited, the share capital account is debited with the:", ["Amount called up on those shares", "Face value only", "Amount received only", "Market value"], "Amount received is credited to Share Forfeiture A/c; unpaid calls are credited to calls account.");
+b.q(2, "Debentures represent:", ["Borrowed capital of the company", "Owned capital", "Reserves", "Retained earnings"], "Debenture holders are creditors who receive interest.");
+b.q(2, "Interest on debentures is:", ["A charge against profit, payable whether or not there is profit", "An appropriation of profit", "Payable only out of profits", "Shown as a reserve"], "Dividend is an appropriation; debenture interest is an expense.");
+b.q(2, "Bonus shares are issued to existing shareholders:", ["Free of cost by capitalising reserves", "At a discount", "For cash at market price", "Only to promoters"], "Bonus issue converts reserves into share capital without changing net worth.");
+b.q(3, "A 'right issue' of shares means shares offered to:", ["Existing shareholders in proportion to their holdings", "The public at large", "Employees only", "Debenture holders"], "Section 62 provides for rights issues.");
+b.q(2, "Equity shareholders of a company are its:", ["Owners", "Creditors", "Debtors", "Employees"], "They bear residual risk and have voting rights.");
+b.q(2, "Preference shareholders have a preferential right over equity shareholders to:", ["Dividend and return of capital on winding up", "Voting on all matters", "Management of the company", "Bonus shares"], "They get fixed dividends and priority in repayment.");
+b.q(3, "Capital reserve, as distinct from revenue reserve, is generally created out of:", ["Capital profits (such as profit on reissue of forfeited shares)", "Revenue profits", "Sales", "Debenture interest"], "Capital reserves are not available for distribution as dividend.");
+
+b.t("Not-for-Profit Organisations");
+b.q(1, "The Receipts and Payments Account of a not-for-profit organisation is a summary of:", ["Cash and bank transactions", "Income and expenditure on accrual basis", "Assets and liabilities", "Trading results"], "It is like a cash book; it includes capital and revenue items of all periods.");
+b.q(2, "The Income and Expenditure Account of a not-for-profit organisation is prepared on:", ["Accrual basis, including only revenue items of the current year", "Cash basis", "Both capital and revenue items", "Only capital items"], "It is equivalent to a P&L account; surplus/deficit is the result.");
+b.q(2, "Life membership fees received by a club are generally:", ["Capitalised (added to the capital fund)", "Treated as current income", "Shown as liabilities forever", "Ignored"], "Being non-recurring, they are capitalised.");
+b.q(2, "Legacies received by a not-for-profit organisation are usually:", ["Capitalised", "Treated as revenue income", "Distributed to members", "Shown as expenditure"], "Legacies are non-recurring receipts added to the capital fund.");
+b.q(3, "Specific donations received by a club for constructing a pavilion are:", ["Credited to a separate fund and shown on the liabilities side", "Treated as income of the year", "Debited to the pavilion account", "Ignored"], "Specific funds are used only for the stated purpose.");
+
+b.t("Accounting Standards");
+b.mt(2, "Match the Accounting Standard (AS) with its subject:", [["AS 2", "Valuation of inventories"], ["AS 3", "Cash flow statements"], ["AS 10", "Property, plant and equipment"], ["AS 26", "Intangible assets"]], "AS 2 inventories, AS 3 cash flows, AS 10 PPE, AS 26 intangibles.", "Standard", "Subject");
+b.q(2, "Under AS 2 / Ind AS 2, inventories are valued at:", ["Lower of cost and net realisable value", "Market value", "Replacement cost", "Higher of cost and NRV"], "This applies the prudence principle.");
+b.q(3, "Which inventory cost formula is NOT permitted under Ind AS 2?", ["LIFO", "FIFO", "Weighted average cost", "Specific identification"], "LIFO is not permitted under Ind AS 2 (and AS 2).");
+b.q(2, "Under AS 3 / Ind AS 7, cash flows are classified into:", ["Operating, investing and financing activities", "Capital and revenue", "Fixed and variable", "Direct and indirect"], "The three-way classification is mandatory.");
+b.q(2, "Payment of dividend by a company is classified in the cash flow statement as:", ["Financing activity", "Operating activity", "Investing activity", "Non-cash activity"], "Dividends paid and debenture interest paid are financing outflows (for non-financial companies).");
+b.q(2, "Purchase of machinery is shown in the cash flow statement under:", ["Investing activities", "Operating activities", "Financing activities", "Cash equivalents"], "Acquisition and disposal of long-term assets are investing activities.");
+b.q(3, "In the indirect method of computing cash from operating activities, depreciation is:", ["Added back to net profit", "Deducted from net profit", "Shown under investing activities", "Ignored"], "Depreciation is a non-cash expense.");
+b.q(3, "Under AS 9 / Ind AS 115 principles, revenue from sale of goods is recognised when:", ["Control (significant risks and rewards) passes to the buyer", "The order is booked", "Cash is received", "Goods are manufactured"], "Ind AS 115 uses a five-step model based on transfer of control.");
+b.q(2, "Contingent liabilities under AS 29 / Ind AS 37 are:", ["Disclosed in notes, not recognised in the balance sheet (unless probable and measurable)", "Always recorded as liabilities", "Ignored", "Shown as assets"], "Provisions are recognised; contingent liabilities are disclosed.");
+b.q(3, "Ind AS 116 deals with:", ["Leases", "Revenue", "Income taxes", "Financial instruments"], "Ind AS 116 requires lessees to recognise right-of-use assets and lease liabilities.");
+b.q(3, "Events occurring after the balance sheet date that provide evidence of conditions existing at that date are called:", ["Adjusting events", "Non-adjusting events", "Contingent assets", "Extraordinary items"], "Adjusting events (e.g., debtor's insolvency known after year-end) require adjustment of amounts.");
+
+b.t("Cost Accounting");
+b.q(1, "Prime cost is the sum of:", ["Direct materials, direct labour and direct expenses", "Factory overheads and office overheads", "Fixed and variable costs", "Selling and distribution costs"], "Prime cost + factory overheads = works cost.");
+b.q(2, "Costs that remain constant in total irrespective of output (within a range) are:", ["Fixed costs", "Variable costs", "Semi-variable costs", "Marginal costs"], "Fixed cost per unit falls as output rises.");
+b.q(2, "Contribution in marginal costing equals:", ["Sales minus variable cost", "Sales minus fixed cost", "Fixed cost plus profit minus sales", "Variable cost minus profit"], "Contribution = Fixed cost + Profit.");
+b.q(2, "At the break-even point:", ["Total contribution equals fixed cost", "Profit is maximum", "Variable cost is zero", "Sales are zero"], "No profit, no loss.");
+b.q(2, "Margin of safety is:", ["Actual sales minus break-even sales", "Fixed cost minus contribution", "Break-even sales minus actual sales", "Profit minus fixed cost"], "It shows how much sales can fall before losses arise; MoS = Profit ÷ P/V ratio.");
+b.q(3, "Standard costing helps in:", ["Variance analysis by comparing actual costs with predetermined standards", "Recording historical costs only", "Preparing cash flow statements", "Valuing goodwill"], "Material, labour and overhead variances highlight inefficiencies.");
+b.q(3, "Activity-Based Costing allocates overheads on the basis of:", ["Cost drivers of activities", "Direct labour hours only", "Sales value only", "Number of employees only"], "ABC improves accuracy in multi-product firms.");
+b.q(2, "The Economic Order Quantity (EOQ) formula is:", ["√(2AO/C)", "A × O / C", "(A + O)/C", "2A/OC"], "A = annual demand, O = ordering cost per order, C = carrying cost per unit per year.");
+
+b.t("Auditing");
+b.q(1, "Vouching in auditing means:", ["Examining documentary evidence supporting entries in the books", "Physical counting of cash", "Preparing financial statements", "Calculating tax"], "Vouching checks authenticity of transactions.");
+b.q(2, "The statutory auditor of a company is appointed under the Companies Act, 2013 at the AGM for a term of:", ["Five years (from one AGM to the sixth AGM)", "One year", "Three years", "Ten years"], "Section 139; rotation norms apply to listed and certain companies.");
+b.q(2, "The Comptroller and Auditor General of India is appointed under:", ["Article 148 of the Constitution", "Article 280", "Article 324", "Article 76"], "The CAG audits accounts of the Union and States; Article 151 deals with submission of audit reports.");
+b.q(2, "An audit report stating that financial statements give a true and fair view without reservations is called:", ["An unmodified (clean) opinion", "A qualified opinion", "An adverse opinion", "A disclaimer of opinion"], "Qualified, adverse and disclaimer are modified opinions.");
+b.q(3, "When an auditor is unable to obtain sufficient appropriate evidence and the possible effects are material and pervasive, the auditor issues:", ["A disclaimer of opinion", "A clean opinion", "A qualified opinion", "An emphasis of matter only"], "Disclaimer arises from pervasive scope limitation; adverse opinion arises from pervasive misstatement.");
+b.q(2, "Internal audit differs from statutory audit mainly because internal audit is:", ["Conducted by persons appointed by management to review controls and operations", "Mandated for every company by the CAG", "Conducted only after the year-end", "Conducted by tax authorities"], "Internal audit is a management tool; the Companies Act requires it for certain classes of companies.");
+
+b.t("Ratio Concepts");
+b.q(2, "A current ratio of 2 : 1 is traditionally considered:", ["Satisfactory for short-term solvency", "Very poor", "Indicative of losses", "Irrelevant"], "Current assets twice current liabilities provide a cushion.");
+b.q(2, "The debt–equity ratio measures:", ["Long-term solvency and the mix of borrowed and owned funds", "Liquidity", "Profitability", "Operating efficiency"], "It compares long-term debt with shareholders' funds.");
+b.q(2, "Return on Capital Employed (ROCE) is calculated as:", ["EBIT ÷ Capital employed × 100", "Net profit ÷ Sales × 100", "Sales ÷ Total assets", "Dividend ÷ Market price"], "ROCE reflects efficiency of capital use.");
+b.q(2, "Debtors (trade receivables) turnover ratio is computed as:", ["Net credit sales ÷ Average trade receivables", "Average debtors ÷ Sales", "Cash sales ÷ Debtors", "Debtors ÷ Creditors"], "Average collection period = 365 ÷ debtors turnover.");
+b.q(3, "Which of the following transactions will increase the current ratio when it is above 1 : 1?", ["Issue of shares for cash", "Purchase of goods on credit", "Purchase of machinery for cash", "Cash withdrawn for personal use"], "Issuing shares adds cash (a current asset) without adding current liabilities, so the ratio rises. Credit purchases raise both sides equally, which lowers a ratio above 1; buying machinery for cash and drawings reduce current assets.");
+b.q(2, "The interest coverage ratio is:", ["EBIT ÷ Interest on long-term debt", "Interest ÷ Net profit", "Debt ÷ Equity", "Net profit ÷ Interest"], "It shows how many times profits cover interest charges.");
+
+b.t("Government Accounting");
+b.q(2, "Government accounts in India are largely maintained on a:", ["Cash basis", "Accrual basis", "Hybrid basis for all entities", "Double-entry accrual basis"], "Union and State governments follow cash-based accounting; transition to accrual has been recommended.");
+b.q(2, "Government accounts are kept in three parts. Which of these is NOT one of them?", ["Reserve Fund of India", "Consolidated Fund of India", "Contingency Fund of India", "Public Account of India"], "The three parts are the Consolidated Fund (Art. 266), Contingency Fund (Art. 267) and Public Account (Art. 266(2)).");
+b.q(3, "Provident fund deposits of government employees (GPF) are credited to:", ["The Public Account", "The Consolidated Fund", "The Contingency Fund", "The Reserve Bank's balance sheet"], "Moneys held in trust by the government, such as GPF and small savings, go to the Public Account.");
+b.q(3, "The Government Accounting Standards Advisory Board (GASAB) was set up in 2002 by:", ["The Comptroller and Auditor General of India", "The Ministry of Finance", "The ICAI", "NITI Aayog"], "GASAB formulates accounting standards for government (IGAS and IGFRS).");
+
+export default b.items;

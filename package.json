@@ -26,12 +26,14 @@
     "ies:ocr": "python scripts/ocr_ies_ce_rapid.py",
     "ies:ocr-gemini": "python scripts/ocr_ies_ce_gemini.py",
     "ies:upsc-links": "python scripts/fetch_upsc_ce_links.py",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "epfo:build": "tsx scripts/build_epfo_papers.ts"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "^7.10.0",
     "dotenv": "^18.0.1",
+    "jspdf": "^3.0.1",
     "next": "16.3.5",
     "pg": "^8.23.0",
     "react": "19.2.8",
