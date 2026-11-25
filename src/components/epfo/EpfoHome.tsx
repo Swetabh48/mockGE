@@ -46,7 +46,7 @@ export function EpfoHome() {
         <div>
           <h2 className="font-display text-2xl text-[#1e3a5f]">EPFO APFC mock tests</h2>
           <p className="mt-1 text-sm leading-relaxed text-[#3a4556]">
-            30 original full-length papers for the UPSC recruitment test of Assistant Provident Fund Commissioner. Every question is written fresh for mockGE — no question repeats across papers — and each comes with a detailed solution.
+            40 original full-length papers for the UPSC recruitment test of Assistant Provident Fund Commissioner, including 10 hard papers modelled on the 30 November 2025 exam. Every question is written fresh for mockGE — no question repeats across papers — and each comes with a detailed solution.
           </p>
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
             {[
@@ -64,15 +64,27 @@ export function EpfoHome() {
           </div>
         </div>
         <div className="text-sm">
-          <div className="mb-1 text-xs font-semibold uppercase tracking-wide text-[#5a6577]">Questions per paper</div>
-          <div className="grid grid-cols-2 gap-x-4">
+          <div className="mb-1 flex items-baseline justify-between text-xs font-semibold uppercase tracking-wide text-[#5a6577]">
+            <span>Questions per paper</span>
+            <span className="flex gap-3 normal-case">
+              <span>Papers 1–30</span>
+              <span className="text-red-800">2025 pattern</span>
+            </span>
+          </div>
+          <div>
             {EPFO_SECTIONS.map((s) => (
-              <div key={s.key} className="flex justify-between border-b border-[#eef1f4] py-0.5">
-                <span className="truncate pr-2">{s.short}</span>
-                <span className="tabular-nums text-[#5a6577]">{s.count}</span>
+              <div key={s.key} className="flex justify-between gap-2 border-b border-[#eef1f4] py-0.5">
+                <span className="truncate">{s.label}</span>
+                <span className="flex shrink-0 gap-3 tabular-nums text-[#5a6577]">
+                  <span className="w-[4.5rem] text-right">{s.count}</span>
+                  <span className="w-[5.5rem] text-right text-red-800">
+                    {s.y25[1]}–{s.y25[2]}
+                  </span>
+                </span>
               </div>
             ))}
           </div>
+          <p className="mt-1 text-xs text-[#8a93a3]">2025-pattern papers vary the section mix from paper to paper, as the real exam does; total is always 120.</p>
         </div>
       </section>
 
@@ -90,26 +102,21 @@ export function EpfoHome() {
               <h3 className="font-display text-xl">{b.label}</h3>
               <p className="text-xs text-[#5a6577]">{b.blurb}</p>
             </div>
-            <ul className="divide-y divide-[#e2e6eb]">
-              {papers
-                .filter((p) => p.band === b.band)
-                .map((p) => {
-                  const a = best.get(p.id);
-                  return (
-                    <li key={p.id} className="flex items-center justify-between gap-3 px-4 py-2.5">
-                      <div className="min-w-0">
-                        <div className="truncate text-sm font-medium">{p.title}</div>
-                        <div className="text-xs text-[#5a6577]">
-                          {p.questionCount} Q · 2 h{a ? ` · best ${a.score}/${a.maxScore}` : ""}
-                        </div>
-                      </div>
-                      <Link href={`/epfo/${p.id}`} className="inline-flex min-h-[44px] shrink-0 items-center bg-[#1e3a5f] px-4 text-sm text-white hover:bg-[#152a45]">
-                        {a ? "Retake" : "Start"}
-                      </Link>
-                    </li>
-                  );
-                })}
-            </ul>
+            <PaperList papers={papers.filter((p) => p.band === b.band && !p.pattern)} best={best} />
+            {papers.some((p) => p.band === b.band && p.pattern === "2025") && (
+              <>
+                <div className="border-t-2 border-red-600 bg-[#fbf4f4] px-4 py-2.5">
+                  <div className="flex items-center gap-2">
+                    <h4 className="font-display text-lg text-red-800">2025 pattern</h4>
+                    <span className="border border-red-700 px-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-800">New</span>
+                  </div>
+                  <p className="text-xs text-[#5a6577]">
+                    Modelled on the 30 Nov 2025 paper: statement, assertion–reason, match and case-based questions, two reading passages, and a section mix that changes from paper to paper.
+                  </p>
+                </div>
+                <PaperList papers={papers.filter((p) => p.band === b.band && p.pattern === "2025")} best={best} />
+              </>
+            )}
           </section>
         ))}
       </div>
@@ -157,5 +164,29 @@ export function EpfoHome() {
         <MailButton />
       </div>
     </div>
+  );
+}
+
+function PaperList({ papers, best }: { papers: EpfoPaperMeta[]; best: Map<string, EpfoAttempt> }) {
+  return (
+    <ul className="divide-y divide-[#e2e6eb]">
+      {papers.map((p) => {
+        const a = best.get(p.id);
+        return (
+          <li key={p.id} className="flex items-center justify-between gap-3 px-4 py-2.5">
+            <div className="min-w-0">
+              <div className="truncate text-sm font-medium">{p.pattern ? p.title.replace(/ · 2025 pattern$/, "") : p.title}</div>
+              <div className="text-xs text-[#5a6577]">
+                {p.questionCount} Q · 2 h{p.pattern ? " · 2025 pattern" : ""}
+                {a ? ` · best ${a.score}/${a.maxScore}` : ""}
+              </div>
+            </div>
+            <Link href={`/epfo/${p.id}`} className="inline-flex min-h-[44px] shrink-0 items-center bg-[#1e3a5f] px-4 text-sm text-white hover:bg-[#152a45]">
+              {a ? "Retake" : "Start"}
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
   );
 }

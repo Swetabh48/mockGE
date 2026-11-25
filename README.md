@@ -15,7 +15,7 @@ Next.js + Prisma (Postgres). CBT-style full mocks, PYQ retakes, topic practice w
 | **IES Civil** | PYQ | CE Paper-I + Paper-II, **3 hours each** (full day = 6h) |
 | **IES Civil** | New Mocks | Gemini framing + `mockge-ies-civil` domain model |
 | **IES Civil** | Solutions | Textbook RAG + detailed explanations on the result page |
-| **EPFO APFC** | 30 mocks | 10 easy · 10 medium · 10 hard; 120 Q · 2 h · 300 marks · −⅓ |
+| **EPFO APFC** | 40 mocks | 10 easy · 10 medium · 20 hard (10 on the 2025 pattern); 120 Q · 2 h · 300 marks · −⅓ |
 | **EPFO APFC** | Online / Offline | CBT on any device (iPad-friendly) or print paper + OMR, then upload a photo for scoring |
 
 ## How practice questions are generated
@@ -92,7 +92,8 @@ npm run corpus:build   # rebuild data/model_corpus.jsonl from imported PYQs
 ## EPFO APFC mocks
 
 Dashboard switch: **SSC CGL | IES Civil | EPFO APFC** (or open `/?exam=epfo`). Each paper lives at `/epfo/<id>`
-(`epfo-e01…e10`, `epfo-m01…m10`, `epfo-h01…h10`) and needs no database — papers are static JSON in `public/epfo/`.
+(`epfo-e01…e10`, `epfo-m01…m10`, `epfo-h01…h10`, and the 2025-pattern `epfo-h11…h20`) and needs no database —
+papers are static JSON in `public/epfo/`.
 
 - **Online:** 120-question CBT with a single 2-hour timer, palette, mark-for-review, autosave (survives reload/sleep).
 - **Offline:** view or download the question booklet (PDF), download the printable OMR sheet (PDF), press *Start test*;
@@ -103,6 +104,14 @@ Dashboard switch: **SSC CGL | IES Civil | EPFO APFC** (or open `/?exam=epfo`). E
 
 Content is original. Bank items live in `src/lib/epfo/bank/*.ts` (hand-written), numeric aptitude, accounting,
 social-security and economy questions are computed by `src/lib/epfo/gen/*` (exact keys + worked solutions).
+
+**2025-pattern series (papers 31–40, `epfo-h11…h20`).** Modelled on the 30 November 2025 paper (one combined APFC/EO-AO
+paper, 120 Q, 2 h). Items come from a separate bank, `src/lib/epfo/bank25/*.ts`, written as statement, "how many of
+the above", assertion–reason, match-the-list and case/numerical questions rather than fact one-liners; English has two
+reading passages per paper. The section mix varies per paper around the 2025 averages (`y25` in `sections.ts`,
+labour + social security kept at 22–26), using `gen/quant25.ts` and `gen/social25.ts` for computed reasoning, aptitude,
+EDLI and compensation questions. The classic 30 papers are built from their own seed and are unchanged; stems are
+unique across all 40 papers.
 
 ```bash
 npm run epfo:build   # rebuild public/epfo/papers/*.json (fails if any section is short or a stem repeats)

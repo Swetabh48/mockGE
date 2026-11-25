@@ -41,6 +41,8 @@ export type EpfoPaper = {
   durationMin: number;
   marksPerQ: number;
   negPerQ: number;
+  /** Set on the 2025-pattern series (papers 31–40). */
+  pattern?: "2025";
   questions: EpfoQuestion[];
 };
 
@@ -50,6 +52,7 @@ export type EpfoPaperMeta = {
   band: Band;
   title: string;
   questionCount: number;
+  pattern?: "2025";
 };
 
 export const OPTION_LETTERS = ["a", "b", "c", "d"] as const;

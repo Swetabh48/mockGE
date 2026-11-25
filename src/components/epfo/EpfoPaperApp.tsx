@@ -296,6 +296,7 @@ export function EpfoPaperApp({ paperId, attemptId }: { paperId: string; attemptI
         <main className="mx-auto max-w-5xl space-y-5 px-4 py-6 sm:px-6">
           <section className="flex flex-wrap items-center gap-2 text-sm">
             <span className={`border px-2 py-1 text-xs font-medium capitalize ${BAND_STYLE[paper.band]}`}>{paper.band}</span>
+            {paper.pattern === "2025" && <span className="border border-red-700 px-2 py-1 text-xs font-medium text-red-800">2025 pattern</span>}
             <Chip>{paper.questions.length} MCQs</Chip>
             <Chip>{paper.durationMin / 60} hours</Chip>
             <Chip>{paper.questions.length * paper.marksPerQ} marks · {paper.marksPerQ} each</Chip>
@@ -351,7 +352,7 @@ export function EpfoPaperApp({ paperId, attemptId }: { paperId: string; attemptI
                   onClick={() => setPhase("offline-home")}
                 />
               </div>
-              <SyllabusMix />
+              <SyllabusMix paper={paper} />
             </>
           )}
 
@@ -526,7 +527,9 @@ function ModeCard({ title, tag, points, cta, onClick }: { title: string; tag: st
   );
 }
 
-function SyllabusMix() {
+function SyllabusMix({ paper }: { paper: EpfoPaper }) {
+  const counts = new Map<string, number>();
+  for (const q of paper.questions) counts.set(q.sec, (counts.get(q.sec) ?? 0) + 1);
   return (
     <section className="border border-[#c5ccd6] bg-white p-5">
       <h3 className="text-sm font-semibold uppercase tracking-wide text-[#5a6577]">What this paper covers</h3>
@@ -534,10 +537,15 @@ function SyllabusMix() {
         {EPFO_SECTIONS.map((s) => (
           <div key={s.key} className="flex justify-between border-b border-[#eef1f4] py-1">
             <span>{s.label}</span>
-            <span className="tabular-nums text-[#5a6577]">{s.count} Q</span>
+            <span className="tabular-nums text-[#5a6577]">{counts.get(s.key) ?? 0} Q</span>
           </div>
         ))}
       </div>
+      {paper.pattern === "2025" && (
+        <p className="mt-3 text-xs leading-relaxed text-[#5a6577]">
+          Modelled on the 30 November 2025 paper: most questions are statement-based (&ldquo;how many of the above&rdquo;, assertion–reason, match the lists) or case-based, English includes two reading passages, and the section mix differs slightly from paper to paper.
+        </p>
+      )}
     </section>
   );
 }

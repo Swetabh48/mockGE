@@ -18,14 +18,14 @@ for (const f of readdirSync(outDir)) if (f.endsWith(".json")) rmSync(join(outDir
 const index: EpfoPaperMeta[] = [];
 for (const p of papers) {
   writeFileSync(join(outDir, `${p.id}.json`), JSON.stringify(p));
-  index.push({ id: p.id, number: p.number, band: p.band, title: p.title, questionCount: p.questions.length });
+  index.push({ id: p.id, number: p.number, band: p.band, title: p.title, questionCount: p.questions.length, ...(p.pattern ? { pattern: p.pattern } : {}) });
 }
 writeFileSync(join(process.cwd(), "public", "epfo", "index.json"), JSON.stringify({ papers: index }, null, 1));
 
 console.log("Section bank usage:");
 for (const r of report) {
   const flag = r.available < r.needed ? `  SHORT by ${r.needed - r.available}` : r.unused ? `  (+${r.unused} spare)` : "";
-  console.log(`  ${r.sec.padEnd(11)} ${String(r.available).padStart(4)} / ${r.needed}${flag}`);
+  console.log(`  ${r.series.padEnd(8)} ${r.sec.padEnd(11)} ${String(r.available).padStart(4)} / ${r.needed}${flag}`);
 }
 const letters = [0, 0, 0, 0];
 for (const p of papers) for (const q of p.questions) letters[q.a]! += 1;

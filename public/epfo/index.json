@@ -209,6 +209,86 @@
    "band": "hard",
    "title": "APFC Mock 30 · Hard",
    "questionCount": 120
+  },
+  {
+   "id": "epfo-h11",
+   "number": 31,
+   "band": "hard",
+   "title": "APFC Mock 31 · Hard · 2025 pattern",
+   "questionCount": 120,
+   "pattern": "2025"
+  },
+  {
+   "id": "epfo-h12",
+   "number": 32,
+   "band": "hard",
+   "title": "APFC Mock 32 · Hard · 2025 pattern",
+   "questionCount": 120,
+   "pattern": "2025"
+  },
+  {
+   "id": "epfo-h13",
+   "number": 33,
+   "band": "hard",
+   "title": "APFC Mock 33 · Hard · 2025 pattern",
+   "questionCount": 120,
+   "pattern": "2025"
+  },
+  {
+   "id": "epfo-h14",
+   "number": 34,
+   "band": "hard",
+   "title": "APFC Mock 34 · Hard · 2025 pattern",
+   "questionCount": 120,
+   "pattern": "2025"
+  },
+  {
+   "id": "epfo-h15",
+   "number": 35,
+   "band": "hard",
+   "title": "APFC Mock 35 · Hard · 2025 pattern",
+   "questionCount": 120,
+   "pattern": "2025"
+  },
+  {
+   "id": "epfo-h16",
+   "number": 36,
+   "band": "hard",
+   "title": "APFC Mock 36 · Hard · 2025 pattern",
+   "questionCount": 120,
+   "pattern": "2025"
+  },
+  {
+   "id": "epfo-h17",
+   "number": 37,
+   "band": "hard",
+   "title": "APFC Mock 37 · Hard · 2025 pattern",
+   "questionCount": 120,
+   "pattern": "2025"
+  },
+  {
+   "id": "epfo-h18",
+   "number": 38,
+   "band": "hard",
+   "title": "APFC Mock 38 · Hard · 2025 pattern",
+   "questionCount": 120,
+   "pattern": "2025"
+  },
+  {
+   "id": "epfo-h19",
+   "number": 39,
+   "band": "hard",
+   "title": "APFC Mock 39 · Hard · 2025 pattern",
+   "questionCount": 120,
+   "pattern": "2025"
+  },
+  {
+   "id": "epfo-h20",
+   "number": 40,
+   "band": "hard",
+   "title": "APFC Mock 40 · Hard · 2025 pattern",
+   "questionCount": 120,
+   "pattern": "2025"
   }
  ]
 }

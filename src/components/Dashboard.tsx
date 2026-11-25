@@ -353,7 +353,7 @@ export function Dashboard({ initialExam = "ssc_cgl" }: { initialExam?: ExamProdu
               {exam === "ssc_cgl"
                 ? "Test = full mocks & PYQ. Practice = untimed drills with solutions. Revise = formulas & tricks."
                 : exam === "epfo_apfc"
-                  ? "30 original APFC mocks (10 easy · 10 medium · 10 hard). Online CBT or offline with printable OMR, instant analysis and PDF solutions."
+                  ? "40 original APFC mocks (10 easy · 10 medium · 20 hard, incl. 10 on the 2025 pattern). Online CBT or offline with printable OMR, instant analysis and PDF solutions."
                   : "PYQ retake (3h + 3h day). New mocks via Gemini + IES model. Textbook-style solutions."}
             </p>
           </div>
@@ -381,7 +381,7 @@ export function Dashboard({ initialExam = "ssc_cgl" }: { initialExam?: ExamProdu
             [
               { id: "ssc_cgl" as const, label: "SSC CGL", blurb: "Tier-I · Tier-II · Practice" },
               { id: "ies_civil" as const, label: "IES Civil", blurb: "PYQ · Mocks · 3h×2" },
-              { id: "epfo_apfc" as const, label: "EPFO APFC", blurb: "30 mocks · OMR · 2h" },
+              { id: "epfo_apfc" as const, label: "EPFO APFC", blurb: "40 mocks · OMR · 2h" },
             ] as const
           ).map((e) => (
             <button
